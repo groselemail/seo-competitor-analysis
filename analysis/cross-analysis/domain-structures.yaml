@@ -1,0 +1,751 @@
+# =============================================================================
+# Phase 2: Domain Structure Analysis
+# Generated: 2026-03-06
+# Task: 14-analyze-domain-structures
+# Input briefs: 04a, 05a, 05c, 06a, 07a, 07b
+#
+# PURPOSE: Compare how competitors organize multilingual content to inform
+# freesoft's domain strategy decision (task 17).
+#
+# IMPORTANT: All traffic data from CSV files uses Ahrefs RU country filter.
+# This biases toward Russian-language subdomains. Global distributions differ
+# significantly — see overview metrics where available.
+# =============================================================================
+
+structures:
+
+  # ---------------------------------------------------------------------------
+  # 1. uptodown.com — Subdomains
+  # ---------------------------------------------------------------------------
+  - domain: uptodown.com
+    approach: "subdomains"
+    example_pattern: "{app-name}.{lang}.uptodown.com (e.g., tiktok.ru.uptodown.com)"
+    languages_supported: 14
+    languages_list: ["ru", "en", "ar", "es", "cn", "fr", "tr", "br", "th", "vi", "kr", "it", "de", "ro"]
+    dr:
+      value: "not_available_in_brief"
+      note: >
+        PNG file (uptodown_com_US_overview.png) was not found on disk during
+        brief generation. DR could not be extracted. Uptodown is widely reported
+        as DR 83 in Ahrefs, but this value is NOT confirmed from our brief data.
+      source: "briefs/04a-uptodown-struct.yaml (lines 12-16)"
+    total_traffic:
+      value_ru_filter_csv: 964677
+      note: "Sum of all language groups from CSV (RU country filter). Real global traffic is much higher — uptodown is Spanish-origin with es/en/pt as top languages globally."
+      source: "briefs/04a-uptodown-struct.yaml (line 224)"
+    traffic_distribution:
+      note: "RU-filtered data — ru dominance reflects the filter, NOT actual global distribution"
+      top_language:
+        language: "ru"
+        traffic: 886839
+        share_pct: 91.93
+        source: "briefs/04a-uptodown-struct.yaml (lines 111-119)"
+      second_language:
+        language: "en"
+        traffic: 76385
+        share_pct: 7.92
+        note: "Russian users visiting English-language app pages"
+        source: "briefs/04a-uptodown-struct.yaml (lines 121-129)"
+      bottom_languages_count: 12
+      bottom_languages_combined_traffic: 1453
+      bottom_languages_combined_share_pct: 0.15
+      source: "briefs/04a-uptodown-struct.yaml (lines 131-222)"
+    scale:
+      total_root_subdomains: 12735
+      root_subdomains_with_traffic_over_100: 936
+      source: "briefs/04a-uptodown-struct.yaml (lines 270-274)"
+    pros:
+      - "Shared domain authority across all 14 languages (single DR applies to entire *.uptodown.com)"
+      - "Massive scale: 12,735 root subdomains, 936 with traffic > 100"
+      - "Unified brand — 'uptodown.com' recognized across all markets"
+      - "Easy to add new languages — just create a new subdomain tier"
+      - "Strong in RU market: 886K traffic from Russian search alone"
+    cons:
+      - "Complex DNS management for 14 language × thousands of app subdomains"
+      - "Domain penalty would affect ALL languages simultaneously"
+      - "Long-tail languages (de, ro, kr, it) show negligible traffic even in RU data (1-5 visits)"
+      - "Subdomain-per-app × language creates URL bloat"
+    effectiveness_score: "high"
+    effectiveness_reasoning: >
+      Uptodown achieves nearly 1M organic visits from RU search alone, with 14
+      active languages and massive content scale. The subdomain approach allows
+      sharing authority across all languages while maintaining clear URL structure.
+      The site's global reach (Spanish-origin, strong in LATAM/Europe) further
+      validates this approach.
+    source: "briefs/04a-uptodown-struct.yaml"
+
+  # ---------------------------------------------------------------------------
+  # 2. softonic.com + softonic.ru — Hybrid (subdomains + separate domain)
+  # ---------------------------------------------------------------------------
+  - domain: "softonic.com + softonic.ru"
+    approach: "hybrid — subdomains on .com + separate .ru domain"
+    softonic_com:
+      structure: "subdomains (appname.LANG.softonic.com)"
+      dr: 86
+      dr_source: "briefs/05a-softonic-com-struct.yaml (line 11)"
+      languages: 9
+      languages_list: ["en", "es", "fr", "de", "it", "vi", "th", "id", "nl"]
+      languages_source: "briefs/05a-softonic-com-struct.yaml (lines 151-153)"
+      total_traffic_ru_filter_overview: 88500
+      total_traffic_ru_filter_overview_note: "PNG shows ~88.5K — RU-only traffic"
+      total_traffic_ru_filter_csv: 159694
+      total_traffic_source: "briefs/05a-softonic-com-struct.yaml (lines 15-21, line 168)"
+      global_traffic_note: >
+        Global traffic is vastly higher. Top countries from PNG: India 16.5M (43.2%),
+        Bangladesh 1.8M (4.8%), US 1.5M (3.9%), France 607.2K (1.6%).
+      global_traffic_source: "briefs/05a-softonic-com-struct.yaml (lines 19-23)"
+      key_metric: "en.softonic.com captures 99.1% of RU traffic (158,249 of 159,694)"
+      key_metric_source: "briefs/05a-softonic-com-struct.yaml (lines 75-83)"
+      additional_metrics:
+        backlinks: "342M"
+        ref_domains: "48.8K"
+        ai_overview_citations: 53
+        source: "briefs/05a-softonic-com-struct.yaml (lines 33-37)"
+    softonic_ru:
+      structure: "separate domain with per-app subdomains (e.g., brawl-stars.softonic.ru)"
+      dr: 50
+      dr_source: "briefs/05c-softonic-ru.yaml (lines 13-16)"
+      traffic_overview: 335000
+      traffic_overview_note: "Total traffic from Ahrefs overview. RU share: 46.7% (335.1K)"
+      traffic_csv: 668662
+      traffic_csv_note: "CSV total across all 30K rows"
+      traffic_source: "briefs/05c-softonic-ru.yaml (lines 18-24, lines 67-74)"
+      total_subdomains: 15014
+      subdomains_with_traffic_over_100: 568
+      subdomains_source: "briefs/05c-softonic-ru.yaml (lines 98-99)"
+      decline:
+        traffic_change: "-578K"
+        keywords_change: "-291K"
+        source: "briefs/05c-softonic-ru.yaml (lines 22, 30)"
+      country_distribution:
+        countries:
+          - country: "Russian Federation"
+            share_pct: 46.7
+          - country: "Ukraine"
+            share_pct: 13.6
+          - country: "Kazakhstan"
+            share_pct: 12.9
+          - country: "Uzbekistan"
+            share_pct: 11.0
+        source: "briefs/05c-softonic-ru.yaml (lines 48-61)"
+      note: "Separate domain for Russian/CIS market. Declining significantly."
+    reasoning_for_separate_ru: >
+      Softonic chose a separate .ru domain (rather than ru.softonic.com) likely for:
+      (1) Local trust signals in Russian market — .ru ccTLD is preferred by Yandex;
+      (2) Existing .ru domain acquisition opportunity;
+      (3) Independence from .com issues — a .com penalty won't affect .ru.
+      However, this requires building DR from scratch (DR 50 vs 86 for .com)
+      and the domain is in significant decline (-578K traffic).
+    dr_gap_analysis: >
+      softonic.com has DR 86. softonic.ru has DR 50. That's a 36-point gap.
+      Despite being the same brand, the .ru domain has ~42% less authority.
+      This illustrates the cost of separate domains: link building efforts
+      don't transfer between them.
+    pros:
+      - "Best of both: shared authority on .com (DR 86) + local trust on .ru (DR 50)"
+      - ".ru domain serves CIS markets effectively (Russia, Ukraine, Kazakhstan, Uzbekistan)"
+      - "Independent ranking — a .com penalty wouldn't affect .ru"
+      - ".ru likely benefits from Yandex preference for local ccTLDs"
+      - "Massive backlink profile on .com (342M backlinks, 48.8K ref domains)"
+    cons:
+      - "Dual link building effort — softonic.ru has DR 50 vs DR 86 on .com (36-point gap)"
+      - "softonic.ru is in steep decline (-578K traffic, -291K keywords)"
+      - "Brand fragmentation — two separate domains to maintain"
+      - "softonic.ru has 15,014 subdomains but only 3.8% (568) have traffic > 100"
+      - "Unclear if separate .ru justified its investment given the decline"
+    effectiveness_score: "medium"
+    effectiveness_reasoning: >
+      The .com side is highly effective (DR 86, massive global traffic). But the .ru
+      separate domain strategy shows mixed results: while it achieved DR 50 and serves
+      CIS markets, it's in steep decline (-578K traffic). The hybrid approach works
+      when BOTH domains are healthy, but maintaining two independent domains is costly
+      and softonic.ru appears to be losing the battle.
+    source: "briefs/05a-softonic-com-struct.yaml + briefs/05c-softonic-ru.yaml"
+
+  # ---------------------------------------------------------------------------
+  # 3. malavida.com — Subdomains
+  # ---------------------------------------------------------------------------
+  - domain: malavida.com
+    approach: "subdomains"
+    example_pattern: "{app-slug}.{lang-code}.malavida.com (e.g., whatsapp.ru.malavida.com)"
+    languages_supported: 14
+    languages_list: ["ru", "es", "en", "fr", "br", "it", "de", "jp", "ro", "nl", "dk", "se", "pl", "pt"]
+    languages_source: "briefs/06a-malavida-struct.yaml (lines 80-81)"
+    dr:
+      value: 73
+      source: "briefs/06a-malavida-struct.yaml (lines 12-14)"
+    total_traffic:
+      value_global_overview: "526K"
+      value_ru_filter_csv: 1081200
+      note: "Overview shows 526K global. CSV (RU filter) sums to 1,081,200 — RU is 8% of global traffic per overview."
+      source: "briefs/06a-malavida-struct.yaml (lines 16-18, line 60)"
+    traffic_distribution:
+      note: "RU-filtered data — ru.malavida.com dominates due to filter"
+      top_language:
+        language: "ru"
+        traffic: 1041790
+        share_pct: 96.35
+        source: "briefs/06a-malavida-struct.yaml (lines 88-97)"
+      second_language:
+        language: "es"
+        subdomain: "www.malavida.com (Spanish = root domain)"
+        traffic: 23080
+        share_pct: 2.13
+        source: "briefs/06a-malavida-struct.yaml (lines 99-108)"
+      third_language:
+        language: "en"
+        traffic: 16254
+        share_pct: 1.50
+        source: "briefs/06a-malavida-struct.yaml (lines 110-119)"
+      bottom_languages_count: 11
+      bottom_languages_combined_traffic: 30
+      note: "11 remaining languages (fr, it, de, jp, br, ro, nl, dk, se, pl, pt) have 30 combined traffic under RU filter"
+    additional_metrics:
+      backlinks: "798K"
+      ref_domains: "13.9K"
+      ai_overview_citations: 102
+      source: "briefs/06a-malavida-struct.yaml (lines 30-47)"
+    global_country_distribution:
+      countries:
+        - country: "India"
+          traffic: "692.4K"
+          share: "10.5%"
+        - country: "Russian Federation"
+          traffic: "525.9K"
+          share: "8.0%"
+        - country: "Brazil"
+          traffic: "405.8K"
+          share: "6.2%"
+        - country: "France"
+          traffic: "277.3K"
+          share: "4.2%"
+      source: "briefs/06a-malavida-struct.yaml (lines 34-47)"
+    scale:
+      total_subdomains: 9880
+      subdomains_with_traffic_over_100: 1014
+      source: "briefs/06a-malavida-struct.yaml (lines 244-246)"
+    pros:
+      - "Shared DR 73 across all 14 languages"
+      - "Most extensive language coverage (14 languages, tied with uptodown)"
+      - "Strong Russian market presence: over 1M visits from RU search"
+      - "102 AI Overview citations — good modern SEO signal"
+      - "Balanced global distribution (India 10.5%, Russia 8%, Brazil 6.2%, France 4.2%)"
+    cons:
+      - "Long-tail languages have zero or negligible RU traffic (most of 11 languages < 30 combined)"
+      - "Lower DR (73) compared to softonic.com (86)"
+      - "Complex infrastructure: 5,779 CDN/download server subdomains (dw*, imag*) add noise"
+      - "Keyword decline: -132K keywords in overview"
+    effectiveness_score: "high"
+    effectiveness_reasoning: >
+      Malavida achieves strong multilingual coverage (14 languages) with DR 73 and
+      over 1M RU-filtered visits. The subdomain approach works well — Russian content
+      alone drives substantial traffic, and the global distribution is healthily diverse
+      across India, Russia, Brazil, and France. 102 AI Overview citations suggest
+      modern search relevance.
+    source: "briefs/06a-malavida-struct.yaml"
+
+  # ---------------------------------------------------------------------------
+  # 4. filehippo.com — Folders (failed multilingual expansion)
+  # ---------------------------------------------------------------------------
+  - domain: filehippo.com
+    approach: "folders"
+    example_pattern: "filehippo.com/{lang}/* (e.g., filehippo.com/es/*, filehippo.com/fr/*)"
+    languages_supported: 8
+    languages_list: ["en", "es", "fr", "it", "zh", "jp", "de", "pl"]
+    languages_source: "briefs/07a-filehippo.yaml (lines 88-89)"
+    dr:
+      value: 77
+      change: -3
+      source: "briefs/07a-filehippo.yaml (lines 13-16)"
+    total_traffic:
+      value_ru_filter_overview: 526
+      value_ru_filter_csv: 1395
+      note: >
+        Extremely low RU traffic. PNG overview shows 526 (RU filter).
+        CSV sums to 1,395 (includes CDN subdomain entries that inflate totals).
+        The 526 figure from overview is more authoritative.
+      source: "briefs/07a-filehippo.yaml (lines 23-28, lines 181-189)"
+    traffic_distribution:
+      top_language:
+        language: "en"
+        traffic: 1379
+        share_pct: 98.9
+        source: "briefs/07a-filehippo.yaml (lines 93-101)"
+      multilingual_failure:
+        languages:
+          - language: "es"
+            pages: 5733
+            traffic: 16
+            note: "5,733 pages but only 16 traffic — massive content with zero ROI"
+          - language: "fr"
+            pages: 5670
+            traffic: 0
+          - language: "it"
+            pages: 5723
+            traffic: 0
+          - language: "zh"
+            pages: 5542
+            traffic: 0
+          - language: "other (jp, de, pl)"
+            pages: 18
+            traffic: 0
+        source: "briefs/07a-filehippo.yaml (lines 103-152)"
+        note: "~22,700 non-English pages generating essentially zero traffic"
+    global_country_distribution:
+      countries:
+        - country: "India"
+          traffic: "170.7K"
+          share: "24.3%"
+        - country: "Pakistan"
+          traffic: "92.3K"
+          share: "13.2%"
+        - country: "Colombia"
+          traffic: "45.5K"
+          share: "6.5%"
+        - country: "Bangladesh"
+          traffic: "44.5K"
+          share: "6.3%"
+      source: "briefs/07a-filehippo.yaml (lines 40-73)"
+    decline:
+      keywords_change: "-17.5K"
+      dr_change: -3
+      source: "briefs/07a-filehippo.yaml (lines 14-15, lines 34-37)"
+    note: >
+      IMPORTANT CORRECTION: filehippo.com is NOT single-language as initially
+      assumed. It has 8 language folders. However, its multilingual expansion
+      FAILED — ~22,700 non-English pages generate essentially zero traffic.
+      This makes it a reference case for "multilingual via folders done poorly"
+      rather than "single-language control."
+    pros:
+      - "Simple infrastructure — folders don't require DNS changes"
+      - "High DR (77) despite decline"
+      - "Shared domain authority across all language folders"
+    cons:
+      - "Multilingual expansion failed — near-zero non-EN traffic despite ~22.7K pages"
+      - "Site in steep decline (-17.5K keywords, DR dropping)"
+      - "RU market presence virtually nonexistent (526 visits)"
+      - "Folder approach didn't help: having /es/, /fr/, /it/ pages with no traffic"
+      - "No meaningful localization quality — pages exist but don't rank"
+    effectiveness_score: "low"
+    effectiveness_reasoning: >
+      Despite DR 77 and 8 language folders with thousands of pages each,
+      filehippo's multilingual expansion failed. Non-English pages generate
+      essentially zero traffic. The site is declining overall. This demonstrates
+      that having multilingual content is necessary but NOT sufficient —
+      localization quality, DR in target markets, and active SEO investment matter.
+    source: "briefs/07a-filehippo.yaml"
+
+  # ---------------------------------------------------------------------------
+  # 5. trashbox.ru — Single Language (Russian only)
+  # ---------------------------------------------------------------------------
+  - domain: trashbox.ru
+    approach: "single_language"
+    languages_supported: 1
+    languages_list: ["ru"]
+    dr:
+      value: 54
+      source: "briefs/07b-trashbox.yaml (lines 8-10)"
+    total_traffic:
+      value_overview: 991000
+      value_csv: 1009540
+      note: "Overview shows 991K. CSV sums to 1,009,540."
+      source: "briefs/07b-trashbox.yaml (lines 12-16, lines 54-62)"
+    traffic_distribution:
+      single_language:
+        language: "ru"
+        traffic: 1009540
+        share_pct: 100.0
+        source: "briefs/07b-trashbox.yaml (lines 54-62)"
+    country_distribution:
+      countries:
+        - country: "Russian Federation"
+          traffic: 991200
+          share_pct: 73.8
+        - country: "Kazakhstan"
+          traffic: 92000
+          share_pct: 6.8
+        - country: "Belarus"
+          traffic: 76100
+          share_pct: 5.7
+        - country: "Uzbekistan"
+          traffic: 63400
+          share_pct: 4.7
+      source: "briefs/07b-trashbox.yaml (lines 33-51)"
+    trend:
+      direction: "steep_decline"
+      traffic_change: -893000
+      traffic_change_display: "-893K"
+      keywords_change: -323000
+      keywords_change_display: "-323K"
+      decline_pct_approx: 47
+      note: "Losing roughly half its traffic. Monolingual Russian site in severe decline."
+      source: "briefs/07b-trashbox.yaml (lines 25-31)"
+    content_structure:
+      main_traffic_section: "/link/ (app download pages)"
+      main_section_traffic: 973012
+      main_section_share_pct: 96.4
+      source: "briefs/07b-trashbox.yaml (lines 116-150)"
+    note: >
+      Reference point — single-language Russian download site. Confirms that
+      monolingual .ru sites face structural headwinds: trashbox.ru is losing
+      ~47% of its traffic despite DR 54 and nearly 1M visits. CIS-only audience
+      with no international diversification.
+    pros:
+      - "Simple infrastructure — single domain, single language"
+      - "Strong in CIS market (73.8% RU, 6.8% KZ, 5.7% BY, 4.7% UZ)"
+      - "Nearly 1M traffic from a single language (before decline)"
+      - "Content structure is clean (/link/, /topics/, /games/, /apps/)"
+    cons:
+      - "Massive decline: -893K traffic (-47%), -323K keywords"
+      - "Zero international diversification — 100% dependent on CIS market"
+      - "If Russian search market shifts, entire business is at risk"
+      - "Cannot capture non-Russian-speaking users in any market"
+      - "Lower DR (54) compared to multilingual competitors"
+    effectiveness_score: "low"
+    effectiveness_reasoning: >
+      While trashbox.ru achieved nearly 1M visits from Russian alone, the -47%
+      decline suggests structural problems with a monolingual approach. Single-
+      language sites have no diversification — if the market shifts or Google/
+      Yandex algorithms change for RU, the entire site suffers. This is the
+      cautionary tale for single-language strategies.
+    source: "briefs/07b-trashbox.yaml"
+
+# =============================================================================
+# COMPARISON MATRIX
+# =============================================================================
+
+comparison_matrix:
+
+  subdomains:
+    sites_using: ["uptodown.com", "softonic.com", "malavida.com"]
+    avg_dr:
+      value: 79.5
+      note: "Average of softonic.com (86) and malavida.com (73). Uptodown DR not available in brief."
+      calculation: "(86 + 73) / 2 = 79.5"
+      source: "briefs/05a (line 11), briefs/06a (line 13)"
+    avg_languages:
+      value: 12.3
+      calculation: "(14 + 9 + 14) / 3 = 12.3"
+      source: "briefs/04a (line 68), briefs/05a (line 151), briefs/06a (line 80)"
+    total_traffic_ru_filter_combined:
+      value: 2205571
+      calculation: "964677 (uptodown) + 159694 (softonic.com) + 1081200 (malavida) = 2,205,571"
+      note: "All three sites combined capture 2.2M visits from RU search alone"
+      source: "briefs/04a (line 224), briefs/05a (line 168), briefs/06a (line 60)"
+    pros:
+      - "Shared domain authority — single DR benefits all language versions"
+      - "Unified brand recognition across markets"
+      - "Easier hreflang implementation (same root domain)"
+      - "Scales well — adding a new language = adding a subdomain tier"
+      - "Highest combined traffic among approaches (2.2M RU-only)"
+      - "Sites using this approach have the highest DR (79.5 avg)"
+    cons:
+      - "All eggs in one basket — domain penalty affects all languages"
+      - "DNS complexity for many subdomains × many apps"
+      - "Long-tail languages often show negligible traffic"
+      - "Per-app × per-language subdomain structure can create URL bloat"
+    key_observation: >
+      All three sites with the highest multilingual scale (12+ languages) use
+      subdomains. This is the dominant approach in the download software niche.
+      The pattern is consistently {app}.{lang}.domain.com.
+
+  separate_domains:
+    sites_using: ["softonic.ru"]
+    avg_dr:
+      value: 50
+      source: "briefs/05c-softonic-ru.yaml (line 15)"
+    pros:
+      - "Local market trust signals (.ru ccTLD preferred by Yandex)"
+      - "Independent ranking — issues on parent .com don't affect .ru"
+      - "Can optimize specifically for local search engines (Yandex)"
+      - "Audience familiar with local domain extension"
+    cons:
+      - "Builds DR from scratch (softonic.ru DR 50 vs softonic.com DR 86 — 36-point gap)"
+      - "Separate link building campaigns needed"
+      - "Brand fragmentation across domains"
+      - "softonic.ru is in steep decline (-578K traffic) despite DR 50"
+      - "Requires separate technical infrastructure and maintenance"
+    key_observation: >
+      The only separate-domain example in our data (softonic.ru) is in steep decline.
+      While it achieved DR 50, the 36-point gap with softonic.com shows the cost
+      of building authority from scratch. The decline suggests that even a major
+      brand (Softonic) struggles to maintain a separate domain long-term.
+
+  folders:
+    sites_using: ["filehippo.com"]
+    avg_dr:
+      value: 77
+      source: "briefs/07a-filehippo.yaml (line 14)"
+    pros:
+      - "Simplest technical implementation — no DNS changes needed"
+      - "All authority stays under one domain"
+      - "Easy to manage with standard CMS"
+    cons:
+      - "filehippo's multilingual folders failed completely (~22.7K pages, zero traffic)"
+      - "May not signal language commitment to search engines as strongly as subdomains"
+      - "Single example in our data makes it hard to generalize"
+    key_observation: >
+      The only folder-based example failed despite DR 77 and thousands of pages.
+      However, this may reflect poor localization quality rather than a structural
+      flaw in the folder approach. Need more data points to draw conclusions about
+      folders vs subdomains.
+    caveat: >
+      filehippo.com is a SINGLE DATA POINT for the folder approach. Its failure
+      may be due to localization quality, site decline, or other factors — not
+      necessarily the folder structure itself. Do not generalize from n=1.
+
+  single_language:
+    sites_using: ["trashbox.ru"]
+    avg_dr:
+      value: 54
+      note: "trashbox.ru only. filehippo.com (DR 77) reclassified as 'folders' since it has 8 language versions."
+      source: "briefs/07b-trashbox.yaml (line 9)"
+    avg_traffic:
+      value: 1009540
+      note: "trashbox.ru CSV total"
+      source: "briefs/07b-trashbox.yaml (lines 54-62)"
+    note: "Only one true single-language site in our dataset after filehippo was reclassified"
+    key_observation: >
+      trashbox.ru is the only true single-language site. With nearly 1M visits
+      but a -47% decline, it shows both the ceiling and the risk of monolingual
+      strategy: strong initial traffic from CIS, but extreme vulnerability to
+      market shifts with no geographic/linguistic diversification.
+
+# =============================================================================
+# APPROACH EFFECTIVENESS RANKING
+# =============================================================================
+
+effectiveness_ranking:
+  - rank: 1
+    approach: "subdomains"
+    score: "high"
+    reasoning: >
+      Dominant approach among successful multilingual download sites. All three
+      subdomain sites (uptodown, softonic.com, malavida) have high DR (73-86),
+      support 9-14 languages, and generate significant traffic. Combined 2.2M
+      visits from RU search alone.
+
+  - rank: 2
+    approach: "hybrid (subdomains + separate domain)"
+    score: "medium"
+    reasoning: >
+      The .com side is excellent, but the separate .ru domain shows diminishing
+      returns. Softonic's hybrid approach worked historically but softonic.ru
+      is now declining sharply. The 36-point DR gap illustrates the cost.
+
+  - rank: 3
+    approach: "folders"
+    score: "low (insufficient data)"
+    reasoning: >
+      Only one example (filehippo.com) which failed despite high DR. Cannot
+      determine if failure was due to folder approach or other factors.
+      Insufficient data to rank this approach fairly.
+
+  - rank: 4
+    approach: "single_language"
+    score: "low"
+    reasoning: >
+      trashbox.ru shows that monolingual strategy has a ceiling and extreme
+      vulnerability. -47% decline with no diversification options.
+
+# =============================================================================
+# FREESOFT CONSIDERATIONS
+# =============================================================================
+
+freesoft_considerations:
+  current_state:
+    domains:
+      - domain: "freesoft.net"
+        dr: 51
+        role: "International / English"
+        tld_type: "gTLD (.net)"
+      - domain: "freesoft.ru"
+        dr: 59
+        role: "Russian market"
+        tld_type: "ccTLD (.ru)"
+      - domain: "frees0ft.fr"
+        dr: 23
+        role: "French market"
+        tld_type: "ccTLD (.fr) — BUT with spelling issue"
+    approach: "separate_domains"
+    total_combined_dr: "51 + 59 + 23 = 133 (fragmented across 3 domains)"
+
+    issues:
+      - issue: "Fragmented domain authority"
+        detail: >
+          Three separate domains mean three separate DR values (51, 59, 23).
+          Link building effort is split three ways. If consolidated under one
+          domain, a single DR could potentially be higher than any individual one.
+        competitor_contrast: "softonic.com has DR 86 under one domain for 9 languages"
+
+      - issue: "frees0ft.fr spelling problem"
+        detail: >
+          frees0ft.fr uses zero instead of 'o' — this creates trust/brand issues.
+          Users may mistype the URL, and search engines may not associate it with
+          the freesoft brand. DR 23 is the lowest of all three domains.
+        severity: "high"
+
+      - issue: "No hreflang connecting the 3 domains"
+        detail: >
+          Without hreflang tags linking the three domains, search engines cannot
+          understand they are language variants of the same site. This may cause
+          content duplication issues or missed language-targeting signals.
+
+      - issue: "Triple maintenance cost"
+        detail: >
+          Three domains = three sets of technical infrastructure, three SSL
+          certificates, three separate Google Search Console properties, etc.
+
+  observations:
+    - observation: "freesoft.ru has highest DR (59) — strongest foundation"
+      implication: >
+        If consolidating to one domain with subdomains, freesoft.ru has the
+        most authority. However, .ru ccTLD limits international appeal.
+        Competitors use .com as their primary multilingual domain.
+      source: "freesoft current data"
+
+    - observation: "freesoft.net is .net gTLD — suitable for international"
+      implication: >
+        .net is a generic TLD, suitable for any market. Competitors use .com,
+        which is slightly stronger for international SEO, but .net is acceptable.
+        Could serve as the primary multilingual domain with subdomains
+        (en.freesoft.net, ru.freesoft.net, fr.freesoft.net).
+      source: "freesoft current data"
+
+    - observation: "frees0ft.fr has different spelling — weakest asset"
+      implication: >
+        DR 23 is the weakest domain. The spelling issue (zero vs 'o') makes it
+        even less valuable. This domain is the strongest candidate for
+        deprecation/redirect if consolidating.
+      source: "freesoft current data"
+
+    - observation: "Competitors using subdomains have higher DR and more traffic"
+      implication: >
+        All top competitors (uptodown, softonic.com, malavida) use subdomains
+        on their primary .com domain. They achieve DR 73-86 with 9-14 languages.
+        freesoft's separate-domain approach fragments authority.
+      evidence: "uptodown DR ~83, softonic.com DR 86, malavida DR 73 — all subdomains"
+      source: "briefs/04a, 05a, 06a"
+
+    - observation: "softonic.ru (separate domain) is declining despite DR 50"
+      implication: >
+        The closest analogy to freesoft.ru is softonic.ru — a separate .ru domain
+        for a brand that also has a .com. softonic.ru is declining sharply (-578K).
+        This is a warning signal for the separate-domain strategy.
+      source: "briefs/05c-softonic-ru.yaml"
+
+    - observation: "trashbox.ru (single-language .ru) declining 47%"
+      implication: >
+        Russian-only software download sites are facing structural headwinds.
+        freesoft.ru being the strongest domain (DR 59) doesn't protect against
+        market-level decline if it remains monolingual.
+      source: "briefs/07b-trashbox.yaml"
+
+    - observation: "filehippo.com failed at multilingual folders despite DR 77"
+      implication: >
+        Multilingual expansion is NOT automatic. Quality of localization matters
+        as much as structure. Any domain consolidation must be paired with
+        genuine localization effort, not just translated pages.
+      source: "briefs/07a-filehippo.yaml"
+
+  structural_options_for_task_17:
+    note: "These are the options task 17 should evaluate, NOT recommendations"
+    options:
+      - option: "Consolidate under freesoft.net with subdomains"
+        pattern: "ru.freesoft.net, en.freesoft.net, fr.freesoft.net"
+        would_require: "Migrate freesoft.ru content + redirect, deprecate frees0ft.fr"
+        competitor_precedent: "uptodown.com, softonic.com, malavida.com all use this"
+
+      - option: "Consolidate under freesoft.ru with subdomains"
+        pattern: "en.freesoft.ru, fr.freesoft.ru"
+        would_require: "Migrate freesoft.net content + redirect, deprecate frees0ft.fr"
+        risk: ".ru ccTLD may hinder international targeting"
+
+      - option: "Keep separate domains, add hreflang"
+        pattern: "freesoft.net ↔ freesoft.ru ↔ frees0ft.fr with hreflang"
+        would_require: "Cross-domain hreflang implementation, fix frees0ft.fr spelling"
+        note: "Doesn't solve DR fragmentation but is lowest-migration-risk option"
+
+      - option: "Hybrid — keep freesoft.ru + consolidate others under freesoft.net"
+        pattern: "freesoft.ru (Russian), en.freesoft.net + fr.freesoft.net (international)"
+        would_require: "Migrate frees0ft.fr to fr.freesoft.net, add hreflang between .ru and .net"
+        competitor_precedent: "Similar to softonic.com + softonic.ru (but softonic.ru is declining)"
+
+  note: >
+    Final recommendation will be made in task 17 (domain strategy) based on this
+    analysis combined with language potential data from task 16. This section only
+    documents considerations — it does NOT recommend an approach.
+
+# =============================================================================
+# KEY FINDINGS
+# =============================================================================
+
+key_findings:
+  - finding: "Subdomains are the dominant multilingual approach in the software download niche"
+    evidence: >
+      All three top multilingual competitors (uptodown, softonic.com, malavida) use
+      the subdomain approach ({app}.{lang}.domain.com). They support 9-14 languages
+      and achieve DR 73-86. No successful competitor uses folders for multilingual content.
+    source: "briefs/04a, 05a, 06a"
+
+  - finding: "Separate domains fragment authority — the softonic.ru case study"
+    evidence: >
+      softonic.ru (DR 50) has a 36-point DR gap vs softonic.com (DR 86), despite
+      being the same brand. The separate .ru domain is declining (-578K traffic).
+      This directly parallels freesoft's situation (3 separate domains, DR 51/59/23).
+    source: "briefs/05a (line 11), briefs/05c (line 15)"
+
+  - finding: "Monolingual Russian software sites are declining sharply"
+    evidence: >
+      Both trashbox.ru (-893K, -47%) and softonic.ru (-578K) are in steep decline.
+      Single-language Russian sites face structural headwinds in the download niche.
+    source: "briefs/07b (lines 25-31), briefs/05c (line 22)"
+
+  - finding: "Multilingual pages without quality localization are worthless"
+    evidence: >
+      filehippo.com has ~22,700 non-English pages across 7 language folders but
+      generates essentially zero non-English traffic. Having multilingual content
+      is necessary but not sufficient — localization quality determines success.
+    source: "briefs/07a (lines 236-252)"
+
+  - finding: "freesoft's current separate-domain strategy mirrors the weakest competitor pattern"
+    evidence: >
+      freesoft uses 3 separate domains (like softonic.com + softonic.ru), but with
+      even more fragmentation (3 domains vs 2) and a spelling issue (frees0ft.fr).
+      The competitor data shows this approach underperforms subdomains consistently.
+    source: "all briefs — freesoft's structure vs competitor analysis"
+
+  - finding: "Russian content from RU search is substantial for ALL multilingual competitors"
+    evidence: >
+      Under RU filter: uptodown gets 886K from ru subdomain, malavida gets 1.04M from
+      ru subdomain, softonic.ru gets 668K. Russian is a major language in software
+      downloads — freesoft.ru's DR 59 represents real value that should be preserved.
+    source: "briefs/04a (line 113), briefs/06a (line 91), briefs/05c (line 69)"
+
+  - finding: "AI Overview citations correlate with multilingual subdomain approach"
+    evidence: >
+      softonic.com has 53 AI Overview citations, malavida.com has 102.
+      These are both multilingual subdomain sites. filehippo (folders, declining)
+      data not available. Emerging SEO signal worth monitoring.
+    source: "briefs/05a (line 36), briefs/06a (line 33)"
+
+# =============================================================================
+# DATA QUALITY NOTES
+# =============================================================================
+
+data_quality:
+  - note: "All CSV data uses Ahrefs RU country filter — biases toward Russian subdomains"
+    impact: "Traffic share percentages for non-RU languages are artificially suppressed"
+    mitigation: "Used overview PNG data for global perspective where available"
+
+  - note: "uptodown.com DR not available — PNG file missing during brief extraction"
+    impact: "Cannot calculate true average DR for subdomain approach"
+    mitigation: "Used softonic.com + malavida only for avg DR calculation"
+
+  - note: "filehippo reclassified from 'single-language' to 'folders'"
+    impact: "Changed initial assumption — filehippo is NOT a single-language control case"
+    detail: "Brief 07a discovered 8 language folders that initial task design didn't expect"
+
+  - note: "CSV totals may differ from overview PNG totals"
+    impact: "Minor discrepancies in traffic figures"
+    detail: "e.g., filehippo overview shows 526, CSV sums to 1,395. Overview is authoritative."

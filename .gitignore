@@ -1,0 +1,9 @@
+# Raw Ahrefs data (large CSV/PNG files, available on request)
+raw-data/*.csv
+raw-data/*.png
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

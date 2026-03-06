@@ -1,0 +1,294 @@
+# =============================================================
+# 06a — malavida.com: Site Structure & Language Distribution
+# Generated: 2026-03-06
+# Source CSV: malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv
+# Source PNG: malavida_com_US_overview.png (data from manifest)
+# =============================================================
+
+domain: malavida.com
+
+# ----- Overview metrics (from manifest / PNG) -----
+dr:
+  value: 73
+  source: "malavida_com_US_overview.png"
+  extraction: "visual from PNG; confirmed in 00-manifest.yaml lines 760-761"
+
+total_organic_traffic:
+  value: "526K"
+  note: "Global organic traffic from Ahrefs overview (US filter context)"
+  source: "malavida_com_US_overview.png"
+  extraction: "visual from PNG; confirmed in 00-manifest.yaml line 764"
+
+total_organic_keywords:
+  value: "54.1K"
+  change: "-132K"
+  source: "malavida_com_US_overview.png"
+  extraction: "visual from PNG; confirmed in 00-manifest.yaml lines 762-763"
+
+overview_extra:
+  ur: 4.4
+  backlinks: "798K"
+  ref_domains: "13.9K"
+  http_status: 301
+  ai_overview_citations: 102
+  top_countries:
+    - country: India
+      traffic: "692.4K"
+      share: "10.5%"
+    - country: "Russian Federation"
+      traffic: "525.9K"
+      share: "8.0%"
+    - country: Brazil
+      traffic: "405.8K"
+      share: "6.2%"
+    - country: France
+      traffic: "277.3K"
+      share: "4.2%"
+  source: "malavida_com_US_overview.png"
+  extraction: "visual from PNG; confirmed in 00-manifest.yaml lines 771-783"
+
+# ----- CSV data context -----
+csv_note: >
+  This CSV is an Ahrefs "Site Structure > Subdomains" export with RU (Russia)
+  country filter. Traffic values reflect organic traffic FROM RUSSIA only, not
+  global traffic. This explains why ru.malavida.com dominates (~96% of traffic
+  in this dataset). Other language subdomains show near-zero RU traffic, which
+  is expected — their real global traffic would be visible in country-specific
+  exports.
+
+csv_total_rows: 30000
+csv_total_traffic_ru_filter: 1081200
+csv_total_unique_subdomains: 9880
+
+# ----- Language structure determination -----
+language_structure: "subdomains"
+structure_evidence:
+  pattern: "{app-slug}.{lang-code}.malavida.com"
+  examples:
+    - "toca-life-world-mod.ru.malavida.com"
+    - "whatsapp.ru.malavida.com"
+    - "ayugram.ru.malavida.com/android"
+    - "www.malavida.com"
+  main_site: "www.malavida.com (Spanish — malavida is a Spanish company)"
+  extraction: "awk -F'\\t' 'NR>1 {print $1}' file.csv | head -30"
+  note: >
+    Each app gets a dedicated subdomain per language. For example,
+    WhatsApp in Russian is whatsapp.ru.malavida.com, in English it would be
+    whatsapp.en.malavida.com. The language code is the second-level subdomain
+    before malavida.com.
+
+total_languages_detected: 14
+top_languages: ["ru", "es", "en", "fr", "br", "it", "de", "jp", "ro", "nl", "dk", "se", "pl", "pt"]
+
+# ----- Traffic by language (RU country filter) -----
+# NOTE: All traffic values are RU-filtered. Real global traffic per language
+# would differ significantly (see overview_extra.top_countries for global distribution).
+
+traffic_by_language:
+  - subdomain_or_folder: "*.ru.malavida.com"
+    lang_code: "ru"
+    lang_name: "Russian"
+    traffic: 1041790
+    share_pct: 96.35
+    keywords: 121031
+    pages: 15482
+    entries_in_csv: 14296
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+  - subdomain_or_folder: "www.malavida.com"
+    lang_code: "es"
+    lang_name: "Spanish (main site)"
+    traffic: 23080
+    share_pct: 2.13
+    keywords: 4509
+    pages: 3210
+    entries_in_csv: 5266
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+  - subdomain_or_folder: "*.en.malavida.com"
+    lang_code: "en"
+    lang_name: "English"
+    traffic: 16254
+    share_pct: 1.50
+    keywords: 2247
+    pages: 532
+    entries_in_csv: 900
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+  - subdomain_or_folder: "*.fr.malavida.com"
+    lang_code: "fr"
+    lang_name: "French"
+    traffic: 28
+    share_pct: 0.003
+    keywords: 92
+    pages: 88
+    entries_in_csv: 1598
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+  - subdomain_or_folder: "*.it.malavida.com"
+    lang_code: "it"
+    lang_name: "Italian"
+    traffic: 0
+    share_pct: 0
+    keywords: 10
+    pages: 10
+    entries_in_csv: 419
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+  - subdomain_or_folder: "*.de.malavida.com"
+    lang_code: "de"
+    lang_name: "German"
+    traffic: 0
+    share_pct: 0
+    keywords: 7
+    pages: 3
+    entries_in_csv: 371
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+  - subdomain_or_folder: "*.jp.malavida.com"
+    lang_code: "jp"
+    lang_name: "Japanese"
+    traffic: 0
+    share_pct: 0
+    keywords: 3
+    pages: 3
+    entries_in_csv: 168
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+  - subdomain_or_folder: "*.br.malavida.com"
+    lang_code: "br"
+    lang_name: "Brazilian Portuguese"
+    traffic: 2
+    share_pct: 0.0002
+    keywords: 22
+    pages: 14
+    entries_in_csv: 102
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+  - subdomain_or_folder: "other_languages"
+    traffic: 0
+    share_pct: 0
+    note: "Sum of 6 language subdomains with 0 traffic (RU filter): ro (174 entries), nl (149), dk (75), se (51), pl (40), pt (38)"
+    languages_included:
+      - code: "ro"
+        name: "Romanian"
+        entries: 174
+        keywords: 0
+      - code: "nl"
+        name: "Dutch"
+        entries: 149
+        keywords: 0
+      - code: "dk"
+        name: "Danish"
+        entries: 75
+        keywords: 0
+      - code: "se"
+        name: "Swedish"
+        entries: 51
+        keywords: 0
+      - code: "pl"
+        name: "Polish"
+        entries: 40
+        keywords: 0
+      - code: "pt"
+        name: "Portuguese"
+        entries: 38
+        keywords: 0
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    extraction: "awk -F'\\t' classification by subdomain prefix, aggregated"
+
+# ----- Non-language subdomains -----
+non_language_subdomains:
+  infrastructure:
+    total_entries: 5779
+    total_traffic: 0
+    breakdown:
+      - prefix: "dw"
+        note: "Download servers (dw.malavida.com, dw33.malavida.com, etc.)"
+        entries: 2907
+      - prefix: "imag"
+        note: "Image CDN"
+        entries: 2866
+      - prefix: "static"
+        entries: 2
+      - prefix: "videos"
+        entries: 1
+      - prefix: "android"
+        entries: 2
+      - prefix: "runtime"
+        entries: 1
+  app_specific:
+    total_entries: 574
+    total_traffic: 46
+    note: "App-specific subdomains without language prefix (e.g., whatsapp-plus.malavida.com). Likely legacy or redirects."
+    top_by_traffic:
+      - subdomain: "whatsapp-plus.malavida.com"
+        traffic: 22
+      - subdomain: "snaptube.malavida.com"
+        traffic: 6
+      - subdomain: "gbwhatsapp.malavida.com"
+        traffic: 4
+      - subdomain: "atube-catcher.malavida.com"
+        traffic: 4
+    source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+
+# ----- Summary counts -----
+total_subdomains: 9880
+subdomains_with_traffic_over_100: 1014
+source: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+
+# ----- Gambling / adult content filter -----
+gambling_filtered:
+  entries_removed: 191
+  traffic_removed: 524
+  examples:
+    - "pokerstars-poker.ru.malavida.com/android"
+    - "pokerstars-poker.ru.malavida.com"
+    - "buckshot-roulette.ru.malavida.com/android"
+    - "cleopatra-casino.ru.malavida.com"
+    - "world-poker-club.ru.malavida.com"
+    - "scatter-slots.ru.malavida.com"
+    - "royal-casino.ru.malavida.com"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  extraction: "awk -F'\\t' 'NR>1 && tolower($0) ~ /casino|gambling|.../' file.csv | wc -l"
+  note: "191 entries matched; 524 total RU traffic. All within ru.malavida.com subdomain. Includes game titles containing 'roulette', 'poker', 'casino', 'slots' keywords."
+
+# ----- Key insights for pipeline -----
+insights:
+  - label: "Subdomain-per-app architecture"
+    detail: >
+      Malavida uses a unique structure: each app gets its own subdomain within
+      a language subdomain (e.g., whatsapp.ru.malavida.com). This results in
+      9,880 unique subdomains across 14 languages. This is very different from
+      freesoft.net's folder-based approach.
+
+  - label: "14 language versions detected"
+    detail: >
+      Languages: es (www), ru, en, fr, it, de, jp, br, ro, nl, dk, se, pl, pt.
+      This is the most extensive multilingual coverage among analyzed competitors.
+
+  - label: "RU filter bias in this dataset"
+    detail: >
+      The CSV uses RU country filter, so ru.malavida.com shows 96% of traffic.
+      Real global distribution would show es/en/fr/br as major languages
+      (see overview_extra.top_countries: India 10.5%, Russia 8%, Brazil 6.2%,
+      France 4.2%).
+
+  - label: "Massive scale"
+    detail: >
+      14,296 entries for Russian alone suggests malavida has thousands of app
+      pages per language. Total organic keywords globally: 54.1K (per overview).
+      DR 73 with 13.9K referring domains.
+
+  - label: "Infrastructure subdomains"
+    detail: >
+      5,779 entries are infrastructure (dw* download servers, imag CDN).
+      These have 0 organic traffic as expected.

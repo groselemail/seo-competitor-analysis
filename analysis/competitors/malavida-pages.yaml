@@ -1,0 +1,498 @@
+# =============================================================================
+# 06b — malavida.com Top Pages Analysis
+# Pipeline: SEO competitor analysis for freesoft.net
+# Task: 06b (page-level metrics from Ahrefs top_pages exports)
+# Generated: 2026-03-06
+# =============================================================================
+
+domain: malavida.com
+filter: "ALL locations (both CSVs)"
+note: "malavida uses hybrid URL structure: www.malavida.com/LANG/soft/... for main site + appname.LANG.malavida.com/platform/ for app subdomains. Default (no lang code) = Spanish."
+
+# =============================================================================
+# TOP 50 PAGES BY TRAFFIC
+# =============================================================================
+
+top_pages:
+  source: "malavida_com_top_pages_subdomains_all_act_2026_03_05_23_05_50.csv"
+  extraction: "awk -F'\\t' 'NR==1{next} tolower($0) ~ /gambling_regex/{next} {print URL, Traffic, Keywords, TopKeyword}' | sort -t$'\\t' -k2 -rn | head -50"
+  columns_used: "URL=1, Traffic=3, Keywords=6, Top keyword=7"
+  entries:
+    - url: "https://whatsapp-plus.malavida.com/android/"
+      traffic: 294821
+      keywords: 2601
+      top_keyword: "whatsapp plus"
+    - url: "https://vidmate.fr.malavida.com/android/"
+      traffic: 149757
+      keywords: 436
+      top_keyword: "vidmate"
+    - url: "https://anime-sama.fr.malavida.com/android/"
+      traffic: 129942
+      keywords: 263
+      top_keyword: "anime sama"
+    - url: "https://free-fire-advance-server.en.malavida.com/android/"
+      traffic: 105537
+      keywords: 999
+      top_keyword: "free fire advance server"
+    - url: "https://vidmate.en.malavida.com/android/"
+      traffic: 102774
+      keywords: 1698
+      top_keyword: "vidmate apk"
+    - url: "https://happymod.en.malavida.com/android/"
+      traffic: 100333
+      keywords: 450
+      top_keyword: "happy mod"
+    - url: "https://mbwhatsapp.malavida.com/android/"
+      traffic: 95998
+      keywords: 508
+      top_keyword: "mbwhatsapp"
+    - url: "https://ayugram.ru.malavida.com/android/"
+      traffic: 81110
+      keywords: 230
+      top_keyword: "ayugram"
+    - url: "https://toca-life-world-mod.ru.malavida.com/android/"
+      traffic: 79018
+      keywords: 1124
+      top_keyword: "тока бока взлом"
+    - url: "https://fmwhatsapp.en.malavida.com/android/"
+      traffic: 72707
+      keywords: 1710
+      top_keyword: "fmwhatsapp"
+    - url: "https://nulls-brawl.ru.malavida.com/android/"
+      traffic: 61844
+      keywords: 555
+      top_keyword: "null's brawl скачать"
+    - url: "https://spotify.it.malavida.com/android/"
+      traffic: 59157
+      keywords: 333
+      top_keyword: "spotify premium apk"
+    - url: "https://www.malavida.com/es/soft/spotify-x/android/"
+      traffic: 56419
+      keywords: 556
+      top_keyword: "spotify premium apk"
+    - url: "https://gbwhatsapp.fr.malavida.com/android/"
+      traffic: 54302
+      keywords: 915
+      top_keyword: "whatsapp gb apk"
+    - url: "https://unitvnet.br.malavida.com/android/"
+      traffic: 53144
+      keywords: 115
+      top_keyword: "unitvnet"
+    - url: "https://delta-executor.en.malavida.com/android/"
+      traffic: 47110
+      keywords: 258
+      top_keyword: "delta executor"
+    - url: "https://gbwhatsapp.en.malavida.com/android/"
+      traffic: 47010
+      keywords: 2123
+      top_keyword: "gb whatsapp download 53 mb"
+    - url: "https://whatsapp-jimods.malavida.com/android/"
+      traffic: 46948
+      keywords: 326
+      top_keyword: "jtwhatsapp"
+    - url: "https://gbwhatsapp.malavida.com/android/"
+      traffic: 46497
+      keywords: 497
+      top_keyword: "whatsapp gb original"
+    - url: "https://whatsapp.fr.malavida.com/android/"
+      traffic: 45717
+      keywords: 608
+      top_keyword: "whatsapp apk"
+    - url: "https://whatsapp-aero.en.malavida.com/android/"
+      traffic: 45021
+      keywords: 904
+      top_keyword: "download whatsapp aero v8. 89"
+    - url: "https://yowhatsapp.en.malavida.com/android/"
+      traffic: 44439
+      keywords: 1040
+      top_keyword: "yowhatsapp"
+    - url: "https://fmwhatsapp.malavida.com/android/"
+      traffic: 41286
+      keywords: 241
+      top_keyword: "fmwhatsapp"
+    - url: "https://www.malavida.com/en/soft/918kiss/android/"
+      traffic: 40952
+      keywords: 627
+      top_keyword: "918kiss apk"
+    - url: "https://snaptube.en.malavida.com/android/"
+      traffic: 40744
+      keywords: 403
+      top_keyword: "snaptube application download"
+    - url: "https://film-app.malavida.com/android/"
+      traffic: 38799
+      keywords: 332
+      top_keyword: "film app"
+    - url: "https://happymod.malavida.com/android/"
+      traffic: 38613
+      keywords: 250
+      top_keyword: "happy mod"
+    - url: "https://yowhatsapp.malavida.com/android/"
+      traffic: 36932
+      keywords: 204
+      top_keyword: "yowhatsapp"
+    - url: "https://pinduoduo.ru.malavida.com/android/"
+      traffic: 35406
+      keywords: 263
+      top_keyword: "пиндуодуо скачать"
+    - url: "https://toca-life-world-mod.en.malavida.com/android/"
+      traffic: 33850
+      keywords: 632
+      top_keyword: "toca boca free download all unlocked"
+    - url: "https://whatsapp-mods.en.malavida.com/android/cat"
+      traffic: 33657
+      keywords: 1176
+      top_keyword: "wa mod"
+    - url: "https://whatsapp-aero.malavida.com/android/"
+      traffic: 31997
+      keywords: 365
+      top_keyword: "whatsapp aero"
+    - url: "https://spotify-x.ru.malavida.com/android/"
+      traffic: 31770
+      keywords: 265
+      top_keyword: "спотифай взлом"
+    - url: "https://nulls-brawl.br.malavida.com/android/"
+      traffic: 29991
+      keywords: 180
+      top_keyword: "nulls brawl"
+    - url: "https://nulls-brawl.en.malavida.com/android/"
+      traffic: 29662
+      keywords: 178
+      top_keyword: "null's brawl"
+    - url: "https://astute-beta-server.en.malavida.com/android/"
+      traffic: 28939
+      keywords: 56
+      top_keyword: "astute beta"
+    - url: "https://youcine.en.malavida.com/android/"
+      traffic: 28340
+      keywords: 597
+      top_keyword: "youcine"
+    - url: "https://gbwhatsapp-pro.en.malavida.com/android/"
+      traffic: 27642
+      keywords: 1469
+      top_keyword: "gb whatsapp apk"
+    - url: "https://roblox-mod-menu.ru.malavida.com/android/"
+      traffic: 27368
+      keywords: 295
+      top_keyword: "читы на роблокс"
+    - url: "https://brawl-stars-china.ru.malavida.com/android/"
+      traffic: 25957
+      keywords: 764
+      top_keyword: "скачать китайский brawl stars"
+    - url: "https://whatsapp-jimods.fr.malavida.com/android/"
+      traffic: 25200
+      keywords: 310
+      top_keyword: "jtwhatsapp"
+    - url: "https://subway-surfers-mod.en.malavida.com/android/"
+      traffic: 25166
+      keywords: 389
+      top_keyword: "subway surfers mod apk"
+    - url: "https://www.malavida.com/es/android/top"
+      traffic: 24896
+      keywords: 142
+      top_keyword: "malavida"
+    - url: "https://whatsapp-plus.en.malavida.com/android/"
+      traffic: 22761
+      keywords: 1151
+      top_keyword: "whatsapp plus"
+    - url: "https://genyoutube.en.malavida.com/android/"
+      traffic: 22655
+      keywords: 434
+      top_keyword: "gen you youtube"
+    - url: "https://hotstar.en.malavida.com/android/"
+      traffic: 22581
+      keywords: 564
+      top_keyword: "jiohotstar download"
+    - url: "https://summertime-saga.en.malavida.com/android/"
+      traffic: 22265
+      keywords: 492
+      top_keyword: "summertime saga apk"
+    - url: "https://tiktok-mod.ru.malavida.com/android/"
+      traffic: 21825
+      keywords: 683
+      top_keyword: "мод на тик ток 2024"
+    - url: "https://subway-surfers-mod.br.malavida.com/android/"
+      traffic: 21062
+      keywords: 478
+      top_keyword: "subway surfers dinheiro infinito"
+    - url: "https://traffic-rider-mod.en.malavida.com/android/"
+      traffic: 20223
+      keywords: 207
+      top_keyword: "traffic rider mod apk"
+
+# =============================================================================
+# TRAFFIC BY PAGE TYPE
+# =============================================================================
+
+traffic_by_page_type:
+  note: "Classification based on URL pattern analysis. Subdomains are app pages; www.malavida.com/LANG/soft/... are app pages; /android/top, /android/cat/ are category pages."
+  source: "malavida_com_top_pages_subdomains_all_act_2026_03_05_23_05_50.csv"
+  extraction: "awk classifying URLs by path pattern: soft/ or app subdomain = app_page; /top, /cat/ = category_page; else = other"
+
+  app_pages:
+    count: 28298
+    total_traffic: 6409877
+    pct_of_total_traffic: 98.6
+    note: "Includes both www.malavida.com/LANG/soft/APP/ and appname.LANG.malavida.com/PLATFORM/ patterns"
+
+  category_pages:
+    count: 195
+    total_traffic: 65794
+    pct_of_total_traffic: 1.0
+    note: "Pages like /android/top, /android/cat/juegos, /windows/cat/..."
+
+  other:
+    count: 1349
+    total_traffic: 23566
+    pct_of_total_traffic: 0.4
+    note: "Homepages, articulos, faq, about, etc."
+
+  url_patterns_detected:
+    - pattern: "android"
+      count: 13828
+      note: "First path segment after domain/lang; includes both app pages and category pages on Android"
+    - pattern: "soft"
+      count: 7752
+      note: "www.malavida.com/LANG/soft/APP/ — app detail pages on main domain"
+    - pattern: "windows"
+      count: 6000
+      note: "Windows platform pages"
+    - pattern: "faq"
+      count: 744
+      note: "FAQ pages"
+    - pattern: "mac"
+      count: 659
+      note: "Mac platform pages"
+    - pattern: "iphone"
+      count: 370
+      note: "iPhone platform pages"
+    - pattern: "articulos"
+      count: 252
+      note: "Article/blog content (Spanish)"
+    - pattern: "webapps"
+      count: 105
+      note: "Web apps section"
+    - pattern: "linux"
+      count: 75
+      note: "Linux platform pages"
+
+  platform_distribution:
+    source: "malavida_com_top_pages_subdomains_all_act_2026_03_05_23_05_50.csv"
+    extraction: "awk matching /android/, /windows/, /mac/, /iphone/, /webapps/ in URL"
+    platforms:
+      - platform: "android"
+        pages_count: 19431
+        total_traffic: 5800600
+        pct_of_total_traffic: 89.2
+      - platform: "windows"
+        pages_count: 6000
+        total_traffic: 522586
+        pct_of_total_traffic: 8.0
+      - platform: "other"
+        pages_count: 3010
+        total_traffic: 103042
+        pct_of_total_traffic: 1.6
+      - platform: "iphone"
+        pages_count: 489
+        total_traffic: 36465
+        pct_of_total_traffic: 0.6
+      - platform: "webapps"
+        pages_count: 151
+        total_traffic: 26832
+        pct_of_total_traffic: 0.4
+      - platform: "mac"
+        pages_count: 761
+        total_traffic: 9712
+        pct_of_total_traffic: 0.1
+
+# =============================================================================
+# TRAFFIC BY LANGUAGE (from URL analysis)
+# =============================================================================
+
+traffic_by_language_from_pages:
+  note: >
+    Language extracted from URL structure:
+    - www.malavida.com/LANG/... → folder-based lang
+    - appname.LANG.malavida.com/... → subdomain lang code (2-letter)
+    - appname.malavida.com/... (no lang code) → default Spanish (es)
+    - LANG.malavida.com/... → lang subdomain
+  source: "malavida_com_top_pages_subdomains_all_act_2026_03_05_23_05_50.csv"
+  extraction: "awk parsing URL to extract language code from subdomain or folder, then summing traffic per lang"
+
+  languages:
+    - language: "en"
+      pages_count: 3521
+      total_traffic: 1890925
+      pct_of_total_traffic: 29.1
+
+    - language: "es"
+      pages_count: 4963
+      total_traffic: 1456591
+      pct_of_total_traffic: 22.4
+      note: "Includes www.malavida.com/es/... and app subdomains without lang code (default Spanish)"
+
+    - language: "ru"
+      pages_count: 5965
+      total_traffic: 1240684
+      pct_of_total_traffic: 19.1
+
+    - language: "fr"
+      pages_count: 5596
+      total_traffic: 1164613
+      pct_of_total_traffic: 17.9
+
+    - language: "br"
+      pages_count: 2156
+      total_traffic: 419624
+      pct_of_total_traffic: 6.5
+      note: "Brazilian Portuguese"
+
+    - language: "it"
+      pages_count: 3938
+      total_traffic: 230644
+      pct_of_total_traffic: 3.5
+
+    - language: "de"
+      pages_count: 2586
+      total_traffic: 75184
+      pct_of_total_traffic: 1.2
+
+    - language: "jp"
+      pages_count: 1116
+      total_traffic: 20960
+      pct_of_total_traffic: 0.3
+
+    - language: "tv"
+      pages_count: 1
+      total_traffic: 12
+      pct_of_total_traffic: 0.0
+      note: "Likely a subdomain anomaly, not a real language"
+
+  total_languages_detected: 9
+  key_insight: >
+    English leads in traffic (29.1%) despite having fewer pages than Spanish, Russian, or French.
+    Spanish is #2 (22.4%). Russian (19.1%) and French (17.9%) are close behind.
+    8 real languages detected — malavida is a deeply multilingual site.
+    Top-4 languages (en, es, ru, fr) account for 88.5% of total traffic.
+
+# =============================================================================
+# PAGE STATS
+# =============================================================================
+
+page_stats:
+  total_pages_in_csv: 30000
+  total_after_gambling_filter: 29842
+  gambling_pages_removed: 158
+  total_traffic_sum: 6499237
+  avg_traffic_per_page: 217.8
+  source: "malavida_com_top_pages_subdomains_all_act_2026_03_05_23_05_50.csv"
+  extraction: "awk summing Traffic column (col 3) after gambling filter, dividing by count"
+  ahrefs_page_type_col: "Column 11 (Page type) is empty for all 29,842 rows — Ahrefs did not classify page types"
+
+# =============================================================================
+# PAGES TREND (Comparison CSV)
+# =============================================================================
+
+pages_trend:
+  note: "Both CSVs use ALL locations filter. Comparison period from Ahrefs export."
+  source: "malavida_com_top_pages_subdomains_all_com_2026_03_05_23_05_32.csv"
+  extraction: "awk parsing Traffic change (col 6) — counting positive, negative, zero changes and summing"
+  columns_used: "URL=1, Traffic change=6"
+
+  total_pages_in_comparison: 29796
+  gambling_pages_removed_comparison: 204
+
+  growing_pages_count: 15001
+  growing_pages_traffic_sum: 2264010
+
+  declining_pages_count: 10840
+  declining_pages_traffic_sum: -1241089
+
+  stable_pages_count: 3955
+
+  net_traffic_change: 1022921
+  trend_direction: "positive"
+  key_insight: >
+    malavida is growing overall: +1,022,921 net traffic change.
+    50.3% of pages are growing vs 36.4% declining.
+    Growth outpaces decline by ~1.8x in traffic volume.
+
+# =============================================================================
+# TOP GROWING PAGES
+# =============================================================================
+
+top_growing_pages:
+  source: "malavida_com_top_pages_subdomains_all_com_2026_03_05_23_05_32.csv"
+  extraction: "awk printing URL and Traffic change where change > 0 | sort -rn | head -10"
+  entries:
+    - url: "https://whatsapp-plus.malavida.com/android/"
+      traffic_change: 130761
+    - url: "https://free-fire-advance-server.en.malavida.com/android/"
+      traffic_change: 79569
+    - url: "https://vidmate.fr.malavida.com/android/"
+      traffic_change: 69934
+    - url: "https://toca-life-world-mod.ru.malavida.com/android/"
+      traffic_change: 69043
+    - url: "https://mbwhatsapp.malavida.com/android/"
+      traffic_change: 67566
+    - url: "https://unitvnet.br.malavida.com/android/"
+      traffic_change: 53144
+    - url: "https://fmwhatsapp.en.malavida.com/android/"
+      traffic_change: 40006
+    - url: "https://happymod.en.malavida.com/android/"
+      traffic_change: 34160
+    - url: "https://delta-executor.en.malavida.com/android/"
+      traffic_change: 32949
+    - url: "https://spotify.it.malavida.com/android/"
+      traffic_change: 31660
+
+# =============================================================================
+# TOP DECLINING PAGES
+# =============================================================================
+
+top_declining_pages:
+  source: "malavida_com_top_pages_subdomains_all_com_2026_03_05_23_05_32.csv"
+  extraction: "awk printing URL and Traffic change where change < 0 | sort -n | head -10"
+  entries:
+    - url: "https://nulls-brawl.ru.malavida.com/android/"
+      traffic_change: -74052
+    - url: "https://tiktok-mod.ru.malavida.com/android/"
+      traffic_change: -69372
+    - url: "https://whats-web.ru.malavida.com/android/"
+      traffic_change: -53675
+    - url: "https://brawl-stars.ru.malavida.com/android/"
+      traffic_change: -35718
+    - url: "https://gbwhatsapp.fr.malavida.com/android/"
+      traffic_change: -24064
+    - url: "https://www.malavida.com/en/android/"
+      traffic_change: -18815
+    - url: "https://pirlotv.malavida.com/android/"
+      traffic_change: -17794
+    - url: "https://yandex-zen.ru.malavida.com/android/"
+      traffic_change: -17320
+    - url: "https://youcine.br.malavida.com/android/"
+      traffic_change: -17021
+    - url: "https://minecraft.ru.malavida.com/windows/"
+      traffic_change: -16376
+
+# =============================================================================
+# GAMBLING FILTER
+# =============================================================================
+
+gambling_filtered:
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  awk_filter: "tolower($0) ~ /casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy|букмекер|казино|ставки|порно/"
+
+  actual_csv:
+    pages_removed: 158
+    source: "malavida_com_top_pages_subdomains_all_act_2026_03_05_23_05_50.csv"
+
+  comparison_csv:
+    pages_removed: 204
+    source: "malavida_com_top_pages_subdomains_all_com_2026_03_05_23_05_32.csv"
+
+  examples:
+    - "https://www.malavida.com/en/soft/rummy-glee/android/"
+    - "https://www.malavida.com/en/soft/rummy-nabob/android/"
+    - "https://www.malavida.com/en/soft/holy-rummy/android/"
+    - "https://juego-sexual-para-parejas.malavida.com/android/"
+    - "https://www.malavida.com/en/soft/rummy-satta/android/"

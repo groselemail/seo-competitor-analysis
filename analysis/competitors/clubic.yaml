@@ -1,0 +1,545 @@
+# ============================================================
+# 08a — clubic.com: Top Pages Analysis (French Market)
+# Generated: 2026-03-06
+# Pipeline: Phase 1, Task 08a
+# ============================================================
+
+domain: clubic.com
+
+# ------------------------------------------------------------
+# Overview metrics (from manifest — PNG not on disk)
+# ------------------------------------------------------------
+dr:
+  value: 81
+  source: "clubic_com_US_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest field key_metrics.dr"
+  note: "DR is accurate regardless of country filter."
+
+total_organic_traffic:
+  value: 186
+  source: "clubic_com_US_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest field key_metrics.organic_traffic"
+  note: "RU filter applied — this is Russian Federation traffic only. Real total organic traffic is much higher."
+
+total_keywords:
+  value: 596
+  source: "clubic_com_US_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest field key_metrics.organic_keywords"
+  note: "RU filter — only Russian keywords counted."
+
+real_traffic_estimate:
+  france:
+    traffic: "635.5K"
+    share: "52.9%"
+  morocco:
+    traffic: "168.4K"
+    share: "14.0%"
+  algeria:
+    traffic: "87.3K"
+    share: "7.3%"
+  source: "clubic_com_US_overview.png (via 00-manifest.yaml key_metrics.top_countries)"
+  extraction: "manifest field key_metrics.top_countries"
+  note: "These are the real traffic figures by country. France alone ~635K monthly organic visits."
+
+backlinks:
+  value: "5.6M"
+  source: "clubic_com_US_overview.png (via 00-manifest.yaml key_metrics)"
+
+ref_domains:
+  value: "17.6K"
+  source: "clubic_com_US_overview.png (via 00-manifest.yaml key_metrics)"
+
+# ------------------------------------------------------------
+# CSV metadata
+# ------------------------------------------------------------
+csv_file: "clubic_com_top_pages_subdomains_all_actua_2026_03_05_23_06_47.csv"
+csv_rows: 26609
+csv_columns:
+  1: "URL"
+  2: "UR"
+  3: "Traffic"
+  4: "Traffic value"
+  5: "Referring domains"
+  6: "Keywords"
+  7: "Top keyword"
+  8: "Top keyword: Country"
+  9: "Top keyword: Volume"
+  10: "Top keyword: Position"
+  11: "Page type"
+csv_encoding: "UTF-8 (converted from UTF-16LE)"
+csv_delimiter: "tab"
+csv_values_quoted: true
+
+# ------------------------------------------------------------
+# Top 50 pages by traffic (gambling-filtered)
+# ------------------------------------------------------------
+top_pages:
+  extraction: "awk -F'\\t' 'NR>1 && match(tolower($0), /casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy/)==0 {gsub(/\"/, \"\"); print $1\"\\t\"$3+0\"\\t\"$6+0\"\\t\"$7}' file | sort -t$'\\t' -k2 -rn | head -50"
+  source: "clubic_com_top_pages_subdomains_all_actua_2026_03_05_23_06_47.csv"
+  count: 50
+  items:
+    - rank: 1
+      url: "https://www.clubic.com/telecharger-fiche434399-gbwhatsapp.html"
+      traffic: 133706
+      keywords: 1420
+      top_keyword: "gbwhatsapp"
+    - rank: 2
+      url: "https://www.clubic.com/telecharger-fiche433023-whatsapp-desktop-pour-windows.html"
+      traffic: 77655
+      keywords: 1047
+      top_keyword: "whatsapp web"
+    - rank: 3
+      url: "https://www.clubic.com/telecharger-fiche583954-yacine-tv.html"
+      traffic: 68728
+      keywords: 603
+      top_keyword: "yacine tv"
+    - rank: 4
+      url: "https://www.clubic.com/telecharger-fiche440667-chatgpt.html"
+      traffic: 64875
+      keywords: 642
+      top_keyword: "chat gpt"
+    - rank: 5
+      url: "https://www.clubic.com/"
+      traffic: 24527
+      keywords: 85
+      top_keyword: "clubic"
+    - rank: 6
+      url: "https://www.clubic.com/telecharger-fiche434355-tik-tok.html"
+      traffic: 20314
+      keywords: 262
+      top_keyword: "tik tok"
+    - rank: 7
+      url: "https://www.clubic.com/telecharger-fiche431961-google-play-store-apk.html"
+      traffic: 20047
+      keywords: 673
+      top_keyword: "play store install"
+    - rank: 8
+      url: "https://www.clubic.com/telecharger-fiche31279-recuva.html"
+      traffic: 18020
+      keywords: 102
+      top_keyword: "recuva"
+    - rank: 9
+      url: "https://www.clubic.com/telecharger-fiche434317-vidmate.html"
+      traffic: 15556
+      keywords: 529
+      top_keyword: "vidmate apk"
+    - rank: 10
+      url: "https://www.clubic.com/telecharger-fiche436836-efootball-pes-2021.html"
+      traffic: 13232
+      keywords: 292
+      top_keyword: "pes 2024"
+    - rank: 11
+      url: "https://www.clubic.com/actualite-602758-finalement-artemis-iii-n-ira-pas-sur-la-lune-ce-qu-il-faut-savoir-sur-la-decision-choc-de-la-nasa.html"
+      traffic: 10645
+      keywords: 8
+      top_keyword: "nasa"
+    - rank: 12
+      url: "https://www.clubic.com/telecharger-fiche436467-windows-11.html"
+      traffic: 10222
+      keywords: 249
+      top_keyword: "windows 11"
+    - rank: 13
+      url: "https://www.clubic.com/telecharger-fiche24719-youtube-video-downloader.html"
+      traffic: 9712
+      keywords: 697
+      top_keyword: "youtube downloader"
+    - rank: 14
+      url: "https://www.clubic.com/telecharger-fiche433131-youtube-1.html"
+      traffic: 9096
+      keywords: 239
+      top_keyword: "télécharger youtube"
+    - rank: 15
+      url: "https://www.clubic.com/actualite-603118-fuite-yggtorrent-ce-que-contient-et-ne-contient-pas-l-archive-de-11-go-publiee-apres-la-chute-du-site.html"
+      traffic: 9040
+      keywords: 8
+      top_keyword: "ygg"
+    - rank: 16
+      url: "https://www.clubic.com/telecharger-fiche9632-winrar.html"
+      traffic: 7946
+      keywords: 266
+      top_keyword: "winrar"
+    - rank: 17
+      url: "https://www.clubic.com/telecharger-fiche432951-google-traduction-1.html"
+      traffic: 7894
+      keywords: 886
+      top_keyword: "google traduction"
+    - rank: 18
+      url: "https://www.clubic.com/telecharger-fiche434193-lucky-patcher-apk-2.html"
+      traffic: 7733
+      keywords: 178
+      top_keyword: "lucky patcher apk"
+    - rank: 19
+      url: "https://www.clubic.com/telecharger-fiche431577-whatsapp-android.html"
+      traffic: 7181
+      keywords: 397
+      top_keyword: "whatsapp business télécharger"
+    - rank: 20
+      url: "https://www.clubic.com/telecharger-fiche436132-youtube-vanced-youtube-avec-quelques-avantages-en-plus.html"
+      traffic: 7001
+      keywords: 143
+      top_keyword: "youtube vanced"
+    - rank: 21
+      url: "https://www.clubic.com/telecharger-fiche202240-twitter.html"
+      traffic: 6357
+      keywords: 103
+      top_keyword: "x"
+    - rank: 22
+      url: "https://www.clubic.com/telecharger/"
+      traffic: 6190
+      keywords: 454
+      top_keyword: "telecharger"
+    - rank: 23
+      url: "https://www.clubic.com/telecharger-fiche430565-minecraft.html"
+      traffic: 5890
+      keywords: 338
+      top_keyword: "minecraft gratuit"
+    - rank: 24
+      url: "https://www.clubic.com/telecharger-fiche434210-mobdro.html"
+      traffic: 5595
+      keywords: 61
+      top_keyword: "mobdro"
+    - rank: 25
+      url: "https://www.clubic.com/telecharger-fiche440766-onlyfans.html"
+      traffic: 4928
+      keywords: 104
+      top_keyword: "onlyfans app"
+    - rank: 26
+      url: "https://www.clubic.com/telecharger-fiche546134-anime-sama.html"
+      traffic: 4805
+      keywords: 103
+      top_keyword: "anime sama apk"
+    - rank: 27
+      url: "https://www.clubic.com/telecharger-fiche588034-free-fire-advanced-server.html"
+      traffic: 4674
+      keywords: 38
+      top_keyword: "free fire advance"
+    - rank: 28
+      url: "https://www.clubic.com/telecharger-fiche57994-internet-download-manager-idm.html"
+      traffic: 4602
+      keywords: 132
+      top_keyword: "telecharger idm gratuit"
+    - rank: 29
+      url: "https://www.clubic.com/telecharger-fiche585520-brawl-stars-china.html"
+      traffic: 4375
+      keywords: 11
+      top_keyword: "brawl stars chinois"
+    - rank: 30
+      url: "https://www.clubic.com/telecharger-fiche431147-windows-10.html"
+      traffic: 4334
+      keywords: 287
+      top_keyword: "telecharger windows 10"
+    - rank: 31
+      url: "https://www.clubic.com/telecharger-fiche584305-bliss-browser.html"
+      traffic: 4169
+      keywords: 2
+      top_keyword: "bliss browser"
+    - rank: 32
+      url: "https://www.clubic.com/telecharger-fiche433123-outlook-com.html"
+      traffic: 4112
+      keywords: 149
+      top_keyword: "outlook mail"
+    - rank: 33
+      url: "https://www.clubic.com/telecharger-fiche121950-vmware-workstation.html"
+      traffic: 3837
+      keywords: 134
+      top_keyword: "vmware workstation"
+    - rank: 34
+      url: "https://www.clubic.com/telecharger-fiche438153-azar-chat-video-et-streaming.html"
+      traffic: 3832
+      keywords: 37
+      top_keyword: "azar live"
+    - rank: 35
+      url: "https://www.clubic.com/telecharger-fiche442782-call-of-duty-warzone-mobile.html"
+      traffic: 3751
+      keywords: 55
+      top_keyword: "warzone mobile"
+    - rank: 36
+      url: "https://www.clubic.com/telecharger-fiche76372-pdf-xchange-viewer.html"
+      traffic: 3739
+      keywords: 59
+      top_keyword: "pdf xchange viewer"
+    - rank: 37
+      url: "https://www.clubic.com/telecharger-fiche555927-tiktok-lite.html"
+      traffic: 3717
+      keywords: 37
+      top_keyword: "tiktok lite"
+    - rank: 38
+      url: "https://www.clubic.com/telecharger-fiche448456-facebook-lite.html"
+      traffic: 3635
+      keywords: 111
+      top_keyword: "fecebook life"
+    - rank: 39
+      url: "https://www.clubic.com/telecharger-fiche306038-crystaldiskinfo.html"
+      traffic: 3527
+      keywords: 52
+      top_keyword: "crystal disk info"
+    - rank: 40
+      url: "https://www.clubic.com/telecharger-fiche441900-iptv-smarters-pro.html"
+      traffic: 3510
+      keywords: 420
+      top_keyword: "iptv smarters pro apk"
+    - rank: 41
+      url: "https://www.clubic.com/telecharger-fiche434207-betclic.html"
+      traffic: 3481
+      keywords: 84
+      top_keyword: "betclic télécharger"
+    - rank: 42
+      url: "https://www.clubic.com/telecharger-fiche438627-garena-free-fire-max.html"
+      traffic: 3463
+      keywords: 27
+      top_keyword: "free fire max"
+    - rank: 43
+      url: "https://www.clubic.com/telecharger-fiche427634-facebook-messenger.html"
+      traffic: 3389
+      keywords: 122
+      top_keyword: "messenger gratuit"
+    - rank: 44
+      url: "https://www.clubic.com/telecharger-fiche431791-office-2016.html"
+      traffic: 3361
+      keywords: 471
+      top_keyword: "pack office gratuit"
+    - rank: 45
+      url: "https://www.clubic.com/bons-plans-603013-la-nintendo-switch-oled-a-moins-de-215-l-entree-dans-l-univers-nintendo-n-a-jamais-coute-aussi-peu.html"
+      traffic: 3281
+      keywords: 15
+      top_keyword: "switch oled"
+    - rank: 46
+      url: "https://www.clubic.com/actualite-603091-chatgpt-l-hemorragie-continue-sam-altman-fait-il-face-a-un-debut-de-boycott.html"
+      traffic: 3263
+      keywords: 13
+      top_keyword: "sam altman"
+    - rank: 47
+      url: "https://www.clubic.com/actualite-602947-sous-le-feu-des-critiques-openai-veut-deja-assouplir-son-accord-avec-l-armee-us.html"
+      traffic: 3263
+      keywords: 3
+      top_keyword: "sam altman"
+    - rank: 48
+      url: "https://www.clubic.com/actualite-602755-macbook-low-cost-iphone-17e-m5-apple-anticipe-un-rush-historique-en-boutique-cette-semaine.html"
+      traffic: 3240
+      keywords: 25
+      top_keyword: "mac book"
+    - rank: 49
+      url: "https://www.clubic.com/telecharger-fiche437055-roblox-1.html"
+      traffic: 3136
+      keywords: 192
+      top_keyword: "roblox gratuit"
+    - rank: 50
+      url: "https://www.clubic.com/article-77079-1-guide-comparatif-meilleur-antivirus.html"
+      traffic: 3125
+      keywords: 124
+      top_keyword: "meilleur antivirus"
+
+# ------------------------------------------------------------
+# Traffic by page type
+# ------------------------------------------------------------
+traffic_by_page_type:
+  source: "clubic_com_top_pages_subdomains_all_actua_2026_03_05_23_06_47.csv"
+  extraction: "awk classification by URL pattern, gambling-filtered, traffic sum + count per type"
+  software_download:
+    count: 6763
+    total_traffic: 978093
+    pct_of_total_traffic: "79.9%"
+    note: "Dominant content type. Includes telecharger-fiche* app pages + telecharger/ category pages."
+  tech_news:
+    count: 10054
+    total_traffic: 100990
+    pct_of_total_traffic: "8.3%"
+    note: "actualite-* URLs. High page count but low per-page traffic."
+  other:
+    count: 6436
+    total_traffic: 90579
+    pct_of_total_traffic: "7.4%"
+    note: "Homepage, topic hubs (antivirus-securite-informatique, navigateur-web, etc.), forum threads (t/)."
+  reviews:
+    count: 1113
+    total_traffic: 22907
+    pct_of_total_traffic: "1.9%"
+    note: "test-produit/, comparatif/, article-* review pages."
+  tutorials:
+    count: 485
+    total_traffic: 14031
+    pct_of_total_traffic: "1.1%"
+    note: "tutoriels/ how-to content."
+  deals:
+    count: 1253
+    total_traffic: 12896
+    pct_of_total_traffic: "1.1%"
+    note: "bons-plans/ deal/coupon pages."
+  pro_business:
+    count: 294
+    total_traffic: 3512
+    pct_of_total_traffic: "0.3%"
+    note: "pro/ B2B content."
+  magazine:
+    count: 117
+    total_traffic: 258
+    pct_of_total_traffic: "0.0%"
+    note: "mag/ editorial content."
+
+  url_patterns_detected:
+    - pattern: "telecharger-fiche* (individual app pages)"
+      count: 6374
+      traffic: 946920
+    - pattern: "actualite-* (news articles)"
+      count: 6001
+      traffic: 99944
+    - pattern: "t/ (forum/guide threads)"
+      count: 2768
+      traffic: 10530
+    - pattern: "pro/ (business content)"
+      count: 1403
+      traffic: 3883
+    - pattern: "tutoriels/ (tutorials)"
+      count: 501
+      traffic: 14107
+    - pattern: "mag/ (magazine)"
+      count: 509
+      traffic: 261
+    - pattern: "telecharger/ (download categories/index)"
+      count: 359
+      traffic: 30023
+    - pattern: "bons-plans/ (deals)"
+      count: 281
+      traffic: 12896
+    - pattern: "antivirus-securite-informatique/ (security topic hub)"
+      count: 238
+      traffic: 9083
+    - pattern: "reviews/comparisons (test-produit, comparatif, article-*)"
+      count: 1113
+      traffic: 24951
+    - pattern: "other (various topic hubs, homepage)"
+      count: 6436
+      traffic: 70668
+    source: "awk normalized URL path pattern extraction"
+
+# ------------------------------------------------------------
+# Download pages deep analysis
+# ------------------------------------------------------------
+download_pages_analysis:
+  total_download_pages: 6763
+  total_download_traffic: 978093
+  avg_traffic_per_page: 144.62
+  pct_of_site_traffic: "79.9%"
+  source: "clubic_com_top_pages_subdomains_all_actua_2026_03_05_23_06_47.csv"
+  extraction: "awk filtering URLs matching /telecharger/, gambling-filtered, then sum/count"
+
+  url_structure:
+    app_pages:
+      pattern: "telecharger-ficheXXXXXX-app-name.html"
+      count: 6374
+      traffic: 946920
+      note: "Individual software download pages. Flat URL structure with numeric ID."
+    category_index:
+      pattern: "telecharger/ and telecharger/CATEGORY/"
+      count: 177
+      traffic_note: "Category listing pages (e.g., telecharger/windows/, telecharger/mac/)"
+    other_telecharger:
+      pattern: "telecharger-XXX (non-fiche)"
+      count: 225
+      note: "Other download-related pages (aggregators, subcategories)"
+
+  top_download_categories:
+    - category: "other_software"
+      count: 5107
+      traffic: 494341
+      note: "Miscellaneous software not matching specific verticals (utilities, productivity, etc.)"
+    - category: "messaging"
+      count: 21
+      traffic: 225665
+      avg_traffic: 10746
+      note: "WhatsApp, Messenger, Telegram. Extremely high per-page traffic. GBWhatsApp alone = 133K."
+    - category: "social_media"
+      count: 47
+      traffic: 60586
+      avg_traffic: 1289
+      note: "TikTok, YouTube, Twitter/X, Facebook, Instagram, Snapchat."
+    - category: "games"
+      count: 40
+      traffic: 44614
+      avg_traffic: 1115
+      note: "Minecraft, Roblox, Free Fire, PES/eFootball, Brawl Stars, Warzone Mobile."
+    - category: "download_tools"
+      count: 340
+      traffic: 36747
+      avg_traffic: 108
+      note: "IDM, YouTube Downloader, various download managers."
+    - category: "os_office"
+      count: 238
+      traffic: 33474
+      avg_traffic: 141
+      note: "Windows 10/11, Office/Pack Office, Outlook."
+    - category: "media_tools"
+      count: 261
+      traffic: 20487
+      avg_traffic: 78
+      note: "VLC, media players, video/photo editors."
+    - category: "document_tools"
+      count: 147
+      traffic: 13531
+      avg_traffic: 92
+      note: "PDF viewers, document editors."
+    - category: "browser"
+      count: 51
+      traffic: 13080
+      avg_traffic: 256
+      note: "Chrome, Firefox, Opera, Brave, Bliss Browser."
+    - category: "antivirus_security"
+      count: 53
+      traffic: 2749
+      avg_traffic: 52
+      note: "Avast, Kaspersky, Norton, Bitdefender, malware tools."
+    - category: "vpn"
+      count: 56
+      traffic: 1646
+      avg_traffic: 29
+      note: "NordVPN, CyberGhost, ExpressVPN. Low traffic per page in FR market."
+  category_extraction: "keyword-based classification from Top keyword column — messaging (whatsapp|messenger|telegram), social_media (youtube|tiktok|facebook|twitter|instagram|snapchat), games (minecraft|roblox|free fire|brawl|pes|warzone|gta), etc."
+
+# ------------------------------------------------------------
+# Key competitive insights for frees0ft.fr
+# ------------------------------------------------------------
+competitive_insights:
+  - insight: "Software downloads dominate clubic.com traffic (80%)"
+    detail: "6,763 download pages generate 978K traffic — 80% of site total. News (10K pages) generates only 101K traffic (8%)."
+    implication: "Download pages are the primary traffic driver in French software market. frees0ft.fr should prioritize download page quality."
+  - insight: "Messaging apps are traffic monsters"
+    detail: "Just 21 messaging app pages generate 225K traffic (23% of all download traffic). GBWhatsApp alone = 134K."
+    implication: "High-demand app categories (messaging, social media) offer outsized returns per page."
+  - insight: "French URL patterns use 'telecharger' not 'download'"
+    detail: "All download URLs use /telecharger-fiche/ pattern. Top keyword for index is 'telecharger'."
+    implication: "frees0ft.fr French pages should use 'telecharger' in URLs, titles, and H1s."
+  - insight: "Long-tail software pages have modest but consistent traffic"
+    detail: "Average download page gets 145 traffic. Median is likely much lower — top pages skew heavily."
+    implication: "Volume strategy works: 6,374 app pages × ~145 avg = massive aggregate traffic."
+  - insight: "VPN and antivirus are low-traffic in French download market"
+    detail: "VPN: 56 pages, 1,646 traffic (29 avg). Antivirus: 53 pages, 2,749 traffic (52 avg)."
+    implication: "These verticals may perform better in RU/EN markets. French users search differently for security software."
+  - insight: "Flat URL structure works at scale"
+    detail: "clubic.com uses telecharger-ficheXXXXXX-name.html — flat, no category hierarchy in URL."
+    implication: "Simple, flat URL structure can work for 6K+ download pages."
+
+# ------------------------------------------------------------
+# Page statistics
+# ------------------------------------------------------------
+page_stats:
+  total_pages: 26608
+  total_after_gambling_filter: 26515
+  gambling_pages_removed: 93
+  total_traffic_sum: 1223266
+  avg_traffic_per_page: 46.13
+  source: "clubic_com_top_pages_subdomains_all_actua_2026_03_05_23_06_47.csv"
+  extraction: "awk -F'\\t' 'NR>1 && match(tolower($0), /casino|.../)==0 {traffic=$3+0; total+=traffic; count++} END{print count, total, total/count}'"
+
+# ------------------------------------------------------------
+# Gambling filter results
+# ------------------------------------------------------------
+gambling_filtered:
+  pages_removed: 93
+  examples:
+    - "https://www.clubic.com/actualite-552215-voici-la-premiere-application-porno-approuvee-pour-iphone.html"
+    - "https://www.clubic.com/actualite-581926-tiktok-recommanderait-du-porno-aux-enfants-selon-une-enquete.html"
+    - "https://www.clubic.com/actualite-566001-porno-les-sites-tukif-et-xhamster-finalement-debloques-temporairement.html"
+    - "https://www.clubic.com/actualite-546716-jacquie-et-michel-aux-mains-d-un-autre-le-geant-francais-du-porno-et-ses-sites-passent-sous-controle-americain.html"
+    - "https://www.clubic.com/telecharger-fiche438777-gametwist-slots.html"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  note: "93 pages removed. Mostly news articles about adult content regulation + a few slots/gambling app pages."

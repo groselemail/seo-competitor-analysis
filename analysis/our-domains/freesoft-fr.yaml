@@ -1,0 +1,747 @@
+domain: frees0ft.fr
+
+dr:
+  value: 23
+  change: -15
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+
+ur:
+  value: 38
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+
+ahrefs_rank:
+  value: 6769104
+  change: -4660137
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+
+total_organic_traffic:
+  value: 4
+  change: +2
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+  note: "RU filter only (Russian Federation selected in Ahrefs). Real total traffic ~21.6K across all geos — see traffic_by_country from organic_traff_loc_FR.png"
+
+total_organic_keywords:
+  value: 11
+  change: -171
+  top3: 1
+  top3_change: +1
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+  note: "RU filter only. Real keyword count is 731+ (France alone)"
+
+backlinks:
+  total: 117000
+  change: +13500
+  all_time: 575000
+  followed: 110294
+  followed_pct: 94.7
+  not_followed: 6229
+  not_followed_pct: 5.3
+  nofollow: 6229
+  ugc: 0
+  sponsored: 0
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+
+referring_domains:
+  total: 488
+  change: +465
+  all_time: 926
+  followed: 24
+  followed_pct: 4.9
+  not_followed: 464
+  not_followed_pct: 95.1
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+
+ai_citations:
+  ai_overview: 0
+  chatgpt: 0
+  perplexity: 0
+  gemini: 0
+  copilot: 0
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+
+paid_search:
+  paid_keywords: 0
+  paid_traffic: 0
+  ads: 0
+  source: "freesoft_FR_main_overiew.png"
+  extraction: "visual from PNG"
+
+traffic_by_country:
+  total_locations: 56
+  estimated_total_traffic: 21575
+  source: "organic_traff_loc_FR.png"
+  extraction: "visual from PNG — top 15 countries visible"
+  countries:
+    - country: "France"
+      traffic: 12700
+      traffic_change: +12000
+      share_pct: 58.7
+      keywords: 731
+      keywords_change: -6000
+    - country: "Senegal"
+      traffic: 6100
+      traffic_change: +6100
+      share_pct: 28.3
+      keywords: 98
+      keywords_change: -99
+    - country: "Cameroon"
+      traffic: 704
+      traffic_change: -1500
+      share_pct: 3.2
+      keywords: 69
+      keywords_change: -166
+    - country: "Algeria"
+      traffic: 362
+      traffic_change: +148
+      share_pct: 1.7
+      keywords: 131
+      keywords_change: -406
+    - country: "Burkina Faso"
+      traffic: 350
+      traffic_change: -514
+      share_pct: 1.6
+      keywords: 14
+      keywords_change: -45
+    - country: "Morocco"
+      traffic: 335
+      traffic_change: -189
+      share_pct: 1.5
+      keywords: 109
+      keywords_change: -369
+    - country: "Congo, Democratic Republic of the"
+      traffic: 314
+      traffic_change: +130
+      share_pct: 1.4
+      keywords: 42
+      keywords_change: -111
+    - country: "Cote D'Ivoire"
+      traffic: 265
+      traffic_change: +168
+      share_pct: 1.2
+      keywords: 45
+      keywords_change: -158
+    - country: "Togo"
+      traffic: 115
+      traffic_change: -292
+      share_pct: 0.5
+      keywords: 11
+      keywords_change: -58
+    - country: "Belgium"
+      traffic: 92
+      traffic_change: +92
+      share_pct: 0.4
+      keywords: 6
+      keywords_change: -22
+    - country: "Haiti"
+      traffic: 74
+      traffic_change: +7
+      share_pct: 0.3
+      keywords: 37
+      keywords_change: -58
+    - country: "Benin"
+      traffic: 61
+      traffic_change: -377
+      share_pct: 0.3
+      keywords: 6
+      keywords_change: -47
+    - country: "Madagascar"
+      traffic: 48
+      traffic_change: +29
+      share_pct: 0.2
+      keywords: 20
+      keywords_change: -153
+    - country: "Burundi"
+      traffic: 36
+      traffic_change: -24
+      share_pct: 0.2
+      keywords: 1
+      keywords_change: -22
+    - country: "Tunisia"
+      traffic: 19
+      traffic_change: +14
+      share_pct: 0.1
+      keywords: 25
+      keywords_change: -104
+
+duplicates_check:
+  actual_pages:
+    files:
+      - "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_03_45.csv"
+      - "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_11_08.csv"
+    identical: true
+    used_file: "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_03_45.csv"
+    verification: "diff returned exit 0 with no output — files are byte-identical"
+  comparison_pages:
+    files:
+      - "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_03_29.csv"
+      - "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_11_22.csv"
+    identical: true
+    used_file: "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_03_29.csv"
+    verification: "diff returned exit 0 with no output — files are byte-identical"
+
+keyword_stats:
+  total_keywords: 732
+  gambling_filtered: 8
+  total_after_filter: 724
+  avg_position: 24.31
+  total_traffic: 13951
+  source: "frees0ft_fr_organic_keywords_subdomains_fr_2026_03_05_22_20_26.csv"
+  extraction: "awk -F'\\t' with content filter regex, NR>1, sumpos/npos for avg_position"
+
+top_keywords:
+  source: "frees0ft_fr_organic_keywords_subdomains_fr_2026_03_05_22_20_26.csv"
+  extraction: "tail -n+2 | grep -viE gambling_regex | sed 's/\"//g' | sort -t$'\\t' -k10 -rn | head -50"
+  items:
+    - keyword: "null's brawl"
+      volume: 70000
+      traffic: 7786
+      position: 5
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "null's brawl telecharger"
+      volume: 12000
+      traffic: 1743
+      position: 2
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "bsd brawl"
+      volume: 47000
+      traffic: 733
+      position: 12
+      url: "https://frees0ft.fr/android/bsd-brawl/versions/59197-198324"
+    - keyword: "null brawl"
+      volume: 20000
+      traffic: 639
+      position: 9
+      url: "https://frees0ft.fr/android/nulls-brawl"
+    - keyword: "null's brawl apk"
+      volume: 6600
+      traffic: 619
+      position: 4
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "null's brawl android"
+      volume: 3300
+      traffic: 312
+      position: 4
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "nul brawl"
+      volume: 21000
+      traffic: 267
+      position: 13
+      url: "https://frees0ft.fr/android/nulls-brawl"
+    - keyword: "nulls brawl"
+      volume: 15000
+      traffic: 193
+      position: 13
+      url: "https://frees0ft.fr/android/nulls-brawl"
+    - keyword: "creehack"
+      volume: 100
+      traffic: 132
+      position: 1
+      url: "https://frees0ft.fr/android/creehack"
+    - keyword: "null's brawl"
+      volume: 2000
+      traffic: 122
+      position: 6
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "nuls brawl"
+      volume: 1000
+      traffic: 72
+      position: 5
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "null clash"
+      volume: 800
+      traffic: 63
+      position: 5
+      url: "https://frees0ft.fr/android/nulls-clash"
+    - keyword: "null's clash"
+      volume: 1600
+      traffic: 59
+      position: 8
+      url: "https://frees0ft.fr/android/nulls-clash/download/152324"
+    - keyword: "nulls clash"
+      volume: 500
+      traffic: 44
+      position: 5
+      url: "https://frees0ft.fr/android/nulls-clash/download/152324"
+    - keyword: "bsd brawl apk"
+      volume: 450
+      traffic: 38
+      position: 4
+      url: "https://frees0ft.fr/android/bsd-brawl/versions/59197-198324"
+    - keyword: "hushsms"
+      volume: 40
+      traffic: 32
+      position: 1
+      url: "https://frees0ft.fr/android/hushsms"
+    - keyword: "null's brawl derniere version"
+      volume: 300
+      traffic: 29
+      position: 4
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "ccleaner portable"
+      volume: 1900
+      traffic: 29
+      position: 11
+      url: "https://frees0ft.fr/windows/ccleaner_portable/versions"
+    - keyword: "nulls brawl android"
+      volume: 250
+      traffic: 28
+      position: 3
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "stumble guys mod apk"
+      volume: 300
+      traffic: 27
+      position: 4
+      url: "https://frees0ft.fr/android/stumble-guys-mod"
+    - keyword: "planet vpn"
+      volume: 9200
+      traffic: 24
+      position: 20
+      url: "https://frees0ft.fr/windows/besplatnyi-vpn-bystro-i-bezopasno-planet-vpn-12511/versions/2103068-199015"
+    - keyword: "null's brawl telecharger gratuit"
+      volume: 350
+      traffic: 23
+      position: 6
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "installer null's brawl"
+      volume: 200
+      traffic: 23
+      position: 3
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "null's brawl telecharger apk"
+      volume: 300
+      traffic: 22
+      position: 5
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "happy mod apk"
+      volume: 450
+      traffic: 20
+      position: 7
+      url: "https://frees0ft.fr/android/happymod"
+    - keyword: "freesoft"
+      volume: 30
+      traffic: 20
+      position: 1
+      url: "https://frees0ft.fr/"
+    - keyword: "download null's brawl"
+      volume: 300
+      traffic: 18
+      position: 6
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "snapchat + gratuit apk"
+      volume: 700
+      traffic: 17
+      position: 10
+      url: "https://frees0ft.fr/android/snapchat/versions"
+    - keyword: "hack brawl stars android"
+      volume: 150
+      traffic: 17
+      position: 3
+      url: "https://frees0ft.fr/android/lwarb-brawl-stars-mod"
+    - keyword: "whatsapp telecharger gratuit android"
+      volume: 9300
+      traffic: 16
+      position: 22
+      url: "https://frees0ft.fr/android/whatsapp/download"
+    - keyword: "lime torrent"
+      volume: 1000
+      traffic: 16
+      position: 5
+      url: "https://frees0ft.fr/windows/lime_torrent/download"
+    - keyword: "telecharger genybet"
+      volume: 300
+      traffic: 15
+      position: 7
+      url: "https://frees0ft.fr/android/genybet-sport/download/192497"
+    - keyword: "lucky patcher apk"
+      volume: 700
+      traffic: 15
+      position: 6
+      url: "https://frees0ft.fr/android/lucky_patcher_android"
+    - keyword: "fallout 76 torrent"
+      volume: 20
+      traffic: 15
+      position: 1
+      url: "https://frees0ft.fr/windows/fallout-76/download/108065"
+    - keyword: "utorrent 2.2.1"
+      volume: 150
+      traffic: 13
+      position: 3
+      url: "https://frees0ft.fr/windows/utorrent/versions/2-2-1-101318"
+    - keyword: "null's brawl gratuit"
+      volume: 400
+      traffic: 13
+      position: 9
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "daemon tools lite"
+      volume: 1600
+      traffic: 13
+      position: 16
+      url: "https://frees0ft.fr/windows/daemon_tools_lite/versions"
+    - keyword: "anytrans torrent"
+      volume: 10
+      traffic: 13
+      position: 1
+      url: "https://frees0ft.fr/windows/anytrans/download/101989"
+    - keyword: "null's clash of clan"
+      volume: 100
+      traffic: 12
+      position: 4
+      url: "https://frees0ft.fr/android/nulls-clash"
+    - keyword: "sims 4 torrent"
+      volume: 150
+      traffic: 11
+      position: 8
+      url: "https://frees0ft.fr/windows/the_sims_4/download/83858"
+    - keyword: "nuls brown"
+      volume: 150
+      traffic: 11
+      position: 5
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "need for speed torrent"
+      volume: 40
+      traffic: 11
+      position: 2
+      url: "https://frees0ft.fr/windows/need_for_speed_most_wanted/download"
+    - keyword: "fl studio gratuit"
+      volume: 2400
+      traffic: 11
+      position: 19
+      url: "https://frees0ft.fr/windows/fl_studio/download/138768"
+    - keyword: "stumble guys apk mod"
+      volume: 150
+      traffic: 10
+      position: 6
+      url: "https://frees0ft.fr/android/stumble-guys-mod"
+    - keyword: "null's brawl mise a jour"
+      volume: 200
+      traffic: 10
+      position: 7
+      url: "https://frees0ft.fr/android/nulls-brawl/versions"
+    - keyword: "ninjago tournament apk"
+      volume: 100
+      traffic: 10
+      position: 4
+      url: "https://frees0ft.fr/android/lego-ninjago-tournament-mod/versions/104271038-197586"
+    - keyword: "gdps editor 2.2"
+      volume: 100
+      traffic: 10
+      position: 4
+      url: "https://frees0ft.fr/android/gdps-editor/versions/22221-197289"
+    - keyword: "brawl stars apk"
+      volume: 2900
+      traffic: 10
+      position: 20
+      url: "https://frees0ft.fr/android/brawl-stars"
+    - keyword: "telecharger snapchat android"
+      volume: 700
+      traffic: 9
+      position: 13
+      url: "https://frees0ft.fr/android/snapchat/versions"
+    - keyword: "stumble guys hack"
+      volume: 100
+      traffic: 9
+      position: 5
+      url: "https://frees0ft.fr/android/stumble-guys-mod/versions/0816-198129"
+
+keyword_trend:
+  total_in_comparison: 3966
+  gambling_filtered: 43
+  total_after_filter: 3923
+  growing_count: 346
+  declining_count: 3275
+  stable_count: 302
+  new_keywords: 257
+  lost_keywords: 3199
+  total_traffic_change: -1198
+  direction: "declining"
+  note: "Massive keyword losses (3199 lost vs 257 new). Traffic impact moderate (-1198) suggesting lost keywords were mostly low-traffic."
+  source: "frees0ft_fr_organic_keywords_subdomains_fr_2026_03_05_22_21_09.csv"
+  extraction: "awk -F'\\t' with gambling filter, traffic change col 12, position cols 14-15"
+
+top_pages:
+  source: "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_03_45.csv"
+  extraction: "tail -n+2 | grep -viE gambling_regex | sed 's/\"//g' | sort -t$'\\t' -k3 -rn | head -50"
+  items:
+    - url: "https://frees0ft.fr/android/nulls-brawl/versions"
+      traffic: 10854
+      keywords: 21
+      top_keyword: "null's brawl"
+    - url: "https://frees0ft.fr/android/nulls-brawl"
+      traffic: 1108
+      keywords: 15
+      top_keyword: "null brawl"
+    - url: "https://frees0ft.fr/android/bsd-brawl/versions/59197-198324"
+      traffic: 779
+      keywords: 3
+      top_keyword: "bsd brawl"
+    - url: "https://frees0ft.fr/android/creehack"
+      traffic: 134
+      keywords: 3
+      top_keyword: "creehack"
+    - url: "https://frees0ft.fr/android/nulls-clash"
+      traffic: 112
+      keywords: 16
+      top_keyword: "null clash"
+    - url: "https://frees0ft.fr/android/nulls-clash/download/152324"
+      traffic: 111
+      keywords: 6
+      top_keyword: "null's clash"
+    - url: "https://frees0ft.fr/android/stumble-guys-mod"
+      traffic: 56
+      keywords: 13
+      top_keyword: "stumble guys apk mod"
+    - url: "https://frees0ft.fr/android/lwarb-brawl-stars-mod"
+      traffic: 53
+      keywords: 16
+      top_keyword: "hack brawl stars android"
+    - url: "https://frees0ft.fr/android/snapchat/versions"
+      traffic: 45
+      keywords: 12
+      top_keyword: "snapchat + gratuit apk"
+    - url: "https://frees0ft.fr/android/revanced-manager"
+      traffic: 36
+      keywords: 2
+      top_keyword: "revanced manager"
+    - url: "https://frees0ft.fr/android/hushsms"
+      traffic: 36
+      keywords: 3
+      top_keyword: "hushsms"
+    - url: "https://frees0ft.fr/windows/ccleaner_portable/versions"
+      traffic: 29
+      keywords: 1
+      top_keyword: "ccleaner portable"
+    - url: "https://frees0ft.fr/windows/besplatnyi-vpn-bystro-i-bezopasno-planet-vpn-12511/versions/2103068-199015"
+      traffic: 24
+      keywords: 1
+      top_keyword: "planet vpn"
+    - url: "https://frees0ft.fr/windows/lime_torrent/download/45625"
+      traffic: 23
+      keywords: 7
+      top_keyword: "lime torrentz2"
+    - url: "https://frees0ft.fr/android/happymod"
+      traffic: 22
+      keywords: 2
+      top_keyword: "happy mod apk"
+    - url: "https://frees0ft.fr/android/lucky_patcher_android"
+      traffic: 18
+      keywords: 2
+      top_keyword: "lucky patcher apk"
+    - url: "https://frees0ft.fr/"
+      traffic: 18
+      keywords: 1
+      top_keyword: "freesoft"
+    - url: "https://frees0ft.fr/windows/lime_torrent/download"
+      traffic: 16
+      keywords: 1
+      top_keyword: "lime torrent"
+    - url: "https://frees0ft.fr/android/whatsapp/download"
+      traffic: 16
+      keywords: 16
+      top_keyword: "whatsapp telecharger gratuit android"
+    - url: "https://frees0ft.fr/windows/the_sims_4/download/83858"
+      traffic: 15
+      keywords: 4
+      top_keyword: "sims 4 torrent"
+    - url: "https://frees0ft.fr/windows/fallout-76/download/108065"
+      traffic: 15
+      keywords: 1
+      top_keyword: "fallout 76 torrent"
+    - url: "https://frees0ft.fr/android/vidmate/versions"
+      traffic: 15
+      keywords: 6
+      top_keyword: "telecharger vidmate ancienne version"
+    - url: "https://frees0ft.fr/android/snaptube/versions"
+      traffic: 15
+      keywords: 8
+      top_keyword: "telecharger snaptube ancienne version"
+    - url: "https://frees0ft.fr/android/plague-inc-mod/versions/1200-197842"
+      traffic: 15
+      keywords: 4
+      top_keyword: "plague inc premium apk"
+    - url: "https://frees0ft.fr/android/genybet-sport/download/192497"
+      traffic: 15
+      keywords: 1
+      top_keyword: "telecharger genybet"
+    - url: "https://frees0ft.fr/windows/daemon_tools_lite/versions"
+      traffic: 14
+      keywords: 3
+      top_keyword: "daemon tools lite"
+    - url: "https://frees0ft.fr/android/lego-ninjago-tournament-mod/versions/104271038-197586"
+      traffic: 14
+      keywords: 3
+      top_keyword: "ninjago tournament apk"
+    - url: "https://frees0ft.fr/android/brawl-stars"
+      traffic: 14
+      keywords: 7
+      top_keyword: "brawl stars apk"
+    - url: "https://frees0ft.fr/windows/utorrent/versions/2-2-1-101318"
+      traffic: 13
+      keywords: 1
+      top_keyword: "utorrent 2.2.1"
+    - url: "https://frees0ft.fr/windows/need_for_speed_most_wanted/download"
+      traffic: 13
+      keywords: 2
+      top_keyword: "need for speed torrent"
+    - url: "https://frees0ft.fr/windows/anytrans/download/101989"
+      traffic: 13
+      keywords: 1
+      top_keyword: "anytrans torrent"
+    - url: "https://frees0ft.fr/android/gdps-editor/versions/22221-197289"
+      traffic: 13
+      keywords: 3
+      top_keyword: "gdps editor 2.2"
+    - url: "https://frees0ft.fr/windows/fl_studio/download/138768"
+      traffic: 12
+      keywords: 3
+      top_keyword: "fl studio gratuit"
+    - url: "https://frees0ft.fr/android/lucky_patcher_android/versions"
+      traffic: 12
+      keywords: 4
+      top_keyword: "lucky patcher apk ancienne version"
+    - url: "https://frees0ft.fr/android/brawl-stars/versions"
+      traffic: 10
+      keywords: 4
+      top_keyword: "old brawl stars apk"
+    - url: "https://frees0ft.fr/windows/pdfcreator/versions"
+      traffic: 9
+      keywords: 1
+      top_keyword: "pdf creator gratuit ancienne version"
+    - url: "https://frees0ft.fr/android/stumble-guys-mod/versions/0816-198129"
+      traffic: 9
+      keywords: 1
+      top_keyword: "stumble guys hack"
+    - url: "https://frees0ft.fr/windows/whatsapp_recovery/download/42221?YikXpq=pQOslCzgFoJp8Y"
+      traffic: 8
+      keywords: 2
+      top_keyword: "tenorshare ultdata whatsapp recovery"
+    - url: "https://frees0ft.fr/windows/winzip/download"
+      traffic: 7
+      keywords: 1
+      top_keyword: "winzip torrent"
+    - url: "https://frees0ft.fr/windows/fl_studio/download/107620"
+      traffic: 7
+      keywords: 2
+      top_keyword: "torrent fl studio"
+    - url: "https://frees0ft.fr/android/nulls-brawl/versions/60420-198722"
+      traffic: 7
+      keywords: 2
+      top_keyword: "null's brawl android"
+    - url: "https://frees0ft.fr/android/filmoflix/versions/15-196583"
+      traffic: 7
+      keywords: 13
+      top_keyword: "filmoflix apk"
+    - url: "https://frees0ft.fr/android/boat_browser_dlya_planshetov/download"
+      traffic: 7
+      keywords: 1
+      top_keyword: "boat browser"
+    - url: "https://frees0ft.fr/windows/games/windows-7/32-bit"
+      traffic: 6
+      keywords: 1
+      top_keyword: "telecharger jeux pc gratuit windows 7"
+    - url: "https://frees0ft.fr/windows/games"
+      traffic: 6
+      keywords: 4
+      top_keyword: "gamefreesoft"
+    - url: "https://frees0ft.fr/windows/fl_studio/versions/21103713-194878"
+      traffic: 6
+      keywords: 3
+      top_keyword: "fl studio 21 download"
+    - url: "https://frees0ft.fr/windows/emule/versions/0-60d-137937"
+      traffic: 6
+      keywords: 2
+      top_keyword: "emule 0.60"
+    - url: "https://frees0ft.fr/android/stumble-guys-mod/download"
+      traffic: 6
+      keywords: 1
+      top_keyword: "mod stumble guys"
+    - url: "https://frees0ft.fr/windows/silo/download"
+      traffic: 5
+      keywords: 1
+      top_keyword: "silo torrent"
+    - url: "https://frees0ft.fr/windows/indesign/download/156208"
+      traffic: 5
+      keywords: 1
+      top_keyword: "indesign torrent"
+
+pages_stats:
+  total_pages: 487
+  gambling_filtered: 2
+  total_after_filter: 485
+  total_traffic: 13989
+  source: "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_03_45.csv"
+  extraction: "awk -F'\\t' with content filter regex"
+
+pages_trend:
+  total_in_comparison: 1930
+  gambling_filtered: 5
+  total_after_filter: 1925
+  growing_pages_count: 255
+  declining_pages_count: 1506
+  stable_pages_count: 164
+  new_pages: 204
+  lost_pages: 1441
+  net_traffic_change: 641
+  direction: "mixed"
+  note: "Net traffic positive (+641) despite massive page losses (1441 lost vs 204 new). Traffic concentration increasing — fewer pages carrying more traffic."
+  source: "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_03_29.csv"
+  extraction: "awk -F'\\t' with gambling filter, traffic change col 6, status col 2"
+
+ru_pages_comparison:
+  total_ru_pages: 163
+  total_current_ru_traffic: 3
+  net_ru_traffic_change: 2
+  note: "RU traffic on FR domain is negligible (3 total). Cross-language overlap is minimal."
+  source: "frees0ft_fr_top_pages_subdomains_ru_compa_2026_03_05_22_22_00.csv"
+  extraction: "awk -F'\\t' 'NR>1 {sum+=$5; change+=$6; n++} END{print n, sum, change}'"
+
+performance_ru:
+  data_points: 731
+  date_range: "2024-03-05 to 2026-03-05"
+  avg_daily_traffic: 2.15
+  first_month_avg: 2.61
+  last_month_avg: 3.61
+  trend_direction: "stable"
+  note: "COMMA-delimited ASCII file. RU traffic negligible throughout (2-5 daily). Slight upward drift but effectively flat."
+  source: "frees0ft.fr-perf-subdomains_year2_daily_2026-03-05_22-22-53.csv"
+  extraction: "awk -F',' col 3 = Organic traffic (Average volume - Russian Federation)"
+  sample_first: "2024-03-05: pages=119, traffic=3"
+  sample_last: "2026-03-05: pages=8, traffic=5"
+
+performance_fr:
+  data_points: 731
+  date_range: "2024-03-05 to 2026-03-05"
+  avg_daily_traffic: 3459.61
+  first_month_avg: 566.55
+  last_month_avg: 8521.29
+  trend_direction: "strongly_growing"
+  note: "COMMA-delimited ASCII file. FR traffic grew ~15x over 2 years (from ~650 to ~14,000 daily). Organic pages declined from ~4,000 to ~488, but traffic per page increased dramatically."
+  source: "frees0ft.fr-perf-subdomains_year2_daily_2026-03-05_23-03-23.csv"
+  extraction: "awk -F',' col 3 = Organic traffic (Average volume - France)"
+  sample_first: "2024-03-05: pages=4052, traffic=650"
+  sample_last: "2026-03-05: pages=487, traffic=14023"
+
+gambling_filtered:
+  keywords_removed: 8
+  keywords_comparison_removed: 43
+  pages_removed: 2
+  pages_comparison_removed: 5
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy)"
+
+summary:
+  domain: "frees0ft.fr"
+  dr: 23
+  real_total_traffic: 21575
+  primary_market: "France (58.7%)"
+  secondary_market: "Francophone Africa — Senegal (28.3%), Cameroon (3.2%), Algeria (1.7%)"
+  traffic_hero: "null's brawl cluster (10,854 traffic on top page alone, ~80% of total FR traffic)"
+  key_insight: "Traffic is extremely concentrated — nulls-brawl pages alone drive ~90% of all traffic. Organic pages dropped from 4,052 to 487 over 2 years, but traffic grew 15x due to a few viral game mod pages."
+  risk: "High single-product dependency on null's brawl. If this game loses popularity or the page drops in rankings, traffic collapses."
+  ru_overlap: "Negligible — only 3 RU traffic on the FR domain."

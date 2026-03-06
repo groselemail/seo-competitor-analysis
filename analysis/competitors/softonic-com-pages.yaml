@@ -1,0 +1,253 @@
+# ============================================================
+# 05b — softonic.com Top Pages Analysis
+# Generated: 2026-03-06
+# Pipeline: Phase 1, Task 05b
+# ============================================================
+# Source CSVs: Ahrefs top_pages export, ALL locations, subdomains included
+# Both actual and comparison files use ALL locations filter.
+# ============================================================
+
+domain: softonic.com
+
+# ============================================================
+# PAGE STATS
+# ============================================================
+page_stats:
+  total_pages_in_csv: 30000
+  total_after_gambling_filter: 29450
+  gambling_pages_removed: 550
+  total_traffic_sum: 38017115
+  avg_traffic_per_page: 1290.9
+  source: "softonic_com_top_pages_subdomains_all_act_2026_03_05_23_04_55.csv"
+  extraction: "awk -F'\\t' 'NR>1 { if gambling_filter next; sum += $3; count++ } END { print count, sum, sum/count }'"
+
+# ============================================================
+# TOP 50 PAGES BY TRAFFIC
+# ============================================================
+# Extraction: awk gambling_filter | sort by traffic desc | head -50
+# Source: softonic_com_top_pages_subdomains_all_act_2026_03_05_23_04_55.csv
+# Columns: URL=$1, Traffic=$3, Keywords=$6, Top keyword=$7
+top_pages:
+  source: "softonic_com_top_pages_subdomains_all_act_2026_03_05_23_04_55.csv"
+  extraction: "awk -F'\\t' 'NR>1 { gambling_filter; print $3,$1,$6,$7 }' | sort -rn | head -50"
+  data:
+    - { url: "https://happymod-bk5.softonic.com/android/descargar", traffic: 597661, keywords: 285, top_keyword: "happymod" }
+    - { url: "https://happymod-bk5.softonic.com/android", traffic: 500347, keywords: 508, top_keyword: "happymod" }
+    - { url: "https://capcut.en.softonic.com/android", traffic: 396422, keywords: 1361, top_keyword: "capcut download" }
+    - { url: "https://capcut.en.softonic.com/android/versions", traffic: 334452, keywords: 966, top_keyword: "capcut apk" }
+    - { url: "https://tik-tok.en.softonic.com/", traffic: 279812, keywords: 1574, top_keyword: "tik tok download" }
+    - { url: "https://garena-free-fire-max.en.softonic.com/android/download", traffic: 256241, keywords: 1955, top_keyword: "free fire max" }
+    - { url: "https://capcut.en.softonic.com/", traffic: 247841, keywords: 1359, top_keyword: "capcut app" }
+    - { url: "https://vidmate.fr.softonic.com/", traffic: 232884, keywords: 342, top_keyword: "vidmate" }
+    - { url: "https://free-fire-gameloop.en.softonic.com/", traffic: 232862, keywords: 2515, top_keyword: "free fire" }
+    - { url: "https://daman-game-llh.en.softonic.com/android/download", traffic: 220967, keywords: 236, top_keyword: "daman game login" }
+    - { url: "https://vidmate.en.softonic.com/", traffic: 208700, keywords: 2326, top_keyword: "vidmate download" }
+    - { url: "https://daman-777.en.softonic.com/android", traffic: 208492, keywords: 241, top_keyword: "daman game" }
+    - { url: "https://vidmate.en.softonic.com/android/download", traffic: 197952, keywords: 1530, top_keyword: "vidmate apk" }
+    - { url: "https://9kboss.en.softonic.com/android", traffic: 190095, keywords: 4, top_keyword: "9kboss" }
+    - { url: "https://minecraft.en.softonic.com/android", traffic: 178307, keywords: 894, top_keyword: "minecraft apk download" }
+    - { url: "https://91-club-wingo.en.softonic.com/android", traffic: 173319, keywords: 338, top_keyword: "91 club login" }
+    - { url: "https://xender.en.softonic.com/android/download", traffic: 171009, keywords: 673, top_keyword: "xender apk" }
+    - { url: "https://free-fire-advance-server.en.softonic.com/android", traffic: 160869, keywords: 1204, top_keyword: "free fire advance server" }
+    - { url: "https://magis-tv-peliculas.softonic.com/android", traffic: 158236, keywords: 164, top_keyword: "magis tv" }
+    - { url: "https://free-iit-jee-maths-solutions-ncert-cbse-doubts-app.en.softonic.com/android", traffic: 154723, keywords: 295, top_keyword: "doubtnut" }
+    - { url: "https://91-club-colour-prediction-ac4.en.softonic.com/android", traffic: 150848, keywords: 285, top_keyword: "91 club" }
+    - { url: "https://grand-theft-auto-vice-city.en.softonic.com/", traffic: 141125, keywords: 1092, top_keyword: "gta vice city download" }
+    - { url: "https://ok-win-game.en.softonic.com/android", traffic: 133091, keywords: 136, top_keyword: "ok win" }
+    - { url: "https://vidmate.en.softonic.com/android/versions", traffic: 130845, keywords: 2001, top_keyword: "vidmate 2014" }
+    - { url: "https://surflix.en.softonic.com/android", traffic: 121400, keywords: 61, top_keyword: "surflix" }
+    - { url: "https://vidmate.en.softonic.com/android", traffic: 120785, keywords: 1741, top_keyword: "vidmate" }
+    - { url: "https://en.softonic.com/", traffic: 116131, keywords: 586, top_keyword: "softonic" }
+    - { url: "https://bilibili.en.softonic.com/android/download", traffic: 109993, keywords: 239, top_keyword: "bilibili" }
+    - { url: "https://movierulz-site.en.softonic.com/android", traffic: 107950, keywords: 790, top_keyword: "movierulz 2025 download" }
+    - { url: "https://xxvi-video-player-hd-videos-2mu.en.softonic.com/android", traffic: 107611, keywords: 115, top_keyword: "xxvi video player apps" }
+    - { url: "https://fikfap-short-video-trend.en.softonic.com/android", traffic: 104912, keywords: 393, top_keyword: "fik fap" }
+    - { url: "https://anydesk.softonic.com/", traffic: 104752, keywords: 407, top_keyword: "anydesk descargar" }
+    - { url: "https://microsoft-word.en.softonic.com/", traffic: 102125, keywords: 1474, top_keyword: "ms word" }
+    - { url: "https://tiranga-games-gjf.en.softonic.com/android", traffic: 100988, keywords: 169, top_keyword: "tiranga game" }
+    - { url: "https://91-club-colour-prediction-sed.en.softonic.com/android", traffic: 100440, keywords: 593, top_keyword: "91 club" }
+    - { url: "https://ibomma-telugu-movie-helper.en.softonic.com/android", traffic: 99113, keywords: 1148, top_keyword: "ibomma telugu movies" }
+    - { url: "https://taptap-android.en.softonic.com/android", traffic: 93181, keywords: 1280, top_keyword: "tap tap" }
+    - { url: "https://grand-theft-auto-san-andreas.en.softonic.com/android", traffic: 91633, keywords: 1389, top_keyword: "gta san andreas" }
+    - { url: "https://daman-games-official-uw7.en.softonic.com/android", traffic: 89507, keywords: 423, top_keyword: "daman game login" }
+    - { url: "https://microsoft-teams.en.softonic.com/", traffic: 88091, keywords: 758, top_keyword: "teams download" }
+    - { url: "https://xxvi-video-player-all-format-7wa.en.softonic.com/android", traffic: 88050, keywords: 447, top_keyword: "xxiv video player free download" }
+    - { url: "https://fikfap.en.softonic.com/android", traffic: 86287, keywords: 199, top_keyword: "fik fap" }
+    - { url: "https://adobe-photoshop.en.softonic.com/", traffic: 85165, keywords: 2179, top_keyword: "adobe photoshop" }
+    - { url: "https://free-fire-advance-server.softonic.com/android", traffic: 85097, keywords: 314, top_keyword: "servidor avanzado de free fire" }
+    - { url: "https://capcut.en.softonic.com/download", traffic: 83617, keywords: 646, top_keyword: "capcut 2025" }
+    - { url: "https://91-club-colour-prediction-sed.en.softonic.com/android/download", traffic: 82969, keywords: 173, top_keyword: "91 club login" }
+    - { url: "https://bdg-win-spin.en.softonic.com/android", traffic: 81625, keywords: 27, top_keyword: "bdg win" }
+    - { url: "https://anime-sama.fr.softonic.com/android", traffic: 81436, keywords: 225, top_keyword: "anime sama" }
+    - { url: "https://ultraviewer.en.softonic.com/", traffic: 80310, keywords: 661, top_keyword: "ultraviewer" }
+    - { url: "https://vlc-media-player.en.softonic.com/download", traffic: 78830, keywords: 886, top_keyword: "vlc media player download" }
+
+# ============================================================
+# TRAFFIC BY PAGE TYPE
+# ============================================================
+# Classification logic:
+#   - catalog_page: host is 2-letter lang code (en.softonic.com, fr.softonic.com, etc.)
+#   - app_download: app subdomain + path contains /android, /download, /iphone, /mac, /chrome, /descargar, etc.
+#   - app_main: app subdomain + root path (app homepage)
+#   - app_versions: app subdomain + /versions path
+#   - app_alternatives: app subdomain + /alternatives path
+traffic_by_page_type:
+  source: "softonic_com_top_pages_subdomains_all_act_2026_03_05_23_04_55.csv"
+  extraction: "awk host/path classification, sum traffic per type"
+  data:
+    app_download:
+      count: 20169
+      total_traffic: 27242105
+      pct_of_total_traffic: 71.7
+    app_main:
+      count: 7164
+      total_traffic: 8895124
+      pct_of_total_traffic: 23.4
+    app_versions:
+      count: 287
+      total_traffic: 708776
+      pct_of_total_traffic: 1.9
+    catalog_page:
+      count: 1092
+      total_traffic: 673865
+      pct_of_total_traffic: 1.8
+    app_alternatives:
+      count: 738
+      total_traffic: 497245
+      pct_of_total_traffic: 1.3
+  summary: "App pages (download+main+versions) = 97.0% of traffic. Catalog/listing = 1.8%. Alternatives = 1.3%."
+
+  url_patterns_detected:
+    - { pattern: "/android", count: 17922, traffic: 25963104 }
+    - { pattern: "/" (root), count: 6774, traffic: 8738021 }
+    - { pattern: "/download", count: 920, traffic: 1344573 }
+    - { pattern: "/iphone", count: 761, traffic: 393214 }
+    - { pattern: "/downloads", count: 693, traffic: 363065 }
+    - { pattern: "/chrome", count: 699, traffic: 332931 }
+    - { pattern: "/web-apps", count: 210, traffic: 211899 }
+    - { pattern: "/descargar", count: 265, traffic: 204674 }
+    - { pattern: "/mac", count: 379, traffic: 115249 }
+    - { pattern: "/descargas", count: 166, traffic: 60928 }
+    - { pattern: "/aplicaciones-web", count: 64, traffic: 60311 }
+    - { pattern: "/telecharger", count: 116, traffic: 55132 }
+    - { pattern: "/applicazioni-web", count: 24, traffic: 26274 }
+    - { pattern: "/articulos", count: 64, traffic: 25768 }
+    - { pattern: "/windows", count: 74, traffic: 25396 }
+
+# ============================================================
+# TRAFFIC BY LANGUAGE (FROM URL SUBDOMAINS)
+# ============================================================
+# Detection method: parse subdomain before .softonic.com,
+#   last 2-letter segment = language code.
+#   app-name.softonic.com (no lang segment) = "es" (Spanish, default).
+#   en.softonic.com = "en", etc.
+# Note: "xc" (1 page, 143 traffic) is likely an app subdomain false positive.
+traffic_by_language_from_pages:
+  source: "softonic_com_top_pages_subdomains_all_act_2026_03_05_23_04_55.csv"
+  extraction: "awk parsing subdomain prefix from URL, last 2-char segment = lang"
+  data:
+    - { language: "en", pages_count: 19338, total_traffic: 29266262, pct_traffic: 77.0 }
+    - { language: "es", pages_count: 4290, total_traffic: 5225159, pct_traffic: 13.7 }
+    - { language: "fr", pages_count: 2505, total_traffic: 1755847, pct_traffic: 4.6 }
+    - { language: "vi", pages_count: 1414, total_traffic: 1206387, pct_traffic: 3.2 }
+    - { language: "it", pages_count: 958, total_traffic: 284580, pct_traffic: 0.7 }
+    - { language: "de", pages_count: 944, total_traffic: 278737, pct_traffic: 0.7 }
+    - { language: "xc", pages_count: 1, total_traffic: 143, pct_traffic: 0.0, note: "likely app subdomain false positive (xc.softonic.com)" }
+  summary: |
+    English dominates with 77% of traffic from 65.7% of pages.
+    Spanish is 2nd with 13.7% traffic from 14.6% of pages.
+    French is 3rd with 4.6% traffic from 8.5% of pages.
+    Vietnamese is 4th with 3.2% traffic, notable emerging market.
+    Italian and German each ~0.7% traffic.
+    6 real languages detected (excluding xc false positive).
+
+# ============================================================
+# PAGES TREND (COMPARISON DATA)
+# ============================================================
+pages_trend:
+  note: "Both actual and comparison CSVs use ALL locations filter"
+  source: "softonic_com_top_pages_subdomains_all_com_2026_03_05_23_04_30.csv"
+  extraction: "awk counting $6 (Traffic change column); gambling filter applied"
+  comparison_csv_total_rows: 30000
+  comparison_csv_gambling_removed: 586
+  total_pages_in_comparison: 29414
+  growing_pages_count: 17234
+  growing_pages_traffic_sum: 15822565
+  declining_pages_count: 11836
+  declining_pages_traffic_sum: -12342676
+  stable_pages_count: 344
+  net_traffic_change: 3479889
+  summary: |
+    Net positive: +3.48M traffic change.
+    58.6% of pages growing vs 40.2% declining, 1.2% stable.
+    Growing pages gained +15.8M, declining pages lost -12.3M.
+
+# ============================================================
+# TOP 10 GROWING PAGES
+# ============================================================
+top_growing_pages:
+  source: "softonic_com_top_pages_subdomains_all_com_2026_03_05_23_04_30.csv"
+  extraction: "awk gambling_filter | sort by $6 desc | head -10"
+  data:
+    - { url: "https://capcut.en.softonic.com/android/versions", traffic_change: 233276 }
+    - { url: "https://daman-game-llh.en.softonic.com/android/download", traffic_change: 220967 }
+    - { url: "https://daman-777.en.softonic.com/android", traffic_change: 208492 }
+    - { url: "https://vidmate.fr.softonic.com/", traffic_change: 194603 }
+    - { url: "https://9kboss.en.softonic.com/android", traffic_change: 190095 }
+    - { url: "https://vidmate.en.softonic.com/", traffic_change: 185527 }
+    - { url: "https://91-club-wingo.en.softonic.com/android", traffic_change: 173319 }
+    - { url: "https://capcut.en.softonic.com/android", traffic_change: 172704 }
+    - { url: "https://magis-tv-peliculas.softonic.com/android", traffic_change: 158236 }
+    - { url: "https://free-iit-jee-maths-solutions-ncert-cbse-doubts-app.en.softonic.com/android", traffic_change: 145999 }
+
+# ============================================================
+# TOP 10 DECLINING PAGES
+# ============================================================
+top_declining_pages:
+  source: "softonic_com_top_pages_subdomains_all_com_2026_03_05_23_04_30.csv"
+  extraction: "awk gambling_filter | sort by $6 asc | head -10"
+  data:
+    - { url: "https://happymod-bk5.softonic.com/android", traffic_change: -1142118 }
+    - { url: "https://happymod-bk5.softonic.com/android/descargar", traffic_change: -490161 }
+    - { url: "https://happymod-bk5.en.softonic.com/android", traffic_change: -479930 }
+    - { url: "https://happymod-bk5.fr.softonic.com/android", traffic_change: -380695 }
+    - { url: "https://free-fire-advance-server.en.softonic.com/android/download", traffic_change: -292105 }
+    - { url: "https://whatsapp-web.softonic.com/aplicaciones-web", traffic_change: -250722 }
+    - { url: "https://free-fire-gameloop.en.softonic.com/", traffic_change: -207699 }
+    - { url: "https://free-fire-advance-server.softonic.com/android/descargar", traffic_change: -124680 }
+    - { url: "https://garena-free-fire-max.softonic.com/android/descargar", traffic_change: -117484 }
+    - { url: "https://daman-game-btp.en.softonic.com/android", traffic_change: -106250 }
+
+# ============================================================
+# GAMBLING FILTER
+# ============================================================
+gambling_filtered:
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy|букмекер|казино|ставки|порно)"
+  actual_csv:
+    pages_removed: 550
+    total_pages: 30000
+    source: "softonic_com_top_pages_subdomains_all_act_2026_03_05_23_04_55.csv"
+  comparison_csv:
+    pages_removed: 586
+    total_pages: 30000
+    source: "softonic_com_top_pages_subdomains_all_com_2026_03_05_23_04_30.csv"
+  examples:
+    - "https://yono-rummy.en.softonic.com/android"
+    - "https://1x-bet-sports-betting-app.en.softonic.com/android"
+    - "https://yono-rummy-games.en.softonic.com/android"
+    - "https://rummy-golds.en.softonic.com/android"
+    - "https://rummy-wealth.en.softonic.com/android"
+
+# ============================================================
+# KEY INSIGHTS FOR PIPELINE
+# ============================================================
+key_insights:
+  - "softonic.com drives 97% of traffic from individual app pages (download + main). Catalog/listing pages contribute only 1.8%."
+  - "English pages dominate with 77% of total traffic across 65.7% of pages — highest traffic density per page."
+  - "Spanish (default language) accounts for 13.7% traffic, French 4.6%, Vietnamese 3.2%."
+  - "6 languages detected via subdomains: en, es, fr, vi, it, de."
+  - "Net traffic trend is positive: +3.48M change, with 58.6% of pages growing."
+  - "HappyMod is the biggest decliner (-2.1M combined across subdomains), while CapCut and Vidmate are growing strongly."
+  - "Top keyword themes: video editors (capcut), media downloaders (vidmate), mobile games (free fire), productivity (ms word, teams, photoshop)."
+  - "/android is the dominant path pattern (17,922 pages, 25.96M traffic) — mobile-first strategy."
+  - "Gambling filter removed 550 pages (1.8%) from actual CSV — mostly rummy and betting apps."

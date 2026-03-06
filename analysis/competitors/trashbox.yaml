@@ -1,0 +1,193 @@
+# 07b-trashbox.yaml — trashbox.ru site structure & language analysis
+# Generated: 2026-03-06
+# Task: Phase 1, Task 07b — verify trashbox.ru as Russian-only competitor
+
+domain: trashbox.ru
+
+dr:
+  value: 54
+  source: "trashbox_ru_US_overview.png"
+  extraction: "key_metrics from 00-manifest.yaml (PNG not on disk)"
+
+total_organic_traffic:
+  value: 991000
+  display: "991K"
+  source: "trashbox_ru_US_overview.png"
+  extraction: "key_metrics from 00-manifest.yaml (PNG not on disk)"
+
+total_keywords:
+  value: 64400
+  display: "64.4K"
+  source: "trashbox_ru_US_overview.png"
+  extraction: "key_metrics from 00-manifest.yaml (PNG not on disk)"
+
+decline:
+  traffic_change: -893000
+  traffic_change_display: "-893K"
+  keywords_change: -323000
+  keywords_change_display: "-323K"
+  source: "trashbox_ru_US_overview.png"
+  extraction: "key_metrics from 00-manifest.yaml (PNG not on disk)"
+  note: "Massive decline — monolingual Russian competitor losing ~47% of traffic. Relevant for single-language competitor analysis."
+
+country_distribution:
+  - country: "Russian Federation"
+    traffic: 991200
+    display: "991.2K"
+    share_pct: 73.8
+  - country: "Kazakhstan"
+    traffic: 92000
+    display: "92K"
+    share_pct: 6.8
+  - country: "Belarus"
+    traffic: 76100
+    display: "76.1K"
+    share_pct: 5.7
+  - country: "Uzbekistan"
+    traffic: 63400
+    display: "63.4K"
+    share_pct: 4.7
+  source: "trashbox_ru_US_overview.png"
+  extraction: "key_metrics.top_countries from 00-manifest.yaml"
+  note: "All CIS/Russian-speaking countries — confirms single-language audience"
+
+traffic_by_language:
+  - subdomain_or_folder: "trashbox.ru"
+    traffic: 1009540
+    share_pct: 100.0
+    keywords: 64581
+    pages: 9317
+    entries_in_csv: 29995
+    source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+    extraction: "awk -F'\\t' 'NR>1 ... aggregate by subdomain root' | sort -k2 -rn"
+
+  - subdomain_or_folder: "www.trashbox.ru"
+    traffic: 0
+    share_pct: 0.0
+    keywords: 0
+    pages: 0
+    entries_in_csv: 1
+    note: "WWW redirect — no independent traffic"
+    source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+
+  - subdomain_or_folder: "nokia-n95.trashbox.ru"
+    traffic: 0
+    share_pct: 0.0
+    keywords: 0
+    pages: 0
+    entries_in_csv: 2
+    note: "Legacy device subdomain — defunct, zero traffic"
+    source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+
+  - subdomain_or_folder: "nokia-c5-00.trashbox.ru"
+    traffic: 0
+    share_pct: 0.0
+    keywords: 0
+    pages: 0
+    entries_in_csv: 2
+    note: "Legacy device subdomain — defunct, zero traffic"
+    source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+
+language_structure: "single_language"
+total_languages_detected: 1
+top_languages: ["ru"]
+language_determination_method: |
+  1. No language-coded subdomains found (grep -iE '^[a-z]{2}\.' returned empty)
+  2. All 4 subdomains are either the main domain, www redirect, or legacy device subdomains
+  3. Country distribution is 100% CIS/Russian-speaking markets (RU 73.8%, KZ 6.8%, BY 5.7%, UZ 4.7%)
+  4. All content paths are in Russian (/link/*, /topics/*, /games/*, /apps/*)
+
+content_subdomains:
+  - subdomain: "www.trashbox.ru"
+    traffic: 0
+    note: "WWW redirect — not language, not content"
+    source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+
+  - subdomain: "nokia-n95.trashbox.ru"
+    traffic: 0
+    note: "Legacy Nokia N95 device subdomain — defunct"
+    source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+
+  - subdomain: "nokia-c5-00.trashbox.ru"
+    traffic: 0
+    note: "Legacy Nokia C5-00 device subdomain — defunct"
+    source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+
+content_sections:
+  note: "Major content folders within trashbox.ru (not separate subdomains)"
+  sections:
+    - path: "trashbox.ru/link"
+      traffic: 973012
+      keywords: 60047
+      pages: 8368
+      note: "App download pages — bulk of traffic"
+    - path: "trashbox.ru/topics"
+      traffic: 14739
+      keywords: 2358
+      pages: 760
+      note: "Forum/article topics"
+    - path: "trashbox.ru/games"
+      traffic: 8096
+      keywords: 1816
+      pages: 54
+      note: "Games category"
+    - path: "trashbox.ru/games/android"
+      traffic: 7728
+      keywords: 1647
+      pages: 27
+      note: "Android games subcategory"
+    - path: "trashbox.ru/apps"
+      traffic: 6245
+      keywords: 2066
+      pages: 107
+      note: "Apps category"
+    - path: "trashbox.ru/apps/android"
+      traffic: 6162
+      keywords: 1916
+      pages: 70
+      note: "Android apps subcategory"
+  source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+  extraction: "awk sort by traffic col 4 | head -50"
+
+total_subdomains: 4
+subdomains_with_traffic_over_100: 1
+total_csv_entries: 30000
+entries_with_traffic_over_100: 761
+entries_with_traffic_lte_100: 29239
+traffic_from_entries_lte_100: 77379
+
+csv_integrity:
+  expected_rows: 30001
+  actual_rows: 30001
+  status: "PASS"
+  columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic cost", "Paid keywords", "Paid pages"]
+  column_count: 11
+  source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+
+gambling_filtered:
+  entries_removed: 19
+  note: "Most matches are poker/roulette game apps, not actual gambling sites. Includes false positives like 'buckshot-roulette' (indie game) and 'bessporno' (Russian word meaning 'undoubtedly')."
+  examples:
+    - "trashbox.ru/link/buckshot-roulette-android"
+    - "trashbox.ru/link/poker-offline-texas-holdem-android"
+    - "trashbox.ru/link/alcatraz-slots-android"
+    - "trashbox.ru/topics/62803/pokerstars"
+    - "trashbox.ru/link/online-russian-roulette-android"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy)"
+  source: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+  extraction: "awk -F'\\t' 'NR>1 && tolower($0) ~ /casino|gambling|.../' | wc -l"
+
+summary: |
+  trashbox.ru is confirmed as a single-language (Russian) competitor with NO multilingual
+  subdomains or language folders. All 4 subdomains found are either the main domain,
+  a www redirect, or legacy Nokia device subdomains (all with zero traffic).
+
+  The site is experiencing massive decline: -893K traffic (-47%), -323K keywords.
+  Its audience is exclusively CIS/Russian-speaking (RU 73.8%, KZ 6.8%, BY 5.7%, UZ 4.7%).
+
+  This supports the hypothesis that monolingual Russian software download sites may face
+  structural headwinds, making trashbox.ru a relevant control case for the multilingual
+  expansion analysis.
+
+  Site structure: ~96% of traffic flows through /link/ (app download pages),
+  with /topics/, /games/, and /apps/ as minor content sections.

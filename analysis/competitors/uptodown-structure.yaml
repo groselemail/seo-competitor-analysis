@@ -1,0 +1,310 @@
+# =============================================================================
+# 04a — uptodown.com Site Structure & Language Distribution
+# Generated: 2026-03-06
+# Task: Phase 1, Task 04a — SEO competitor analysis pipeline
+# =============================================================================
+
+domain: uptodown.com
+
+# -----------------------------------------------------------------------------
+# Overview metrics (from PNG screenshot)
+# -----------------------------------------------------------------------------
+dr:
+  value: "ФАЙЛ ОТСУТСТВУЕТ"
+  source: "uptodown_com_US_overview.png"
+  extraction: "visual from PNG"
+  note: "PNG file not found at pipeline-seo/data_for_task/uptodown_com_US_overview.png — directory does not exist"
+
+total_organic_traffic:
+  value: "ФАЙЛ ОТСУТСТВУЕТ"
+  source: "uptodown_com_US_overview.png"
+  extraction: "visual from PNG"
+  note: "PNG file not found. CSV total (RU filter): 983,465 from root subdomains"
+
+total_keywords:
+  value: "ФАЙЛ ОТСУТСТВУЕТ"
+  source: "uptodown_com_US_overview.png"
+  extraction: "visual from PNG"
+  note: "PNG file not found"
+
+# -----------------------------------------------------------------------------
+# CSV metadata
+# -----------------------------------------------------------------------------
+csv_file: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+csv_rows: 30001  # header + 30000 data rows
+csv_rows_source: "wc -l < file.csv"
+csv_columns:
+  1: "Path"
+  2: "Ref. pages"
+  3: "Ref. domains"
+  4: "Organic traffic"
+  5: "Traffic value"
+  6: "Organic keywords"
+  7: "Organic pages"
+  8: "Paid traffic"
+  9: "Traffic cost"
+  10: "Paid keywords"
+  11: "Paid pages"
+csv_columns_source: "head -1 file.csv | tr '\\t' '\\n' | cat -n"
+
+# CRITICAL: This CSV is an Ahrefs export with RU country filter.
+# All traffic numbers represent organic traffic from RUSSIAN search only.
+# This explains why ru subdomain dominates (91.93%) — it's the filter effect,
+# not the actual global language distribution of uptodown.com.
+csv_filter: "RU (Russian search results)"
+
+# -----------------------------------------------------------------------------
+# Language structure
+# -----------------------------------------------------------------------------
+language_structure: "subdomains"
+language_pattern: "{app-name}.{lang}.uptodown.com"
+language_root_pattern: "{lang}.uptodown.com"
+examples:
+  - "tiktok.ru.uptodown.com → Russian subdomain, TikTok app page"
+  - "crushon-ai.en.uptodown.com → English subdomain"
+  - "ru.uptodown.com → Russian language root (traffic: 12,130)"
+  - "en.uptodown.com → English language root (traffic: 592)"
+
+total_languages_detected: 14
+top_languages: ["ru", "en", "ar", "es", "cn", "fr", "tr", "br", "th", "vi", "kr", "it", "de", "ro"]
+
+# Language root subdomains found in CSV:
+language_roots:
+  - subdomain: "ru.uptodown.com"
+    traffic: 12130
+  - subdomain: "en.uptodown.com"
+    traffic: 592
+  - subdomain: "www.uptodown.com"
+    traffic: 199
+  - subdomain: "ar.uptodown.com"
+    traffic: 52
+  - subdomain: "fr.uptodown.com"
+    traffic: 41
+  - subdomain: "th.uptodown.com"
+    traffic: 39
+  - subdomain: "cn.uptodown.com"
+    traffic: 30
+  - subdomain: "br.uptodown.com"
+    traffic: 25
+  - subdomain: "tr.uptodown.com"
+    traffic: 9
+  - subdomain: "vi.uptodown.com"
+    traffic: 4
+  - subdomain: "de.uptodown.com"
+    traffic: 3
+  - subdomain: "ro.uptodown.com"
+    traffic: 1
+  - subdomain: "kr.uptodown.com"
+    traffic: 1
+  - subdomain: "it.uptodown.com"
+    traffic: 1
+  source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+  extraction: "awk -F'\\t' 'NR>1 { if ($1 ~ /^\"[a-z]{2,3}\\.uptodown\\.com\"$/) print }'"
+
+# -----------------------------------------------------------------------------
+# Traffic by language (aggregated from root subdomains, gambling excluded)
+# Method: only root subdomain entries (no path suffix "/" after .com)
+# to avoid double-counting parent/child paths in Ahrefs hierarchy.
+# Language extracted from last segment before .uptodown.com
+# -----------------------------------------------------------------------------
+traffic_by_language:
+  - lang: "ru"
+    subdomain_or_folder: "*.ru.uptodown.com"
+    traffic: 886839
+    share_pct: 91.93
+    keywords: 84324
+    pages: 14677
+    root_subdomains: 9370
+    source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+    extraction: "awk -F'\\t' — aggregate root subdomains by language, exclude gambling, exclude sub-paths"
+
+  - lang: "en"
+    subdomain_or_folder: "*.en.uptodown.com"
+    traffic: 76385
+    share_pct: 7.92
+    keywords: 11458
+    pages: 4547
+    root_subdomains: 2930
+    source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+    extraction: "awk -F'\\t' — aggregate root subdomains by language, exclude gambling, exclude sub-paths"
+
+  - lang: "ar"
+    subdomain_or_folder: "*.ar.uptodown.com"
+    traffic: 659
+    share_pct: 0.07
+    keywords: 313
+    pages: 114
+    root_subdomains: 78
+    source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+    extraction: "awk -F'\\t' — aggregate root subdomains by language, exclude gambling, exclude sub-paths"
+
+  - lang: "es"
+    subdomain_or_folder: "*.uptodown.com (main domain, no lang prefix)"
+    traffic: 423
+    share_pct: 0.04
+    keywords: 397
+    pages: 189
+    root_subdomains: 60
+    note: "Includes www.uptodown.com (199 traffic), support.uptodown.com (2 traffic), and app pages without language prefix"
+    source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+    extraction: "awk -F'\\t' — entries where subdomain prefix is not a known ISO language code"
+
+  - lang: "cn"
+    subdomain_or_folder: "*.cn.uptodown.com"
+    traffic: 109
+    share_pct: 0.01
+    keywords: 51
+    pages: 19
+    root_subdomains: 10
+    source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+    extraction: "awk -F'\\t' — aggregate root subdomains by language, exclude gambling, exclude sub-paths"
+
+  - lang: "other"
+    traffic: 262
+    share_pct: 0.03
+    note: "Sum of 9 languages with traffic <= 100 each: fr (74), tr (61), br (61), th (40), vi (9), kr (8), it (5), de (3), ro (1)"
+    breakdown:
+      - lang: "fr"
+        subdomain_or_folder: "*.fr.uptodown.com"
+        traffic: 74
+        keywords: 123
+        pages: 59
+        root_subdomains: 9
+      - lang: "tr"
+        subdomain_or_folder: "*.tr.uptodown.com"
+        traffic: 61
+        keywords: 49
+        pages: 30
+        root_subdomains: 15
+      - lang: "br"
+        subdomain_or_folder: "*.br.uptodown.com"
+        traffic: 61
+        keywords: 118
+        pages: 48
+        root_subdomains: 11
+      - lang: "th"
+        subdomain_or_folder: "*.th.uptodown.com"
+        traffic: 40
+        keywords: 27
+        pages: 6
+        root_subdomains: 2
+      - lang: "vi"
+        subdomain_or_folder: "*.vi.uptodown.com"
+        traffic: 9
+        keywords: 7
+        pages: 7
+        root_subdomains: 3
+      - lang: "kr"
+        subdomain_or_folder: "*.kr.uptodown.com"
+        traffic: 8
+        keywords: 14
+        pages: 4
+        root_subdomains: 4
+      - lang: "it"
+        subdomain_or_folder: "*.it.uptodown.com"
+        traffic: 5
+        keywords: 8
+        pages: 3
+        root_subdomains: 2
+      - lang: "de"
+        subdomain_or_folder: "*.de.uptodown.com"
+        traffic: 3
+        keywords: 5
+        pages: 2
+        root_subdomains: 1
+      - lang: "ro"
+        subdomain_or_folder: "*.ro.uptodown.com"
+        traffic: 1
+        keywords: 4
+        pages: 2
+        root_subdomains: 1
+    source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+    extraction: "awk -F'\\t' — aggregate root subdomains by language, exclude gambling, exclude sub-paths"
+
+traffic_by_language_total: 964677
+traffic_by_language_total_source: "sum of all lang groups above (886839+76385+659+423+109+262=964677)"
+share_pct_sum: 100.00
+
+# -----------------------------------------------------------------------------
+# Top apps by traffic (RU search, gambling excluded)
+# -----------------------------------------------------------------------------
+top_apps_ru_search:
+  - path: "tiktok.ru.uptodown.com"
+    traffic: 107900
+    keywords: 1081
+  - path: "roblox.ru.uptodown.com"
+    traffic: 29177
+    keywords: 786
+  - path: "byebyedpi.ru.uptodown.com"
+    traffic: 21112
+    keywords: 40
+  - path: "toca-life-world.ru.uptodown.com"
+    traffic: 16815
+    keywords: 473
+  - path: "five-nights-at-freddys.ru.uptodown.com"
+    traffic: 16479
+    keywords: 651
+  - path: "happymod.ru.uptodown.com"
+    traffic: 14417
+    keywords: 263
+  - path: "google-play.ru.uptodown.com"
+    traffic: 13011
+    keywords: 718
+  - path: "ru.uptodown.com"
+    traffic: 12130
+    keywords: 5388
+    note: "Language root — homepage of Russian subdomain"
+  - path: "brawl-stars.ru.uptodown.com"
+    traffic: 11704
+    keywords: 602
+  - path: "planet-vpn.ru.uptodown.com"
+    traffic: 11467
+    keywords: 389
+  source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+  extraction: "awk root subdomains | sort -k2 -rn | head -10 (gambling excluded)"
+
+# -----------------------------------------------------------------------------
+# Subdomain statistics
+# -----------------------------------------------------------------------------
+total_subdomains_in_csv: 30000
+total_root_subdomains: 12735
+root_subdomains_with_traffic_over_100: 936
+source: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+extraction_total: "awk -F'\\t' 'NR>1 { if (index($1,\"/\")==0) total++ } END {print total}'"
+extraction_active: "awk -F'\\t' 'NR>1 { if (index($1,\"/\")==0 && $4+0>100) active++ } END {print active}'"
+
+# -----------------------------------------------------------------------------
+# Gambling filter
+# -----------------------------------------------------------------------------
+gambling_filtered:
+  entries_removed_total: 541
+  entries_removed_total_note: "All entries (including sub-paths) matching gambling regex"
+  root_subdomains_removed: 239
+  root_subdomains_removed_note: "Root subdomains only (no sub-paths)"
+  traffic_removed: 18788
+  traffic_removed_note: "Sum of traffic from gambling root subdomains"
+  traffic_removed_share_pct: 1.91
+  examples:
+    - "1xbet.ru.uptodown.com (traffic: 11620)"
+    - "riobet-casino.ru.uptodown.com (traffic: 1221)"
+    - "1xbet.en.uptodown.com (traffic: 703)"
+    - "1xcasino.ru.uptodown.com (traffic: 698)"
+    - "pin-up-slots.ru.uptodown.com (traffic: 675)"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy|букмекер|казино|ставки|порно)"
+  awk_filter: "tolower($0) ~ /casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy|букмекер|казино|ставки|порно/"
+  gap_note: "Additional betting domains NOT caught by regex: melbet (7663 traffic), bet365 (415), 22bet-app (258), mostbet (171+82), bwin-sports (52), betsson (46). These contain 'bet' but regex only matches 'bets' or 'betting'. Consider extending regex with |melbet|mostbet|bet365|22bet|bwin"
+
+# -----------------------------------------------------------------------------
+# Analytical notes
+# -----------------------------------------------------------------------------
+notes:
+  - key: "ru_filter_bias"
+    value: "CRITICAL: This CSV uses Ahrefs RU country filter. All traffic = Russian search only. The 91.93% ru share reflects the filter, NOT uptodown's actual global distribution. In reality, uptodown.com is Spanish-origin with es/en/pt as top languages globally."
+  - key: "en_subdomain_in_ru_search"
+    value: "en.uptodown.com gets 76,385 visits from Russian search — meaning Russian users search for English-language app pages. This is 7.92% of RU traffic."
+  - key: "language_coverage"
+    value: "14 language subdomains detected in RU search data: ru, en, ar, es, cn, fr, tr, br, th, vi, kr, it, de, ro. The actual site likely has 20+ languages (missing from RU data: pt, ja/jp separate from jp subdomain, id, ms, etc.)"
+  - key: "vpn_apps_prominent"
+    value: "VPN apps prominent in RU traffic: planet-vpn (11,467), vpn-lat (5,198), byebyedpi (21,112) — relevant for freesoft.net VPN vertical"
+  - key: "png_missing"
+    value: "uptodown_com_US_overview.png not found at pipeline-seo/data_for_task/. DR, total traffic and keywords from US overview could not be extracted."

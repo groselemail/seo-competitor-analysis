@@ -1,0 +1,661 @@
+domain: uptodown.com
+
+# ============================================================
+# TOP 50 PAGES BY TRAFFIC (after gambling filter)
+# Source: uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv
+# Extraction: awk -F'\t' 'NR>1 { if(tolower($0)~/<gambling_regex>/) next; dq($1),$3,$6,$7 }' | sort -k2 -rn | head -50
+# ============================================================
+
+top_pages:
+  - url: "https://betpawa.en.uptodown.com/android/download"
+    traffic: 501334
+    keywords: 704
+    top_keyword: "betpawa ug"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://viamaker.en.uptodown.com/android"
+    traffic: 482996
+    keywords: 1382
+    top_keyword: "capcut pro apk download"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://free-fire-advance.en.uptodown.com/android"
+    traffic: 360904
+    keywords: 890
+    top_keyword: "free fire advance server"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://en.uptodown.com/"
+    traffic: 321803
+    keywords: 1188
+    top_keyword: "uptodown"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://crushon-ai.en.uptodown.com/android"
+    traffic: 222820
+    keywords: 207
+    top_keyword: "crushon ai"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://tiktok.en.uptodown.com/android"
+    traffic: 218383
+    keywords: 1202
+    top_keyword: "tiktok apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://xvideo.kr.uptodown.com/android"
+    traffic: 170437
+    keywords: 21
+    top_keyword: "xvideo"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://capcut.en.uptodown.com/windows"
+    traffic: 169006
+    keywords: 1027
+    top_keyword: "capcut pro"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://spotify.en.uptodown.com/android"
+    traffic: 168818
+    keywords: 869
+    top_keyword: "spotify premium mod apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://summertime-saga.en.uptodown.com/android/download"
+    traffic: 165682
+    keywords: 402
+    top_keyword: "summertime saga"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://viamaker.en.uptodown.com/android/download"
+    traffic: 160031
+    keywords: 860
+    top_keyword: "capcut apk download"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://pubg-mobile-lite.en.uptodown.com/android/download"
+    traffic: 144177
+    keywords: 1423
+    top_keyword: "pubg lite"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://spotify.uptodown.com/android"
+    traffic: 140535
+    keywords: 672
+    top_keyword: "spotify premium apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://ometv.en.uptodown.com/android"
+    traffic: 131100
+    keywords: 65
+    top_keyword: "ometv"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://tiktok.ru.uptodown.com/android"
+    traffic: 125192
+    keywords: 1010
+    top_keyword: "тик ток мод"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://www.uptodown.com/"
+    traffic: 114297
+    keywords: 1246
+    top_keyword: "uptodown"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://vidmate.en.uptodown.com/android/download"
+    traffic: 113969
+    keywords: 1668
+    top_keyword: "vidmate apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://free-fire-advance.id.uptodown.com/android"
+    traffic: 109616
+    keywords: 410
+    top_keyword: "advance server ff"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://free-fire-advance.br.uptodown.com/android"
+    traffic: 107687
+    keywords: 455
+    top_keyword: "servidor avançado ff"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://com-xunmeng-pinduoduo.ru.uptodown.com/android"
+    traffic: 104549
+    keywords: 265
+    top_keyword: "пиндуодуо"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://snaptube.uptodown.com/android"
+    traffic: 102297
+    keywords: 851
+    top_keyword: "snaptube"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://goa-games.en.uptodown.com/android"
+    traffic: 101500
+    keywords: 33
+    top_keyword: "goa games"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://summertime-saga.en.uptodown.com/android"
+    traffic: 101099
+    keywords: 625
+    top_keyword: "summertime saga"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://happymod.ar.uptodown.com/android"
+    traffic: 100932
+    keywords: 867
+    top_keyword: "هابي مود"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://whatsapp-messenger.uptodown.com/android"
+    traffic: 100914
+    keywords: 1370
+    top_keyword: "whatsapp apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://vanced.en.uptodown.com/android"
+    traffic: 99187
+    keywords: 1371
+    top_keyword: "youtube vanced apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://melbet.en.uptodown.com/android"
+    traffic: 94113
+    keywords: 597
+    top_keyword: "melbet"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://tclottery-keno.en.uptodown.com/android"
+    traffic: 90741
+    keywords: 141
+    top_keyword: "91 club"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://minecraft.ar.uptodown.com/windows"
+    traffic: 89864
+    keywords: 718
+    top_keyword: "ماين كرافت"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://character-ai.en.uptodown.com/android"
+    traffic: 89451
+    keywords: 229
+    top_keyword: "character ai"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://happymod.fr.uptodown.com/android"
+    traffic: 86872
+    keywords: 170
+    top_keyword: "happy mod"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://tiktok.en.uptodown.com/android/download"
+    traffic: 86219
+    keywords: 721
+    top_keyword: "tiktok download"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://happymod.en.uptodown.com/android/download"
+    traffic: 84186
+    keywords: 368
+    top_keyword: "happymod apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://tiktok.ar.uptodown.com/android"
+    traffic: 81665
+    keywords: 821
+    top_keyword: "تنزيل فيديوهات تيك توك"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://vidmate.ar.uptodown.com/android"
+    traffic: 78809
+    keywords: 642
+    top_keyword: "vidmate"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://xingtu.vi.uptodown.com/android"
+    traffic: 78154
+    keywords: 334
+    top_keyword: "xingtu"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://whatsapp-messenger.en.uptodown.com/android"
+    traffic: 77846
+    keywords: 2053
+    top_keyword: "whatsapp download apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://call-bomber.en.uptodown.com/android"
+    traffic: 76988
+    keywords: 360
+    top_keyword: "call bomber"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://instapro-2.en.uptodown.com/android/download"
+    traffic: 76072
+    keywords: 420
+    top_keyword: "instagram pro"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://vidmate.en.uptodown.com/android"
+    traffic: 74814
+    keywords: 2052
+    top_keyword: "vidmate download"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://ar.uptodown.com/"
+    traffic: 74726
+    keywords: 534
+    top_keyword: "uptodown"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://free-fire-max.en.uptodown.com/android/download"
+    traffic: 73844
+    keywords: 1011
+    top_keyword: "free fire max"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://free-fire-battlegrounds.en.uptodown.com/android"
+    traffic: 72624
+    keywords: 1648
+    top_keyword: "free fire apk download"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://taptap.en.uptodown.com/android"
+    traffic: 72218
+    keywords: 556
+    top_keyword: "tap tap"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://gta-v-wallpaper.ar.uptodown.com/windows"
+    traffic: 71369
+    keywords: 495
+    top_keyword: "جراند ثفت أوتو 5"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://free-fire-advance.uptodown.com/android"
+    traffic: 70334
+    keywords: 211
+    top_keyword: "free fire advance"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://vidmate.br.uptodown.com/android/download"
+    traffic: 65496
+    keywords: 312
+    top_keyword: "vidmate"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://instagram.en.uptodown.com/android"
+    traffic: 63444
+    keywords: 1466
+    top_keyword: "instagram apk"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://honista.en.uptodown.com/android"
+    traffic: 60685
+    keywords: 202
+    top_keyword: "honista apk download"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - url: "https://shinigami-id.id.uptodown.com/android"
+    traffic: 60396
+    keywords: 44
+    top_keyword: "shinigami id"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+
+# ============================================================
+# TRAFFIC BY PAGE TYPE
+# Classification: subdomain structure determines page type
+# - app_page: URL has appname.lang.uptodown.com (2+ subdomains)
+# - app_page_no_lang: URL has appname.uptodown.com (1 subdomain, not a language code)
+# - category_or_home: URL has lang.uptodown.com or www.uptodown.com
+# Source: uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv
+# ============================================================
+
+traffic_by_page_type:
+  app_pages_with_lang:
+    count: 25388
+    total_traffic: 25808856
+    pct_of_total_traffic: 84.98
+    description: "App pages with explicit language subdomain (appname.lang.uptodown.com)"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+    extraction: "awk: host split by '.', n>=2 before uptodown.com → app_page"
+  app_pages_no_lang:
+    count: 3012
+    total_traffic: 2938538
+    pct_of_total_traffic: 9.68
+    description: "App pages without language subdomain (appname.uptodown.com, defaults to Spanish)"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+    extraction: "awk: host single subdomain, not 2-letter code and not www"
+  category_and_home:
+    count: 1279
+    total_traffic: 1619075
+    pct_of_total_traffic: 5.33
+    description: "Language homepages and category listings (lang.uptodown.com/*, www.uptodown.com/*)"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+    extraction: "awk: host single subdomain, is www or 2-letter lang code"
+    top_category_pages:
+      - url: "https://en.uptodown.com/"
+        traffic: 321803
+      - url: "https://www.uptodown.com/"
+        traffic: 114297
+      - url: "https://ar.uptodown.com/"
+        traffic: 74726
+      - url: "https://id.uptodown.com/"
+        traffic: 54728
+      - url: "https://www.uptodown.com/android/juegos"
+        traffic: 54308
+      - url: "https://en.uptodown.com/android/games"
+        traffic: 43486
+      - url: "https://br.uptodown.com/"
+        traffic: 33951
+      - url: "https://fr.uptodown.com/"
+        traffic: 31492
+      - url: "https://in.uptodown.com/"
+        traffic: 29652
+      - url: "https://ar.uptodown.com/android/games"
+        traffic: 28736
+  total_all_types:
+    count: 29679
+    total_traffic: 30366469
+    note: "Sum of all 3 types. Matches page_stats.total_traffic_sum."
+
+  url_path_patterns:
+    description: "First URL path segment distribution (across all page types)"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+    extraction: "awk: extract first path segment after host, aggregate"
+    patterns:
+      - segment: "android"
+        count: 22839
+        total_traffic: 25157933
+      - segment: "windows"
+        count: 6493
+        total_traffic: 4410167
+      - segment: "/" # root/homepage
+        count: 21
+        total_traffic: 709154
+      - segment: "mac"
+        count: 272
+        total_traffic: 54158
+      - segment: "developer"
+        count: 21
+        total_traffic: 25941
+      - segment: "hc" # help center
+        count: 15
+        total_traffic: 4379
+
+  url_second_path_segments:
+    description: "Second path segment for app pages (download, versions, etc.)"
+    patterns:
+      - segment: "(none)" # app landing page, no second segment
+        count: 22493
+      - segment: "download"
+        count: 3368
+      - segment: "versions"
+        count: 1587
+      - segment: "descargar" # Spanish download
+        count: 716
+      - segment: "telecharger" # French download
+        count: 137
+      - segment: "alternatives"
+        count: 78
+
+# ============================================================
+# TRAFFIC BY LANGUAGE (from URL subdomain parsing)
+# Method: Parse subdomain prefix from URL
+# - appname.LANG.uptodown.com → lang = LANG
+# - LANG.uptodown.com → lang = LANG (if 2-letter code)
+# - www.uptodown.com or appname.uptodown.com → lang = "es" (Spanish default)
+# Source: uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv
+# ============================================================
+
+traffic_by_language_from_pages:
+  - language: "en"
+    pages_count: 10113
+    total_traffic: 14536285
+    pct_of_total: 47.88
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+    extraction: "awk: parse subdomain closest to uptodown.com; 2-letter codes as lang; www/app-only→es"
+  - language: "ar"
+    pages_count: 2799
+    total_traffic: 3463699
+    pct_of_total: 11.41
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "es"
+    pages_count: 3188
+    total_traffic: 3244289
+    pct_of_total: 10.68
+    note: "Includes www.uptodown.com and app-only subdomains (appname.uptodown.com without language)"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "br"
+    pages_count: 3328
+    total_traffic: 2517938
+    pct_of_total: 8.29
+    note: "Portuguese (Brazil) — uptodown uses 'br' subdomain, not 'pt'"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "id"
+    pages_count: 2087
+    total_traffic: 1581310
+    pct_of_total: 5.21
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "ru"
+    pages_count: 2077
+    total_traffic: 1553816
+    pct_of_total: 5.12
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "fr"
+    pages_count: 1685
+    total_traffic: 1347516
+    pct_of_total: 4.44
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "vi"
+    pages_count: 844
+    total_traffic: 498387
+    pct_of_total: 1.64
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "in"
+    pages_count: 480
+    total_traffic: 396545
+    pct_of_total: 1.31
+    note: "Hindi (India) — uptodown uses 'in' subdomain"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "th"
+    pages_count: 617
+    total_traffic: 280643
+    pct_of_total: 0.92
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "tr"
+    pages_count: 695
+    total_traffic: 272482
+    pct_of_total: 0.90
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "kr"
+    pages_count: 147
+    total_traffic: 203266
+    pct_of_total: 0.67
+    note: "Korean — uptodown uses 'kr' subdomain"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "it"
+    pages_count: 585
+    total_traffic: 174529
+    pct_of_total: 0.57
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "de"
+    pages_count: 590
+    total_traffic: 145137
+    pct_of_total: 0.48
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "jp"
+    pages_count: 319
+    total_traffic: 100113
+    pct_of_total: 0.33
+    note: "Japanese — uptodown uses 'jp' subdomain"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "cn"
+    pages_count: 63
+    total_traffic: 32662
+    pct_of_total: 0.11
+    note: "Chinese — uptodown uses 'cn' subdomain"
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  - language: "ro"
+    pages_count: 62
+    total_traffic: 17852
+    pct_of_total: 0.06
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+
+  summary:
+    total_languages_detected: 17
+    top3_languages_pct: 69.97  # en + ar + es
+    note: "English dominates with ~48% of traffic. Arabic (#2) and Spanish (#3) each ~11%. Russian is #6 at 5.12%."
+
+# ============================================================
+# PAGE STATS
+# Source: uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv
+# ============================================================
+
+page_stats:
+  total_pages_in_csv: 30000
+  total_after_gambling_filter: 29679
+  gambling_pages_removed: 321
+  total_traffic_sum: 30366469
+  avg_traffic_per_page: 1023.2
+  source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  extraction: "awk: count rows, sum col 3 (Traffic), exclude gambling regex matches"
+
+# ============================================================
+# PAGES TREND (RU-specific comparison data)
+# Source: uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv
+# Column 6 = Traffic change
+# ============================================================
+
+pages_trend:
+  note: "Comparison CSV uses RU country filter — all trend data is RU-specific"
+  total_pages_in_csv: 30000
+  total_after_gambling_filter: 29423
+  gambling_pages_removed_comparison: 577
+  growing_pages_count: 13244
+  growing_pages_traffic_sum: 739059
+  declining_pages_count: 7857
+  declining_pages_traffic_sum: -179645
+  stable_pages_count: 8322
+  net_traffic_change: 559414
+  growing_pct: 45.01
+  declining_pct: 26.71
+  stable_pct: 28.28
+  source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  extraction: "awk: col $6 (Traffic change); if >0 → growing; if <0 → declining; if ==0 → stable"
+
+# ============================================================
+# TOP GROWING PAGES (RU)
+# Source: uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv
+# ============================================================
+
+top_growing_pages:
+  - url: "https://tiktok.ru.uptodown.com/android"
+    traffic_change: 105681
+    current_traffic: 106802
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://roblox.ru.uptodown.com/android"
+    traffic_change: 24670
+    current_traffic: 24670
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://byebyedpi.ru.uptodown.com/android"
+    traffic_change: 21112
+    current_traffic: 21112
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://five-nights-at-freddys.ru.uptodown.com/android"
+    traffic_change: 15560
+    current_traffic: 15759
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://toca-life-world.ru.uptodown.com/android/versions"
+    traffic_change: 13256
+    current_traffic: 13511
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://google-play.ru.uptodown.com/android"
+    traffic_change: 12355
+    current_traffic: 12653
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://happymod.ru.uptodown.com/android"
+    traffic_change: 11139
+    current_traffic: 11887
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://clash-royale.ru.uptodown.com/android"
+    traffic_change: 10111
+    current_traffic: 10717
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://brawl-stars.ru.uptodown.com/android"
+    traffic_change: 9398
+    current_traffic: 11159
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://planet-vpn.ru.uptodown.com/android"
+    traffic_change: 7132
+    current_traffic: 11309
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+
+# ============================================================
+# TOP DECLINING PAGES (RU)
+# Source: uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv
+# ============================================================
+
+top_declining_pages:
+  - url: "https://five-nights-at-freddys.ru.uptodown.com/android/download"
+    traffic_change: -8257
+    current_traffic: 291
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://brawl-stars.ru.uptodown.com/android/download"
+    traffic_change: -6233
+    current_traffic: 13
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://secure-vpn.ru.uptodown.com/android/download"
+    traffic_change: -5510
+    current_traffic: 37
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://tiktok.ru.uptodown.com/android/download"
+    traffic_change: -5179
+    current_traffic: 571
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://youtube-vanced.ru.uptodown.com/android/download"
+    traffic_change: -4890
+    current_traffic: 63
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://happymod.ru.uptodown.com/android/download"
+    traffic_change: -4666
+    current_traffic: 127
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://clash-royale.ru.uptodown.com/android/download"
+    traffic_change: -4190
+    current_traffic: 106
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://com-xunmeng-pinduoduo.ru.uptodown.com/android/download"
+    traffic_change: -3602
+    current_traffic: 41
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://planet-vpn.ru.uptodown.com/android/download"
+    traffic_change: -2454
+    current_traffic: 86
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  - url: "https://fnaf-world.ru.uptodown.com/android/download"
+    traffic_change: -2302
+    current_traffic: 72
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+
+  trend_insight: >
+    Pattern: /download pages are declining while main app landing pages grow.
+    Traffic is migrating from /download subpages to main app pages.
+    This suggests uptodown may be consolidating URL structure or Google is
+    preferring the main app page over the download variant.
+
+# ============================================================
+# GAMBLING FILTER
+# ============================================================
+
+gambling_filtered:
+  actual_csv:
+    pages_removed: 321
+    source: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+  comparison_csv:
+    pages_removed: 577
+    source: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+  examples:
+    - "https://1xbet.en.uptodown.com/android"
+    - "https://1xbet.fr.uptodown.com/android"
+    - "https://1xbet.ar.uptodown.com/android"
+    - "https://1xbet.ru.uptodown.com/android"
+    - "https://1xbet.en.uptodown.com/android/download"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  note: >
+    Filter applied via awk: tolower($0) ~ /casino|gambling|slots|...|порно/
+    Matches checked against entire row (URL + keyword fields).
+    Brand names like betpawa, melbet not in regex but may be gambling-related.
+
+# ============================================================
+# METHODOLOGY
+# ============================================================
+
+methodology:
+  csv_processing: "All data extracted with awk/sort/head on tab-delimited UTF-8 CSVs. No files loaded into memory."
+  language_detection: >
+    URL subdomain parsing: appname.LANG.uptodown.com → LANG;
+    LANG.uptodown.com → LANG (if 2-letter code);
+    www.uptodown.com or appname.uptodown.com (no lang) → "es" (Spanish default).
+  page_type_classification: >
+    Based on subdomain count before uptodown.com:
+    2+ subdomains = app page with language;
+    1 subdomain (not lang code) = app page defaulting to Spanish;
+    1 subdomain (2-letter code or www) = category/homepage.
+  gambling_filter: "Regex applied before all aggregations. Count of removed rows documented."
+  trend_scope: "Comparison CSV has RU country filter. Trend data reflects RU traffic changes only."
+
+# ============================================================
+# KEY INSIGHTS FOR PIPELINE
+# ============================================================
+
+key_insights:
+  - "English pages dominate with 47.9% of traffic (14.5M) across 10,113 pages"
+  - "Arabic is #2 at 11.4% (3.5M traffic) — surprisingly strong, larger than Spanish"
+  - "Spanish is #3 at 10.7% (3.2M traffic) — uptodown's native language"
+  - "Brazilian Portuguese #4 at 8.3% (2.5M) — strong LATAM presence"
+  - "Russian #6 at 5.1% (1.6M traffic, 2,077 pages) — freesoft.net's core market"
+  - "French #7 at 4.4% (1.3M traffic, 1,685 pages) — freesoft.net's expansion target"
+  - "17 languages detected — true multilingual scale"
+  - "App pages drive 95% of traffic; category/home pages only 5.3%"
+  - "Android dominates path structure: 83% of traffic vs 14.5% for Windows"
+  - "RU trend: net +559K traffic change; 45% pages growing vs 27% declining"
+  - "RU trend pattern: /download pages declining, main app pages growing — URL consolidation"
+  - "Top RU growing page: tiktok.ru.uptodown.com/android (+105,681 traffic)"
+  - "VPN pages notable in RU growth: planet-vpn (+7,132), byebyedpi (+21,112)"

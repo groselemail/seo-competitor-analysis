@@ -1,0 +1,404 @@
+domain: freesoft.ru
+
+top_pages:
+  - url: "https://freesoft.ru/android/tiktok-mod/download"
+    traffic: 41446
+    keywords: 270
+    top_keyword: "тик ток мод"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+    extraction: "awk -F'\\t' 'NR>1 { gsub(/\"/, \"\"); gambling_filter; print $3+0, $1, $6+0, $7 }' | sort -rn | head -50"
+  - url: "https://freesoft.ru/android/nulls-brawl/download"
+    traffic: 15092
+    keywords: 242
+    top_keyword: "нулс бравл скачать"
+  - url: "https://freesoft.ru/android/roblox/download"
+    traffic: 6923
+    keywords: 32
+    top_keyword: "роблокс скачать"
+  - url: "https://freesoft.ru/android/clash_royale/download/188719"
+    traffic: 5823
+    keywords: 26
+    top_keyword: "скачать клеш рояль"
+  - url: "https://freesoft.ru/android/gacha-life/versions/1-1-0-109274"
+    traffic: 4887
+    keywords: 119
+    top_keyword: "гача лайф 1.1.0 скачать"
+  - url: "https://freesoft.ru/android/tiktok-mod/download/198147"
+    traffic: 3141
+    keywords: 120
+    top_keyword: "тик ток мод скачать на андроид"
+  - url: "https://freesoft.ru/android/gacha-life/versions"
+    traffic: 2655
+    keywords: 95
+    top_keyword: "старая версия гача лайф"
+  - url: "https://freesoft.ru/android/roblox-mod-menu/download"
+    traffic: 2606
+    keywords: 130
+    top_keyword: "скачать роблокс мод меню"
+  - url: "https://freesoft.ru/android/happymod/versions/311a-196508"
+    traffic: 2576
+    keywords: 54
+    top_keyword: "скачать happymod"
+  - url: "https://freesoft.ru/android/brawl-stars/versions"
+    traffic: 2118
+    keywords: 382
+    top_keyword: "бравл старс скачать бесплатно"
+  - url: "https://freesoft.ru/android/gacha-life/download/109274"
+    traffic: 2008
+    keywords: 125
+    top_keyword: "скачать старую версию гача лайф 1.1.0"
+  - url: "https://freesoft.ru/android/melbet"
+    traffic: 1818
+    keywords: 188
+    top_keyword: "скачать мелбет"
+  - url: "https://freesoft.ru/android/standoff-2/versions"
+    traffic: 1684
+    keywords: 397
+    top_keyword: "старый standoff 2"
+  - url: "https://freesoft.ru/android/vk-mp3-mod/download"
+    traffic: 1652
+    keywords: 240
+    top_keyword: "vk mp3 mod"
+  - url: "https://freesoft.ru/android/vk_coffee/versions"
+    traffic: 1622
+    keywords: 47
+    top_keyword: "скачать вк кофе"
+  - url: "https://freesoft.ru/android/nulls-brawl/versions"
+    traffic: 1479
+    keywords: 120
+    top_keyword: "null's brawl скачать бесплатно"
+  - url: "https://freesoft.ru/android/geometry_dash_lite/download/45257?dl=1"
+    traffic: 1378
+    keywords: 12
+    top_keyword: "скачать geometry dash 2.2"
+  - url: "https://freesoft.ru/android/roblox-mod-menu/download/198850"
+    traffic: 1072
+    keywords: 45
+    top_keyword: "скачать читы на роблокс мод меню"
+  - url: "https://freesoft.ru/android/magic-brawl/download"
+    traffic: 1042
+    keywords: 34
+    top_keyword: "magic brawl скачать"
+  - url: "https://freesoft.ru/windows/zona"
+    traffic: 1020
+    keywords: 78
+    top_keyword: "зона скачать на пк"
+  - url: "https://freesoft.ru/android/zetflix/download"
+    traffic: 937
+    keywords: 23
+    top_keyword: "zetflix скачать"
+  - url: "https://freesoft.ru/android/drugvokrug"
+    traffic: 929
+    keywords: 79
+    top_keyword: "друг вокруг"
+  - url: "https://freesoft.ru/windows/standoff-2-na-pk/download"
+    traffic: 782
+    keywords: 38
+    top_keyword: "скачать standoff 2"
+  - url: "https://freesoft.ru/android/pinduoduo/download"
+    traffic: 699
+    keywords: 8
+    top_keyword: "pinduoduo скачать"
+  - url: "https://freesoft.ru/android/bsd-brawl/download/198324"
+    traffic: 659
+    keywords: 3
+    top_keyword: "скачать бсд бравл"
+  - url: "https://freesoft.ru/android/baltbet/versions"
+    traffic: 644
+    keywords: 11
+    top_keyword: "балтбет старая версия"
+  - url: "https://freesoft.ru/android/rebrawl-classic/download"
+    traffic: 642
+    keywords: 42
+    top_keyword: "скачать rebrawl"
+  - url: "https://freesoft.ru/android/vk-mp3-mod/download/154792"
+    traffic: 585
+    keywords: 33
+    top_keyword: "вк мп3 мод скачать"
+  - url: "https://freesoft.ru/android/retro-brawl/download"
+    traffic: 574
+    keywords: 37
+    top_keyword: "ретро бравл"
+  - url: "https://freesoft.ru/android/nulls-royale/download"
+    traffic: 504
+    keywords: 7
+    top_keyword: "скачать нулс рояль"
+  - url: "https://freesoft.ru/android/whatsapp-plus/download"
+    traffic: 466
+    keywords: 34
+    top_keyword: "whatsapp plus скачать"
+  - url: "https://freesoft.ru/android/whatsapp-plus/versions"
+    traffic: 464
+    keywords: 62
+    top_keyword: "скачать ватсап плюс"
+  - url: "https://freesoft.ru/android/gbwhatsapp/versions"
+    traffic: 457
+    keywords: 30
+    top_keyword: "скачать gb whatsapp"
+  - url: "https://freesoft.ru/"
+    traffic: 451
+    keywords: 74
+    top_keyword: "freesoft"
+  - url: "https://freesoft.ru/android/yandexnavigator/versions/3-86-95984"
+    traffic: 442
+    keywords: 9
+    top_keyword: "скачать яндекс навигатор 3.86"
+  - url: "https://freesoft.ru/android/master-royale-infinity/download"
+    traffic: 427
+    keywords: 29
+    top_keyword: "мастер рояль"
+  - url: "https://freesoft.ru/android/roblox"
+    traffic: 418
+    keywords: 19
+    top_keyword: "скачать роблокс"
+  - url: "https://freesoft.ru/android/toca-life-world/versions/167-190700"
+    traffic: 401
+    keywords: 12
+    top_keyword: "тока бока взлом 1.67 скачать"
+  - url: "https://freesoft.ru/android/jt-whatsapp/versions/140-200020"
+    traffic: 401
+    keywords: 19
+    top_keyword: "жт ватсап скачать"
+  - url: "https://freesoft.ru/android/fifa-14"
+    traffic: 394
+    keywords: 25
+    top_keyword: "скачать фифу 14 на андроид"
+  - url: "https://freesoft.ru/android/youtube/versions"
+    traffic: 370
+    keywords: 80
+    top_keyword: "скачать youtube на телефон старая версия"
+  - url: "https://freesoft.ru/android/brawl-stars/download"
+    traffic: 352
+    keywords: 104
+    top_keyword: "скачать brawl stars"
+  - url: "https://freesoft.ru/android/stumble-guys-mod/versions/0816-198129"
+    traffic: 348
+    keywords: 100
+    top_keyword: "стамбл гайс скачать"
+  - url: "https://freesoft.ru/blog/melbet_zerkalo"
+    traffic: 338
+    keywords: 29
+    top_keyword: "melbet зеркало скачать"
+  - url: "https://freesoft.ru/android/gdps-editor/versions/22221-197289"
+    traffic: 323
+    keywords: 41
+    top_keyword: "скачать gdps editor 2.2"
+  - url: "https://freesoft.ru/android/capcut/versions"
+    traffic: 318
+    keywords: 30
+    top_keyword: "кап кут скачать"
+  - url: "https://freesoft.ru/android/roblox/versions"
+    traffic: 308
+    keywords: 47
+    top_keyword: "старый роблокс скачать"
+  - url: "https://freesoft.ru/android/gacha-life/versions/1-0-9-86705"
+    traffic: 302
+    keywords: 24
+    top_keyword: "гача лайф старая версия 1.0.9 скачать"
+  - url: "https://freesoft.ru/android/vk-mp3-mod/versions"
+    traffic: 299
+    keywords: 46
+    top_keyword: "скачать вк мп3 мод старую версию"
+  - url: "https://freesoft.ru/android/drugvokrug/versions"
+    traffic: 298
+    keywords: 24
+    top_keyword: "скачать друг вокруг старую версию"
+
+traffic_by_page_type:
+  android:
+    count: 5247
+    total_traffic: 146173
+    share_of_total_traffic: "92.9%"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+    extraction: "awk -F'\\t' 'NR>1 { gsub(/\"/, \"\"); gambling_filter; url first segment == android; sum $3 }'"
+  windows:
+    count: 2609
+    total_traffic: 8899
+    share_of_total_traffic: "5.7%"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+    extraction: "awk -F'\\t' url first segment == windows; sum $3"
+  blog:
+    count: 117
+    total_traffic: 997
+    share_of_total_traffic: "0.6%"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+  ios:
+    count: 185
+    total_traffic: 481
+    share_of_total_traffic: "0.3%"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+  root:
+    count: 1
+    total_traffic: 451
+    share_of_total_traffic: "0.3%"
+    note: "homepage https://freesoft.ru/"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+  mac_os:
+    count: 141
+    total_traffic: 187
+    share_of_total_traffic: "0.1%"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+  linux:
+    count: 50
+    total_traffic: 60
+    share_of_total_traffic: "0.04%"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+  other:
+    count: 30
+    total_traffic: 38
+    note: "windows-phone (7), news (3), legacy single-path pages (20)"
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+    extraction: "awk: all URLs not matching android/windows/ios/mac-os/linux/blog/root"
+
+  url_patterns_detected:
+    - pattern: "/android/"
+      count: 5287
+      note: "before gambling filter"
+    - pattern: "/windows/"
+      count: 2615
+    - pattern: "/ios/"
+      count: 191
+    - pattern: "/mac-os/"
+      count: 141
+    - pattern: "/blog/"
+      count: 123
+    - pattern: "/linux/"
+      count: 50
+    - pattern: "/windows-phone/"
+      count: 7
+    source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+    extraction: "awk: extract first URL path segment, sort | uniq -c | sort -rn"
+
+  key_insight: "Android pages dominate with 92.9% of all traffic (146,173 out of 157,286). Windows is a distant second at 5.7%. Blog pages contribute 0.6%."
+
+page_stats:
+  total_pages: 8438
+  total_after_gambling_filter: 8380
+  gambling_pages_removed: 58
+  total_traffic_sum: 157286
+  avg_traffic_per_page: 18.8
+  source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+  extraction: "awk -F'\\t' 'NR>1 { gsub(/\"/, \"\"); gambling_filter applied; clean++; clean_traffic+=$3+0 } END { print }'"
+  notes:
+    - "Header row excluded (8439 total lines - 1 header = 8438 data rows)"
+    - "Low avg traffic (18.8) indicates heavy long-tail: top page alone (41K) = 26.3% of total"
+    - "Top-10 pages account for ~53% of total traffic"
+
+pages_trend:
+  total_pages_in_comparison: 22247
+  total_after_gambling_filter: 22111
+  gambling_pages_removed: 136
+  growing_pages_count: 2529
+  growing_pages_traffic_sum: 86125
+  declining_pages_count: 2398
+  declining_pages_traffic_sum: -61188
+  stable_pages_count: 17184
+  net_traffic_change: 24937
+  source: "freesoft_ru_top_pages_subdomains_ru_compa_2026_03_05_22_28_29.csv"
+  extraction: "awk -F'\\t' 'NR>1 { gsub(/\"/, \"\"); gambling_filter; val=$6+0; classify >0/<0/==0; sum }'"
+  notes:
+    - "77.7% of pages are stable (zero traffic change)"
+    - "Growing pages slightly outnumber declining (2,529 vs 2,398)"
+    - "Net positive: +24,937 traffic gained overall"
+    - "Comparison CSV has 22,248 total lines (22,247 data rows) — includes historical pages beyond current actual"
+
+top_growing_pages:
+  - url: "https://freesoft.ru/android/tiktok-mod/download"
+    traffic_change: 26205
+    source: "freesoft_ru_top_pages_subdomains_ru_compa_2026_03_05_22_28_29.csv"
+    extraction: "awk gambling_filter + sort by $6 desc | head -10"
+  - url: "https://freesoft.ru/android/nulls-brawl/download"
+    traffic_change: 8560
+  - url: "https://freesoft.ru/android/clash_royale/download/188719"
+    traffic_change: 5822
+  - url: "https://freesoft.ru/android/roblox/download"
+    traffic_change: 4723
+  - url: "https://freesoft.ru/android/happymod/versions/311a-196508"
+    traffic_change: 2576
+  - url: "https://freesoft.ru/android/roblox-mod-menu/download"
+    traffic_change: 1650
+  - url: "https://freesoft.ru/android/geometry_dash_lite/download/45257?dl=1"
+    traffic_change: 1378
+  - url: "https://freesoft.ru/android/roblox-mod-menu/download/198850"
+    traffic_change: 1014
+  - url: "https://freesoft.ru/windows/zona"
+    traffic_change: 1005
+  - url: "https://freesoft.ru/android/zetflix/download"
+    traffic_change: 814
+
+top_declining_pages:
+  - url: "https://freesoft.ru/android/tiktok-mod/download/198147"
+    traffic_change: -13714
+    source: "freesoft_ru_top_pages_subdomains_ru_compa_2026_03_05_22_28_29.csv"
+    extraction: "awk gambling_filter + sort by $6 asc | head -10"
+  - url: "https://freesoft.ru/android/zona_android"
+    traffic_change: -5593
+  - url: "https://freesoft.ru/android/vk-mp3-mod/download"
+    traffic_change: -2349
+  - url: "https://freesoft.ru/android/zona_android/download"
+    traffic_change: -1909
+  - url: "https://freesoft.ru/android/clash_royale/versions"
+    traffic_change: -1589
+  - url: "https://freesoft.ru/android/gacha-life/versions/1-1-0-109274"
+    traffic_change: -1521
+  - url: "https://freesoft.ru/android/squad-busters/download"
+    traffic_change: -1315
+  - url: "https://freesoft.ru/android/toca-life-world/versions/1691-193432"
+    traffic_change: -1312
+  - url: "https://freesoft.ru/android/brawl-stars/versions"
+    traffic_change: -1102
+  - url: "https://freesoft.ru/android/bsd-brawl/download"
+    traffic_change: -793
+
+gambling_filtered:
+  pages_removed_actual: 58
+  pages_removed_comparison: 136
+  examples:
+    - "https://freesoft.ru/android/1xbet"
+    - "https://freesoft.ru/android/1xbet/versions/14622668-200588"
+    - "https://freesoft.ru/android/casinovulkan"
+    - "https://freesoft.ru/android/1xbet/versions/994707-160964"
+    - "https://freesoft.ru/android/pin-up"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  source: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+  extraction: "awk: tolower($0) ~ /gambling_regex/ applied to all data rows"
+  note: "melbet and baltbet pages pass through filter — their names do not match the specified regex patterns"
+
+csv_columns:
+  actual:
+    file: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+    columns:
+      1: "URL"
+      2: "UR"
+      3: "Traffic"
+      4: "Traffic value"
+      5: "Referring domains"
+      6: "Keywords"
+      7: "Top keyword"
+      8: "Top keyword: Volume"
+      9: "Top keyword: Position"
+      10: "Page type"
+  comparison:
+    file: "freesoft_ru_top_pages_subdomains_ru_compa_2026_03_05_22_28_29.csv"
+    columns:
+      1: "URL"
+      2: "Status"
+      3: "UR"
+      4: "Previous traffic"
+      5: "Current traffic"
+      6: "Traffic change"
+      7: "Previous traffic value"
+      8: "Current traffic value"
+      9: "Traffic value change"
+      10: "Current referring domains"
+      11: "Previous # of keywords"
+      12: "Current # of keywords"
+      13: "Keywords change"
+      14: "Previous top keyword"
+      15: "Current top keyword"
+      16: "Previous top keyword: Volume"
+      17: "Current top keyword: Volume"
+      18: "Previous top keyword: Position"
+      19: "Current top keyword: Position"
+      20: "Top keyword: Position change"
+      21: "Page type"

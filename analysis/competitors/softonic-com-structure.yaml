@@ -1,0 +1,237 @@
+# =============================================================
+# 05a — softonic.com Site Structure (Language Subdomains)
+# Pipeline: SEO competitor analysis for freesoft.net
+# Generated: 2026-03-06
+# =============================================================
+
+domain: softonic.com
+
+# ----- Overview metrics (from PNG via manifest) -----
+dr:
+  value: 86
+  source: "softonic_com_US_overview.png"
+  extraction: "visual from PNG, recorded in 00-manifest.yaml key_metrics.dr"
+
+total_organic_traffic:
+  value: 88500
+  source: "softonic_com_US_overview.png"
+  extraction: "visual from PNG '88.5K', recorded in 00-manifest.yaml"
+  note: >
+    WARNING: PNG shows Russian Federation filter applied in Ahrefs.
+    The ~88.5K traffic figure is RU-only traffic to softonic.com, NOT global total.
+    Global softonic.com traffic is much higher (top countries from PNG: India 16.5M/43.2%,
+    Bangladesh 1.8M/4.8%, US 1.5M/3.9%, France 607.2K/1.6%).
+
+total_keywords:
+  value: 20800
+  source: "softonic_com_US_overview.png"
+  extraction: "visual from PNG '20.8K', recorded in 00-manifest.yaml"
+  note: "RU filter applied in PNG. Change: -63.4K keywords."
+
+additional_png_metrics:
+  ur: 19
+  backlinks: "342M"
+  ref_domains: "48.8K"
+  ai_overview_citations: 53
+  organic_traffic_change: "+60.7K"
+  source: "softonic_com_US_overview.png via 00-manifest.yaml"
+
+# ----- CSV metadata -----
+csv_file: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+csv_rows: 30001
+csv_rows_note: "30000 data rows + 1 header row"
+csv_columns:
+  - col: 1
+    name: "Path"
+  - col: 2
+    name: "Ref. pages"
+  - col: 3
+    name: "Ref. domains"
+  - col: 4
+    name: "Organic traffic"
+  - col: 5
+    name: "Traffic value"
+  - col: 6
+    name: "Organic keywords"
+  - col: 7
+    name: "Organic pages"
+  - col: 8
+    name: "Paid traffic"
+  - col: 9
+    name: "Traffic cost"
+  - col: 10
+    name: "Paid keywords"
+  - col: 11
+    name: "Paid pages"
+csv_filter_note: "RU filter applied in Ahrefs export — all traffic/keyword values are RU-specific"
+
+# ----- Traffic by language subdomain -----
+# Methodology: extract the domain part right before "softonic.com" from Path column.
+# Known language subdomains: en, fr, de, it, vi, th, id, nl.
+# www.softonic.com and appname.softonic.com (no lang prefix) = Spanish/root domain.
+# Total CSV traffic: 159,694 (sum of column 4 across all 30K rows).
+
+traffic_by_language:
+  - subdomain_or_folder: "en.softonic.com"
+    lang: "en"
+    traffic: 158249
+    share_pct: 99.10
+    keywords: 55651
+    pages: 24401
+    csv_rows: 21177
+    source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+    extraction: "awk -F'\\t' extract part before 'softonic' in col1, sum col4/col6/col7 by language"
+
+  - subdomain_or_folder: "softonic.com (es/root + www)"
+    lang: "es"
+    traffic: 1069
+    share_pct: 0.67
+    keywords: 3042
+    pages: 1938
+    csv_rows: 2873
+    note: "Sum of www.softonic.com (28 traffic, 45 rows) + app-level subdomains under softonic.com without language prefix (1041 traffic, 2828 rows)"
+    source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+    extraction: "awk aggregation: www_es + es_root categories"
+
+  - subdomain_or_folder: "fr.softonic.com"
+    lang: "fr"
+    traffic: 321
+    share_pct: 0.20
+    keywords: 745
+    pages: 543
+    csv_rows: 1766
+    source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+    extraction: "awk -F'\\t' extract part before 'softonic', filter lang=fr"
+
+  - subdomain_or_folder: "vi.softonic.com"
+    lang: "vi"
+    traffic: 27
+    share_pct: 0.02
+    keywords: 221
+    pages: 175
+    csv_rows: 1311
+    source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+    extraction: "awk -F'\\t' extract part before 'softonic', filter lang=vi"
+
+  - subdomain_or_folder: "it.softonic.com"
+    lang: "it"
+    traffic: 25
+    share_pct: 0.02
+    keywords: 175
+    pages: 154
+    csv_rows: 1358
+    source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+    extraction: "awk -F'\\t' extract part before 'softonic', filter lang=it"
+
+  - subdomain_or_folder: "de.softonic.com"
+    lang: "de"
+    traffic: 3
+    share_pct: 0.00
+    keywords: 314
+    pages: 268
+    csv_rows: 1504
+    source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+    extraction: "awk -F'\\t' extract part before 'softonic', filter lang=de"
+
+  - subdomain_or_folder: "other"
+    traffic: 0
+    share_pct: 0.00
+    note: "Sum of 3 language subdomains with traffic = 0: th (4 rows), id (4 rows), nl (3 rows)"
+    source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+
+# ----- Language structure summary -----
+language_structure: "subdomains"
+language_structure_note: >
+  softonic.com uses language subdomains: appname.LANG.softonic.com
+  (e.g., minecraft.en.softonic.com, minecraft.fr.softonic.com).
+  Spanish content is under root domain softonic.com (no language prefix)
+  or www.softonic.com. Additionally, softonic.ru exists as a completely
+  separate domain for Russian market (analyzed in task 05c).
+
+total_languages_detected: 9
+total_languages_note: "en, es (root/www), fr, de, it, vi, th, id, nl — 8 language subdomains + 1 root (Spanish)"
+top_languages: ["en", "es", "fr", "vi", "it", "de"]
+top_languages_note: "Ordered by RU-filtered traffic. English dominates with 99.1% of traffic."
+
+# ----- Key insight -----
+key_insight: >
+  Under RU filter, en.softonic.com captures 99.1% of all traffic (158,249 of 159,694).
+  This is expected: Russian users predominantly visit English-language software pages.
+  Non-English subdomains (fr, de, it, vi) show minimal RU traffic but have significant
+  page counts (1,300-1,800 CSV rows each), indicating active content in those languages.
+  Global traffic distribution would look very different — the PNG shows India (43.2%),
+  Bangladesh (4.8%), US (3.9%), France (1.6%) as top countries.
+
+# ----- Subdomain statistics -----
+total_subdomains: 30000
+subdomains_with_traffic_over_100: 234
+total_csv_traffic: 159694
+source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+extraction: "wc -l for rows; awk sum of col4 for traffic; awk count where col4 > 100"
+
+# ----- softonic.ru relationship -----
+softonic_ru_note: >
+  softonic.ru exists as a separate Russian domain (not a subdomain of softonic.com).
+  It has its own site structure with 30,001 rows in a separate CSV file.
+  Analyzed in task 05c (05c-parse-softonic-ru). Not included in this analysis.
+
+# ----- Gambling filter -----
+gambling_filtered:
+  entries_removed: 483
+  traffic_removed: 650
+  share_of_total_traffic_pct: 0.41
+  examples:
+    - "rummy-cash-game-cash-rummy.en.softonic.com (traffic: 46)"
+    - "1x-bet-sports-betting-app.en.softonic.com/android (traffic: 37)"
+    - "rummy-palace-play-rummy-online-indian-card-game.en.softonic.com/android (traffic: 14)"
+    - "glory-casino-app.en.softonic.com/android (traffic: 13)"
+    - "betsson.en.softonic.com (traffic: 10)"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+  extraction: "awk -F'\\t' 'NR>1 && tolower($0) ~ /regex/' | wc -l"
+
+# ----- Top 10 subdomains by traffic (non-gambling) -----
+top_subdomains_by_traffic:
+  - path: "free-vpn-proxy-super-vpn-unblock-master.en.softonic.com/android"
+    traffic: 5759
+    keywords: 210
+    pages: 2
+  - path: "pycharm-community-edition.en.softonic.com"
+    traffic: 3700
+    keywords: 91
+    pages: 6
+  - path: "clash-royale.en.softonic.com"
+    traffic: 3355
+    keywords: 133
+    pages: 7
+  - path: "roblox-studio.en.softonic.com"
+    traffic: 2759
+    keywords: 50
+    pages: 2
+  - path: "codeium.en.softonic.com/web-apps"
+    traffic: 2613
+    keywords: 6
+    pages: 1
+  - path: "metamask.en.softonic.com"
+    traffic: 2365
+    keywords: 15
+    pages: 5
+  - path: "adguard-vpn.en.softonic.com"
+    traffic: 2357
+    keywords: 190
+    pages: 9
+  - path: "planet-vpn.en.softonic.com"
+    traffic: 1778
+    keywords: 55
+    pages: 4
+  - path: "whatsapp-web.en.softonic.com/web-apps"
+    traffic: 1668
+    keywords: 82
+    pages: 2
+  - path: "clash-royale.en.softonic.com/android/download"
+    traffic: 1246
+    keywords: 77
+    pages: 1
+  source: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+  extraction: "awk print col1,col4,col6,col7 | sort -k2 -rn | head -10 (excluding gambling matches)"
+  note: "All top pages are under en.softonic.com — VPN apps and games dominate RU traffic"

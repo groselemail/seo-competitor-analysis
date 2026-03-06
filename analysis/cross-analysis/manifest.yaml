@@ -1,0 +1,1100 @@
+generated: "2026-03-06"
+total_files: 51
+csv_files: 36
+png_files: 15
+default_csv_encoding: "UTF-16LE"
+
+# ============================================================
+# FILES SECTION — all 51 files
+# ============================================================
+files:
+
+  # ----------------------------------------------------------
+  # freesoft.net — 8 CSV + 2 PNG
+  # ----------------------------------------------------------
+
+  - name: "freesoft_net_organic_keywords_subdomains_us_2026_01_19_12_02_04.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 88074
+    rows: 149
+    columns: ["Keyword", "Country", "Location", "Language", "Entities", "SERP features", "Volume", "KD", "CPC", "Previous organic traffic", "Current organic traffic", "Organic traffic change", "Current paid traffic", "Previous position", "Current position", "Position change", "Previous URL inside", "Previous URL", "Current URL inside", "Current URL", "Previous date", "Current date", "Branded", "Local", "Navigational", "Informational", "Commercial", "Transactional"]
+    first_data_lines:
+      - '"juwa 777 apk"\t"US"\t"United States"\t"English"\t"Juwa 777 (Product)"\t""\t"1400"\t"61"\t...'
+      - '"juwa 777 apk download for android download"\t"US"\t...'
+    domain: freesoft.net
+    report_type: organic_keywords
+    report_subtype: comparison
+    filter_country: US
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "freesoft_net_organic_keywords_subdomains_ru_2026_03_05_22_29_58.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 1372154
+    rows: 2617
+    columns: ["Keyword", "Country", "Location", "Language", "Entities", "SERP features", "Volume", "KD", "CPC", "Previous organic traffic", "Current organic traffic", "Organic traffic change", "Current paid traffic", "Previous position", "Current position", "Position change", "Previous URL inside", "Previous URL", "Current URL inside", "Current URL", "Previous date", "Current date", "Branded", "Local", "Navigational", "Informational", "Commercial", "Transactional"]
+    first_data_lines:
+      - '"rebrawl mods"\t"RU"\t"Russian Federation"\t...'
+      - '"gacha nebula"\t"RU"\t"Russian Federation"\t...'
+    domain: freesoft.net
+    report_type: organic_keywords
+    report_subtype: comparison
+    filter_country: RU
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "freesoft_net_organic_keywords_subdomains_ru_2026_03_05_22_30_14.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 70422
+    rows: 139
+    columns: ["Keyword", "Country code", "Location", "Language", "Entities", "SERP features", "Volume", "KD", "CPC", "Organic traffic", "Paid traffic", "Current position", "Current URL", "Current URL inside", "Updated", "Navigational", "Informational", "Commercial", "Transactional", "Branded", "Local"]
+    first_data_lines:
+      - '"gacha nebula"\t"RU"\t"Russian Federation"\t...'
+      - '"скачать гача небула"\t"RU"\t"Russian Federation"\t...'
+    domain: freesoft.net
+    report_type: organic_keywords
+    report_subtype: actual
+    filter_country: RU
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "freesoft_net_top_pages_subdomains_us_comp_2026_01_19_12_04_24.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 6300
+    rows: 17
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change"]
+    first_data_lines:
+      - '"https://freesoft.net/android/juwa"\t""\t"4.9"\t"162"\t"2190"\t...'
+      - '"https://freesoft.net/android/iroot"\t""\t"4.7"\t"13"\t"157"\t...'
+    domain: freesoft.net
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: US
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "freesoft_net_top_pages_subdomains_ru_comp_2026_03_05_22_30_46.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 346134
+    rows: 1170
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change", "Page type"]
+    first_data_lines:
+      - '"https://freesoft.net/android/gacha-nebula/download/197312"\t"Lost"\t...'
+      - '"https://freesoft.net/android/master-royale-infinity/download"\t"Lost"\t...'
+    domain: freesoft.net
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: RU
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "freesoft_net_top_pages_subdomains_ru_actu_2026_03_05_22_31_09.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 18578
+    rows: 88
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    first_data_lines:
+      - '"https://freesoft.net/android/gacha-nebula/versions/150-197312"\t"4.6"\t"38"\t...'
+      - '"https://freesoft.net/android/fluxus"\t"4.8"\t"10"\t...'
+    domain: freesoft.net
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: RU
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "freesoft_net_orgcompetitors_subdomains_ru_2026_01_19_12_38_49.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 2810
+    rows: 21
+    columns: ["Domain", "Competitor's keywords", "Common keywords", "Share", "Target's keywords", "DR", "Traffic", "Traffic value", "Pages"]
+    first_data_lines:
+      - '"masterroyale.io"\t"91"\t"6"\t"3.4%"\t"78"\t"23"\t"965"\t...'
+      - '"freesoft.ru"\t"17856"\t"116"\t"0.6%"\t"54"\t"60"\t"123906"\t...'
+    domain: freesoft.net
+    report_type: competitors
+    report_subtype: actual
+    filter_country: RU
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "freesoft_net_orgcompetitors_subdomains_us_2026_01_19_12_41_12.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 5590
+    rows: 21
+    columns: ["Domain", "Competitor's keywords", "Common keywords", "Share", "Target's keywords", "DR", "Previous traffic", "Current  traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Previous # of pages", "Current # of pages", "Pages change"]
+    first_data_lines:
+      - '"juwa777.com"\t"556"\t"164"\t"12.1%"\t"633"\t"61"\t...'
+      - '"thejuwa.org"\t"112"\t"79"\t"11.7%"\t"481"\t"45"\t...'
+    domain: freesoft.net
+    report_type: competitors
+    report_subtype: comparison
+    filter_country: US
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "freesoft_net_main_overiew.png"
+    type: png
+    size_bytes: 122531
+    domain: freesoft.net
+    report_type: overview
+    key_metrics:
+      dr: 51
+      ur: 27
+      organic_keywords: 138
+      organic_keywords_change: "-2.1K"
+      organic_traffic: 89
+      organic_traffic_change: -196
+      backlinks: "191K"
+      ref_domains: "3.7K"
+      filter_country: "Russian Federation"
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  - name: "organic_traff_loc_US.png"
+    type: png
+    size_bytes: 49198
+    domain: freesoft.net
+    report_type: traffic_by_location
+    key_metrics:
+      total_locations: 137
+      top_countries:
+        - country: India
+          traffic: "14.2K"
+          share: "41.0%"
+          keywords: "1.3K"
+        - country: Bangladesh
+          traffic: "5.4K"
+          share: "15.6%"
+          keywords: 291
+        - country: Somalia
+          traffic: "2.1K"
+          share: "6.1%"
+          keywords: 23
+        - country: Myanmar
+          traffic: "2.1K"
+          share: "6.0%"
+          keywords: 119
+        - country: "United States"
+          traffic: "2.1K"
+          share: "5.9%"
+          keywords: 749
+      filter_country: "All locations"
+    assigned_task: "01-parse-freesoft-net"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # freesoft.ru — 4 CSV + 2 PNG
+  # ----------------------------------------------------------
+
+  - name: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 9126132
+    rows: 17483
+    columns: ["Keyword", "Country code", "Location", "Language", "Entities", "SERP features", "Volume", "KD", "CPC", "Organic traffic", "Paid traffic", "Current position", "Current URL", "Current URL inside", "Updated", "Navigational", "Informational", "Commercial", "Transactional", "Branded", "Local"]
+    first_data_lines:
+      - '"тик ток мод"\t"RU"\t"Russian Federation"\t"Russian"\t...\t"132000"\t"33"\t...'
+      - '"роблокс скачать"\t"RU"\t"Russian Federation"\t"Russian"\t...\t"73000"\t"5"\t...'
+    domain: freesoft.ru
+    report_type: organic_keywords
+    report_subtype: actual
+    filter_country: RU
+    assigned_task: "02a-parse-freesoft-ru-keywords"
+    is_duplicate_of: null
+
+  - name: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_27_20.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 18331412
+    rows: 30001
+    columns: ["Keyword", "Country", "Location", "Language", "Entities", "SERP features", "Volume", "KD", "CPC", "Previous organic traffic", "Current organic traffic", "Organic traffic change", "Current paid traffic", "Previous position", "Current position", "Position change", "Previous URL inside", "Previous URL", "Current URL inside", "Current URL", "Previous date", "Current date", "Branded", "Local", "Navigational", "Informational", "Commercial", "Transactional"]
+    first_data_lines:
+      - '"тик ток мод"\t"RU"\t"Russian Federation"\t...\t"132000"\t"33"\t...'
+      - '"роблокс скачать"\t"RU"\t"Russian Federation"\t...\t"73000"\t"5"\t...'
+    domain: freesoft.ru
+    report_type: organic_keywords
+    report_subtype: comparison
+    filter_country: RU
+    assigned_task: "02a-parse-freesoft-ru-keywords"
+    is_duplicate_of: null
+
+  - name: "freesoft_ru_top_pages_subdomains_ru_actua_2026_03_05_22_28_10.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 2001016
+    rows: 8439
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    first_data_lines:
+      - '"https://freesoft.ru/android/tiktok-mod/download"\t"4.8"\t"41446"\t...'
+      - '"https://freesoft.ru/android/nulls-brawl/download"\t"5"\t"15092"\t...'
+    domain: freesoft.ru
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: RU
+    assigned_task: "02b-parse-freesoft-ru-pages"
+    is_duplicate_of: null
+
+  - name: "freesoft_ru_top_pages_subdomains_ru_compa_2026_03_05_22_28_29.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 7153320
+    rows: 22248
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change", "Page type"]
+    first_data_lines:
+      - '"https://freesoft.ru/android/tiktok-mod/download"\t""\t"4.8"\t"15241"\t"41446"\t...'
+      - '"https://freesoft.ru/android/nulls-brawl/download"\t""\t"5"\t"6532"\t"15092"\t...'
+    domain: freesoft.ru
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: RU
+    assigned_task: "02b-parse-freesoft-ru-pages"
+    is_duplicate_of: null
+
+  - name: "freesoft_RU_main_overiew.png"
+    type: png
+    size_bytes: 115718
+    domain: freesoft.ru
+    report_type: overview
+    key_metrics:
+      dr: 59
+      ur: 33
+      organic_keywords: "17.5K"
+      organic_keywords_change: "-85.5K"
+      organic_traffic: "168K"
+      organic_traffic_change: "+95.9K"
+      backlinks: "170K"
+      ref_domains: "3.3K"
+      filter_country: "Russian Federation"
+    assigned_task: "02a-parse-freesoft-ru-keywords"
+    is_duplicate_of: null
+
+  - name: "organic_traff_loc_RU.png"
+    type: png
+    size_bytes: 53604
+    domain: freesoft.ru
+    report_type: traffic_by_location
+    key_metrics:
+      total_locations: 91
+      top_countries:
+        - country: "Russian Federation"
+          traffic: "168K"
+          share: "71.9%"
+          keywords: "17.5K"
+        - country: Kazakhstan
+          traffic: "28.7K"
+          share: "12.3%"
+          keywords: "2.5K"
+        - country: Ukraine
+          traffic: "14.8K"
+          share: "6.3%"
+          keywords: "3.4K"
+        - country: Belarus
+          traffic: "7.8K"
+          share: "3.3%"
+          keywords: "1.1K"
+      filter_country: "Russian Federation"
+    assigned_task: "02a-parse-freesoft-ru-keywords"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # frees0ft.fr — 9 CSV + 2 PNG
+  # ----------------------------------------------------------
+
+  - name: "frees0ft_fr_organic_keywords_subdomains_fr_2026_03_05_22_20_26.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 364410
+    rows: 733
+    columns: ["Keyword", "Country code", "Location", "Language", "Entities", "SERP features", "Volume", "KD", "CPC", "Organic traffic", "Paid traffic", "Current position", "Current URL", "Current URL inside", "Updated", "Navigational", "Informational", "Commercial", "Transactional", "Branded", "Local"]
+    first_data_lines:
+      - '"null''s brawl"\t"FR"\t"France"\t"English"\t...\t"70000"\t"40"\t...'
+      - '"null''s brawl télécharger"\t"FR"\t"France"\t"French"\t...\t"12000"\t"51"\t...'
+    domain: frees0ft.fr
+    report_type: organic_keywords
+    report_subtype: actual
+    filter_country: FR
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+
+  - name: "frees0ft_fr_organic_keywords_subdomains_fr_2026_03_05_22_21_09.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 2105744
+    rows: 3967
+    columns: ["Keyword", "Country", "Location", "Language", "Entities", "SERP features", "Volume", "KD", "CPC", "Previous organic traffic", "Current organic traffic", "Organic traffic change", "Current paid traffic", "Previous position", "Current position", "Position change", "Previous URL inside", "Previous URL", "Current URL inside", "Current URL", "Previous date", "Current date", "Branded", "Local", "Navigational", "Informational", "Commercial", "Transactional"]
+    first_data_lines:
+      - '"null''s brawl"\t"FR"\t"France"\t"English"\t...\t"70000"\t"40"\t...'
+      - '"null''s brawl télécharger"\t"FR"\t"France"\t"French"\t...\t"12000"\t"51"\t...'
+    domain: frees0ft.fr
+    report_type: organic_keywords
+    report_subtype: comparison
+    filter_country: FR
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+
+  - name: "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_03_45.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 110340
+    rows: 488
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    first_data_lines:
+      - '"https://frees0ft.fr/android/nulls-brawl/versions"\t"4.7"\t"10854"\t...'
+      - '"https://frees0ft.fr/android/nulls-brawl"\t"8"\t"1108"\t...'
+    domain: frees0ft.fr
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: FR
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+
+  - name: "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_11_08.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 110340
+    rows: 488
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    first_data_lines:
+      - '"https://frees0ft.fr/android/nulls-brawl/versions"\t"4.7"\t"10854"\t...'
+      - '"https://frees0ft.fr/android/nulls-brawl"\t"8"\t"1108"\t...'
+    domain: frees0ft.fr
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: FR
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_03_45.csv"
+
+  - name: "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_03_29.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 620496
+    rows: 1931
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change", "Page type"]
+    first_data_lines:
+      - '"https://frees0ft.fr/android/nulls-brawl/versions"\t""\t"4.7"\t"11931"\t"10854"\t...'
+      - '"https://frees0ft.fr/android/nulls-brawl"\t""\t"8"\t"12"\t"1108"\t...'
+    domain: frees0ft.fr
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: FR
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+
+  - name: "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_11_22.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 620496
+    rows: 1931
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change", "Page type"]
+    first_data_lines:
+      - '"https://frees0ft.fr/android/nulls-brawl/versions"\t""\t"4.7"\t"11931"\t"10854"\t...'
+      - '"https://frees0ft.fr/android/nulls-brawl"\t""\t"8"\t"12"\t"1108"\t...'
+    domain: frees0ft.fr
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: FR
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_03_29.csv"
+
+  - name: "frees0ft_fr_top_pages_subdomains_ru_compa_2026_03_05_22_22_00.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 52556
+    rows: 164
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change", "Page type"]
+    first_data_lines:
+      - '"https://frees0ft.fr/android/gacha-life/download/86705"\t"New"\t"4.6"\t""\t"3"\t...'
+      - '"https://frees0ft.fr/android/1xbet"\t"Lost"\t"0"\t"1"\t""\t...'
+    domain: frees0ft.fr
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: RU
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+
+  - name: "frees0ft.fr-perf-subdomains_year2_daily_2026-03-05_22-22-53.csv"
+    type: csv
+    encoding: "ASCII"
+    delimiter: "comma"
+    size_bytes: 13370
+    rows: 731
+    columns: ["Date", "Organic pages (Average volume - Russian Federation)", "Organic traffic (Average volume - Russian Federation)"]
+    first_data_lines:
+      - "2024-03-05, 119, 3"
+      - "2024-03-06, 124, 2"
+    domain: frees0ft.fr
+    report_type: performance_daily
+    report_subtype: null
+    filter_country: RU
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+    note: "ASCII comma-delimited, NOT UTF-16LE tab-delimited"
+
+  - name: "frees0ft.fr-perf-subdomains_year2_daily_2026-03-05_23-03-23.csv"
+    type: csv
+    encoding: "ASCII"
+    delimiter: "comma"
+    size_bytes: 16480
+    rows: 731
+    columns: ["Date", "Organic pages (Average volume - France)", "Organic traffic (Average volume - France)"]
+    first_data_lines:
+      - "2024-03-05, 4052, 650"
+      - "2024-03-06, 3989, 630"
+    domain: frees0ft.fr
+    report_type: performance_daily
+    report_subtype: null
+    filter_country: FR
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+    note: "ASCII comma-delimited, NOT UTF-16LE tab-delimited"
+
+  - name: "freesoft_FR_main_overiew.png"
+    type: png
+    size_bytes: 107132
+    domain: frees0ft.fr
+    report_type: overview
+    key_metrics:
+      dr: 23
+      ur: 38
+      organic_keywords: 11
+      organic_keywords_change: -171
+      organic_traffic: 4
+      organic_traffic_change: "+2"
+      backlinks: "117K"
+      ref_domains: 488
+      filter_country: "Russian Federation"
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+    note: "RU filter applied — traffic 4 is RU-only, real FR traffic ~21.6K"
+
+  - name: "organic_traff_loc_FR.png"
+    type: png
+    size_bytes: 44958
+    domain: frees0ft.fr
+    report_type: traffic_by_location
+    key_metrics:
+      total_locations: 56
+      top_countries:
+        - country: France
+          traffic: "12.7K"
+          share: "58.7%"
+          keywords: 731
+        - country: Senegal
+          traffic: "6.1K"
+          share: "28.3%"
+          keywords: 98
+        - country: Cameroon
+          traffic: 704
+          share: "3.2%"
+          keywords: 69
+        - country: Algeria
+          traffic: 362
+          share: "1.7%"
+          keywords: 131
+      filter_country: "All locations (frees0ft.fr FR context)"
+    assigned_task: "03-parse-freesoft-fr"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # uptodown.com — 3 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 5239664
+    rows: 30001
+    columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic cost", "Paid keywords", "Paid pages"]
+    domain: uptodown.com
+    report_type: site_structure
+    report_subtype: null
+    filter_country: RU
+    assigned_task: "04a-parse-uptodown-structure"
+    is_duplicate_of: null
+
+  - name: "uptodown_com_top_pages_subdomains_all_act_2026_03_05_23_03_05.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 7286170
+    rows: 30001
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Country", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    domain: uptodown.com
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: ALL
+    assigned_task: "04b-parse-uptodown-pages"
+    is_duplicate_of: null
+    note: "data-inventory says 30045 rows but wc -l via iconv gives 30001"
+
+  - name: "uptodown_com_top_pages_subdomains_ru_comp_2026_03_05_23_02_25.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 9444786
+    rows: 30001
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change", "Page type"]
+    domain: uptodown.com
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: RU
+    assigned_task: "04b-parse-uptodown-pages"
+    is_duplicate_of: null
+
+  - name: "uptodown_com_US_overview.png"
+    type: png
+    size_bytes: 196565
+    domain: uptodown.com
+    report_type: overview
+    key_metrics:
+      dr: 83
+      ur: 23
+      organic_keywords: "95.8K"
+      organic_keywords_change: "-264K"
+      organic_traffic: "983K"
+      organic_traffic_change: "-177K"
+      backlinks: "18.3M"
+      ref_domains: "35.5K"
+      filter_country: "United States"
+      ai_overview_citations: 608
+      top_countries:
+        - country: India
+          traffic: "6.8M"
+          share: "21.5%"
+        - country: Brazil
+          traffic: "2.5M"
+          share: "8.1%"
+        - country: Indonesia
+          traffic: "2M"
+          share: "6.3%"
+        - country: "Russian Federation"
+          traffic: "983.1K"
+          share: "3.1%"
+        - country: "United States"
+          traffic: "887.1K"
+          share: "2.8%"
+    assigned_task: "04a-parse-uptodown-structure"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # softonic.com — 3 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "softonic_com_site_structure_subdomains_ru_2026_03_05_22_48_04.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 5454948
+    rows: 30001
+    columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic Cost", "Paid keywords", "Paid pages"]
+    domain: softonic.com
+    report_type: site_structure
+    report_subtype: null
+    filter_country: RU
+    assigned_task: "05a-parse-softonic-com-structure"
+    is_duplicate_of: null
+
+  - name: "softonic_com_top_pages_subdomains_all_act_2026_03_05_23_04_55.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 7668136
+    rows: 30001
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Country", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    domain: softonic.com
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: ALL
+    assigned_task: "05b-parse-softonic-com-pages"
+    is_duplicate_of: null
+    note: "data-inventory says 30029 rows but wc -l via iconv gives 30001"
+
+  - name: "softonic_com_top_pages_subdomains_all_com_2026_03_05_23_04_30.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 12689426
+    rows: 30001
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Country", "Current top keyword: Country", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change", "Page type"]
+    domain: softonic.com
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: ALL
+    assigned_task: "05b-parse-softonic-com-pages"
+    is_duplicate_of: null
+    note: "data-inventory says 30050 rows but wc -l via iconv gives 30001"
+
+  - name: "softonic_com_US_overview.png"
+    type: png
+    size_bytes: 214648
+    domain: softonic.com
+    report_type: overview
+    key_metrics:
+      dr: 86
+      ur: 19
+      organic_keywords: "20.8K"
+      organic_keywords_change: "-63.4K"
+      organic_traffic: "88.5K"
+      organic_traffic_change: "+60.7K"
+      backlinks: "342M"
+      ref_domains: "48.8K"
+      filter_country: "Russian Federation"
+      ai_overview_citations: 53
+      top_countries:
+        - country: India
+          traffic: "16.5M"
+          share: "43.2%"
+        - country: Bangladesh
+          traffic: "1.8M"
+          share: "4.8%"
+        - country: "United States"
+          traffic: "1.5M"
+          share: "3.9%"
+        - country: France
+          traffic: "607.2K"
+          share: "1.6%"
+    assigned_task: "05a-parse-softonic-com-structure"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # softonic.ru — 1 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 5202898
+    rows: 30001
+    columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic Cost", "Paid keywords", "Paid pages"]
+    domain: softonic.ru
+    report_type: site_structure
+    report_subtype: null
+    filter_country: RU
+    assigned_task: "05c-parse-softonic-ru"
+    is_duplicate_of: null
+
+  - name: "softonic_ru_RU_overview.png"
+    type: png
+    size_bytes: 192044
+    domain: softonic.ru
+    report_type: overview
+    key_metrics:
+      dr: 50
+      ur: 0
+      organic_keywords: "65.7K"
+      organic_keywords_change: "-291K"
+      organic_traffic: "335K"
+      organic_traffic_change: "-578K"
+      backlinks: "24.4M"
+      ref_domains: "4.9K"
+      filter_country: "Russian Federation"
+      top_countries:
+        - country: "Russian Federation"
+          traffic: "335.1K"
+          share: "46.7%"
+        - country: Ukraine
+          traffic: "97.7K"
+          share: "13.6%"
+        - country: Kazakhstan
+          traffic: "92.7K"
+          share: "12.9%"
+        - country: Uzbekistan
+          traffic: "78.7K"
+          share: "11.0%"
+    assigned_task: "05c-parse-softonic-ru"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # malavida.com — 3 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "malavida_com_site_structure_subdomains_ru_2026_03_05_22_46_42.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 8169636
+    rows: 30001
+    columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic Cost", "Paid keywords", "Paid pages"]
+    domain: malavida.com
+    report_type: site_structure
+    report_subtype: null
+    filter_country: RU
+    assigned_task: "06a-parse-malavida-structure"
+    is_duplicate_of: null
+
+  - name: "malavida_com_top_pages_subdomains_all_act_2026_03_05_23_05_50.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 7193806
+    rows: 30001
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Country", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    domain: malavida.com
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: ALL
+    assigned_task: "06b-parse-malavida-pages"
+    is_duplicate_of: null
+
+  - name: "malavida_com_top_pages_subdomains_all_com_2026_03_05_23_05_32.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 11837592
+    rows: 30001
+    columns: ["URL", "Status", "UR", "Previous traffic", "Current traffic", "Traffic change", "Previous traffic value", "Current traffic value", "Traffic value change", "Current referring domains", "Previous # of keywords", "Current # of keywords", "Keywords change", "Previous top keyword", "Current top keyword", "Previous top keyword: Country", "Current top keyword: Country", "Previous top keyword: Volume", "Current top keyword: Volume", "Previous top keyword: Position", "Current top keyword: Position", "Top keyword: Position change", "Page type"]
+    domain: malavida.com
+    report_type: top_pages
+    report_subtype: comparison
+    filter_country: ALL
+    assigned_task: "06b-parse-malavida-pages"
+    is_duplicate_of: null
+
+  - name: "malavida_com_US_overview.png"
+    type: png
+    size_bytes: 177235
+    domain: malavida.com
+    report_type: overview
+    key_metrics:
+      dr: 73
+      ur: 4.4
+      organic_keywords: "54.1K"
+      organic_keywords_change: "-132K"
+      organic_traffic: "526K"
+      organic_traffic_change: "-148K"
+      backlinks: "798K"
+      ref_domains: "13.9K"
+      filter_country: "United States"
+      ai_overview_citations: 102
+      http_status: 301
+      top_countries:
+        - country: India
+          traffic: "692.4K"
+          share: "10.5%"
+        - country: "Russian Federation"
+          traffic: "525.9K"
+          share: "8.0%"
+        - country: Brazil
+          traffic: "405.8K"
+          share: "6.2%"
+        - country: France
+          traffic: "277.3K"
+          share: "4.2%"
+    assigned_task: "06a-parse-malavida-structure"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # filehippo.com — 1 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 6044532
+    rows: 30001
+    columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic Cost", "Paid keywords", "Paid pages"]
+    domain: filehippo.com
+    report_type: site_structure
+    report_subtype: null
+    filter_country: RU
+    assigned_task: "07a-parse-filehippo"
+    is_duplicate_of: null
+
+  - name: "filehippo_com_US_overview.png"
+    type: png
+    size_bytes: 183181
+    domain: filehippo.com
+    report_type: overview
+    key_metrics:
+      dr: 77
+      ur: 37
+      organic_keywords: "1.3K"
+      organic_keywords_change: "-17.5K"
+      organic_traffic: 526
+      organic_traffic_change: -126
+      backlinks: "Couldn't fetch data"
+      ref_domains: "Couldn't fetch data"
+      filter_country: "Russian Federation"
+      top_countries:
+        - country: India
+          traffic: "170.7K"
+          share: "24.3%"
+        - country: Pakistan
+          traffic: "92.3K"
+          share: "13.2%"
+        - country: Colombia
+          traffic: "45.5K"
+          share: "6.5%"
+        - country: "United States"
+          traffic: "27K"
+          share: "3.9%"
+    assigned_task: "07a-parse-filehippo"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # trashbox.ru — 1 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "trashbox_ru_site_structure_subdomains_ru_2026_03_05_22_44_22.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 7595924
+    rows: 30001
+    columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic Cost", "Paid keywords", "Paid pages"]
+    domain: trashbox.ru
+    report_type: site_structure
+    report_subtype: null
+    filter_country: RU
+    assigned_task: "07b-parse-trashbox"
+    is_duplicate_of: null
+
+  - name: "trashbox_ru_US_overview.png"
+    type: png
+    size_bytes: 151648
+    domain: trashbox.ru
+    report_type: overview
+    key_metrics:
+      dr: 54
+      ur: 31
+      organic_keywords: "64.4K"
+      organic_keywords_change: "-323K"
+      organic_traffic: "991K"
+      organic_traffic_change: "-893K"
+      backlinks: "121K"
+      ref_domains: "5.2K"
+      filter_country: "Russian Federation"
+      top_countries:
+        - country: "Russian Federation"
+          traffic: "991.2K"
+          share: "73.8%"
+        - country: Kazakhstan
+          traffic: "92K"
+          share: "6.8%"
+        - country: Belarus
+          traffic: "76.1K"
+          share: "5.7%"
+        - country: Uzbekistan
+          traffic: "63.4K"
+          share: "4.7%"
+    assigned_task: "07b-parse-trashbox"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # clubic.com — 1 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "clubic_com_top_pages_subdomains_all_actua_2026_03_05_23_06_47.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 8967866
+    rows: 26609
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Country", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    domain: clubic.com
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: ALL
+    assigned_task: "08a-parse-clubic"
+    is_duplicate_of: null
+
+  - name: "clubic_com_US_overview.png"
+    type: png
+    size_bytes: 203793
+    domain: clubic.com
+    report_type: overview
+    key_metrics:
+      dr: 81
+      ur: 4.9
+      organic_keywords: 596
+      organic_keywords_change: "-6.7K"
+      organic_traffic: 186
+      organic_traffic_change: -251
+      backlinks: "5.6M"
+      ref_domains: "17.6K"
+      filter_country: "Russian Federation"
+      top_countries:
+        - country: France
+          traffic: "635.5K"
+          share: "52.9%"
+        - country: Morocco
+          traffic: "168.4K"
+          share: "14.0%"
+        - country: Algeria
+          traffic: "87.3K"
+          share: "7.3%"
+    assigned_task: "08a-parse-clubic"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # 01net.com — 1 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "01net_com_top_pages_subdomains_all_actual_2026_03_05_23_06_59.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 8958884
+    rows: 28699
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Country", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    domain: 01net.com
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: ALL
+    assigned_task: "08b-parse-01net"
+    is_duplicate_of: null
+
+  - name: "01net_com_US_overview.png"
+    type: png
+    size_bytes: 164847
+    domain: 01net.com
+    report_type: overview
+    key_metrics:
+      dr: 81
+      ur: 5
+      organic_keywords: "141K"
+      organic_keywords_change: "-925K"
+      organic_traffic: "1.5M"
+      organic_traffic_change: "-2.2M"
+      backlinks: "4.6M"
+      ref_domains: "21.2K"
+      filter_country: "All locations"
+      ai_overview_citations: "2.4K"
+      chatgpt_citations: "10.1K"
+      copilot_citations: "2.1K"
+      top_countries:
+        - country: France
+          traffic: "823.3K"
+          share: "56.5%"
+        - country: Algeria
+          traffic: "99.4K"
+          share: "6.8%"
+        - country: Morocco
+          traffic: "71.5K"
+          share: "4.9%"
+        - country: "United States"
+          traffic: "32.7K"
+          share: "2.2%"
+    assigned_task: "08b-parse-01net"
+    is_duplicate_of: null
+
+  # ----------------------------------------------------------
+  # commentcamarche.net — 1 CSV + 1 PNG
+  # ----------------------------------------------------------
+
+  - name: "commentcamarche_net_top_pages_subdomains_al_2026_03_05_23_07_08.csv"
+    type: csv
+    encoding: "UTF-16LE"
+    size_bytes: 10170998
+    rows: 30001
+    columns: ["URL", "UR", "Traffic", "Traffic value", "Referring domains", "Keywords", "Top keyword", "Top keyword: Country", "Top keyword: Volume", "Top keyword: Position", "Page type"]
+    domain: commentcamarche.net
+    report_type: top_pages
+    report_subtype: actual
+    filter_country: ALL
+    assigned_task: "08c-parse-commentcamarche"
+    is_duplicate_of: null
+
+  - name: "ommentcamarche_net_overview.png"
+    type: png
+    size_bytes: 170683
+    domain: commentcamarche.net
+    report_type: overview
+    key_metrics:
+      dr: 80
+      ur: 4.6
+      organic_keywords: "71.7K"
+      organic_keywords_change: "-990K"
+      organic_traffic: "227K"
+      organic_traffic_change: "-440K"
+      backlinks: "7M"
+      ref_domains: "13.7K"
+      filter_country: "All locations"
+      chatgpt_citations: "1.3K"
+      copilot_citations: 540
+      perplexity_citations: "2.2K"
+      top_countries:
+        - country: France
+          traffic: "178.4K"
+          share: "78.6%"
+        - country: Algeria
+          traffic: "11.9K"
+          share: "5.2%"
+        - country: Morocco
+          traffic: "11K"
+          share: "4.9%"
+    assigned_task: "08c-parse-commentcamarche"
+    is_duplicate_of: null
+    note: "PNG filename has typo: missing leading 'c' (should be commentcamarche)"
+
+# ============================================================
+# OUR DOMAINS SUMMARY
+# ============================================================
+our_domains:
+  - domain: freesoft.net
+    dr: 51
+    ur: 27
+    organic_traffic: 89
+    organic_keywords: 138
+    backlinks: "191K"
+    ref_domains: "3.7K"
+    source: "freesoft_net_main_overiew.png"
+    filter_country: "Russian Federation"
+    note: "RU filter only. Real total traffic ~34.6K from organic_traff_loc_US.png (India 14.2K, Bangladesh 5.4K, US 2.1K etc.)"
+
+  - domain: freesoft.ru
+    dr: 59
+    ur: 33
+    organic_traffic: 168000
+    organic_keywords: 17500
+    backlinks: "170K"
+    ref_domains: "3.3K"
+    source: "freesoft_RU_main_overiew.png"
+    filter_country: "Russian Federation"
+    note: "Russia 168K (71.9%), Kazakhstan 28.7K (12.3%), Ukraine 14.8K (6.3%)"
+
+  - domain: frees0ft.fr
+    dr: 23
+    ur: 38
+    organic_traffic: 4
+    organic_keywords: 11
+    backlinks: "117K"
+    ref_domains: 488
+    source: "freesoft_FR_main_overiew.png"
+    filter_country: "Russian Federation"
+    note: "RU filter only — traffic 4 is RU-only. Real FR traffic: France 12.7K (58.7%), Senegal 6.1K (28.3%), total ~21.6K from organic_traff_loc_FR.png"
+
+# ============================================================
+# DUPLICATES
+# ============================================================
+duplicates:
+  - pair: "actual top pages"
+    files:
+      - "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_03_45.csv"
+      - "frees0ft_fr_top_pages_subdomains_fr_actua_2026_03_05_23_11_08.csv"
+    identical: true
+    md5: "b8858decceee71fa75628ca28aab129a"
+    recommendation: "Use earlier timestamp (23_03_45)"
+
+  - pair: "comparison top pages"
+    files:
+      - "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_03_29.csv"
+      - "frees0ft_fr_top_pages_subdomains_fr_compa_2026_03_05_23_11_22.csv"
+    identical: true
+    md5: "a88f1b1449919ac27f2be9e61d6aced1"
+    recommendation: "Use earlier timestamp (23_03_29)"
+
+# ============================================================
+# NOTES
+# ============================================================
+notes:
+  - "freesoft_net overview PNG shows 'Russian Federation' filter — traffic 89 is RU-only, not global"
+  - "freesoft_FR overview PNG shows 'Russian Federation' filter — traffic 4 is RU-only, real FR traffic ~21.6K"
+  - "PNG filename typo: 'ommentcamarche_net_overview.png' is missing leading 'c' (commentcamarche.net)"
+  - "2 performance CSVs (frees0ft.fr-perf-*) are ASCII comma-delimited, not UTF-16LE tab-delimited"
+  - "2 duplicate pairs for frees0ft.fr are byte-identical (verified via MD5 checksum)"
+  - "uptodown_com overview shows US filter but with global location breakdown; DR 83, total traffic ~31.6M across 177 locations"
+  - "softonic_com overview shows RU filter — traffic 88.5K is RU-only; global traffic much larger"
+  - "filehippo_com overview: backlinks and ref_domains data could not be fetched (Ahrefs error on screenshot)"
+  - "Some wc -l row counts differ slightly from data-inventory.md estimates (30001 vs 30029/30045/30050) — iconv + wc -l is authoritative"
+  - "malavida.com overview shows HTTP 301 redirect status"
+  - "softonic_ru overview: filter Russian Federation, organic traffic 335K declining (-578K)"
+  - "clubic_com overview: filter Russian Federation, RU traffic only 186; real FR traffic 635.5K"

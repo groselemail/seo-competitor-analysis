@@ -1,0 +1,519 @@
+domain: commentcamarche.net
+dr:
+  value: 80
+  source: "ommentcamarche_net_overview.png"
+  extraction: "visual from PNG (file not found on disk; value from task context)"
+  note: "PNG filename has typo — missing leading 'c'. Actual domain is commentcamarche.net. File was not present at pipeline-seo/data_for_task/ommentcamarche_net_overview.png; metrics taken from task brief."
+
+total_organic_traffic:
+  value: 227000
+  source: "ommentcamarche_net_overview.png"
+  extraction: "visual from PNG (task context — file not on disk)"
+
+total_keywords:
+  value: 71700
+  source: "ommentcamarche_net_overview.png"
+  extraction: "visual from PNG (task context — file not on disk)"
+  note: "71.7K keywords currently; was much higher before decline"
+
+decline:
+  traffic_change: -440000
+  keywords_change: -990000
+  source: "ommentcamarche_net_overview.png"
+  extraction: "visual from PNG (task context — file not on disk)"
+  note: "Heavy decline alongside 01net.com and clubic.com — all three major French tech sites losing traffic significantly. Likely reflects broader French tech content market contraction or Google algorithm changes."
+
+traffic_by_country:
+  - country: France
+    traffic: 178400
+    share_pct: 78.6
+    source: "ommentcamarche_net_overview.png"
+    extraction: "visual from PNG (task context — file not on disk)"
+    note: "Most France-focused of French competitors (78.6% vs 56.5% for 01net.com)"
+
+csv_file: "commentcamarche_net_top_pages_subdomains_al_2026_03_05_23_07_08.csv"
+csv_columns:
+  1: "URL"
+  2: "UR"
+  3: "Traffic"
+  4: "Traffic value"
+  5: "Referring domains"
+  6: "Keywords"
+  7: "Top keyword"
+  8: "Top keyword: Country"
+  9: "Top keyword: Volume"
+  10: "Top keyword: Position"
+  11: "Page type"
+
+site_structure:
+  subdomains:
+    - subdomain: "forums.commentcamarche.net"
+      pages: 25290
+      note: "Forum/Q&A content — dominant by page count"
+    - subdomain: "www.commentcamarche.net"
+      pages: 4632
+      note: "Editorial content, downloads, how-to guides"
+  note: "84.4% of pages are forum content (25,290 of 29,907 after filter)"
+
+top_pages:
+  source: "commentcamarche_net_top_pages_subdomains_al_2026_03_05_23_07_08.csv"
+  extraction: "awk -F'\\t' 'NR>1 {gambling_filter; gsub quotes; print url,traffic,keywords,top_kw}' | sort -t$'\\t' -k2 -rn | head -50"
+  count: 50
+  entries:
+    - url: "https://www.commentcamarche.net/applis-sites/applications/37089-retour-de-wannonce/"
+      traffic: 35548
+      keywords: 205
+      top_keyword: "wannonce"
+    - url: "https://www.commentcamarche.net/"
+      traffic: 19463
+      keywords: 198
+      top_keyword: "ccm"
+    - url: "https://www.commentcamarche.net/maison/box-connexion-internet/643-192-168-0-1-192-168-1-1-192-168-0-254-comment-acceder-a-une-box-internet/"
+      traffic: 16382
+      keywords: 262
+      top_keyword: "192 l.168.1.1"
+    - url: "https://www.commentcamarche.net/telecharger/"
+      traffic: 2463
+      keywords: 407
+      top_keyword: "telecharger.com"
+    - url: "https://www.commentcamarche.net/telecharger/web-internet/5941-clavier-arabe-co/"
+      traffic: 2212
+      keywords: 59
+      top_keyword: "clavier arabe"
+    - url: "https://www.commentcamarche.net/informatique/windows/1141-utiliser-des-cles-de-produit-generiques-pour-windows/"
+      traffic: 2087
+      keywords: 207
+      top_keyword: "clé de produit windows 10 gratuit"
+    - url: "https://www.commentcamarche.net/applis-sites/mail/581-se-connecter-a-un-compte-hotmail-ou-windows-live-mail/"
+      traffic: 1866
+      keywords: 474
+      top_keyword: "se connecter à ma boite hotmail"
+    - url: "https://www.commentcamarche.net/mobile/android/1025-deverrouiller-un-telephone-android-bloque/"
+      traffic: 1629
+      keywords: 227
+      top_keyword: "comment déverrouiller un téléphone quand on a oublié le code"
+    - url: "https://www.commentcamarche.net/informatique/windows/467-acceder-a-une-cle-usb-non-reconnue-ou-un-disque-externe-non-detecte-par-windows/"
+      traffic: 1606
+      keywords: 128
+      top_keyword: "cle usb non reconnu"
+    - url: "https://www.commentcamarche.net/applis-sites/messageries/767-recuperer-des-messsages-supprimes-dans-whatsapp/"
+      traffic: 1517
+      keywords: 285
+      top_keyword: "comment recuperer un message supprimé sur whatsapp"
+    - url: "https://www.commentcamarche.net/informatique/technologies/1631-ouvrir-fichier-bin/"
+      traffic: 1320
+      keywords: 46
+      top_keyword: "comment ouvrir un fichier bin?"
+    - url: "https://www.commentcamarche.net/informatique/technologies/1589-code-ascii/"
+      traffic: 1247
+      keywords: 75
+      top_keyword: "code ascii"
+    - url: "https://www.commentcamarche.net/image-son/tv-video/1091-resoudre-les-problemes-de-reception-de-la-tnt/"
+      traffic: 1192
+      keywords: 217
+      top_keyword: "problème de réception tv pas de signal aujourd' hui"
+    - url: "https://www.commentcamarche.net/applis-sites/reseaux-sociaux/851-savoir-qui-consulte-un-profil-sur-facebook/"
+      traffic: 1148
+      keywords: 191
+      top_keyword: "comment savoir qui regarde mon profil facebook"
+    - url: "https://www.commentcamarche.net/informatique/ordinateurs/763-pave-tactile-bloque-activer-ou-desactiver-le-touchpad/"
+      traffic: 1065
+      keywords: 132
+      top_keyword: "pavé tactile bloqué"
+    - url: "https://www.commentcamarche.net/telecharger/photo-graphisme/17583-photofiltre-7/"
+      traffic: 1025
+      keywords: 31
+      top_keyword: "photofiltre 7"
+    - url: "https://www.commentcamarche.net/informatique/windows/25-verifier-et-reparer-des-fichiers-systeme-avec-windows-10/"
+      traffic: 948
+      keywords: 40
+      top_keyword: "sfc scannow"
+    - url: "https://www.commentcamarche.net/maison/reseau-wifi/815-trouver-l-adresse-ip-locale-d-un-ordinateur-ou-d-un-mobile/"
+      traffic: 796
+      keywords: 57
+      top_keyword: "rechercher ou entrer l'adresse"
+    - url: "https://www.commentcamarche.net/applis-sites/bureautique/549-creer-des-listes-deroulantes-dans-excel/"
+      traffic: 793
+      keywords: 151
+      top_keyword: "liste déroulante excel"
+    - url: "https://www.commentcamarche.net/applis-sites/bureautique/619-utiliser-les-espaces-insecables-dans-word/"
+      traffic: 789
+      keywords: 36
+      top_keyword: "espace insécable word"
+    - url: "https://www.commentcamarche.net/applis-sites/services-en-ligne/33555-block-breaker-le-celebre-jeu-de-casse-briques-debarque-sur-google/"
+      traffic: 777
+      keywords: 4
+      top_keyword: "google block breaker"
+    - url: "https://forums.commentcamarche.net/forum/affich-37418466-comment-desactiver-le-mode-securise-de-la-freebox-pop"
+      traffic: 734
+      keywords: 52
+      top_keyword: "enlever mode sécurisé tv free"
+    - url: "https://forums.commentcamarche.net/forum/affich-28417923-presentation-en-tete"
+      traffic: 730
+      keywords: 1
+      top_keyword: "dans la présentation à télécharger, un mot est caché sous l'étoile. trouvez-le !"
+    - url: "https://www.commentcamarche.net/applis-sites/messageries/1489-ecrire-en-gras-ou-en-italique-sur-whatsapp/"
+      traffic: 698
+      keywords: 47
+      top_keyword: "italique sur whatsapp"
+    - url: "https://www.commentcamarche.net/applis-sites/reseaux-sociaux/567-diviser-une-photo-en-plusieurs-images-sur-instagram/"
+      traffic: 672
+      keywords: 87
+      top_keyword: "pp insta en grand"
+    - url: "https://www.commentcamarche.net/applis-sites/services-en-ligne/37237-fermeture-yggtorrent/"
+      traffic: 656
+      keywords: 3
+      top_keyword: "yggtorrent"
+    - url: "https://www.commentcamarche.net/informatique/windows/119-passer-gratuitement-de-windows-7-a-windows-10/"
+      traffic: 651
+      keywords: 139
+      top_keyword: "comment passer de windows 7 à windows 10"
+    - url: "https://www.commentcamarche.net/informatique/peripheriques/1237-spouleur-d-impression-windows/"
+      traffic: 651
+      keywords: 33
+      top_keyword: "spouleur"
+    - url: "https://www.commentcamarche.net/applis-sites/mail/441-se-connecter-a-gmail/"
+      traffic: 649
+      keywords: 267
+      top_keyword: "se connecter à gmail sur téléphone"
+    - url: "https://www.commentcamarche.net/image-son/photo/1253-google-photos-telecharger-toutes-les-photos-et-videos/"
+      traffic: 620
+      keywords: 138
+      top_keyword: "mes photos google"
+    - url: "https://forums.commentcamarche.net/forum/affich-38056564-tokyvideo-est-un-site-sur"
+      traffic: 616
+      keywords: 10
+      top_keyword: "toky video"
+    - url: "https://www.commentcamarche.net/telecharger/securite/2759-adwcleaner/"
+      traffic: 597
+      keywords: 50
+      top_keyword: "adw cleaner"
+    - url: "https://forums.commentcamarche.net/forum/affich-27181399-http-192-168-0-1"
+      traffic: 583
+      keywords: 15
+      top_keyword: "192 l.168.0.1"
+    - url: "https://forums.commentcamarche.net/forum/affich-38189743-colis-a-paris-valedwaz-province-fr"
+      traffic: 580
+      keywords: 15
+      top_keyword: "valedwaz"
+    - url: "https://forums.commentcamarche.net/forum/"
+      traffic: 572
+      keywords: 57
+      top_keyword: "comment ça marche forum"
+    - url: "https://www.commentcamarche.net/telecharger/utilitaires/5647-ccleaner/"
+      traffic: 570
+      keywords: 136
+      top_keyword: "dernière version ccleaner gratuit français"
+    - url: "https://www.commentcamarche.net/mobile/android/1215-acceder-au-mode-recovery-d-android/"
+      traffic: 564
+      keywords: 73
+      top_keyword: "android recovery"
+    - url: "https://www.commentcamarche.net/telecharger/web-internet/11301-google-play-store-apk-pour-android/"
+      traffic: 548
+      keywords: 70
+      top_keyword: "télécharger play store"
+    - url: "https://www.commentcamarche.net/mobile/ios/1007-faire-une-capture-d-ecran-sur-iphone-ou-ipad/"
+      traffic: 536
+      keywords: 124
+      top_keyword: "comment faire une capture d'écran sur iphone"
+    - url: "https://www.commentcamarche.net/mobile/android/30745-historique-du-presse-papier-android/"
+      traffic: 500
+      keywords: 61
+      top_keyword: "presse papier android"
+    - url: "https://www.commentcamarche.net/mobile/ios/1835-telecharger-une-sonnerie-sur-iphone/"
+      traffic: 473
+      keywords: 63
+      top_keyword: "sonnerie iphone gratuite"
+    - url: "https://www.commentcamarche.net/telecharger/bureautique/14937-microsoft-word-2013/"
+      traffic: 470
+      keywords: 73
+      top_keyword: "word 2013"
+    - url: "https://www.commentcamarche.net/informatique/peripheriques/979-brancher-deux-ecrans-sur-un-pc/"
+      traffic: 459
+      keywords: 137
+      top_keyword: "double ecran pc"
+    - url: "https://www.commentcamarche.net/applis-sites/mail/429-envoyer-un-message-avec-accuse-de-reception-dans-gmail/"
+      traffic: 449
+      keywords: 144
+      top_keyword: "accusé de reception gmail"
+    - url: "https://www.commentcamarche.net/image-son/tv-video/775-installer-et-utiliser-un-chromecast/"
+      traffic: 442
+      keywords: 213
+      top_keyword: "chromecast tv gratuit"
+    - url: "https://www.commentcamarche.net/applis-sites/bureautique/801-inserer-une-signature-dans-un-document-word/"
+      traffic: 437
+      keywords: 139
+      top_keyword: "comment faire une signature électronique sur word"
+    - url: "https://www.commentcamarche.net/informatique/windows/1405-corriger-le-probleme-votre-appareil-ne-dispose-pas-des-correctifs-de-qualite-et-de-securite-importants/"
+      traffic: 428
+      keywords: 3
+      top_keyword: "votre appareil ne dispose pas des correctifs de qualité et de sécurité importants"
+    - url: "https://www.commentcamarche.net/informatique/windows/459-modifier-les-droits-d-acces-a-un-fichier-ou-un-dossier-dans-windows/"
+      traffic: 421
+      keywords: 14
+      top_keyword: "vous devez disposer d'une autorisation pour effectuer cette action"
+    - url: "https://www.commentcamarche.net/telecharger/securite/13107-jrt-junkware-removal-tool/"
+      traffic: 418
+      keywords: 2
+      top_keyword: "jrt"
+    - url: "https://forums.commentcamarche.net/forum/affich-36077467-debloquer-le-site-tukif"
+      traffic: 418
+      keywords: 20
+      top_keyword: "tukif com effacer historique ordinateur apple macbook"
+
+traffic_by_page_type:
+  source: "commentcamarche_net_top_pages_subdomains_al_2026_03_05_23_07_08.csv"
+  extraction: "awk URL pattern classification by /telecharger/, /applis-sites/, /informatique/, /forum/, etc. + traffic sum"
+  types:
+    forum:
+      count: 25290
+      total_traffic: 71957
+      share_pct: 30.4
+      note: "Largest by page count (84.6% of pages) but moderate traffic share. Long-tail Q&A content."
+    applis_sites:
+      count: 778
+      total_traffic: 67047
+      share_pct: 28.4
+      note: "How-to guides about apps and sites — highest traffic efficiency. Includes /applications/, /bureautique/, /mail/, /messageries/, /reseaux-sociaux/, /services-en-ligne/"
+    software_download:
+      count: 2290
+      total_traffic: 25007
+      share_pct: 10.6
+      note: "Software download pages under /telecharger/ — 2,290 pages driving 25K traffic"
+    informatique:
+      count: 471
+      total_traffic: 20801
+      share_pct: 8.8
+      note: "Tech guides about Windows, peripherals, technologies, AI"
+    other:
+      count: 73
+      total_traffic: 19735
+      share_pct: 8.3
+      note: "Homepage (19,463) and misc pages"
+    maison:
+      count: 201
+      total_traffic: 18936
+      share_pct: 8.0
+      note: "Home networking — box internet, WiFi, routers. Includes the #3 page (192.168 guide with 16,382 traffic)"
+    mobile:
+      count: 325
+      total_traffic: 6390
+      share_pct: 2.7
+      note: "Android and iOS how-to guides"
+    image_son:
+      count: 233
+      total_traffic: 5306
+      share_pct: 2.2
+      note: "Image, sound, TV, photo guides"
+    securite:
+      count: 246
+      total_traffic: 1172
+      share_pct: 0.5
+      note: "Security guides (not downloads — those are under /telecharger/securite/)"
+
+  url_patterns_detected:
+    - pattern: "forums.commentcamarche.net/forum/"
+      count: 25290
+      traffic: 71957
+    - pattern: "/applis-sites/applications/"
+      count: 172
+      traffic: 39182
+    - pattern: "/maison/box-connexion-internet/"
+      count: 37
+      traffic: 16703
+    - pattern: "/informatique/windows/"
+      count: 259
+      traffic: 12711
+    - pattern: "/applis-sites/bureautique/"
+      count: 123
+      traffic: 6690
+    - pattern: "/applis-sites/mail/"
+      count: 67
+      traffic: 5869
+    - pattern: "/telecharger/web-internet/"
+      count: 243
+      traffic: 5606
+    - pattern: "/applis-sites/messageries/"
+      count: 116
+      traffic: 5342
+    - pattern: "/telecharger/utilitaires/"
+      count: 577
+      traffic: 5210
+    - pattern: "/applis-sites/reseaux-sociaux/"
+      count: 105
+      traffic: 4903
+    - pattern: "/applis-sites/services-en-ligne/"
+      count: 130
+      traffic: 4008
+    - pattern: "/mobile/android/"
+      count: 56
+      traffic: 3612
+    - pattern: "/informatique/technologies/"
+      count: 25
+      traffic: 3109
+    - pattern: "/image-son/tv-video/"
+      count: 57
+      traffic: 3092
+
+download_pages_analysis:
+  total_download_pages: 2290
+  total_download_traffic: 25007
+  avg_traffic_per_page: 10.9
+  source: "commentcamarche_net_top_pages_subdomains_al_2026_03_05_23_07_08.csv"
+  extraction: "awk -F'\\t' 'url ~ /telecharger/' with gambling filter; subcategory split on path after /telecharger/"
+  note: "Download section is significant (10.6% of traffic) but not dominant. How-to content drives more traffic per page."
+
+  top_download_subcategories:
+    - subcategory: "web-internet"
+      count: 243
+      traffic: 5606
+      note: "Browsers, download tools, Arabic keyboard"
+    - subcategory: "utilitaires"
+      count: 577
+      traffic: 5210
+      note: "CCleaner, WinRAR, CrystalDiskMark — largest page count"
+    - subcategory: "(index page)"
+      count: 1
+      traffic: 2463
+      note: "/telecharger/ landing page itself ranks for 'telecharger.com'"
+    - subcategory: "bureautique"
+      count: 285
+      traffic: 2398
+      note: "Word, Adobe Reader, office tools"
+    - subcategory: "photo-graphisme"
+      count: 233
+      traffic: 1988
+      note: "PhotoFiltre, Canva, image editors"
+    - subcategory: "securite"
+      count: 162
+      traffic: 1977
+      note: "AdwCleaner, Malwarebytes, JRT, Spybot — security/antivirus tools"
+    - subcategory: "tv-video"
+      count: 205
+      traffic: 1666
+    - subcategory: "communication"
+      count: 111
+      traffic: 849
+      note: "WhatsApp etc."
+    - subcategory: "jeux-video"
+      count: 80
+      traffic: 801
+      note: "After gambling filter; mobile football games etc."
+    - subcategory: "developpement"
+      count: 51
+      traffic: 645
+      note: "Delphi, Power AMC — legacy dev tools"
+    - subcategory: "audio-musique"
+      count: 165
+      traffic: 601
+    - subcategory: "systemes-d-exploitation"
+      count: 16
+      traffic: 307
+      note: "Windows 7 USB download tool etc."
+    - subcategory: "loisirs-passions"
+      count: 28
+      traffic: 236
+    - subcategory: "vie-quotidienne"
+      count: 104
+      traffic: 204
+    - subcategory: "reseau-wi-fi"
+      count: 26
+      traffic: 56
+    - subcategory: "enfants"
+      count: 3
+      traffic: 0
+
+  top_download_pages:
+    - url: "https://www.commentcamarche.net/telecharger/"
+      traffic: 2463
+      keywords: 407
+      top_keyword: "telecharger.com"
+    - url: "https://www.commentcamarche.net/telecharger/web-internet/5941-clavier-arabe-co/"
+      traffic: 2212
+      keywords: 59
+      top_keyword: "clavier arabe"
+    - url: "https://www.commentcamarche.net/telecharger/photo-graphisme/17583-photofiltre-7/"
+      traffic: 1025
+      keywords: 31
+      top_keyword: "photofiltre 7"
+    - url: "https://www.commentcamarche.net/telecharger/securite/2759-adwcleaner/"
+      traffic: 597
+      keywords: 50
+      top_keyword: "adw cleaner"
+    - url: "https://www.commentcamarche.net/telecharger/utilitaires/5647-ccleaner/"
+      traffic: 570
+      keywords: 136
+      top_keyword: "dernière version ccleaner gratuit français"
+    - url: "https://www.commentcamarche.net/telecharger/web-internet/11301-google-play-store-apk-pour-android/"
+      traffic: 548
+      keywords: 70
+      top_keyword: "télécharger play store"
+    - url: "https://www.commentcamarche.net/telecharger/bureautique/14937-microsoft-word-2013/"
+      traffic: 470
+      keywords: 73
+      top_keyword: "word 2013"
+    - url: "https://www.commentcamarche.net/telecharger/securite/13107-jrt-junkware-removal-tool/"
+      traffic: 418
+      keywords: 2
+      top_keyword: "jrt"
+    - url: "https://www.commentcamarche.net/telecharger/utilitaires/8149-pilote-realtek-high-definition-audio-pour-vista-7-8-10-64-bits/"
+      traffic: 337
+      keywords: 46
+      top_keyword: "pilote son windows 10"
+    - url: "https://www.commentcamarche.net/telecharger/web-internet/2609-adobe-flash-player/"
+      traffic: 314
+      keywords: 86
+      top_keyword: "installer adobe flash player"
+
+page_stats:
+  total_pages_in_csv: 30000
+  total_after_gambling_filter: 29907
+  gambling_pages_removed: 93
+  total_traffic_before_filter: 236626
+  total_traffic_after_filter: 236351
+  gambling_traffic_removed: 275
+  avg_traffic_per_page: 7.90
+  source: "commentcamarche_net_top_pages_subdomains_al_2026_03_05_23_07_08.csv"
+  extraction: "awk NR>1 with/without gambling filter; count++; total += traffic"
+  note: "Very low avg traffic (7.9) indicating extreme long-tail distribution. Top page alone (wannonce, 35,548) = 15% of total traffic."
+
+gambling_filtered:
+  pages_removed: 93
+  traffic_removed: 275
+  examples:
+    - "https://forums.commentcamarche.net/forum/affich-37188158-erreur-inacceptable-casino770"
+    - "https://forums.commentcamarche.net/forum/affich-36347582-cresus-casino-retrait"
+    - "https://www.commentcamarche.net/telecharger/jeux-video/10879-gametwist-slots/"
+    - "https://www.commentcamarche.net/telecharger/jeux-video/4789-bingo-bash-free-bingo-casino/"
+    - "https://www.commentcamarche.net/telecharger/securite/3375-anti-porn/"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy)"
+  note: "93 pages removed but only 275 traffic — negligible impact. Mostly forum posts about online scams and adult content questions."
+
+key_insights:
+  - insight: "How-to content dominates, not downloads"
+    detail: "applis-sites (28.4%) + informatique (8.8%) + maison (8.0%) + mobile (2.7%) = 47.9% of traffic from editorial how-to content vs 10.6% from /telecharger/ downloads"
+    relevance: "commentcamarche.net is primarily a how-to site that happens to have downloads, not a download site. Different competitive positioning than clubic.com or 01net.com."
+
+  - insight: "Forum is massive by pages but moderate by traffic"
+    detail: "25,290 forum pages (84.6% of all pages) generate only 30.4% of traffic (71,957). Each forum page averages 2.8 traffic vs 14.4 for www pages."
+    relevance: "UGC forum content provides long-tail SEO foundation but declining value. Modern search engines devalue forum content."
+
+  - insight: "Download section is a secondary traffic driver"
+    detail: "2,290 download pages generate 25,007 traffic (10.6%). Top download software: clavier arabe (2,212), PhotoFiltre (1,025), AdwCleaner (597), CCleaner (570)."
+    relevance: "For freesoft.net French expansion: downloads alone are not enough. Must pair with how-to content to compete in French market."
+
+  - insight: "Single page dominates total traffic"
+    detail: "wannonce article (35,548) = 15.0% of total site traffic. Top 3 pages = 30.2% of total. Extreme concentration."
+    relevance: "Site is vulnerable to single-page traffic loss. Decline likely reflects loss of key ranking positions."
+
+  - insight: "Security/antivirus downloads still have French demand"
+    detail: "AdwCleaner (597), CCleaner (570), Malwarebytes (238), JRT (418), Spybot (194) — security tools still drive downloads."
+    relevance: "freesoft.net can target these French-language security tool queries with FR content."
+
+  - insight: "Legacy software queries persist in French"
+    detail: "Adobe Flash Player (314), Delphi 7 (221), Microsoft Word 2013 (470), Windows 7 USB tool (207) — outdated software still searched."
+    relevance: "French users searching for legacy software in French = opportunity for freesoft.net FR pages."
+
+  - insight: "Heaviest France-focused competitor"
+    detail: "78.6% France traffic (vs 56.5% for 01net.com). Most relevant comp for freesoft.fr analysis."
+    relevance: "French market insights from this site are most representative of actual French user behavior."

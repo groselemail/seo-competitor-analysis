@@ -1,0 +1,475 @@
+domain: freesoft.ru
+
+dr:
+  value: 59
+  source: "freesoft_RU_main_overiew.png"
+  extraction: "visual from PNG (via 00-manifest.yaml)"
+
+ur:
+  value: 33
+  source: "freesoft_RU_main_overiew.png"
+  extraction: "visual from PNG (via 00-manifest.yaml)"
+
+total_organic_traffic:
+  value: 168000
+  source: "freesoft_RU_main_overiew.png"
+  extraction: "visual from PNG — '168K'"
+
+total_organic_traffic_change:
+  value: "+95.9K"
+  source: "freesoft_RU_main_overiew.png"
+  extraction: "visual from PNG (via 00-manifest.yaml)"
+
+total_organic_keywords:
+  value: 17500
+  source: "freesoft_RU_main_overiew.png"
+  extraction: "visual from PNG — '17.5K'"
+
+total_organic_keywords_change:
+  value: "-85.5K"
+  source: "freesoft_RU_main_overiew.png"
+  extraction: "visual from PNG (via 00-manifest.yaml)"
+
+backlinks:
+  value: 170000
+  source: "freesoft_RU_main_overiew.png"
+  extraction: "visual from PNG — '170K'"
+
+referring_domains:
+  value: 3300
+  source: "freesoft_RU_main_overiew.png"
+  extraction: "visual from PNG — '3.3K'"
+
+traffic_by_country:
+  - country: "Russian Federation"
+    traffic: 168000
+    share_pct: 71.9
+    keywords: 17500
+    source: "organic_traff_loc_RU.png"
+    extraction: "visual from PNG (via 00-manifest.yaml)"
+  - country: "Kazakhstan"
+    traffic: 28700
+    share_pct: 12.3
+    keywords: 2500
+    source: "organic_traff_loc_RU.png"
+    extraction: "visual from PNG (via 00-manifest.yaml)"
+  - country: "Ukraine"
+    traffic: 14800
+    share_pct: 6.3
+    keywords: 3400
+    source: "organic_traff_loc_RU.png"
+    extraction: "visual from PNG (via 00-manifest.yaml)"
+  - country: "Belarus"
+    traffic: 7800
+    share_pct: 3.3
+    keywords: 1100
+    source: "organic_traff_loc_RU.png"
+    extraction: "visual from PNG (via 00-manifest.yaml)"
+
+top_keywords:
+  - keyword: "тик ток мод"
+    volume: 132000
+    position: 6
+    traffic: 7951
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "роблокс скачать"
+    volume: 73000
+    position: 4
+    traffic: 6895
+    url: "https://freesoft.ru/android/roblox/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "тик ток мод скачать"
+    volume: 127000
+    position: 7
+    traffic: 6103
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать тикток мод"
+    volume: 67000
+    position: 6
+    traffic: 4017
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "нулс бравл скачать"
+    volume: 39000
+    position: 4
+    traffic: 3673
+    url: "https://freesoft.ru/android/nulls-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать клеш рояль"
+    volume: 42000
+    position: 5
+    traffic: 3168
+    url: "https://freesoft.ru/android/clash_royale/download/188719"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "тикток мод"
+    volume: 52000
+    position: 7
+    traffic: 2521
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "тикток мод скачать"
+    volume: 31000
+    position: 5
+    traffic: 2301
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "null's brawl"
+    volume: 32000
+    position: 6
+    traffic: 1896
+    url: "https://freesoft.ru/android/nulls-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать нулс бравл"
+    volume: 25000
+    position: 5
+    traffic: 1884
+    url: "https://freesoft.ru/android/nulls-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "тт мод"
+    volume: 19000
+    position: 4
+    traffic: 1778
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать тик ток мод"
+    volume: 79000
+    position: 11
+    traffic: 1562
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать тикток мод последняя версия"
+    volume: 26000
+    position: 6
+    traffic: 1558
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать мод на тик ток"
+    volume: 20000
+    position: 5
+    traffic: 1485
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "гача лайф 1.1.0 скачать"
+    volume: 2800
+    position: 1
+    traffic: 1271
+    url: "https://freesoft.ru/android/gacha-life/versions/1-1-0-109274"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать geometry dash 2.2"
+    volume: 8600
+    position: 2
+    traffic: 1256
+    url: "https://freesoft.ru/android/geometry_dash_lite/download/45257?dl=1"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать tiktok мод"
+    volume: 20000
+    position: 6
+    traffic: 1177
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "tiktok mod"
+    volume: 23000
+    position: 7
+    traffic: 1097
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать вк кофе"
+    volume: 2700
+    position: 1
+    traffic: 990
+    url: "https://freesoft.ru/android/vk_coffee/versions"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать клеш рояль последняя версия"
+    volume: 16000
+    position: 6
+    traffic: 980
+    url: "https://freesoft.ru/android/clash_royale/download/188719"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "мод на тик ток"
+    volume: 33000
+    position: 10
+    traffic: 807
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "null's brawl скачать"
+    volume: 8300
+    position: 4
+    traffic: 789
+    url: "https://freesoft.ru/android/nulls-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать тт мод"
+    volume: 13000
+    position: 6
+    traffic: 781
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать нулс бравл последняя версия"
+    volume: 9700
+    position: 5
+    traffic: 730
+    url: "https://freesoft.ru/android/nulls-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать happymod"
+    volume: 9500
+    position: 5
+    traffic: 714
+    url: "https://freesoft.ru/android/happymod/versions/311a-196508"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать null's brawl stars"
+    volume: 9300
+    position: 5
+    traffic: 705
+    url: "https://freesoft.ru/android/nulls-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "нулс бравл"
+    volume: 12000
+    position: 6
+    traffic: 696
+    url: "https://freesoft.ru/android/nulls-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "гача лайф старая версия"
+    volume: 3500
+    position: 2
+    traffic: 688
+    url: "https://freesoft.ru/android/gacha-life/versions"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "старая версия гача лайф"
+    volume: 1800
+    position: 1
+    traffic: 668
+    url: "https://freesoft.ru/android/gacha-life/versions"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "magic brawl скачать"
+    volume: 10000
+    position: 6
+    traffic: 668
+    url: "https://freesoft.ru/android/magic-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "тик ток мод скачать на андроид"
+    volume: 6900
+    position: 4
+    traffic: 658
+    url: "https://freesoft.ru/android/tiktok-mod/download/198147"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать гача лайф 1.1.0 взлом"
+    volume: 1500
+    position: 1
+    traffic: 651
+    url: "https://freesoft.ru/android/gacha-life/versions/1-1-0-109274"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать бсд бравл"
+    volume: 8600
+    position: 5
+    traffic: 644
+    url: "https://freesoft.ru/android/bsd-brawl/download/198324"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "хепи мод"
+    volume: 6400
+    position: 4
+    traffic: 604
+    url: "https://freesoft.ru/android/happymod/versions/311a-196508"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "тик ток мод скачать последняя версия"
+    volume: 24000
+    position: 10
+    traffic: 603
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "мод тик ток"
+    volume: 10000
+    position: 6
+    traffic: 599
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "балтбет старая версия"
+    volume: 6300
+    position: 4
+    traffic: 590
+    url: "https://freesoft.ru/android/baltbet/versions"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+    note: "baltbet is a betting brand but not caught by the specified gambling regex"
+  - keyword: "скачать читы на роблокс мод меню"
+    volume: 9800
+    position: 6
+    traffic: 587
+    url: "https://freesoft.ru/android/roblox-mod-menu/download/198850"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать тик ток мод последняя версия"
+    volume: 9700
+    position: 6
+    traffic: 581
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "старая версия гача лайф 1.1.0 скачать"
+    volume: 1200
+    position: 1
+    traffic: 562
+    url: "https://freesoft.ru/android/gacha-life/versions/1-1-0-109274"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать null's brawl последняя версия"
+    volume: 7500
+    position: 5
+    traffic: 562
+    url: "https://freesoft.ru/android/nulls-brawl/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать хэппи мод"
+    volume: 4600
+    position: 3
+    traffic: 539
+    url: "https://freesoft.ru/android/happymod/versions/311a-196508"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "null's brawl скачать бесплатно"
+    volume: 4500
+    position: 3
+    traffic: 533
+    url: "https://freesoft.ru/android/nulls-brawl/versions"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать тт мод последняя версия"
+    volume: 8500
+    position: 6
+    traffic: 512
+    url: "https://freesoft.ru/android/tiktok-mod/download/198147"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "клеш рояль скачать последняя версия"
+    volume: 10000
+    position: 7
+    traffic: 493
+    url: "https://freesoft.ru/android/clash_royale/download/188719"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать standoff 2"
+    volume: 10000
+    position: 7
+    traffic: 489
+    url: "https://freesoft.ru/windows/standoff-2-na-pk/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "зона скачать на пк"
+    volume: 6500
+    position: 5
+    traffic: 488
+    url: "https://freesoft.ru/windows/zona"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "клеш рояль скачать"
+    volume: 25000
+    position: 11
+    traffic: 485
+    url: "https://freesoft.ru/android/clash_royale/download/188719"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "скачать tiktok мод последняя версия"
+    volume: 7900
+    position: 6
+    traffic: 477
+    url: "https://freesoft.ru/android/tiktok-mod/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+  - keyword: "зетфликс скачать"
+    volume: 4900
+    position: 5
+    traffic: 473
+    url: "https://freesoft.ru/android/zetflix/download"
+    source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+    extraction: "awk -f extract_top50.awk | sort -t'\\t' -k4 -rn | head -50"
+
+keyword_stats:
+  total_keywords_in_csv: 17482
+  total_after_gambling_filter: 16853
+  gambling_keywords_removed: 629
+  avg_position: 13.99
+  traffic_weighted_avg_position: 5.91
+  position_distribution:
+    pos_1_3: 2690
+    pos_4_10: 8934
+    pos_11_20: 2034
+    pos_21_50: 2220
+    pos_51_100: 970
+    other: 5
+  source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_26_41.csv"
+  extraction: |
+    wc -l (total rows); awk with gambling filter for counts;
+    awk avg position: sum($12)/n; awk traffic-weighted: sum($12*$10)/sum($10);
+    awk position buckets on $12
+
+trend:
+  direction: "growing"
+  total_keywords_in_comparison: 30000
+  total_after_gambling_filter: 28382
+  gambling_keywords_removed: 1618
+  growing_keywords_count: 4111
+  declining_keywords_count: 2462
+  stable_keywords_count: 21809
+  total_traffic_change: 36431
+  position_improved_count: 7528
+  position_dropped_count: 3134
+  position_same_count: 17720
+  source: "freesoft_ru_organic_keywords_subdomains_ru_2026_03_05_22_27_20.csv"
+  extraction: |
+    awk counting $12 (Organic traffic change): >0 growing, <0 declining, ==0 stable;
+    awk counting $16 (Position change): >0 improved, <0 dropped, ==0 same;
+    total_traffic_change = sum of $12 column
+  note: "Net positive: +4111 growing vs -2462 declining keywords; +36,431 net traffic change. Position improvements (7528) far exceed drops (3134)."
+
+gambling_filtered:
+  keywords_removed_actual: 629
+  keywords_removed_comparison: 1618
+  examples:
+    - "1 x bet apk"
+    - "1 x bet app"
+    - "1 x bet kz скачать"
+    - "1 x bet скачать"
+    - "1 xbet"
+    - "1 xbet apk"
+    - "1 xbet skachat"
+    - "1 икс бет"
+    - "1 икс бет зеркало"
+    - "1 икс бет скачать"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  note: "Some betting brands (e.g., 'балтбет') are not caught by the regex but appear in top-50. The specified regex was applied as-is."

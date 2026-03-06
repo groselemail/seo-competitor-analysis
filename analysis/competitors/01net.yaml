@@ -1,0 +1,860 @@
+domain: 01net.com
+description: "01net - Actualité tech, tests produits, astuces & téléchargements"
+generated: "2026-03-06"
+task: "08b-parse-01net"
+
+# ============================================================
+# OVERVIEW METRICS (from Ahrefs screenshot)
+# ============================================================
+
+dr:
+  value: 81
+  change: -1
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — top section 'DR 81'"
+
+ur:
+  value: 5
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — top section 'UR 5'"
+
+ahrefs_rank:
+  value: 10284
+  change: -648
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — 'AR 10,284 ▼648'"
+
+total_organic_traffic:
+  value: "1.5M"
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — 'Organic traffic 1.5M'"
+
+total_keywords:
+  value: "141K"
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — 'Organic keywords 141K'"
+
+top3_keywords:
+  value: "22.7K"
+  change: "-60.1K"
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — 'Top 3 22.7K -60.1K'"
+
+traffic_value:
+  value: "$331K"
+  change: "-$440K"
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — 'Value $331K -440K'"
+
+backlinks:
+  value: "4.6M"
+  change: "+2.5M"
+  all_time: "90.7M"
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — 'Backlinks 4.6M +2.5M'"
+
+ref_domains:
+  value: "21.2K"
+  change: "+4.5K"
+  all_time: "151K"
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — 'Ref. domains 21.2K +4.5K'"
+
+# ============================================================
+# DECLINE ANALYSIS
+# ============================================================
+
+decline:
+  traffic_change: "-2.2M"
+  keywords_change: "-925K"
+  top3_keywords_change: "-60.1K"
+  traffic_value_change: "-$440K"
+  change_period: "Last 2 years"
+  source: "01net_com_US_overview.png"
+  extraction: "visual from PNG — changes shown in red next to current values"
+  note: >
+    Massive decline — largest French competitor losing significant traffic.
+    From ~3.7M to 1.5M traffic (-59% estimated).
+    From ~1.07M to 141K keywords (-87% estimated).
+    France alone lost -1.4M traffic (from ~2.2M to 823K).
+    Decline is across ALL francophone markets, not just France.
+    Only Turkey (+9.3K), Gabon (+7.9K), Italy (+5.6K) show growth.
+
+# ============================================================
+# AI CITATIONS
+# ============================================================
+
+ai_citations:
+  ai_overview:
+    value: "2.4K"
+    change: "+2.4K"
+    pages: 860
+    source: "01net_com_US_overview.png"
+    extraction: "visual from PNG — AI citations section"
+  chatgpt:
+    value: "10.1K"
+    change: "+10.1K"
+    pages: "6.6K"
+    source: "01net_com_US_overview.png"
+    extraction: "visual from PNG — AI citations section"
+  perplexity:
+    value: "6.1K"
+    change: "+6.1K"
+    pages: "1.8K"
+    source: "01net_com_US_overview.png"
+    extraction: "visual from PNG — AI citations section"
+  gemini:
+    value: 16
+    change: "+16"
+    pages: 22
+    source: "01net_com_US_overview.png"
+    extraction: "visual from PNG — AI citations section"
+  copilot:
+    value: "2.1K"
+    change: "+2.1K"
+    pages: "1.2K"
+    source: "01net_com_US_overview.png"
+    extraction: "visual from PNG — AI citations section"
+  note: "All AI citations show positive change — site is being cited despite traffic decline"
+
+# ============================================================
+# TRAFFIC BY COUNTRY
+# ============================================================
+
+traffic_by_country:
+  total_locations: 158
+  - country: France
+    traffic: "823.3K"
+    change: "-1.4M"
+    share_pct: 56.5
+    keywords: "107.8K"
+    keywords_change: "-765.2K"
+    source: "01net_com_US_overview.png"
+    extraction: "visual from PNG — Organic traffic by location table"
+  - country: Algeria
+    traffic: "99.4K"
+    change: "-135.8K"
+    share_pct: 6.8
+    keywords: "9.1K"
+    keywords_change: "-31.2K"
+    source: "01net_com_US_overview.png"
+  - country: Morocco
+    traffic: "71.5K"
+    change: "-238.6K"
+    share_pct: 4.9
+    keywords: "9.1K"
+    keywords_change: "-30.2K"
+    source: "01net_com_US_overview.png"
+  - country: "Congo, Democratic Republic"
+    traffic: "48.7K"
+    change: "-51.4K"
+    share_pct: 3.3
+    keywords: "2.3K"
+    keywords_change: "-9.2K"
+    source: "01net_com_US_overview.png"
+  - country: "Cote D'Ivoire"
+    traffic: "43.2K"
+    change: "-67.7K"
+    share_pct: 3.0
+    keywords: "2.4K"
+    keywords_change: "-8.7K"
+    source: "01net_com_US_overview.png"
+  - country: Senegal
+    traffic: "37.9K"
+    change: "-42.1K"
+    share_pct: 2.6
+    keywords: "2.6K"
+    keywords_change: "-11.6K"
+    source: "01net_com_US_overview.png"
+  - country: "United States"
+    traffic: "32.7K"
+    change: "-3K"
+    share_pct: 2.2
+    keywords: "10.2K"
+    keywords_change: "-65K"
+    source: "01net_com_US_overview.png"
+  - country: Tunisia
+    traffic: "31.9K"
+    change: "-31.8K"
+    share_pct: 2.2
+    keywords: "3.5K"
+    keywords_change: "-13.2K"
+    source: "01net_com_US_overview.png"
+  - country: Belgium
+    traffic: "20.7K"
+    change: "-11.2K"
+    share_pct: 1.4
+    keywords: "2.9K"
+    keywords_change: "-18.5K"
+    source: "01net_com_US_overview.png"
+  - country: Madagascar
+    traffic: "20.7K"
+    change: "-11.3K"
+    share_pct: 1.4
+    keywords: "2K"
+    keywords_change: "-8.9K"
+    source: "01net_com_US_overview.png"
+  - country: Turkey
+    traffic: "20.2K"
+    change: "+9.3K"
+    share_pct: 1.4
+    keywords: "1.8K"
+    keywords_change: "-5.6K"
+    source: "01net_com_US_overview.png"
+  - country: Cameroon
+    traffic: "19.8K"
+    change: "-61.8K"
+    share_pct: 1.4
+    keywords: "2.4K"
+    keywords_change: "-9.7K"
+    source: "01net_com_US_overview.png"
+  - country: Gabon
+    traffic: "19.7K"
+    change: "+7.9K"
+    share_pct: 1.4
+    keywords: "294"
+    keywords_change: "-2.8K"
+    source: "01net_com_US_overview.png"
+  - country: Italy
+    traffic: "15.3K"
+    change: "+5.6K"
+    share_pct: 1.1
+    keywords: "3.6K"
+    keywords_change: "-8.9K"
+    source: "01net_com_US_overview.png"
+  note: >
+    France dominates at 56.5% but lost -1.4M traffic.
+    Francophone Africa (Algeria, Morocco, Congo DR, Cote D'Ivoire, Senegal,
+    Tunisia, Cameroon, Madagascar, Gabon) collectively ~25% share.
+    Multi-language sections (en, es, it, tr, de) serve Turkey, Italy, etc.
+
+# ============================================================
+# CSV METADATA
+# ============================================================
+
+csv_metadata:
+  file: "01net_com_top_pages_subdomains_all_actual_2026_03_05_23_06_59.csv"
+  total_rows: 28699
+  data_rows: 28698
+  encoding: "UTF-8 (converted from UTF-16LE)"
+  delimiter: "tab"
+  columns:
+    1: "URL"
+    2: "UR"
+    3: "Traffic"
+    4: "Traffic value"
+    5: "Referring domains"
+    6: "Keywords"
+    7: "Top keyword"
+    8: "Top keyword: Country"
+    9: "Top keyword: Volume"
+    10: "Top keyword: Position"
+    11: "Page type"
+  extraction: "head -1 file | tr '\\t' '\\n' | cat -n"
+
+# ============================================================
+# URL STRUCTURE
+# ============================================================
+
+url_structure:
+  source: "01net_com_top_pages_subdomains_all_actual_2026_03_05_23_06_59.csv"
+  extraction: "awk NR>1 print $1 | sed + cut -d/ -f1 | sort | uniq -c | sort -rn"
+  top_path_segments:
+    - path: "actualites"
+      count: 9100
+      description: "Tech news articles"
+    - path: "telecharger"
+      count: 7897
+      description: "Software downloads — PRIMARY competitor overlap"
+    - path: "tests"
+      count: 5928
+      description: "Product reviews and tests"
+    - path: "astuces"
+      count: 2324
+      description: "Tips and tricks / how-to guides"
+    - path: "bons-plans"
+      count: 1107
+      description: "Deals and promotions"
+    - path: "en"
+      count: 842
+      description: "English-language section (mainly VPN content)"
+    - path: "es"
+      count: 255
+      description: "Spanish-language section"
+    - path: "de"
+      count: 254
+      description: "German-language section"
+    - path: "vpn"
+      count: 195
+      description: "VPN comparisons and guides (French)"
+    - path: "it"
+      count: 172
+      description: "Italian-language section"
+    - path: "tag"
+      count: 101
+      description: "Tag/taxonomy pages"
+    - path: "hebergeur"
+      count: 85
+      description: "Web hosting reviews"
+    - path: "tr"
+      count: 83
+      description: "Turkish-language section"
+    - path: "bourse"
+      count: 59
+      description: "Stock market articles"
+    - path: "crypto"
+      count: 44
+      description: "Cryptocurrency articles"
+    - path: "dossiers"
+      count: 38
+      description: "In-depth feature articles / dossiers"
+    - path: "antivirus"
+      count: 32
+      description: "Antivirus comparisons"
+    - path: "guide-achat"
+      count: 31
+      description: "Buying guides"
+    - path: "seo"
+      count: 24
+      description: "SEO tools and guides"
+  note: >
+    01net.com is a mixed tech media site, NOT a pure download portal.
+    Downloads (/telecharger/) represent 27.5% of pages but 46.5% of clean traffic.
+    Multi-language expansion via /en/, /es/, /de/, /it/, /tr/ subfolders
+    mainly for VPN affiliate content.
+
+# ============================================================
+# TOP 50 PAGES BY TRAFFIC (after gambling filter)
+# ============================================================
+
+top_pages:
+  source: "01net_com_top_pages_subdomains_all_actual_2026_03_05_23_06_59.csv"
+  extraction: "awk -F'\\t' 'NR>1 { if (tolower($0) ~ /gambling_regex/) next; print $1,$3,$6,$7 }' file | sort -k2 -rn | head -50"
+  count: 50
+  entries:
+    - rank: 1
+      url: "https://www.01net.com/telecharger/intelligence-artificielle/chat-gpt.html"
+      traffic: 111600
+      keywords: 539
+      top_keyword: "chat gpt"
+    - rank: 2
+      url: "https://www.01net.com/dossiers/10-sites-gratuits-pour-regarder-des-films-et-series-en-streaming-legalement.html"
+      traffic: 101440
+      keywords: 2897
+      top_keyword: "site streaming gratuit"
+    - rank: 3
+      url: "https://www.01net.com/vpn/debloquer-tukif/"
+      traffic: 97044
+      keywords: 634
+      top_keyword: "tukif"
+    - rank: 4
+      url: "https://www.01net.com/telecharger/multimedia/diffusion-audio-et-video/anime-sama.html"
+      traffic: 73647
+      keywords: 178
+      top_keyword: "anime sama"
+    - rank: 5
+      url: "https://www.01net.com/telecharger/utilitaires/google-play-store.html"
+      traffic: 57928
+      keywords: 740
+      top_keyword: "play store apk"
+    - rank: 6
+      url: "https://www.01net.com/telecharger/"
+      traffic: 37040
+      keywords: 546
+      top_keyword: "telecharger"
+    - rank: 7
+      url: "https://www.01net.com/telecharger/internet/whatsapp-business.html"
+      traffic: 25275
+      keywords: 137
+      top_keyword: "whatsapp business"
+    - rank: 8
+      url: "https://www.01net.com/telecharger/internet/whatsapp-messenger.html"
+      traffic: 20518
+      keywords: 776
+      top_keyword: "whatsapp télécharger"
+    - rank: 9
+      url: "https://www.01net.com/telecharger/multimedia/lecteurs_video_dvd/yacine-tv.html"
+      traffic: 20162
+      keywords: 475
+      top_keyword: "yassin tv"
+    - rank: 10
+      url: "https://www.01net.com/dossiers/cinq-sites-pour-telecharger-de-la-musique-gratuite-2053188-2.html"
+      traffic: 18490
+      keywords: 1148
+      top_keyword: "télécharger musique gratuitement pour portable"
+    - rank: 11
+      url: "https://www.01net.com/telecharger/internet/facebook-lite.html"
+      traffic: 16490
+      keywords: 188
+      top_keyword: "facebook lite"
+    - rank: 12
+      url: "https://www.01net.com/telecharger/multimedia/lecteurs_video_dvd/vlc-media-player.html"
+      traffic: 16276
+      keywords: 518
+      top_keyword: "vlc media player"
+    - rank: 13
+      url: "https://www.01net.com/dossiers/avis-temu.html"
+      traffic: 11479
+      keywords: 286
+      top_keyword: "temu france"
+    - rank: 14
+      url: "https://www.01net.com/telecharger/internet/communautes/azar.html"
+      traffic: 9925
+      keywords: 49
+      top_keyword: "azar live"
+    - rank: 15
+      url: "https://www.01net.com/"
+      traffic: 9574
+      keywords: 252
+      top_keyword: "01"
+    - rank: 16
+      url: "https://www.01net.com/actualites/google-lance-son-appli-now-playing-mais-la-reserve-toujours-aux-pixel.html"
+      traffic: 9063
+      keywords: 19
+      top_keyword: "google pixel"
+    - rank: 17
+      url: "https://www.01net.com/actualites/fin-epoque-yggtorrent-bien-mort-mais-ygg-arrive.html"
+      traffic: 9034
+      keywords: 4
+      top_keyword: "ygg"
+    - rank: 18
+      url: "https://www.01net.com/dossiers/les-meilleurs-sites-et-applications-pour-telecharger-des-livres-gratuitement-1633116.html"
+      traffic: 8923
+      keywords: 860
+      top_keyword: "ebook gratuit"
+    - rank: 19
+      url: "https://www.01net.com/bons-plans/redmi-note-14-pro-5g-vendu-plus-de-400-e-il-est-a-vous-pour-196-e-avec-un-peu-de-chance.html"
+      traffic: 8695
+      keywords: 32
+      top_keyword: "xiaomi redmi note 14 pro 5g"
+    - rank: 20
+      url: "https://www.01net.com/telecharger/reseaux-sociaux-vie-pratique/reseaux-sociaux/whatsapp-web.html"
+      traffic: 8605
+      keywords: 681
+      top_keyword: "whatsapp web"
+    - rank: 21
+      url: "https://www.01net.com/actualites/spacex-pourquoi-parle-t-on-dentree-en-bourse-du-siecle.html"
+      traffic: 8369
+      keywords: 15
+      top_keyword: "spacex"
+    - rank: 22
+      url: "https://www.01net.com/telecharger/internet/communautes/gbwhatsapp.html"
+      traffic: 8252
+      keywords: 314
+      top_keyword: "whatsapp gb apk"
+    - rank: 23
+      url: "https://www.01net.com/actualites/les-iphone-et-ipad-desormais-certifies-pour-traiter-des-donnees-classifiees-de-lotan.html"
+      traffic: 7874
+      keywords: 12
+      top_keyword: "ios 26"
+    - rank: 24
+      url: "https://www.01net.com/telecharger/jeux/sport/efootball-pes-2025.html"
+      traffic: 6747
+      keywords: 100
+      top_keyword: "pes 2025"
+    - rank: 25
+      url: "https://www.01net.com/bons-plans/ps5-slim-sony-la-propose-a-un-prix-dingue-lors-dune-vente-flash-inedite.html"
+      traffic: 6739
+      keywords: 79
+      top_keyword: "ps5 slim standard"
+    - rank: 26
+      url: "https://www.01net.com/telecharger/bureautique/editeur_de_texte/openoffice-org.html"
+      traffic: 6676
+      keywords: 173
+      top_keyword: "open office"
+    - rank: 27
+      url: "https://www.01net.com/telecharger/multimedia/diffusion-audio-et-video/youtube.html"
+      traffic: 6572
+      keywords: 621
+      top_keyword: "telecharger youtube"
+    - rank: 28
+      url: "https://www.01net.com/telecharger/internet/partage/utorrent.html"
+      traffic: 6543
+      keywords: 295
+      top_keyword: "utorrent"
+    - rank: 29
+      url: "https://www.01net.com/telecharger/internet/communautes/tiktok-musical-ly.html"
+      traffic: 6532
+      keywords: 150
+      top_keyword: "telecharger video tiktok"
+    - rank: 30
+      url: "https://www.01net.com/vpn/gratuit/"
+      traffic: 6244
+      keywords: 187
+      top_keyword: "vpn gratuit"
+    - rank: 31
+      url: "https://www.01net.com/bons-plans/switch-oled-nintendo-bazarde-sa-console-et-la-vend-a-un-prix-riquiqui-40-switch-oled-affichee-a-xx-les-stocks-vont-se-vider-a-vitesse-grand-v.html"
+      traffic: 5990
+      keywords: 32
+      top_keyword: "switch oled"
+    - rank: 32
+      url: "https://www.01net.com/telecharger/utilitaire/compression_et_decompression/winrar.html"
+      traffic: 5916
+      keywords: 229
+      top_keyword: "winrar gratuit"
+    - rank: 33
+      url: "https://www.01net.com/telecharger/multimedia/outils_internet/youtube-downloader-hd.html"
+      traffic: 5767
+      keywords: 264
+      top_keyword: "youtube downloader"
+    - rank: 34
+      url: "https://www.01net.com/actualites/windows-11-voit-enfin-son-nombre-dutilisateurs-exploser.html"
+      traffic: 5756
+      keywords: 10
+      top_keyword: "windows 11"
+    - rank: 35
+      url: "https://www.01net.com/telecharger/utilitaire/accessibilite/anydesk.html"
+      traffic: 5481
+      keywords: 127
+      top_keyword: "anydesk gratuit"
+    - rank: 36
+      url: "https://www.01net.com/telecharger/bureautique/editeur_de_texte/adobe-acrobat-reader-dc-adobe-reader.html"
+      traffic: 5371
+      keywords: 715
+      top_keyword: "télécharger adobe acrobat gratuit"
+    - rank: 37
+      url: "https://www.01net.com/telecharger/multimedia/lecteurs_video_dvd/youtube-telecharger.html"
+      traffic: 5347
+      keywords: 246
+      top_keyword: "telecharger youtube sur pc"
+    - rank: 38
+      url: "https://www.01net.com/tr/vpn/formula-1-canli-izle/"
+      traffic: 5315
+      keywords: 77
+      top_keyword: "f1 canlı izle"
+    - rank: 39
+      url: "https://www.01net.com/telecharger/jeux/efootball-2024.html"
+      traffic: 4729
+      keywords: 122
+      top_keyword: "pes 2024"
+    - rank: 40
+      url: "https://www.01net.com/actualites/google-nouveau-jeu-casse-briques-adieu-productivite.html"
+      traffic: 4639
+      keywords: 3
+      top_keyword: "google block breaker"
+    - rank: 41
+      url: "https://www.01net.com/bons-plans/le-honor-400-pro-tombe-a-50-512-go-snapdragon-8-gen-3-photo-ia-200-mp-6000-mah.html"
+      traffic: 4501
+      keywords: 9
+      top_keyword: "honor 400 pro"
+    - rank: 42
+      url: "https://www.01net.com/actualites/un-tsunami-va-frapper-le-marche-du-smartphone-cette-annee.html"
+      traffic: 4470
+      keywords: 9
+      top_keyword: "tsunami"
+    - rank: 43
+      url: "https://www.01net.com/dossiers/les-meilleurs-logiciels-gratuits-de-montage-video-pour-windows-1223666243.html"
+      traffic: 4323
+      keywords: 261
+      top_keyword: "logiciel montage video gratuit"
+    - rank: 44
+      url: "https://www.01net.com/telecharger/bureautique/editeur_de_texte/microsoft-word.html"
+      traffic: 4322
+      keywords: 278
+      top_keyword: "word gratuit"
+    - rank: 45
+      url: "https://www.01net.com/dossiers/les-meilleurs-logiciels-gratuits-pour-retoucher-vos-photos-1646137.html"
+      traffic: 4227
+      keywords: 353
+      top_keyword: "logiciel photo gratuit"
+    - rank: 46
+      url: "https://www.01net.com/telecharger/bureautique/editeur_de_texte/microsoft-office-365.html"
+      traffic: 3937
+      keywords: 294
+      top_keyword: "microsoft 365"
+    - rank: 47
+      url: "https://www.01net.com/bons-plans/garmin-fait-une-grosse-gaffe-56-sur-sa-forerunner-255-la-montre-adoree-des-coureursgarmin-fait-la-gaffe-de-lannee-56-sur-sa-forerunner-255-la-montre-adoree-des-coureurs-forerunner-255-garmin-se-de.html"
+      traffic: 3852
+      keywords: 22
+      top_keyword: "garmin forerunner 255"
+    - rank: 48
+      url: "https://www.01net.com/regarder-wimbledon-direct-gratuitement/"
+      traffic: 3844
+      keywords: 161
+      top_keyword: "comment regarder wimbledon gratuitement"
+    - rank: 49
+      url: "https://www.01net.com/es/vpn/formula-1-en-directo/"
+      traffic: 3659
+      keywords: 413
+      top_keyword: "f1 online gratis"
+    - rank: 50
+      url: "https://www.01net.com/it/vpn/wimbledon-live/"
+      traffic: 3629
+      keywords: 124
+      top_keyword: "come vedere wimbledon gratis"
+
+# ============================================================
+# TRAFFIC BY PAGE TYPE
+# ============================================================
+
+traffic_by_page_type:
+  source: "01net_com_top_pages_subdomains_all_actual_2026_03_05_23_06_59.csv"
+  extraction: "awk URL-pattern classification + traffic sum, gambling filter applied"
+  note: "Classification based on first URL path segment"
+  types:
+    software_download:
+      url_pattern: "/telecharger/"
+      count: 7875
+      total_traffic: 662689
+      share_of_traffic_pct: 46.5
+      avg_traffic: 84.2
+    vpn:
+      url_pattern: "/vpn/ and /en/vpn/, /es/vpn/, /it/vpn/, /tr/vpn/, /de/vpn/"
+      count: 1388
+      total_traffic: 218257
+      share_of_traffic_pct: 15.3
+      avg_traffic: 157.2
+    dossiers:
+      url_pattern: "/dossiers/"
+      count: 38
+      total_traffic: 158139
+      share_of_traffic_pct: 11.1
+      avg_traffic: 4161.6
+    tech_news:
+      url_pattern: "/actualites/"
+      count: 9035
+      total_traffic: 129705
+      share_of_traffic_pct: 9.1
+      avg_traffic: 14.4
+    deals:
+      url_pattern: "/bons-plans/"
+      count: 1105
+      total_traffic: 66055
+      share_of_traffic_pct: 4.6
+      avg_traffic: 59.8
+    other:
+      url_pattern: "remaining paths"
+      count: 751
+      total_traffic: 65158
+      share_of_traffic_pct: 4.6
+      avg_traffic: 86.8
+    reviews_tests:
+      url_pattern: "/tests/"
+      count: 5928
+      total_traffic: 61503
+      share_of_traffic_pct: 4.3
+      avg_traffic: 10.4
+    tips_tricks:
+      url_pattern: "/astuces/"
+      count: 2321
+      total_traffic: 47713
+      share_of_traffic_pct: 3.4
+      avg_traffic: 20.6
+    hosting:
+      url_pattern: "/hebergeur/"
+      count: 85
+      total_traffic: 7377
+      share_of_traffic_pct: 0.5
+      avg_traffic: 86.8
+    antivirus:
+      url_pattern: "/antivirus/"
+      count: 32
+      total_traffic: 6298
+      share_of_traffic_pct: 0.4
+      avg_traffic: 196.8
+
+# ============================================================
+# DOWNLOAD PAGES ANALYSIS
+# ============================================================
+
+download_pages_analysis:
+  source: "01net_com_top_pages_subdomains_all_actual_2026_03_05_23_06_59.csv"
+  extraction: "awk $1~/telecharger/ + gambling filter + subcategory split"
+  total_download_pages: 7932
+  total_download_traffic: 692540
+  avg_traffic_per_page: 87.3
+  share_of_all_traffic_pct: 48.7
+  note: >
+    Slightly higher than page_type count (7875) due to URL parsing capturing
+    57 subdomain telecharger pages separately.
+
+  top_download_subcategories:
+    - subcategory: "multimedia"
+      description: "Video players, audio tools, streaming apps"
+      count: 1512
+      traffic: 166700
+    - subcategory: "internet"
+      description: "Browsers, messaging, social media, P2P"
+      count: 1128
+      traffic: 129704
+    - subcategory: "intelligence-artificielle"
+      description: "AI tools — ChatGPT dominates"
+      count: 49
+      traffic: 114353
+      note: "ChatGPT alone = 111,600 traffic. Massive concentration."
+    - subcategory: "utilitaires"
+      description: "Utilities (plural path variant)"
+      count: 310
+      traffic: 62286
+    - subcategory: "utilitaire"
+      description: "Utilities (singular path variant)"
+      count: 1631
+      traffic: 48884
+      note: "Combined utilitaires+utilitaire = 1941 pages, 111170 traffic"
+    - subcategory: "bureautique"
+      description: "Office apps — Word, OpenOffice, PDF"
+      count: 702
+      traffic: 43129
+    - subcategory: "jeux"
+      description: "Games — PES/eFootball, mobile games"
+      count: 938
+      traffic: 29142
+    - subcategory: "reseaux-sociaux-vie-pratique"
+      description: "Social networks and lifestyle"
+      count: 68
+      traffic: 10642
+    - subcategory: "securite"
+      description: "Security and antivirus software"
+      count: 210
+      traffic: 4886
+    - subcategory: "loisirs"
+      description: "Leisure and entertainment"
+      count: 610
+      traffic: 4534
+    - subcategory: "communication-et-mobiles"
+      description: "Mobile communication apps"
+      count: 52
+      traffic: 3976
+    - subcategory: "programmation"
+      description: "Development tools"
+      count: 201
+      traffic: 3572
+
+  top_download_pages:
+    - url: "https://www.01net.com/telecharger/intelligence-artificielle/chat-gpt.html"
+      traffic: 111600
+      keywords: 539
+      top_keyword: "chat gpt"
+    - url: "https://www.01net.com/telecharger/multimedia/diffusion-audio-et-video/anime-sama.html"
+      traffic: 73647
+      keywords: 178
+      top_keyword: "anime sama"
+    - url: "https://www.01net.com/telecharger/utilitaires/google-play-store.html"
+      traffic: 57928
+      keywords: 740
+      top_keyword: "play store apk"
+    - url: "https://www.01net.com/telecharger/"
+      traffic: 37040
+      keywords: 546
+      top_keyword: "telecharger"
+    - url: "https://www.01net.com/telecharger/internet/whatsapp-business.html"
+      traffic: 25275
+      keywords: 137
+      top_keyword: "whatsapp business"
+    - url: "https://www.01net.com/telecharger/internet/whatsapp-messenger.html"
+      traffic: 20518
+      keywords: 776
+      top_keyword: "whatsapp télécharger"
+    - url: "https://www.01net.com/telecharger/multimedia/lecteurs_video_dvd/yacine-tv.html"
+      traffic: 20162
+      keywords: 475
+      top_keyword: "yassin tv"
+    - url: "https://www.01net.com/telecharger/internet/facebook-lite.html"
+      traffic: 16490
+      keywords: 188
+      top_keyword: "facebook lite"
+    - url: "https://www.01net.com/telecharger/multimedia/lecteurs_video_dvd/vlc-media-player.html"
+      traffic: 16276
+      keywords: 518
+      top_keyword: "vlc media player"
+    - url: "https://www.01net.com/telecharger/internet/communautes/azar.html"
+      traffic: 9925
+      keywords: 49
+      top_keyword: "azar live"
+
+# ============================================================
+# PAGE STATISTICS
+# ============================================================
+
+page_stats:
+  total_pages: 28698
+  total_after_gambling_filter: 28558
+  gambling_pages_removed: 140
+  total_traffic_all: 1464229
+  total_traffic_clean: 1422894
+  gambling_traffic_removed: 41335
+  avg_traffic_per_page: 49.8
+  source: "01net_com_top_pages_subdomains_all_actual_2026_03_05_23_06_59.csv"
+  extraction: "awk -F'\\t' NR>1 sum traffic, count with/without gambling filter"
+
+# ============================================================
+# GAMBLING FILTER
+# ============================================================
+
+gambling_filtered:
+  pages_removed: 140
+  traffic_removed: 41335
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy)"
+  awk_filter: "tolower($0) ~ /casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|1xbet|juwa|rummy/"
+  examples:
+    - "https://www.01net.com/en/vpn/porn/"
+    - "https://www.01net.com/en/vpn/watch-porn-anonymously/"
+    - "https://www.01net.com/vpn/debloquer-sites-adultes/"
+    - "https://www.01net.com/vpn/comment-debloquer-youporn/"
+    - "https://www.01net.com/it/vpn/sbloccare-siti-porno/"
+    - "https://www.01net.com/vpn/comment-debloquer-pornhub/"
+    - "https://www.01net.com/en/vpn/watch-porn-uae/"
+    - "https://www.01net.com/en/vpn/pornhub/"
+    - "https://www.01net.com/en/vpn/bypass-porn-sites-age-verification-uk/"
+    - "https://www.01net.com/es/vpn/ver-porno-de-forma-anonima/"
+  note: >
+    Most filtered pages are VPN content about unblocking adult sites.
+    This is VPN affiliate content, not direct adult/gambling content.
+    140 pages is 0.49% of total — minimal filtering impact.
+
+# ============================================================
+# KEY INSIGHTS FOR COMPETITIVE ANALYSIS
+# ============================================================
+
+insights:
+  - id: "01net-massive-decline"
+    finding: >
+      01net.com is in severe decline: -2.2M traffic (-59%), -925K keywords (-87%).
+      France alone lost -1.4M traffic. This is the largest French competitor
+      experiencing catastrophic organic visibility loss.
+    implication: "Enormous opportunity to capture French software download traffic"
+
+  - id: "01net-downloads-still-strong"
+    finding: >
+      Software downloads (/telecharger/) still generate 662K traffic (46.5% of total)
+      across 7,875 pages. This is the strongest content vertical by far.
+    implication: "Download pages are the most resilient content type during the decline"
+
+  - id: "01net-chatgpt-dominance"
+    finding: >
+      Single page (ChatGPT download) generates 111,600 traffic — 7.8% of all clean traffic.
+      AI tools category: 49 pages but 114K traffic (avg 2,334/page).
+    implication: "AI tool download pages have extreme traffic density"
+
+  - id: "01net-vpn-affiliate-model"
+    finding: >
+      VPN content generates 218K traffic (15.3%) across 1,388 pages including
+      multi-language (/en/, /es/, /it/, /tr/, /de/) affiliate content.
+      Top VPN page is 97K traffic for unblocking tukif.
+    implication: "01net monetizes via VPN affiliate content across 5+ languages"
+
+  - id: "01net-news-low-efficiency"
+    finding: >
+      News (/actualites/) has 9,035 pages but only 130K traffic (14.4 avg/page).
+      Tests (/tests/) has 5,928 pages but only 61.5K traffic (10.4 avg/page).
+      These are low-efficiency content types.
+    implication: "News and reviews content has very low per-page traffic efficiency"
+
+  - id: "01net-francophone-africa"
+    finding: >
+      Francophone Africa (Algeria, Morocco, Congo, Cote D'Ivoire, Senegal,
+      Cameroon, Tunisia, Madagascar, Gabon) collectively ~25% of traffic.
+      All markets declining. This is software demand from French-speaking Africa.
+    implication: "Francophone Africa is a secondary market for FR software content"
+
+  - id: "01net-dossiers-high-value"
+    finding: >
+      Dossiers (/dossiers/) are only 38 pages but 158K traffic (4,162 avg/page).
+      Includes streaming sites, ebook downloads, music downloads, software roundups.
+    implication: "Aggregation/roundup content has the highest per-page value"
+
+  - id: "01net-url-pattern"
+    finding: >
+      Download URL pattern: /telecharger/{category}/{subcategory}/{app-name}.html
+      Categories use French names (multimedia, bureautique, utilitaires, jeux, securite).
+    implication: "French URL structure for software downloads — relevant for freesoft.fr URL planning"

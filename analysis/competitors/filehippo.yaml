@@ -1,0 +1,255 @@
+# =============================================================================
+# 07a — filehippo.com site structure & language analysis
+# Generated: 2026-03-06
+# Pipeline: Phase 1, Task 07a
+# =============================================================================
+
+domain: filehippo.com
+
+# ---------------------------------------------------------------------------
+# Overview metrics (from Ahrefs screenshot, filtered to Russian Federation)
+# ---------------------------------------------------------------------------
+dr:
+  value: 77
+  change: -3
+  source: "filehippo_com_US_overview.png"
+  extraction: "visual from PNG + confirmed in 00-manifest.yaml"
+
+ur:
+  value: 37
+  source: "filehippo_com_US_overview.png"
+  extraction: "visual from PNG"
+
+total_organic_traffic:
+  value: 526
+  change: -126
+  source: "filehippo_com_US_overview.png"
+  extraction: "visual from PNG"
+  note: "Filtered to Russian Federation in Ahrefs. Very low RU traffic — filehippo is a declining site with primary audience in India/Pakistan/LATAM"
+  filter_country: "Russian Federation"
+
+total_keywords:
+  value: 1300
+  display: "1.3K"
+  change: "-17.5K"
+  source: "filehippo_com_US_overview.png"
+  extraction: "visual from PNG"
+  filter_country: "Russian Federation"
+
+# Global traffic distribution (from PNG "Organic traffic by location" panel)
+traffic_by_country:
+  - country: "India"
+    traffic: "170.7K"
+    share: "24.3%"
+  - country: "Pakistan"
+    traffic: "92.3K"
+    share: "13.2%"
+  - country: "Colombia"
+    traffic: "45.5K"
+    share: "6.5%"
+  - country: "Bangladesh"
+    traffic: "44.5K"
+    share: "6.3%"
+  - country: "Argentina"
+    traffic: "32.9K"
+    share: "4.7%"
+  - country: "Venezuela"
+    traffic: "31.1K"
+    share: "4.4%"
+  - country: "United States"
+    traffic: "27K"
+    share: "3.9%"
+  - country: "Peru"
+    traffic: "18.8K"
+    share: "2.7%"
+  - country: "Indonesia"
+    traffic: "17.3K"
+    share: "2.5%"
+  - country: "Spain"
+    traffic: "16K"
+    share: "2.3%"
+  source: "filehippo_com_US_overview.png"
+  extraction: "visual from PNG, top 10 countries from 'Organic traffic by location' panel (158 total locations)"
+  note: "India+Pakistan dominate (37.5%). Strong LATAM presence (Colombia, Argentina, Venezuela, Peru). Russia not in visible top list — confirms very low RU traffic."
+
+# ---------------------------------------------------------------------------
+# Site structure CSV analysis (RU filter, 30,000 entries)
+# ---------------------------------------------------------------------------
+csv_file: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+csv_rows: 30001
+csv_rows_data: 30000
+csv_filter_country: "Russian Federation"
+csv_columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic Cost", "Paid keywords", "Paid pages"]
+
+# ---------------------------------------------------------------------------
+# Language structure — SURPRISE: filehippo uses language FOLDERS
+# ---------------------------------------------------------------------------
+language_structure: "folders"
+total_languages_detected: 8
+top_languages: ["en", "es", "fr", "it", "zh", "jp", "de", "pl"]
+note: "filehippo.com uses /{lang}/ folder structure for 7 non-English languages. However, non-English versions have near-zero traffic in RU Ahrefs data. The site is functionally English-dominant despite having multilingual folders."
+
+traffic_by_language:
+  - lang: "en"
+    path_pattern: "filehippo.com/* (no language prefix)"
+    traffic: 1379
+    share_pct: 98.9
+    keywords: 3257
+    pages: 2095
+    entries: 7314
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    extraction: "awk -F'\\t' classify by path prefix, aggregate traffic/keywords/pages"
+
+  - lang: "es"
+    path_pattern: "filehippo.com/es/*"
+    traffic: 16
+    share_pct: 1.1
+    keywords: 144
+    pages: 108
+    entries: 5733
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    extraction: "awk -F'\\t' path ~ /^\\/es(\\//)"
+    note: "5733 pages but only 16 traffic (RU). Spanish likely gets meaningful traffic from LATAM countries (Colombia 6.5%, Argentina 4.7%, Venezuela 4.4%, Peru 2.7% in global view)."
+
+  - lang: "fr"
+    path_pattern: "filehippo.com/fr/*"
+    traffic: 0
+    share_pct: 0.0
+    keywords: 56
+    pages: 55
+    entries: 5670
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    extraction: "awk -F'\\t' path ~ /^\\/fr(\\//)"
+
+  - lang: "it"
+    path_pattern: "filehippo.com/it/*"
+    traffic: 0
+    share_pct: 0.0
+    keywords: 22
+    pages: 15
+    entries: 5723
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    extraction: "awk -F'\\t' path ~ /^\\/it(\\//)"
+
+  - lang: "zh"
+    path_pattern: "filehippo.com/zh/*"
+    traffic: 0
+    share_pct: 0.0
+    keywords: 60
+    pages: 55
+    entries: 5542
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    extraction: "awk -F'\\t' path ~ /^\\/zh(\\//)"
+
+  - lang: "other"
+    includes: ["jp", "de", "pl"]
+    traffic: 0
+    share_pct: 0.0
+    keywords: 0
+    pages: 0
+    entries: 18
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    note: "jp=10 entries, de=5 entries, pl=3 entries. All with 0 traffic."
+
+# ---------------------------------------------------------------------------
+# Top entries by traffic (individual entries with traffic > 100)
+# ---------------------------------------------------------------------------
+top_entries:
+  - path: "filehippo.com"
+    traffic: 610
+    share_pct: 43.7
+    keywords: 1321
+    pages: 890
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    extraction: "awk -F'\\t' 'NR>1 && traffic>100' | sort -rn"
+    note: "Root domain — aggregated stats for filehippo.com without subfolders"
+
+  - path: "filehippo.com/android"
+    traffic: 194
+    share_pct: 13.9
+    keywords: 352
+    pages: 219
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+    extraction: "awk -F'\\t' 'NR>1 && traffic>100' | sort -rn"
+
+  - path: "other"
+    traffic: 591
+    share_pct: 42.4
+    note: "Sum of 161 entries with traffic 1-100"
+    source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+
+total_traffic_csv: 1395
+entries_with_traffic: 163
+entries_without_traffic: 29837
+
+# Note on traffic discrepancy
+traffic_discrepancy:
+  overview_png_traffic: 526
+  csv_total_traffic: 1395
+  note: "PNG shows 526 (possibly filtered differently or snapshot timing). CSV sums to 1395. This is a known Ahrefs artifact — site_structure reports can include subdomain/CDN entries that inflate totals. The 526 figure from overview is the authoritative organic traffic number for the main domain."
+
+# ---------------------------------------------------------------------------
+# Subdomain analysis
+# ---------------------------------------------------------------------------
+total_subdomains: 42
+subdomains_with_traffic_over_100: 0
+note: "42 unique subdomains detected. Most are CDN/file servers (fs1-fs41, dl0-dl5, cache, cdn1) and auxiliary (news, www, mx20, post, update, wwwa). Zero subdomains have traffic > 100 — all meaningful traffic is on the main filehippo.com domain."
+subdomains_list:
+  - type: "main"
+    examples: ["filehippo.com"]
+  - type: "www"
+    examples: ["www.filehippo.com", "wwwa.filehippo.com"]
+  - type: "cdn_fileservers"
+    examples: ["fs1.filehippo.com", "fs41.filehippo.com", "dl0.filehippo.com", "dl5.filehippo.com", "cache.filehippo.com", "cdn1.filehippo.com"]
+    count: 35
+    note: "File storage/CDN subdomains — no organic value"
+  - type: "auxiliary"
+    examples: ["news.filehippo.com", "post.filehippo.com", "update.filehippo.com", "mx20.filehippo.com"]
+    count: 4
+source: "filehippo_com_site_structure_subdomains_ru_2026_03_05_22_49_10.csv"
+extraction: "awk split path by '/', sort -u first segment"
+
+# ---------------------------------------------------------------------------
+# Gambling / adult content filter
+# ---------------------------------------------------------------------------
+gambling_filtered:
+  entries_removed: 64
+  entries_with_traffic: 0
+  traffic_removed: 0
+  false_positives: 1
+  false_positive_note: "filehippo.com/fr/mac/download_mixxx/history — Mixxx is DJ software, matched 'xxx' substring. No traffic impact."
+  examples:
+    - "filehippo.com/android/download_golden-slots-777-game"
+    - "filehippo.com/android/download_betmines-betting-tips-football"
+    - "filehippo.com/android/download_chips-of-fury-free-poker-with-friends/10.3.1"
+    - "filehippo.com/android/download_bet-basics-sports-betting"
+    - "filehippo.com/es/android/download_slots-fast-fortune-slot-games"
+    - "filehippo.com/it/android/download_xplinko-1000x-jackpot"
+    - "filehippo.com/fr/android/download_dragon-tiger-online-casino/5.0.0"
+    - "filehippo.com/zh/android/download_crystal-dragon-slots"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  note: "All 64 gambling entries have 0 traffic. No impact on traffic calculations."
+
+# ---------------------------------------------------------------------------
+# Key findings for competitor analysis
+# ---------------------------------------------------------------------------
+findings:
+  - finding: "filehippo uses language FOLDERS, not single-language"
+    detail: "Contrary to initial assumption, filehippo.com has /{lang}/ folders for es, fr, it, zh, jp, de, pl (7 non-English languages)."
+    implication: "filehippo is NOT a valid 'single-language control case'. It attempted multilingual expansion via folders."
+
+  - finding: "Multilingual expansion failed — near-zero non-English traffic"
+    detail: "Despite ~5,500-5,700 pages each in es/fr/it/zh folders, only Spanish has any traffic (16, or 1.1%). French, Italian, Chinese, others = 0 traffic."
+    implication: "Having multilingual pages does NOT guarantee traffic. Quality of localization and domain authority in target markets matter more."
+
+  - finding: "Traffic concentrated in English and non-English-speaking countries"
+    detail: "Top countries: India (24.3%), Pakistan (13.2%), Colombia (6.5%), Bangladesh (6.3%). English content serves South Asian audience. Spanish folder likely targets LATAM but with minimal RU-visible traffic."
+    implication: "filehippo's English content serves ESL markets. The /es/ folder exists for LATAM but has negligible RU-filtered traffic."
+
+  - finding: "Site is in steep decline"
+    detail: "Keywords dropped 17.5K. DR 77 but only 526 traffic (RU). Backlinks data unavailable. AR 23,625 (dropped 8,904)."
+    implication: "filehippo is losing organic visibility. Not a strong model to emulate."
+
+  - finding: "Infrastructure-heavy subdomain structure"
+    detail: "42 subdomains, 35 of which are CDN/file servers (fs*, dl*, cache, cdn1). Only main domain has organic traffic."
+    implication: "CDN subdomains add noise to site_structure data but carry no SEO value."

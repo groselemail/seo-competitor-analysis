@@ -1,0 +1,1117 @@
+# ==============================================================================
+# Brief: freesoft.net — Phase 1, Task 01
+# Generated: 2026-03-06
+# Source files: 8 CSV + 2 PNG
+# ==============================================================================
+
+domain: freesoft.net
+
+# ==============================================================================
+# Overview metrics (from PNG screenshot)
+# ==============================================================================
+
+dr:
+  value: 51
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+ur:
+  value: 27
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+ar:
+  value: 627337
+  change: "+84,261"
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+total_organic_traffic:
+  value: 89
+  change: -196
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+  note: "RU filter only (Russian Federation). Real global total ~32.3K+ visible (India 14.2K, Bangladesh 5.4K, US 2.1K etc.) from organic_traff_loc_US.png"
+
+total_organic_keywords:
+  value: 138
+  change: "-2.1K"
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+top3_positions:
+  value: 6
+  change: -15
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+backlinks:
+  value: 191000
+  change: "+46.8K"
+  all_time: 604000
+  followed: 180421
+  followed_pct: 94.5
+  not_followed: 10518
+  not_followed_pct: 5.5
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+referring_domains:
+  value: 3700
+  change: "+3.7K"
+  all_time: 5800
+  followed: 2741
+  followed_pct: 73.5
+  not_followed: 986
+  not_followed_pct: 26.5
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+paid_keywords:
+  value: 0
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+paid_traffic:
+  value: 0
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+ai_citations:
+  ai_overview: 0
+  chatgpt: 0
+  perplexity: 0
+  gemini: 0
+  copilot: 0
+  source: "freesoft_net_main_overiew.png"
+  extraction: "visual from PNG"
+
+country_filter: "Russian Federation"
+
+# ==============================================================================
+# Traffic by country (from PNG screenshot)
+# ==============================================================================
+
+traffic_by_country:
+  - country: "India"
+    traffic: 14200
+    traffic_change: "+13.7K"
+    share_pct: 41.0
+    keywords: 1300
+    keywords_change: "-1.5K"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Bangladesh"
+    traffic: 5400
+    traffic_change: "+5.3K"
+    share_pct: 15.6
+    keywords: 291
+    keywords_change: "+58"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Somalia"
+    traffic: 2100
+    traffic_change: "+2.1K"
+    share_pct: 6.1
+    keywords: 23
+    keywords_change: "-8"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Myanmar"
+    traffic: 2100
+    traffic_change: "+2K"
+    share_pct: 6.0
+    keywords: 119
+    keywords_change: "+44"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "United States"
+    traffic: 2100
+    traffic_change: "+1.3K"
+    share_pct: 5.9
+    keywords: 749
+    keywords_change: "-10.3K"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Pakistan"
+    traffic: 1800
+    traffic_change: "+1.6K"
+    share_pct: 5.3
+    keywords: 321
+    keywords_change: "-129"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Philippines"
+    traffic: 979
+    traffic_change: "+804"
+    share_pct: 2.8
+    keywords: 347
+    keywords_change: "-219"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Turkey"
+    traffic: 907
+    traffic_change: "+833"
+    share_pct: 2.6
+    keywords: 113
+    keywords_change: "-376"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Brazil"
+    traffic: 700
+    traffic_change: "+668"
+    share_pct: 2.0
+    keywords: 259
+    keywords_change: "-833"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Indonesia"
+    traffic: 640
+    traffic_change: "+587"
+    share_pct: 1.8
+    keywords: 165
+    keywords_change: "-1K"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Uganda"
+    traffic: 580
+    traffic_change: "+498"
+    share_pct: 1.7
+    keywords: 46
+    keywords_change: "+21"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Nepal"
+    traffic: 232
+    traffic_change: "+218"
+    share_pct: 0.7
+    keywords: 81
+    keywords_change: "+7"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Peru"
+    traffic: 184
+    traffic_change: "+184"
+    share_pct: 0.5
+    keywords: 51
+    keywords_change: "-19"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Mexico"
+    traffic: 172
+    traffic_change: "+143"
+    share_pct: 0.5
+    keywords: 100
+    keywords_change: "-261"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+  - country: "Germany"
+    traffic: 158
+    traffic_change: "+108"
+    share_pct: 0.5
+    keywords: 102
+    keywords_change: "-1.5K"
+    source: "organic_traff_loc_US.png"
+    extraction: "visual from PNG"
+
+# ==============================================================================
+# Top keywords by traffic (from actual RU keywords CSV, gambling filtered)
+# ==============================================================================
+# Source: freesoft_net_organic_keywords_subdomains_ru_2026_03_05_22_30_14.csv
+# Extraction: awk -F'\t' 'NR>1 { filter gambling; print $10,$1,$7,$12,$13 }' | sort -t$'\t' -k1 -rn | head -50
+# Columns: $1=Keyword, $7=Volume, $10=Organic traffic, $12=Current position, $13=Current URL
+
+top_keywords:
+  - keyword: "gacha nebula"
+    volume: 6800
+    position: 21
+    traffic: 14
+    url: "https://freesoft.net/android/gacha-nebula/versions/150-197312"
+    source: "freesoft_net_organic_keywords_subdomains_ru_2026_03_05_22_30_14.csv"
+    extraction: "awk -F'\\t' 'NR>1 {filter gambling; gsub(/\"/, \"\"); print $10\"\\t\"$1\"\\t\"$7\"\\t\"$12\"\\t\"$13}' file | sort -t$'\\t' -k1 -rn | head -50"
+  - keyword: "скачать гача небула"
+    volume: 1800
+    position: 17
+    traffic: 9
+    url: "https://freesoft.net/android/gacha-nebula/versions/150-197312"
+  - keyword: "скачать майнкрафт 1.21.30"
+    volume: 800
+    position: 14
+    traffic: 8
+    url: "https://freesoft.net/android/minecraft-12130"
+  - keyword: "fluxus android скачать"
+    volume: 350
+    position: 10
+    traffic: 8
+    url: "https://freesoft.net/android/fluxus"
+  - keyword: "гача небула"
+    volume: 7000
+    position: 25
+    traffic: 6
+    url: "https://freesoft.net/android/gacha-nebula/versions/150-197312"
+  - keyword: "gacha nebula скачать"
+    volume: 2700
+    position: 21
+    traffic: 6
+    url: "https://freesoft.net/android/gacha-nebula/versions/150-197312"
+  - keyword: "sm timer"
+    volume: 40
+    position: 3
+    traffic: 4
+    url: "https://freesoft.net/windows/sm_timer"
+  - keyword: "d3dwindower"
+    volume: 80
+    position: 2
+    traffic: 4
+    url: "https://freesoft.net/windows/d3dwindower"
+  - keyword: "iroot apk"
+    volume: 50
+    position: 7
+    traffic: 3
+    url: "https://freesoft.net/android/iroot"
+  - keyword: "hamster pdf reader"
+    volume: 20
+    position: 2
+    traffic: 3
+    url: "https://freesoft.net/windows/hamster_pdf_reader"
+  - keyword: "freesoft.ru android"
+    volume: 20
+    position: 5
+    traffic: 3
+    url: "https://freesoft.net/"
+  - keyword: "гача небула скачать"
+    volume: 3100
+    position: 26
+    traffic: 2
+    url: "https://freesoft.net/android/gacha-nebula/versions/150-197312"
+  - keyword: "xps viewer download"
+    volume: 10
+    position: 2
+    traffic: 2
+    url: "https://freesoft.net/windows/xps_viewer"
+  - keyword: "visual paradigm community edition"
+    volume: 70
+    position: 10
+    traffic: 2
+    url: "https://freesoft.net/windows/visual-paradigm-community-edition"
+  - keyword: "rachel problems скачать"
+    volume: 20
+    position: 5
+    traffic: 2
+    url: "https://freesoft.net/android/rachel-problems"
+  - keyword: "folder size portable"
+    volume: 20
+    position: 4
+    traffic: 2
+    url: "https://freesoft.net/windows/folder_size_portable"
+  - keyword: "fluxus roblox скачать"
+    volume: 1100
+    position: 22
+    traffic: 2
+    url: "https://freesoft.net/android/fluxus"
+  - keyword: "actual multiple monitors"
+    volume: 90
+    position: 10
+    traffic: 2
+    url: "https://freesoft.net/windows/actual_multiple_monitors"
+  - keyword: "гача лайф 1.1.0"
+    volume: 2600
+    position: 30
+    traffic: 1
+    url: "https://freesoft.net/android/gacha-life/versions/1-1-0-109274"
+  - keyword: "turbo vpn for pc"
+    volume: 350
+    position: 21
+    traffic: 1
+    url: "https://freesoft.net/windows/turbo-vpn-dlya-windows/versions/2-6-0-0-129027"
+  - keyword: "sublime text portable"
+    volume: 30
+    position: 7
+    traffic: 1
+    url: "https://freesoft.net/windows/sublime_text_portable"
+  - keyword: "stolitomson vpn"
+    volume: 500
+    position: 20
+    traffic: 1
+    url: "https://freesoft.net/android/stolitomson-vpn"
+  - keyword: "samsung pc share manager"
+    volume: 30
+    position: 8
+    traffic: 1
+    url: "https://freesoft.net/windows/samsung_share_pc_manager"
+  - keyword: "personalization panel"
+    volume: 10
+    position: 3
+    traffic: 1
+    url: "https://freesoft.net/windows/personalization_panel"
+  - keyword: "master royale infinity"
+    volume: 700
+    position: 26
+    traffic: 1
+    url: "https://freesoft.net/android/master-royale-infinity"
+  - keyword: "jpegfix скачать"
+    volume: 20
+    position: 7
+    traffic: 1
+    url: "https://freesoft.net/windows/jpegfix"
+  - keyword: "infix pdf editor"
+    volume: 40
+    position: 9
+    traffic: 1
+    url: "https://freesoft.net/windows/infix_pdf_editor"
+  - keyword: "gacha nebula скачать бесплатно"
+    volume: 350
+    position: 22
+    traffic: 1
+    url: "https://freesoft.net/android/gacha-nebula/versions/150-197312"
+  - keyword: "crushon ai скачать"
+    volume: 400
+    position: 21
+    traffic: 1
+    url: "https://freesoft.net/android/crushon-ai"
+  - keyword: "comfy file repair"
+    volume: 20
+    position: 6
+    traffic: 1
+    url: "https://freesoft.net/windows/comfy_file_recovery"
+  - keyword: "bluestacks 4.190.0.5002"
+    volume: 20
+    position: 9
+    traffic: 1
+    url: "https://freesoft.net/windows/bluestacks_app_player/versions/4-190-0-5002-121065"
+  - keyword: "турбо впн на пк"
+    volume: 400
+    position: 35
+    traffic: 0
+    url: "https://freesoft.net/windows/turbo-vpn-dlya-windows"
+  - keyword: "сэйфромнет"
+    volume: 10
+    position: 10
+    traffic: 0
+    url: "https://freesoft.net/windows/coccoc_browser"
+  - keyword: "скачать турбо впн на пк"
+    volume: 250
+    position: 58
+    traffic: 0
+    url: "https://freesoft.net/windows/turbo-vpn-dlya-windows/versions/2-6-0-0-129027"
+  - keyword: "скачать старую версию гача лайф 1.1.0"
+    volume: 900
+    position: 80
+    traffic: 0
+    url: "https://freesoft.net/android/gacha-life/versions/1-1-0-109274"
+  - keyword: "скачать ребравл легаси"
+    volume: 0
+    position: 9
+    traffic: 0
+    url: "https://freesoft.net/android/rebrawl-legacy"
+  - keyword: "скачать планет впн для пк"
+    volume: 400
+    position: 46
+    traffic: 0
+    url: "https://freesoft.net/windows/besplatnyi-vpn-bystro-i-bezopasno-planet-vpn-12511"
+  - keyword: "скачать мастер рояль"
+    volume: 300
+    position: 59
+    traffic: 0
+    url: "https://freesoft.net/android/master-royale-infinity"
+  - keyword: "скачать майнкрафт 1.19.83.01"
+    volume: 300
+    position: 69
+    traffic: 0
+    url: "https://freesoft.net/android/probnaya-versiya-minecraft/download/187983"
+  - keyword: "скачать майнкрафт 1.16.221"
+    volume: 2600
+    position: 67
+    traffic: 0
+    url: "https://freesoft.net/android/probnaya-versiya-minecraft/versions/1-16-221-01-129240"
+  - keyword: "скачать зону на пк"
+    volume: 800
+    position: 69
+    traffic: 0
+    url: "https://freesoft.net/windows/zona"
+  - keyword: "скачать гачу лайф 1.1.0"
+    volume: 300
+    position: 57
+    traffic: 0
+    url: "https://freesoft.net/android/gacha-life/versions/1-1-0-109274"
+  - keyword: "скачать гача лайф 1.1.0 взлом"
+    volume: 1500
+    position: 85
+    traffic: 0
+    url: "https://freesoft.net/android/gacha-life"
+  - keyword: "скачать ватсап на андроид бесплатно"
+    volume: 1800
+    position: 95
+    traffic: 0
+    url: "https://freesoft.net/android/whatsapp"
+  - keyword: "скачать блюстакс 4.190.0.5002"
+    volume: 0
+    position: 6
+    traffic: 0
+    url: "https://freesoft.net/windows/bluestacks_app_player/versions/4-190-0-5002-121065"
+  - keyword: "скачать zona на пк windows 10"
+    volume: 200
+    position: 77
+    traffic: 0
+    url: "https://freesoft.net/windows/zona"
+  - keyword: "скачать zona на пк"
+    volume: 3500
+    position: 76
+    traffic: 0
+    url: "https://freesoft.net/windows/zona"
+  - keyword: "скачать rebrawl"
+    volume: 700
+    position: 32
+    traffic: 0
+    url: "https://freesoft.net/android/rebrawl-classic"
+  - keyword: "скачать pojav launcher"
+    volume: 1200
+    position: 71
+    traffic: 0
+    url: "https://freesoft.net/android/pojavlauncher"
+  - keyword: "скачать planet vpn на пк"
+    volume: 700
+    position: 46
+    traffic: 0
+    url: "https://freesoft.net/windows/besplatnyi-vpn-bystro-i-bezopasno-planet-vpn-12511"
+
+# ==============================================================================
+# Top pages by traffic (from actual RU pages CSV, gambling filtered)
+# ==============================================================================
+# Source: freesoft_net_top_pages_subdomains_ru_actu_2026_03_05_22_31_09.csv
+# Extraction: awk -F'\t' 'NR>1 {filter gambling; print $3,$1,$6,$7}' | sort -t$'\t' -k1 -rn | head -50
+# Columns: $1=URL, $2=UR, $3=Traffic, $4=Traffic value, $5=Referring domains, $6=Keywords, $7=Top keyword
+
+top_pages:
+  - url: "https://freesoft.net/android/gacha-nebula/versions/150-197312"
+    traffic: 38
+    keywords: 7
+    top_keyword: "gacha nebula"
+    source: "freesoft_net_top_pages_subdomains_ru_actu_2026_03_05_22_31_09.csv"
+    extraction: "awk -F'\\t' 'NR>1 {filter gambling; gsub(/\"/, \"\"); print $3\"\\t\"$1\"\\t\"$6\"\\t\"$7}' file | sort -t$'\\t' -k1 -rn | head -50"
+  - url: "https://freesoft.net/android/fluxus"
+    traffic: 10
+    keywords: 4
+    top_keyword: "fluxus android скачать"
+  - url: "https://freesoft.net/android/minecraft-12130"
+    traffic: 8
+    keywords: 1
+    top_keyword: "скачать майнкрафт 1.21.30"
+  - url: "https://freesoft.net/windows/sm_timer"
+    traffic: 4
+    keywords: 1
+    top_keyword: "sm timer"
+  - url: "https://freesoft.net/windows/d3dwindower"
+    traffic: 4
+    keywords: 1
+    top_keyword: "d3dwindower"
+  - url: "https://freesoft.net/windows/hamster_pdf_reader"
+    traffic: 3
+    keywords: 1
+    top_keyword: "hamster pdf reader"
+  - url: "https://freesoft.net/android/iroot"
+    traffic: 3
+    keywords: 1
+    top_keyword: "iroot apk"
+  - url: "https://freesoft.net/windows/xps_viewer"
+    traffic: 2
+    keywords: 1
+    top_keyword: "xps viewer download"
+  - url: "https://freesoft.net/windows/visual-paradigm-community-edition"
+    traffic: 2
+    keywords: 1
+    top_keyword: "visual paradigm community edition"
+  - url: "https://freesoft.net/windows/folder_size_portable"
+    traffic: 2
+    keywords: 1
+    top_keyword: "folder size portable"
+  - url: "https://freesoft.net/windows/actual_multiple_monitors"
+    traffic: 2
+    keywords: 1
+    top_keyword: "actual multiple monitors"
+  - url: "https://freesoft.net/android/rachel-problems"
+    traffic: 2
+    keywords: 1
+    top_keyword: "rachel problems скачать"
+  - url: "https://freesoft.net/"
+    traffic: 2
+    keywords: 1
+    top_keyword: "freesoft.ru android"
+  - url: "https://freesoft.net/windows/turbo-vpn-dlya-windows/versions/2-6-0-0-129027"
+    traffic: 1
+    keywords: 4
+    top_keyword: "turbo vpn for pc"
+  - url: "https://freesoft.net/windows/sublime_text_portable"
+    traffic: 1
+    keywords: 1
+    top_keyword: "sublime text portable"
+  - url: "https://freesoft.net/windows/samsung_share_pc_manager"
+    traffic: 1
+    keywords: 1
+    top_keyword: "samsung pc share manager"
+  - url: "https://freesoft.net/windows/personalization_panel"
+    traffic: 1
+    keywords: 1
+    top_keyword: "personalization panel"
+  - url: "https://freesoft.net/windows/jpegfix"
+    traffic: 1
+    keywords: 2
+    top_keyword: "jpegfix скачать"
+  - url: "https://freesoft.net/windows/infix_pdf_editor"
+    traffic: 1
+    keywords: 1
+    top_keyword: "infix pdf editor"
+  - url: "https://freesoft.net/windows/comfy_file_recovery"
+    traffic: 1
+    keywords: 1
+    top_keyword: "comfy file repair"
+  - url: "https://freesoft.net/windows/bluestacks_app_player/versions/4-190-0-5002-121065"
+    traffic: 1
+    keywords: 2
+    top_keyword: "bluestacks 4.190.0.5002"
+  - url: "https://freesoft.net/android/stolitomson-vpn"
+    traffic: 1
+    keywords: 1
+    top_keyword: "stolitomson vpn"
+  - url: "https://freesoft.net/android/master-royale-infinity"
+    traffic: 1
+    keywords: 2
+    top_keyword: "master royale infinity"
+  - url: "https://freesoft.net/android/leo-playcard"
+    traffic: 1
+    keywords: 2
+    top_keyword: "leoplay card"
+  - url: "https://freesoft.net/android/gacha-life/versions/1-1-0-109274"
+    traffic: 1
+    keywords: 11
+    top_keyword: "гача лайф 1.1.0"
+  - url: "https://freesoft.net/android/development"
+    traffic: 1
+    keywords: 1
+    top_keyword: "freesoft.ru android"
+  - url: "https://freesoft.net/android/crushon-ai"
+    traffic: 1
+    keywords: 1
+    top_keyword: "crushon ai скачать"
+  - url: "https://freesoft.net/windows/zs4-video-editor"
+    traffic: 0
+    keywords: 1
+    top_keyword: "zs4 video editor"
+  - url: "https://freesoft.net/windows/zona"
+    traffic: 0
+    keywords: 4
+    top_keyword: "zona download"
+  - url: "https://freesoft.net/windows/wise_system_monitor"
+    traffic: 0
+    keywords: 1
+    top_keyword: "wise system monitor"
+  - url: "https://freesoft.net/windows/videofrom"
+    traffic: 0
+    keywords: 1
+    top_keyword: "videofrom"
+  - url: "https://freesoft.net/windows/ummy_video_downloader"
+    traffic: 0
+    keywords: 1
+    top_keyword: "ummy video downloader"
+  - url: "https://freesoft.net/windows/turbo-vpn-dlya-windows"
+    traffic: 0
+    keywords: 4
+    top_keyword: "turbo vpn для windows"
+  - url: "https://freesoft.net/windows/scrap2rtf"
+    traffic: 0
+    keywords: 1
+    top_keyword: "scrap2rtf"
+  - url: "https://freesoft.net/windows/recuva_portable"
+    traffic: 0
+    keywords: 1
+    top_keyword: "recuva portable"
+  - url: "https://freesoft.net/windows/pdf-commander"
+    traffic: 0
+    keywords: 1
+    top_keyword: "pdf commander"
+  - url: "https://freesoft.net/windows/openofficeorg"
+    traffic: 0
+    keywords: 2
+    top_keyword: "openoffice скачать"
+  - url: "https://freesoft.net/windows/nordlocker"
+    traffic: 0
+    keywords: 1
+    top_keyword: "nordlocker download"
+  - url: "https://freesoft.net/windows/minitool-utube-downloader"
+    traffic: 0
+    keywords: 1
+    top_keyword: "minitool utube downloader virus"
+  - url: "https://freesoft.net/windows/microsoft_xna_framework_redistributable"
+    traffic: 0
+    keywords: 1
+    top_keyword: "microsoft xna framework redistributable 4.0"
+  - url: "https://freesoft.net/windows/md5checker"
+    traffic: 0
+    keywords: 1
+    top_keyword: "md5checker"
+  - url: "https://freesoft.net/windows/logitech-unifying-software"
+    traffic: 0
+    keywords: 1
+    top_keyword: "logitech unifying download"
+  - url: "https://freesoft.net/windows/free_pdf_to_word_converter"
+    traffic: 0
+    keywords: 1
+    top_keyword: "smartsoft free pdf to word converter"
+  - url: "https://freesoft.net/windows/fl_studio/versions/20-9-2-2963-159694"
+    traffic: 0
+    keywords: 3
+    top_keyword: "fl studio 20.9.2"
+  - url: "https://freesoft.net/windows/fileviewpro"
+    traffic: 0
+    keywords: 1
+    top_keyword: "fileviewpro"
+  - url: "https://freesoft.net/windows/equalizer_apo"
+    traffic: 0
+    keywords: 1
+    top_keyword: "equalizer apo скачать"
+  - url: "https://freesoft.net/windows/emouse"
+    traffic: 0
+    keywords: 1
+    top_keyword: "mouse task"
+  - url: "https://freesoft.net/windows/eclipse_ide"
+    traffic: 0
+    keywords: 1
+    top_keyword: "eclipse ide"
+  - url: "https://freesoft.net/windows/dbf_commander_free_windows"
+    traffic: 0
+    keywords: 1
+    top_keyword: "dbf commander free"
+  - url: "https://freesoft.net/windows/coccoc_browser"
+    traffic: 0
+    keywords: 1
+    top_keyword: "сэйфромнет"
+
+# ==============================================================================
+# Trend analysis
+# ==============================================================================
+
+trend:
+  overall_direction: "mixed"
+  note: "RU traffic declining slightly (-199 kw, -497 pages), US traffic growing (+347 kw, +2028 pages). Most keywords are stable (no change)."
+
+  ru_keywords:
+    direction: "stable_declining"
+    total_keywords_in_comparison: 2617
+    growing_keywords_count: 5
+    declining_keywords_count: 25
+    stable_keywords_count: 2586
+    total_traffic_change: -199
+    source: "freesoft_net_organic_keywords_subdomains_ru_2026_03_05_22_29_58.csv"
+    extraction: "awk -F'\\t' 'NR>1 { gsub(/\"/, \"\", $12); val=$12+0; if(val>0)grow++; else if(val<0)decline++; else stable++ } END { print grow, decline, stable }'"
+
+  us_keywords:
+    direction: "mixed_growing"
+    total_keywords_in_comparison: 149
+    growing_keywords_count: 20
+    declining_keywords_count: 34
+    stable_keywords_count: 94
+    total_traffic_change: 347
+    source: "freesoft_net_organic_keywords_subdomains_us_2026_01_19_12_02_04.csv"
+    extraction: "awk -F'\\t' 'NR>1 { gsub(/\"/, \"\", $12); val=$12+0; if(val>0)grow++; else if(val<0)decline++; else stable++ } END { print grow, decline, stable }'"
+
+  ru_pages:
+    direction: "stable_declining"
+    total_pages_in_comparison: 1170
+    growing_pages_count: 15
+    declining_pages_count: 78
+    stable_pages_count: 1076
+    total_traffic_change: -497
+    source: "freesoft_net_top_pages_subdomains_ru_comp_2026_03_05_22_30_46.csv"
+    extraction: "awk -F'\\t' 'NR>1 { gsub(/\"/, \"\", $6); val=$6+0; if(val>0)grow++; else if(val<0)decline++; else stable++ } END { print grow, decline, stable }'"
+
+  us_pages:
+    direction: "growing"
+    total_pages_in_comparison: 17
+    growing_pages_count: 12
+    declining_pages_count: 3
+    stable_pages_count: 1
+    total_traffic_change: 2028
+    source: "freesoft_net_top_pages_subdomains_us_comp_2026_01_19_12_04_24.csv"
+    extraction: "awk -F'\\t' 'NR>1 { gsub(/\"/, \"\", $6); val=$6+0; if(val>0)grow++; else if(val<0)decline++; else stable++ } END { print grow, decline, stable }'"
+
+# ==============================================================================
+# Competitors — RU market
+# ==============================================================================
+# Source: freesoft_net_orgcompetitors_subdomains_ru_2026_01_19_12_38_49.csv
+# Columns: $1=Domain, $2=Competitor's keywords, $3=Common keywords, $4=Share, $5=Target's keywords, $6=DR, $7=Traffic, $8=Traffic value, $9=Pages
+# Extraction: awk -F'\t' 'NR>1 {gsub(/"/, ""); print}' file | sort -t$'\t' -k3 -rn
+
+competitors_ru:
+  - domain: "freesoft.ru"
+    competitors_keywords: 17856
+    common_keywords: 116
+    share: "0.6%"
+    targets_keywords: 54
+    dr: 60
+    traffic: 123906
+    traffic_value: "ДАННЫЕ ОТСУТСТВУЮТ"
+    pages: 8410
+    source: "freesoft_net_orgcompetitors_subdomains_ru_2026_01_19_12_38_49.csv"
+    extraction: "awk -F'\\t' 'NR>1 {gsub(/\"/, \"\"); print}' file | sort -t$'\\t' -k3 -rn"
+  - domain: "apkpure.com"
+    competitors_keywords: 27063
+    common_keywords: 107
+    share: "0.3%"
+    targets_keywords: 63
+    dr: 84
+    traffic: 80326
+    pages: 19646
+  - domain: "apkpure.net"
+    competitors_keywords: 26915
+    common_keywords: 98
+    share: "0.3%"
+    targets_keywords: 72
+    dr: 74
+    traffic: 81422
+    pages: 19752
+  - domain: "uptodown.com"
+    competitors_keywords: 101038
+    common_keywords: 88
+    share: "0%"
+    targets_keywords: 82
+    dr: 83
+    traffic: 1043409
+    pages: 35109
+  - domain: "malavida.com"
+    competitors_keywords: 49871
+    common_keywords: 86
+    share: "0.1%"
+    targets_keywords: 84
+    dr: 73
+    traffic: 497381
+    pages: 7988
+  - domain: "trashbox.ru"
+    competitors_keywords: 72871
+    common_keywords: 77
+    share: "0.1%"
+    targets_keywords: 93
+    dr: 55
+    traffic: 1097451
+    pages: 9340
+  - domain: "softonic.com"
+    competitors_keywords: 21662
+    common_keywords: 73
+    share: "0.3%"
+    targets_keywords: 97
+    dr: 86
+    traffic: 91019
+    pages: 14945
+  - domain: "softonic.ru"
+    competitors_keywords: 69450
+    common_keywords: 58
+    share: "0%"
+    targets_keywords: 112
+    dr: 50
+    traffic: 324022
+    pages: 25650
+  - domain: "softportal.com"
+    competitors_keywords: 22940
+    common_keywords: 52
+    share: "0.2%"
+    targets_keywords: 118
+    dr: 62
+    traffic: 173507
+    pages: 5664
+  - domain: "download.it"
+    competitors_keywords: 11284
+    common_keywords: 47
+    share: "0.4%"
+    targets_keywords: 123
+    dr: 73
+    traffic: 29615
+    pages: 5571
+  - domain: "aptoide.com"
+    competitors_keywords: 32598
+    common_keywords: 44
+    share: "0.1%"
+    targets_keywords: 126
+    dr: 78
+    traffic: 158175
+    pages: 12287
+  - domain: "androidapplications.store"
+    competitors_keywords: 24421
+    common_keywords: 41
+    share: "0.1%"
+    targets_keywords: 129
+    dr: 31
+    traffic: 681780
+    pages: 1255
+  - domain: "github.com"
+    competitors_keywords: 110012
+    common_keywords: 39
+    share: "0%"
+    targets_keywords: 131
+    dr: 96
+    traffic: 1937366
+    pages: 92385
+  - domain: "androides.ru"
+    competitors_keywords: 6127
+    common_keywords: 33
+    share: "0.5%"
+    targets_keywords: 137
+    dr: 33
+    traffic: 24199
+    pages: 1511
+  - domain: "latestmodapks.com"
+    competitors_keywords: 5640
+    common_keywords: 32
+    share: "0.5%"
+    targets_keywords: 138
+    dr: 67
+    traffic: 21317
+    pages: 1214
+  - domain: "itch.io"
+    competitors_keywords: 11818
+    common_keywords: 31
+    share: "0.2%"
+    targets_keywords: 139
+    dr: 92
+    traffic: 138263
+    pages: 7798
+  - domain: "bluestacks.com"
+    competitors_keywords: 17281
+    common_keywords: 23
+    share: "0.1%"
+    targets_keywords: 147
+    dr: 84
+    traffic: 187935
+    pages: 3195
+  - domain: "sport.ua"
+    competitors_keywords: 15645
+    common_keywords: 19
+    share: "0.1%"
+    targets_keywords: 151
+    dr: 61
+    traffic: 89507
+    pages: 8875
+  - domain: "1xbet.com"
+    competitors_keywords: 3318
+    common_keywords: 17
+    share: "0.4%"
+    targets_keywords: 153
+    dr: 87
+    traffic: 25432
+    pages: 696
+    note: "GAMBLING DOMAIN — included in competitors list for completeness but not promoted"
+  - domain: "masterroyale.io"
+    competitors_keywords: 91
+    common_keywords: 6
+    share: "3.4%"
+    targets_keywords: 78
+    dr: 23
+    traffic: 965
+    pages: 9
+
+# ==============================================================================
+# Competitors — US market
+# ==============================================================================
+# Source: freesoft_net_orgcompetitors_subdomains_us_2026_01_19_12_41_12.csv
+# Columns: $1=Domain, $2=Competitor's keywords, $3=Common keywords, $4=Share, $5=Target's keywords, $6=DR, $7=Previous traffic, $8=Current traffic
+# Extraction: awk -F'\t' 'NR>1 {gsub(/"/, ""); print}' file | sort -t$'\t' -k3 -rn
+
+competitors_us:
+  - domain: "softonic.com"
+    competitors_keywords: 322177
+    common_keywords: 591
+    share: "0.1%"
+    targets_keywords: 232
+    dr: 86
+    current_traffic: 1681857
+    source: "freesoft_net_orgcompetitors_subdomains_us_2026_01_19_12_41_12.csv"
+    extraction: "awk -F'\\t' 'NR>1 {gsub(/\"/, \"\"); print}' file | sort -t$'\\t' -k3 -rn"
+  - domain: "google.com"
+    competitors_keywords: 2696529
+    common_keywords: 479
+    share: "0%"
+    targets_keywords: 344
+    dr: 99
+    current_traffic: 58565232
+  - domain: "cnet.com"
+    competitors_keywords: 973792
+    common_keywords: 447
+    share: "0%"
+    targets_keywords: 376
+    dr: 91
+    current_traffic: 7567275
+  - domain: "apkpure.com"
+    competitors_keywords: 63209
+    common_keywords: 431
+    share: "0.6%"
+    targets_keywords: 392
+    dr: 84
+    current_traffic: 179708
+  - domain: "uptodown.com"
+    competitors_keywords: 181808
+    common_keywords: 377
+    share: "0.2%"
+    targets_keywords: 446
+    dr: 83
+    current_traffic: 891375
+  - domain: "apkpure.net"
+    competitors_keywords: 26342
+    common_keywords: 347
+    share: "1.2%"
+    targets_keywords: 476
+    dr: 74
+    current_traffic: 23589
+  - domain: "download.it"
+    competitors_keywords: 47984
+    common_keywords: 313
+    share: "0.6%"
+    targets_keywords: 510
+    dr: 73
+    current_traffic: 82686
+  - domain: "malavida.com"
+    competitors_keywords: 15685
+    common_keywords: 279
+    share: "1.6%"
+    targets_keywords: 544
+    dr: 73
+    current_traffic: 55525
+  - domain: "juwa777.com"
+    competitors_keywords: 556
+    common_keywords: 164
+    share: "12.1%"
+    targets_keywords: 633
+    dr: 61
+    current_traffic: 131940
+    note: "GAMBLING DOMAIN — included in competitors list for completeness but not promoted"
+  - domain: "aptoide.com"
+    competitors_keywords: 70257
+    common_keywords: 143
+    share: "0.2%"
+    targets_keywords: 680
+    dr: 78
+    current_traffic: 225761
+  - domain: "majorgeeks.com"
+    competitors_keywords: 17310
+    common_keywords: 136
+    share: "0.7%"
+    targets_keywords: 687
+    dr: 77
+    current_traffic: 41553
+  - domain: "latestmodapks.com"
+    competitors_keywords: 13229
+    common_keywords: 125
+    share: "0.8%"
+    targets_keywords: 698
+    dr: 67
+    current_traffic: 65988
+  - domain: "techylist.com"
+    competitors_keywords: 4089
+    common_keywords: 96
+    share: "1.9%"
+    targets_keywords: 727
+    dr: 71
+    current_traffic: 32067
+  - domain: "juwa777.net"
+    competitors_keywords: 243
+    common_keywords: 88
+    share: "9.3%"
+    targets_keywords: 606
+    dr: 22
+    current_traffic: 7942
+    note: "GAMBLING DOMAIN"
+  - domain: "thejuwa.org"
+    competitors_keywords: 112
+    common_keywords: 79
+    share: "11.7%"
+    targets_keywords: 481
+    dr: 45
+    current_traffic: 879
+    note: "GAMBLING DOMAIN"
+  - domain: "juwaapp.com"
+    competitors_keywords: 116
+    common_keywords: 77
+    share: "11.4%"
+    targets_keywords: 480
+    dr: 32
+    current_traffic: 1165
+    note: "GAMBLING DOMAIN"
+  - domain: "gamevault999.com"
+    competitors_keywords: 515
+    common_keywords: 74
+    share: "5.8%"
+    targets_keywords: 682
+    dr: 57
+    current_traffic: 121201
+    note: "GAMBLING DOMAIN"
+  - domain: "sweepstake.mobi"
+    competitors_keywords: 1508
+    common_keywords: 55
+    share: "2.3%"
+    targets_keywords: 768
+    dr: 31
+    current_traffic: 26355
+    note: "GAMBLING DOMAIN"
+  - domain: "mcpedl.org"
+    competitors_keywords: 2047
+    common_keywords: 39
+    share: "1.3%"
+    targets_keywords: 784
+    dr: 47
+    current_traffic: 6652
+  - domain: "mcpe-planet.com"
+    competitors_keywords: 814
+    common_keywords: 22
+    share: "1.3%"
+    targets_keywords: 781
+    dr: 31
+    current_traffic: 758
+
+# ==============================================================================
+# Gambling filter report
+# ==============================================================================
+
+gambling_filtered:
+  keywords_removed: 11
+  keywords_total_before_filter: 138
+  keywords_total_after_filter: 127
+  pages_removed: 2
+  pages_total_before_filter: 87
+  pages_total_after_filter: 85
+  filtered_keywords:
+    - "1xbet app download"
+    - "1xbet apk"
+    - "xbet derniere version"
+    - "roulette lucker"
+    - "download 1xbet"
+    - "1xbet update version 2022"
+    - "1xbet indir"
+    - "1xbet download apk"
+    - "1xbet download"
+    - "1xbet apk dernière version"
+    - "1 xbet apk"
+  filtered_pages:
+    - "https://freesoft.net/android/1xbet"
+    - "https://freesoft.net/windows/roulette_lucker"
+  gambling_competitors_in_us:
+    - "juwa777.com"
+    - "juwa777.net"
+    - "thejuwa.org"
+    - "juwaapp.com"
+    - "gamevault999.com"
+    - "sweepstake.mobi"
+  gambling_competitors_in_ru:
+    - "1xbet.com"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  note: "Gambling keywords/pages excluded from top_keywords and top_pages sections. Gambling competitors kept in competitors sections with notes for completeness."
+
+# ==============================================================================
+# Summary / Key observations
+# ==============================================================================
+
+summary:
+  total_organic_traffic_global: "~32.3K+ (sum of visible countries from organic_traff_loc_US.png; some countries below fold not included)"
+  total_organic_traffic_ru_only: 89
+  dominant_traffic_source: "India (41%), Bangladesh (15.6%), then developing countries"
+  us_traffic: "~2.1K (5.9% share)"
+  russia_traffic: "89 (per overview PNG with RU filter)"
+  top_content_vertical: "Gacha games (nebula), Minecraft, VPN (Turbo VPN, Planet VPN), Roblox exploits (Fluxus)"
+  keyword_concentration: "Top keyword (gacha nebula) drives 38 out of 89 RU traffic (43%)"
+  overall_health: "Very low organic traffic. 98.7% of RU comparison keywords are stable (no change). Site has strong backlink profile (DR 51, 191K backlinks) but very low traffic utilization."

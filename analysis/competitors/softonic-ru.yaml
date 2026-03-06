@@ -1,0 +1,339 @@
+# ============================================================
+# 05c — softonic.ru site structure brief
+# Generated: 2026-03-06
+# Pipeline: Phase 1, Task 05c
+# ============================================================
+
+domain: softonic.ru
+domain_strategy: "separate_domain"  # softonic uses .ru for Russian instead of ru.softonic.com
+
+# ----------------------------------------------------------
+# Overview metrics (from manifest — PNG not available on disk)
+# ----------------------------------------------------------
+dr:
+  value: 50
+  source: "softonic_ru_RU_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest key_metrics.dr"
+
+total_organic_traffic:
+  value: 335000
+  display: "335K"
+  change: "-578K"
+  source: "softonic_ru_RU_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest key_metrics.organic_traffic"
+  note: "This is total traffic across ALL countries. RU filter shows 335.1K (46.7% share)."
+
+total_keywords:
+  value: 65700
+  display: "65.7K"
+  change: "-291K"
+  source: "softonic_ru_RU_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest key_metrics.organic_keywords"
+
+backlinks:
+  value: 24400000
+  display: "24.4M"
+  source: "softonic_ru_RU_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest key_metrics.backlinks"
+
+ref_domains:
+  value: 4900
+  display: "4.9K"
+  source: "softonic_ru_RU_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest key_metrics.ref_domains"
+
+# ----------------------------------------------------------
+# Top countries (from overview PNG via manifest)
+# ----------------------------------------------------------
+top_countries:
+  - country: "Russian Federation"
+    traffic: 335100
+    share_pct: 46.7
+  - country: "Ukraine"
+    traffic: 97700
+    share_pct: 13.6
+  - country: "Kazakhstan"
+    traffic: 92700
+    share_pct: 12.9
+  - country: "Uzbekistan"
+    traffic: 78700
+    share_pct: 11.0
+  source: "softonic_ru_RU_overview.png (via 00-manifest.yaml key_metrics)"
+  extraction: "manifest key_metrics.top_countries"
+
+# ----------------------------------------------------------
+# Traffic by language — single-domain, one entry
+# ----------------------------------------------------------
+traffic_by_language:
+  - subdomain_or_folder: "softonic.ru (all subdomains)"
+    traffic: 668662
+    share_pct: 100
+    keywords: 136830
+    pages: 36413
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk -F'\\t' NR>1 summing col4(traffic), col6(keywords), col7(pages) across all 30000 rows after gsub quotes"
+
+language_structure: "separate_domain"
+total_languages_detected: 1
+top_languages: ["ru"]
+note: >
+  softonic.ru is a dedicated Russian-language domain. Softonic uses BOTH strategies:
+  separate .ru domain for Russian AND subdomains (en.softonic.com, softonic.com/es, etc.)
+  for other languages on softonic.com. This domain serves Russian-speaking CIS countries
+  (Russia 46.7%, Ukraine 13.6%, Kazakhstan 12.9%, Uzbekistan 11.0%).
+
+# ----------------------------------------------------------
+# Architecture: app-name subdomains
+# ----------------------------------------------------------
+# softonic.ru uses a unique architecture: each app gets its own subdomain
+# e.g., brawl-stars.softonic.ru, minecraft.softonic.ru, telegram.softonic.ru
+# www.softonic.ru serves as the main hub with catalog/downloads sections
+
+architecture_note: >
+  softonic.ru uses per-app subdomains (e.g., brawl-stars.softonic.ru/android/).
+  Each app subdomain has paths like /android/, /iphone/, /download/.
+  www.softonic.ru is the main hub with /downloads/ catalog.
+  Total unique subdomains: 15,014. Only 568 have traffic > 100.
+
+total_subdomains: 15014
+subdomains_with_traffic_over_100: 568
+rows_in_csv: 30000
+
+# ----------------------------------------------------------
+# Top subdomains by traffic (top 20 of 568 with traffic>100)
+# ----------------------------------------------------------
+subdomains:
+  - subdomain: "brawl-stars.softonic.ru"
+    traffic: 97595
+    keywords: 2926
+    pages: 16
+  - subdomain: "toca-life-world.softonic.ru"
+    traffic: 38437
+    keywords: 2868
+    pages: 16
+  - subdomain: "varmatch-tv.softonic.ru"
+    traffic: 25232
+    keywords: 191
+    pages: 5
+  - subdomain: "minecraft.softonic.ru"
+    traffic: 23278
+    keywords: 1888
+    pages: 24
+  - subdomain: "gacha-nox.softonic.ru"
+    traffic: 19229
+    keywords: 597
+    pages: 5
+  - subdomain: "clash-royale.softonic.ru"
+    traffic: 16823
+    keywords: 542
+    pages: 15
+  - subdomain: "www.softonic.ru"
+    traffic: 14871
+    keywords: 11722
+    pages: 4809
+  - subdomain: "car-parking-multiplayer.softonic.ru"
+    traffic: 13564
+    keywords: 788
+    pages: 11
+  - subdomain: "happymod-bk5.softonic.ru"
+    traffic: 11628
+    keywords: 538
+    pages: 8
+  - subdomain: "instagram.softonic.ru"
+    traffic: 9467
+    keywords: 916
+    pages: 20
+  - subdomain: "telegram.softonic.ru"
+    traffic: 8995
+    keywords: 760
+    pages: 26
+  - subdomain: "clash-of-clans.softonic.ru"
+    traffic: 7091
+    keywords: 516
+    pages: 13
+  - subdomain: "tik-tok.softonic.ru"
+    traffic: 6035
+    keywords: 869
+    pages: 16
+  - subdomain: "whatsapp.softonic.ru"
+    traffic: 5656
+    keywords: 615
+    pages: 18
+  - subdomain: "delta-executor.softonic.ru"
+    traffic: 5197
+    keywords: 268
+    pages: 7
+  - subdomain: "geometry-dash.softonic.ru"
+    traffic: 5097
+    keywords: 724
+    pages: 12
+  - subdomain: "grand-theft-auto-san-andreas.softonic.ru"
+    traffic: 5049
+    keywords: 915
+    pages: 10
+  - subdomain: "pojavlauncher.softonic.ru"
+    traffic: 4253
+    keywords: 351
+    pages: 5
+  - subdomain: "minecraft-trial.softonic.ru"
+    traffic: 3651
+    keywords: 1045
+    pages: 8
+  - subdomain: "roblox.softonic.ru"
+    traffic: 3421
+    keywords: 514
+    pages: 28
+  source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+  extraction: "awk grouping by subdomain (first path segment before /), summing col4 traffic, col6 keywords, col7 pages, sorted desc by traffic, top 20"
+  note: "568 subdomains have traffic > 100. Remaining ~14,446 subdomains have traffic <= 100 each."
+
+# ----------------------------------------------------------
+# Traffic by section (path after subdomain)
+# ----------------------------------------------------------
+traffic_by_section:
+  - section: "(root — subdomain homepages)"
+    traffic: 354827
+    keywords: 69135
+    pages: 18948
+    path_entries: 15014
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk extracting first path segment after subdomain, (root) = no further path"
+  - section: "/android/"
+    traffic: 251973
+    keywords: 47548
+    pages: 10500
+    path_entries: 9929
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk filtering second path segment = android"
+  - section: "/iphone/"
+    traffic: 27326
+    keywords: 5161
+    pages: 1414
+    path_entries: 1364
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk filtering second path segment = iphone"
+  - section: "/download/"
+    traffic: 15850
+    keywords: 2463
+    pages: 217
+    path_entries: 217
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk filtering second path segment = download"
+  - section: "/downloads/ (www.softonic.ru catalog)"
+    traffic: 9802
+    keywords: 7597
+    pages: 3017
+    path_entries: 1217
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk filtering second path segment = downloads"
+  - section: "/chrome/"
+    traffic: 4065
+    keywords: 2477
+    pages: 1225
+    path_entries: 1223
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk filtering second path segment = chrome"
+  - section: "/web-apps/"
+    traffic: 1399
+    keywords: 426
+    pages: 169
+    path_entries: 166
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk filtering second path segment = web-apps"
+  - section: "/mac/"
+    traffic: 1348
+    keywords: 922
+    pages: 387
+    path_entries: 370
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk filtering second path segment = mac"
+  - section: "/firefox/"
+    traffic: 1100
+    keywords: 158
+    pages: 100
+    path_entries: 100
+    source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+    extraction: "awk filtering second path segment = firefox"
+
+# ----------------------------------------------------------
+# www.softonic.ru internal structure
+# ----------------------------------------------------------
+www_section_breakdown:
+  - section: "/downloads/"
+    traffic: 9802
+    keywords: 7597
+    pages: 3017
+    note: "Main catalog/directory section"
+  - section: "(root)"
+    traffic: 4882
+    keywords: 3852
+    pages: 1694
+    note: "Homepage and direct root pages"
+  - section: "/windows/"
+    traffic: 118
+    keywords: 134
+    pages: 38
+  - section: "/android/"
+    traffic: 33
+    keywords: 88
+    pages: 29
+  - section: "/nintendo-switch/"
+    traffic: 20
+    keywords: 12
+    pages: 4
+  - section: "/author/"
+    traffic: 16
+    keywords: 17
+    pages: 11
+  source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+  extraction: "grep www.softonic.ru | awk grouping by first path segment"
+  note: "www.softonic.ru has only 14,871 traffic total — most traffic lives on per-app subdomains"
+
+# ----------------------------------------------------------
+# Comparison with softonic.com
+# ----------------------------------------------------------
+comparison_note: >
+  softonic.ru (DR 50, ~335K traffic from RU filter, declining -578K) uses a separate
+  .ru domain with per-app subdomains architecture. Compare with softonic.com (from
+  task 05a brief) which uses language subdomains (en.softonic.com, etc.) to evaluate
+  separate-domain vs subdomain strategy effectiveness for the Russian market.
+  Key observation: softonic.ru traffic is heavily declining (-578K change), suggesting
+  this separate-domain strategy may not be performing well.
+
+# ----------------------------------------------------------
+# Gambling filter
+# ----------------------------------------------------------
+gambling_filtered:
+  entries_removed: 488
+  traffic_removed: 2452
+  examples:
+    - "1xbet-official-app.softonic.ru"
+    - "pokerdom-igrai-onlain.softonic.ru"
+    - "1x-bet-sports-betting-app.softonic.ru"
+    - "joycasino-na-dengi-simulyator.softonic.ru"
+    - "buckshot-roulette-survival.softonic.ru"
+    - "betsiti-stavki-na-sport.softonic.ru"
+    - "ggpoker-real-online-poker.softonic.ru"
+    - "1win-lucky-jet-casino.softonic.ru"
+    - "lemon-casino.softonic.ru"
+    - "1xbet.softonic.ru"
+  regex: "(?i)(casino|gambling|slots|betting|bets|poker|roulette|jackpot|porn|xxx|adult|nsfw|букмекер|казино|ставки|порно|1xbet|juwa|rummy)"
+  note: "488 rows matched gambling/adult filter out of 30,000. Traffic impact is minimal (2,452 of 668,662 = 0.37%)."
+
+# ----------------------------------------------------------
+# Key insights for Phase 2 domain strategy analysis
+# ----------------------------------------------------------
+insights:
+  - "softonic.ru uses per-app subdomains (15,014 total) — extremely granular subdomain architecture"
+  - "Only 568 of 15,014 subdomains (3.8%) have traffic > 100"
+  - "Traffic is heavily concentrated: top 10 subdomains hold ~39% of all traffic (258,447 / 668,662)"
+  - "Android dominates: /android/ section has 251,973 traffic (37.7% of total)"
+  - "www.softonic.ru is NOT the main traffic driver (14,871 = 2.2% of total) — traffic lives on app subdomains"
+  - "Domain is in significant decline: -578K traffic change, -291K keywords change"
+  - "Serves CIS market: Russia 46.7%, Ukraine 13.6%, Kazakhstan 12.9%, Uzbekistan 11.0%"
+  - "Gambling content is negligible (0.37% of traffic)"
+
+source: "softonic_ru_site_structure_subdomains_ru_2026_03_05_22_40_52.csv"
+csv_columns: ["Path", "Ref. pages", "Ref. domains", "Organic traffic", "Traffic value", "Organic keywords", "Organic pages", "Paid traffic", "Traffic Cost", "Paid keywords", "Paid pages"]
+csv_rows: 30000
+csv_encoding: "UTF-8 (converted from UTF-16LE)"
