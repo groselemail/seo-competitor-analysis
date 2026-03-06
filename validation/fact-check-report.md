@@ -425,3 +425,25 @@ CSV (Ahrefs export) → Brief 04a-06a (Phase 1) → Brief 11-18 (Phase 2/3) → 
 
 ### Existing validation
 - `seo-competitor-analysis/validation/validation-report.md`
+
+---
+
+## 12. Fix Verification (Post-Edit)
+
+Дата: 2026-03-06
+Все CF-1, CF-2, M3, M6, M7 исправлены.
+
+| Проверка | Результат |
+|----------|-----------|
+| grep "90%" в reports/ | 0 совпадений — все "90% от одной страницы" заменены на "~85%" |
+| grep "60% реализации" в reports/ | 0 совпадений — заменено на "~57%" |
+| grep "hreflang" в reports/ (с пометкой) | Все ключевые упоминания hreflang на линиях CF-1 имеют аннотацию `*[Источник: ручной аудит сайта, не Ahrefs]*` |
+| grep "CORRECTION" в reports/ | 0 совпадений — внутренние пометки убраны |
+
+### Дополнительные правки:
+- **CF-2:** executive-summary.md:102 — scope верификации уточнён, добавлена ссылка на fact-check-report
+- **M7:** executive-summary.md — ×3,2 заменено на ×3,15 (700K/222K)
+- **INFERENCE markers:** бюджеты помечены *(экспертная оценка)*, страницы *(план)*, миграционные потери *(отраслевой бенчмарк)*
+- **KPI tables:** заголовок "Целевое значение" → "Целевой (проекция)" в multilingual-roadmap.md
+- **Language counts:** унифицированы — softonic "9 (7 с трафиком)", uptodown "14 (по данным site_structure)", malavida "14 (8 с трафиком)"
+- **filehippo:** "Причина провала" → "Вероятная причина провала", добавлено "предположительно"
