@@ -1,308 +1,308 @@
-# Review Report: Phase 0 + Phase 1 + Phase 1.5 Prompts
+# Отчёт по ревью: промпты Фазы 0 + Фазы 1 + Фазы 1.5
 
-**Reviewer:** Claude Opus 4.6 (automated QA)
-**Date:** 2026-03-06
-**Source of truth:** `pipeline-seo/ARCHITECTURE.md` (rev 2026-03-05)
+**Ревьюер:** Claude Opus 4.6 (автоматизированный QA)
+**Дата:** 2026-03-06
+**Источник истины:** `pipeline-seo/ARCHITECTURE.md` (ред. 2026-03-05)
 
-## Summary
+## Сводка
 
-- **Files reviewed:** 19
-- **Files with issues:** 0 (critical), 0 (requiring fixes)
-- **Total fixes applied:** 0
-- **Status: PASS**
+- **Проверено файлов:** 19
+- **Файлов с проблемами:** 0 (критических), 0 (требующих исправлений)
+- **Всего применено исправлений:** 0
+- **Статус: PASS**
 
-All 19 prompts are well-constructed, consistent with ARCHITECTURE.md, and follow the PROMPT_ENGINEERING.md template. No blocking or functional issues found. Minor observations noted below.
+Все 19 промптов хорошо составлены, согласованы с ARCHITECTURE.md и следуют шаблону PROMPT_ENGINEERING.md. Блокирующих или функциональных проблем не обнаружено. Минорные наблюдения приведены ниже.
 
 ---
 
-## Per-File Results
+## Результаты по файлам
 
 ### 00-inventory.md
-- [x] Check 1: File paths — OK (correctly reads from `data_for_task/` as this is pre-conversion)
-- [x] Check 2: Output path — OK (`pipeline-seo/briefs/00-manifest.yaml`)
-- [x] Check 3: Self-contained — OK (references `data-inventory.md` and `ARCHITECTURE.md`)
-- [x] Check 4: Verification — OK (7 checks)
-- [x] Check 5: Gambling filter — N/A (Phase 0)
-- [x] Check 6: CSV via Bash — OK (uses Bash for all CSV metadata)
-- [x] Check 7: Performance CSV comma — N/A (catalogs only, no parsing)
-- [x] Check 8: Chain-of-evidence — N/A (Phase 0, no brief metrics)
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 100)
-- [x] Check 10: No hardcoded data — OK (template values are reference targets)
-- **Issues found:** None
-- **Fixes applied:** None
+- [x] Проверка 1: Пути к файлам — OK (корректно читает из `data_for_task/`, так как это до конвертации)
+- [x] Проверка 2: Путь вывода — OK (`pipeline-seo/briefs/00-manifest.yaml`)
+- [x] Проверка 3: Самодостаточность — OK (ссылается на `data-inventory.md` и `ARCHITECTURE.md`)
+- [x] Проверка 4: Верификация — OK (7 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — Н/П (Фаза 0)
+- [x] Проверка 6: CSV через Bash — OK (использует Bash для всех метаданных CSV)
+- [x] Проверка 7: Запятая в CSV производительности — Н/П (только каталогизация, без парсинга)
+- [x] Проверка 8: Цепочка доказательств — Н/П (Фаза 0, нет метрик в брифе)
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 100)
+- [x] Проверка 10: Нет захардкоженных данных — OK (шаблонные значения являются целевыми ориентирами)
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
 
 ### 00b-convert-encoding.md
-- [x] Check 1: File paths — OK (reads `data_for_task/*.csv`, writes `data_utf8/`)
-- [x] Check 2: Output path — OK (36 CSV files in `data_utf8/`)
-- [x] Check 3: Self-contained — OK (references `00-manifest.yaml`)
-- [x] Check 4: Verification — OK (6 checks including ASCII perf CSV validation)
-- [x] Check 5: Gambling filter — N/A (Phase 0)
-- [x] Check 6: CSV via Bash — OK (all Bash)
-- [x] Check 7: Performance CSV comma — OK (handles ASCII files separately)
-- [x] Check 8: Chain-of-evidence — N/A (no brief output)
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 50)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
+- [x] Проверка 1: Пути к файлам — OK (читает `data_for_task/*.csv`, пишет в `data_utf8/`)
+- [x] Проверка 2: Путь вывода — OK (36 CSV-файлов в `data_utf8/`)
+- [x] Проверка 3: Самодостаточность — OK (ссылается на `00-manifest.yaml`)
+- [x] Проверка 4: Верификация — OK (6 проверок, включая валидацию ASCII для CSV производительности)
+- [x] Проверка 5: Фильтр гэмблинга — Н/П (Фаза 0)
+- [x] Проверка 6: CSV через Bash — OK (всё через Bash)
+- [x] Проверка 7: Запятая в CSV производительности — OK (обрабатывает ASCII-файлы отдельно)
+- [x] Проверка 8: Цепочка доказательств — Н/П (нет выходного брифа)
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 50)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
 
 ### 01-parse-freesoft-net.md
-- [x] Check 1: File paths — OK (8 CSV from `data_utf8/`, 2 PNG from `data_for_task/`, all filenames match ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/01-freesoft-net.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (5 checks)
-- [x] Check 5: Gambling filter — OK (regex present in IMPORTANT section and awk examples)
-- [x] Check 6: CSV via Bash — OK (Bash examples shown, Read allowed for <200-row files)
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK ("Every numeric value must include `source` and `extraction`")
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK (template values in output format section)
-- **Issues found:** None
-- **Fixes applied:** None
+- [x] Проверка 1: Пути к файлам — OK (8 CSV из `data_utf8/`, 2 PNG из `data_for_task/`, все имена файлов совпадают с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/01-freesoft-net.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (5 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK (регулярное выражение присутствует в секции IMPORTANT и примерах awk)
+- [x] Проверка 6: CSV через Bash — OK (примеры Bash приведены, Read разрешён для файлов <200 строк)
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK («Каждое числовое значение должно включать `source` и `extraction`»)
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK (шаблонные значения в секции формата вывода)
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
 
 ### 02a-parse-freesoft-ru-keywords.md
-- [x] Check 1: File paths — OK (2 CSV + 2 PNG, all match ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/02a-freesoft-ru-kw.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (5 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK (explicit "LARGE FILES — Bash only" instruction)
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
+- [x] Проверка 1: Пути к файлам — OK (2 CSV + 2 PNG, всё совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/02a-freesoft-ru-kw.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (5 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK (явная инструкция «БОЛЬШИЕ ФАЙЛЫ — только Bash»)
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
 
 ### 02b-parse-freesoft-ru-pages.md
-- [x] Check 1: File paths — OK (2 CSV, no PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/02b-freesoft-ru-pages.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (5 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
+- [x] Проверка 1: Пути к файлам — OK (2 CSV, без PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/02b-freesoft-ru-pages.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (5 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
 
 ### 03-parse-freesoft-fr.md
-- [x] Check 1: File paths — OK (9 CSV + 2 PNG, all filenames match ARCHITECTURE.md including duplicates and perf CSVs)
-- [x] Check 2: Output path — OK (`briefs/03-freesoft-fr.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (7 checks including performance CSV validation)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — **OK** (explicitly states "COMMA vs TAB delimiters", `awk -F','` examples, multiple warnings)
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
+- [x] Проверка 1: Пути к файлам — OK (9 CSV + 2 PNG, все имена файлов совпадают с ARCHITECTURE.md, включая дубликаты и CSV производительности)
+- [x] Проверка 2: Путь вывода — OK (`briefs/03-freesoft-fr.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (7 проверок, включая валидацию CSV производительности)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — **OK** (явно указано «разделители ЗАПЯТАЯ vs TAB», примеры `awk -F','`, множественные предупреждения)
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
 
 ### 04a-parse-uptodown-structure.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/04a-uptodown-struct.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (5 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Edge cases covered: empty CSV check, 500+ subdomains filter, language_structure detection
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/04a-uptodown-struct.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (5 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Краевые случаи покрыты: проверка пустого CSV, фильтр 500+ поддоменов, определение language_structure
 
 ### 04b-parse-uptodown-pages.md
-- [x] Check 1: File paths — OK (2 CSV, filenames match ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/04b-uptodown-pages.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (6 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 200)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Prompt says "30,001" rows for actual CSV; ARCHITECTURE says 30045. Informational only — agent verifies with `wc -l`.
+- [x] Проверка 1: Пути к файлам — OK (2 CSV, имена файлов совпадают с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/04b-uptodown-pages.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (6 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 200)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Промпт указывает «30,001» строк для актуального CSV; ARCHITECTURE указывает 30045. Только информационно — агент проверяет через `wc -l`.
 
 ### 05a-parse-softonic-com-structure.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/05a-softonic-com-struct.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (5 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Correctly documents RU filter caveat on PNG
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/05a-softonic-com-struct.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (5 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Корректно документирует оговорку о RU-фильтре на PNG
 
 ### 05b-parse-softonic-com-pages.md
-- [x] Check 1: File paths — OK (2 CSV, filenames match ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/05b-softonic-com-pages.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (6 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 200)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Prompt says "30,001" rows for both CSVs; ARCHITECTURE says 30029 and 30050. Informational only.
+- [x] Проверка 1: Пути к файлам — OK (2 CSV, имена файлов совпадают с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/05b-softonic-com-pages.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (6 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 200)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Промпт указывает «30,001» строк для обоих CSV; ARCHITECTURE указывает 30029 и 30050. Только информационно.
 
 ### 05c-parse-softonic-ru.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/05c-softonic-ru.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (5 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Correctly identifies "separate_domain" strategy and references softonic.com comparison
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/05c-softonic-ru.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (5 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Корректно определяет стратегию «separate_domain» и ссылается на сравнение с softonic.com
 
 ### 06a-parse-malavida-structure.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/06a-malavida-struct.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (6 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/06a-malavida-struct.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (6 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
 
 ### 06b-parse-malavida-pages.md
-- [x] Check 1: File paths — OK (2 CSV, filenames match ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/06b-malavida-pages.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (6 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 200)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
+- [x] Проверка 1: Пути к файлам — OK (2 CSV, имена файлов совпадают с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/06b-malavida-pages.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (6 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 200)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
 
 ### 07a-parse-filehippo.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/07a-filehippo.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (5 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Correctly handles single-language control case
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/07a-filehippo.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (5 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Корректно обрабатывает контрольный случай с одним языком
 
 ### 07b-parse-trashbox.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/07b-trashbox.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (6 checks including decline metrics)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Good: correctly separates content subdomains from language subdomains
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/07b-trashbox.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (6 проверок, включая метрики снижения)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Хорошо: корректно разделяет контентные поддомены и языковые поддомены
 
 ### 08a-parse-clubic.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/08a-clubic.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (5 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Good: includes deep analysis of download pages and French URL patterns
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/08a-clubic.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (5 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Хорошо: включает глубокий анализ страниц загрузки и паттернов URL на французском
 
 ### 08b-parse-01net.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG, matches ARCHITECTURE.md)
-- [x] Check 2: Output path — OK (`briefs/08b-01net.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (6 checks)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Correctly documents massive decline (-2.2M traffic, -925K keywords)
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG, совпадает с ARCHITECTURE.md)
+- [x] Проверка 2: Путь вывода — OK (`briefs/08b-01net.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (6 проверок)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Корректно документирует масштабное снижение (-2.2M трафика, -925K ключевых слов)
 
 ### 08c-parse-commentcamarche.md
-- [x] Check 1: File paths — OK (1 CSV + 1 PNG with typo `ommentcamarche_net_overview.png`, correctly documented)
-- [x] Check 2: Output path — OK (`briefs/08c-commentcamarche.yaml`)
-- [x] Check 3: Self-contained — OK
-- [x] Check 4: Verification — OK (7 checks including PNG filename typo check)
-- [x] Check 5: Gambling filter — OK
-- [x] Check 6: CSV via Bash — OK
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 150)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** PNG filename typo correctly handled — uses actual filename `ommentcamarche_net_overview.png` with explanatory note
+- [x] Проверка 1: Пути к файлам — OK (1 CSV + 1 PNG с опечаткой `ommentcamarche_net_overview.png`, корректно задокументировано)
+- [x] Проверка 2: Путь вывода — OK (`briefs/08c-commentcamarche.yaml`)
+- [x] Проверка 3: Самодостаточность — OK
+- [x] Проверка 4: Верификация — OK (7 проверок, включая проверку опечатки в имени PNG)
+- [x] Проверка 5: Фильтр гэмблинга — OK
+- [x] Проверка 6: CSV через Bash — OK
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 150)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Опечатка в имени PNG корректно обработана — используется реальное имя файла `ommentcamarche_net_overview.png` с пояснительной запиской
 
 ### 10-validate-briefs.md
-- [x] Check 1: File paths — OK (lists all 16 expected brief files)
-- [x] Check 2: Output path — OK (`briefs/10-validation-result.yaml`)
-- [x] Check 3: Self-contained — OK (references ARCHITECTURE.md for brief formats)
-- [x] Check 4: Verification — OK (4 checks)
-- [x] Check 5: Gambling filter — OK (correctly states "No gambling filter needed")
-- [x] Check 6: CSV via Bash — N/A (reads YAML briefs, not CSV)
-- [x] Check 7: Performance CSV comma — N/A
-- [x] Check 8: Chain-of-evidence — OK (validates chain-of-evidence in briefs via spot-check)
-- [x] Check 9: max-turns — NOTE: not mentioned (expected: 50)
-- [x] Check 10: No hardcoded data — OK
-- **Issues found:** None
-- **Fixes applied:** None
-- **Note:** Correctly validates 16 briefs (ARCHITECTURE.md says "17 файлов" in the Phase 1.5 description, but actual Phase 1 task count is 16 — this is a minor error in ARCHITECTURE.md, not in the prompt). Correctly handles frees0ft.fr special case (very low traffic is not an error).
+- [x] Проверка 1: Пути к файлам — OK (перечислены все 16 ожидаемых файлов брифов)
+- [x] Проверка 2: Путь вывода — OK (`briefs/10-validation-result.yaml`)
+- [x] Проверка 3: Самодостаточность — OK (ссылается на ARCHITECTURE.md для форматов брифов)
+- [x] Проверка 4: Верификация — OK (4 проверки)
+- [x] Проверка 5: Фильтр гэмблинга — OK (корректно указано «Фильтр гэмблинга не требуется»)
+- [x] Проверка 6: CSV через Bash — Н/П (читает YAML-брифы, не CSV)
+- [x] Проверка 7: Запятая в CSV производительности — Н/П
+- [x] Проверка 8: Цепочка доказательств — OK (валидирует цепочку доказательств в брифах через выборочную проверку)
+- [x] Проверка 9: max-turns — ПРИМЕЧАНИЕ: не указано (ожидалось: 50)
+- [x] Проверка 10: Нет захардкоженных данных — OK
+- **Найдено проблем:** Нет
+- **Применено исправлений:** Нет
+- **Примечание:** Корректно валидирует 16 брифов (ARCHITECTURE.md указывает «17 файлов» в описании Фазы 1.5, но реальное количество задач Фазы 1 — 16 — это минорная ошибка в ARCHITECTURE.md, не в промпте). Корректно обрабатывает особый случай frees0ft.fr (очень низкий трафик не является ошибкой).
 
 ---
 
-## Cross-Cutting Observations
+## Общие наблюдения
 
-### 1. max-turns Not Mentioned in Any Prompt (non-critical)
+### 1. max-turns не указан ни в одном промпте (некритично)
 
-None of the 19 prompts mention the expected max-turns budget. ARCHITECTURE.md specifies:
+Ни один из 19 промптов не упоминает ожидаемый бюджет max-turns. ARCHITECTURE.md определяет:
 
-| Task | Expected max-turns |
+| Задача | Ожидаемый max-turns |
 |------|--------------------|
 | 00-inventory | 100 |
 | 00b-convert-encoding | 50 |
@@ -313,60 +313,60 @@ None of the 19 prompts mention the expected max-turns budget. ARCHITECTURE.md sp
 | 08a, 08b, 08c | 150 |
 | 10-validate-briefs | 50 |
 
-**Assessment:** Non-critical. The max-turns value is set by the orchestrator (`run.sh`) via `--max-turns` flag to `claude -p`. The agent doesn't strictly need to know its budget. However, adding it as context in the prompt could help the agent pace itself on complex tasks.
+**Оценка:** Некритично. Значение max-turns устанавливается оркестратором (`run.sh`) через флаг `--max-turns` для `claude -p`. Агенту не обязательно знать свой бюджет. Однако добавление этой информации как контекста в промпт может помочь агенту распределять усилия на сложных задачах.
 
-**Recommendation:** Consider adding a one-liner like `**Turn budget:** 150 max-turns` to each prompt's Context section. Not required for pipeline to function.
+**Рекомендация:** Рассмотреть добавление однострочной записи вроде `**Бюджет ходов:** 150 max-turns` в секцию «Контекст» каждого промпта. Не является обязательным для работы пайплайна.
 
-### 2. Minor Row Count Approximations (informational)
+### 2. Незначительные приближения в количестве строк (информационно)
 
-Three prompts use approximate row counts that differ slightly from ARCHITECTURE.md:
+Три промпта используют приблизительные значения количества строк, которые немного отличаются от ARCHITECTURE.md:
 
-| Prompt | File | Prompt says | ARCHITECTURE says |
+| Промпт | Файл | В промпте указано | В ARCHITECTURE указано |
 |--------|------|-------------|-------------------|
 | 04b | `uptodown_com_top_pages...all_act...csv` | 30,001 | 30,045 |
 | 05b | `softonic_com_top_pages...all_act...csv` | 30,001 | 30,029 |
 | 05b | `softonic_com_top_pages...all_com...csv` | 30,001 | 30,050 |
 
-**Assessment:** Non-functional. All three prompts instruct the agent to verify row count with `wc -l`. The approximate values are informational context only and don't affect extraction logic.
+**Оценка:** Нефункциональное расхождение. Все три промпта инструктируют агента проверить количество строк через `wc -l`. Приблизительные значения являются только информационным контекстом и не влияют на логику извлечения.
 
-### 3. ARCHITECTURE.md Minor Inconsistency (not a prompt issue)
+### 3. Минорное несоответствие в ARCHITECTURE.md (не проблема промптов)
 
-ARCHITECTURE.md states "17 tasks" for Phase 1 (line 15) and "17 файлов" for Phase 1.5 validation (line 398), but the actual Phase 1 task count is **16**. The 10-validate-briefs.md prompt correctly uses 16. This is an error in ARCHITECTURE.md itself, not in the prompts.
+ARCHITECTURE.md указывает «17 задач» для Фазы 1 (строка 15) и «17 файлов» для валидации Фазы 1.5 (строка 398), но реальное количество задач Фазы 1 — **16**. Промпт 10-validate-briefs.md корректно использует 16. Это ошибка в самом ARCHITECTURE.md, а не в промптах.
 
-### 4. All Edge Cases Properly Covered
+### 4. Все краевые случаи корректно покрыты
 
-Every Phase 1 prompt includes the required edge case handling from ARCHITECTURE.md section "Обработка edge cases":
+Каждый промпт Фазы 1 включает требуемую обработку краевых случаев из секции ARCHITECTURE.md «Обработка edge cases»:
 
-| Edge Case | Coverage |
+| Краевой случай | Покрытие |
 |-----------|----------|
-| Empty/corrupted CSV (`wc -l < file; if <2...`) | Structure tasks (04a, 05a, 05c, 06a, 07a, 07b) — explicit check |
-| Unreadable PNG ("НЕ ВИДНО НА СКРИНШОТЕ") | All prompts with PNG — covered |
-| No language data ("single_language") | Structure tasks — covered |
-| 500+ subdomains filter (traffic > 100) | Structure tasks — covered |
-| Gambling/adult content (regex filter) | All Phase 1 prompts — covered |
+| Пустой/повреждённый CSV (`wc -l < file; if <2...`) | Задачи структуры (04a, 05a, 05c, 06a, 07a, 07b) — явная проверка |
+| Нечитаемый PNG («НЕ ВИДНО НА СКРИНШОТЕ») | Все промпты с PNG — покрыто |
+| Нет языковых данных («single_language») | Задачи структуры — покрыто |
+| Фильтр 500+ поддоменов (трафик > 100) | Задачи структуры — покрыто |
+| Гэмблинг/контент для взрослых (фильтр по регулярному выражению) | Все промпты Фазы 1 — покрыто |
 
-### 5. Prompt Quality Assessment
+### 5. Оценка качества промптов
 
-All 19 prompts follow the PROMPT_ENGINEERING.md template:
-- ✅ Role + one-sentence goal
-- ✅ Context section
-- ✅ "Before You Start — Read These Files" section
-- ✅ Task section with input file tables
-- ✅ Tools section with examples
-- ✅ Numbered Steps
-- ✅ Output Format with YAML template
-- ✅ Verification section
-- ✅ IMPORTANT section with constraints
+Все 19 промптов следуют шаблону PROMPT_ENGINEERING.md:
+- ✅ Роль + цель одним предложением
+- ✅ Секция «Контекст»
+- ✅ Секция «Перед началом — прочитайте эти файлы»
+- ✅ Секция «Задача» с таблицами входных файлов
+- ✅ Секция «Инструменты» с примерами
+- ✅ Нумерованные шаги
+- ✅ Формат вывода с YAML-шаблоном
+- ✅ Секция верификации
+- ✅ Секция IMPORTANT с ограничениями
 
-Average prompt length: ~250 lines (~1500 words) — within the recommended sweet spot.
+Средняя длина промпта: ~250 строк (~1500 слов) — в рекомендуемом оптимальном диапазоне.
 
 ---
 
-## Verification of This Review
+## Верификация данного ревью
 
-1. ✅ All 19 prompt files exist and were read in full
-2. ✅ This review report exists at `pipeline-seo/meta/review-1-report.md`
-3. ✅ No Phase 1 prompt references `data_for_task/` for CSV files (only `data_utf8/`)
-4. ✅ All 16 Phase 1 prompts contain the gambling regex
-5. ✅ Task 10 correctly omits the gambling filter
-6. ✅ Task 00 correctly reads from `data_for_task/` (pre-conversion)
+1. ✅ Все 19 файлов промптов существуют и были прочитаны полностью
+2. ✅ Данный отчёт по ревью находится по пути `pipeline-seo/meta/review-1-report.md`
+3. ✅ Ни один промпт Фазы 1 не ссылается на `data_for_task/` для CSV-файлов (только на `data_utf8/`)
+4. ✅ Все 16 промптов Фазы 1 содержат регулярное выражение для фильтра гэмблинга
+5. ✅ Задача 10 корректно не содержит фильтр гэмблинга
+6. ✅ Задача 00 корректно читает из `data_for_task/` (до конвертации)

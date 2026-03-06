@@ -1,47 +1,47 @@
-# Final Architecture Audit Report (Iteration 3)
+# Финальный отчёт аудита архитектуры (Итерация 3)
 
-## Verdict: READY TO BUILD (after 3 fixes below)
+## Вердикт: ГОТОВО К СБОРКЕ (после 3 исправлений ниже)
 
-3 issues need fixing before launch, all addressed in this audit. No architectural rework needed.
+3 проблемы требуют исправления перед запуском, все устранены в рамках данного аудита. Переработка архитектуры не требуется.
 
 ---
 
-## Data Verification Results
+## Результаты верификации данных
 
-### File Counts
-- CSV files: **36** (confirmed) — matches ARCHITECTURE.md
-- PNG files: **15** (confirmed) — matches ARCHITECTURE.md
-- Total: **51** — correct
+### Подсчёт файлов
+- CSV-файлы: **36** (подтверждено) — совпадает с ARCHITECTURE.md
+- PNG-файлы: **15** (подтверждено) — совпадает с ARCHITECTURE.md
+- Всего: **51** — верно
 
-### Encoding Discovery (CRITICAL)
+### Обнаружение кодировки (КРИТИЧНО)
 
-**34 of 36 CSV files** are UTF-16LE with BOM as documented.
+**34 из 36 CSV-файлов** имеют кодировку UTF-16LE с BOM, как задокументировано.
 
-**2 files are ASCII/CSV** (comma-delimited, NOT tab-delimited, NOT UTF-16LE):
-- `frees0ft.fr-perf-subdomains_year2_daily_2026-03-05_22-22-53.csv` (731 lines, ASCII)
-- `frees0ft.fr-perf-subdomains_year2_daily_2026-03-05_23-03-23.csv` (731 lines, ASCII)
+**2 файла в кодировке ASCII/CSV** (разделитель — запятая, НЕ табуляция, НЕ UTF-16LE):
+- `frees0ft.fr-perf-subdomains_year2_daily_2026-03-05_22-22-53.csv` (731 строка, ASCII)
+- `frees0ft.fr-perf-subdomains_year2_daily_2026-03-05_23-03-23.csv` (731 строка, ASCII)
 
-**Impact:** Task `00b-convert-encoding` runs `iconv -f UTF-16LE` on ALL CSVs. For these 2 files, iconv produces **empty output** (0 bytes). Task 03-parse-freesoft-fr will read empty files and report "ДАННЫЕ ОТСУТСТВУЮТ" for performance data.
+**Влияние:** Задача `00b-convert-encoding` выполняет `iconv -f UTF-16LE` для ВСЕХ CSV. Для этих 2 файлов iconv создаёт **пустой вывод** (0 байт). Задача 03-parse-freesoft-fr прочитает пустые файлы и выдаст "ДАННЫЕ ОТСУТСТВУЮТ" для данных о производительности.
 
-**Fix applied:** Updated ARCHITECTURE.md task 00b to detect encoding before converting (see Changes section).
+**Исправление применено:** Обновлена задача 00b в ARCHITECTURE.md — добавлено определение кодировки перед конвертацией (см. раздел «Внесённые изменения»).
 
-### Row Count Discrepancies
+### Расхождения в подсчёте строк
 
-data-inventory.md contains slightly inflated row counts for some files. Real counts (via `wc -l` after UTF-8 conversion):
+data-inventory.md содержит немного завышенное количество строк для некоторых файлов. Реальные значения (через `wc -l` после конвертации в UTF-8):
 
-| File | Inventory says | Actual |
-|------|---------------|--------|
+| File | Указано в инвентаризации | Фактически |
+|------|--------------------------|------------|
 | uptodown_com_top_pages...actual | 30045 | 30001 |
 | softonic_com_top_pages...actual | 30029 | 30001 |
 | softonic_com_top_pages...comp | 30050 | 30001 |
 
-All other files match. The discrepancies are not architecturally significant — all Ahrefs exports cap at 30001 lines (30000 data rows + 1 header).
+Все остальные файлы совпадают. Расхождения не являются архитектурно значимыми — все экспорты Ahrefs ограничены 30001 строкой (30000 строк данных + 1 заголовок).
 
 ---
 
-## File Coverage: 51/51
+## Покрытие файлов: 51/51
 
-All 51 files from data-inventory.md are assigned to tasks in ARCHITECTURE.md.
+Все 51 файл из data-inventory.md назначены задачам в ARCHITECTURE.md.
 
 | # | Filename | Assigned Task | Path | Status |
 |---|----------|---------------|------|--------|
@@ -68,8 +68,8 @@ All 51 files from data-inventory.md are assigned to tasks in ARCHITECTURE.md.
 | 21 | frees0ft_fr_top_pages...compa...23_03_29.csv | 03-parse-freesoft-fr | data_utf8/ | ok |
 | 22 | frees0ft_fr_top_pages...compa...23_11_22.csv | 03-parse-freesoft-fr | data_utf8/ | ok |
 | 23 | frees0ft_fr_top_pages...ru_compa.csv | 03-parse-freesoft-fr | data_utf8/ | ok |
-| 24 | frees0ft.fr-perf...22-22-53.csv | 03-parse-freesoft-fr | data_utf8/ | ok (ASCII, special handling) |
-| 25 | frees0ft.fr-perf...23-03-23.csv | 03-parse-freesoft-fr | data_utf8/ | ok (ASCII, special handling) |
+| 24 | frees0ft.fr-perf...22-22-53.csv | 03-parse-freesoft-fr | data_utf8/ | ok (ASCII, особая обработка) |
+| 25 | frees0ft.fr-perf...23-03-23.csv | 03-parse-freesoft-fr | data_utf8/ | ok (ASCII, особая обработка) |
 | 26 | freesoft_FR_main_overiew.png | 03-parse-freesoft-fr | data_for_task/ | ok |
 | 27 | organic_traff_loc_FR.png | 03-parse-freesoft-fr | data_for_task/ | ok |
 | 28 | uptodown_com_site_structure.csv | 04a-parse-uptodown-structure | data_utf8/ | ok |
@@ -99,31 +99,31 @@ All 51 files from data-inventory.md are assigned to tasks in ARCHITECTURE.md.
 
 ---
 
-## Context Budget Analysis
+## Анализ бюджета контекста
 
-Calculation method:
-- Prompt: ~1.5K tokens
-- CSV via Bash (awk/sort): ~4-6K tokens per 30K CSV, ~1-2K per small CSV
-- PNG via Read: ~1-2K tokens per PNG
-- Brief (200-400 lines YAML): ~2-4K tokens per brief
-- Output YAML: ~2-4K tokens
-- Safe budget: <60K tokens input (of ~200K total context)
+Метод расчёта:
+- Промпт: ~1.5K токенов
+- CSV через Bash (awk/sort): ~4-6K токенов на 30K CSV, ~1-2K на малый CSV
+- PNG через Read: ~1-2K токенов на PNG
+- Бриф (200-400 строк YAML): ~2-4K токенов на бриф
+- Выходной YAML: ~2-4K токенов
+- Безопасный бюджет: <60K токенов на входе (из ~200K общего контекста)
 
-| Task | CSV (count x rows) | PNGs | Briefs | Est. Input Tokens | Risk |
-|------|-------------------|------|--------|-------------------|------|
-| 00-inventory | 36 (head only) | 15 | 0 | ~25K | YELLOW |
-| 00b-convert-encoding | 36 (loop) | 0 | 0 | ~3K | GREEN |
-| 01-parse-freesoft-net | 8 x 4,222 total | 2 | 0 | ~15K | GREEN |
-| 02a-parse-freesoft-ru-kw | 2 x 47,484 total | 2 | 0 | ~14K | GREEN |
-| 02b-parse-freesoft-ru-pages | 2 x 30,687 total | 0 | 0 | ~12K | GREEN |
-| 03-parse-freesoft-fr | 9 x 11,163 total | 2 | 0 | ~20K | GREEN |
+| Задача | CSV (кол-во x строк) | PNG | Брифы | Ожид. входных токенов | Риск |
+|--------|----------------------|-----|-------|----------------------|------|
+| 00-inventory | 36 (только head) | 15 | 0 | ~25K | YELLOW |
+| 00b-convert-encoding | 36 (цикл) | 0 | 0 | ~3K | GREEN |
+| 01-parse-freesoft-net | 8 x 4,222 всего | 2 | 0 | ~15K | GREEN |
+| 02a-parse-freesoft-ru-kw | 2 x 47,484 всего | 2 | 0 | ~14K | GREEN |
+| 02b-parse-freesoft-ru-pages | 2 x 30,687 всего | 0 | 0 | ~12K | GREEN |
+| 03-parse-freesoft-fr | 9 x 11,163 всего | 2 | 0 | ~20K | GREEN |
 | 04a-parse-uptodown-structure | 1 x 30,001 | 1 | 0 | ~8K | GREEN |
-| 04b-parse-uptodown-pages | 2 x 60,002 total | 0 | 0 | ~12K | GREEN |
+| 04b-parse-uptodown-pages | 2 x 60,002 всего | 0 | 0 | ~12K | GREEN |
 | 05a-parse-softonic-com-struct | 1 x 30,001 | 1 | 0 | ~8K | GREEN |
-| 05b-parse-softonic-com-pages | 2 x 60,002 total | 0 | 0 | ~12K | GREEN |
+| 05b-parse-softonic-com-pages | 2 x 60,002 всего | 0 | 0 | ~12K | GREEN |
 | 05c-parse-softonic-ru | 1 x 30,001 | 1 | 0 | ~8K | GREEN |
 | 06a-parse-malavida-structure | 1 x 30,001 | 1 | 0 | ~8K | GREEN |
-| 06b-parse-malavida-pages | 2 x 60,002 total | 0 | 0 | ~12K | GREEN |
+| 06b-parse-malavida-pages | 2 x 60,002 всего | 0 | 0 | ~12K | GREEN |
 | 07a-parse-filehippo | 1 x 30,001 | 1 | 0 | ~8K | GREEN |
 | 07b-parse-trashbox | 1 x 30,001 | 1 | 0 | ~8K | GREEN |
 | 08a-parse-clubic | 1 x 26,609 | 1 | 0 | ~8K | GREEN |
@@ -139,252 +139,252 @@ Calculation method:
 | 18-roadmap-draft | 0 | 0 | 2 | ~6-8K | GREEN |
 | 20-report-domain-strategy | 0 | 0 | 4 | ~12-16K | GREEN |
 | 21-report-multilingual-roadmap | 0 | 0 | 6 | ~16-24K | GREEN |
-| 22-validate | 0 | 0 | 7 + 2 docs | ~28-36K | YELLOW |
+| 22-validate | 0 | 0 | 7 + 2 документа | ~28-36K | YELLOW |
 
-**No RED tasks.** 3 YELLOW tasks (00, 10, 22) are comfortably within 60K limit.
+**Задач с уровнем RED нет.** 3 задачи с уровнем YELLOW (00, 10, 22) комфортно укладываются в лимит 60K.
 
-Notable:
-- Tasks 04b, 05b, 06b each handle 2 x 30K CSV via Bash. At ~4-6K tokens per CSV = ~12K total. GREEN — well within budget.
-- Task 02a handles 47K rows (2 CSVs). Via Bash, ~12K tokens. GREEN.
-- Task 10 reads 17 briefs. If each is ~300 lines YAML = ~3K tokens, total ~51K. YELLOW but safe.
-- Task 22 reads 7 briefs + 2 final docs. ~36K tokens max. YELLOW but safe.
+Примечания:
+- Задачи 04b, 05b, 06b обрабатывают по 2 x 30K CSV через Bash. При ~4-6K токенов на CSV = ~12K всего. GREEN — хорошо в рамках бюджета.
+- Задача 02a обрабатывает 47K строк (2 CSV). Через Bash ~12K токенов. GREEN.
+- Задача 10 читает 17 брифов. Если каждый ~300 строк YAML = ~3K токенов, всего ~51K. YELLOW, но безопасно.
+- Задача 22 читает 7 брифов + 2 финальных документа. Максимум ~36K токенов. YELLOW, но безопасно.
 
 ---
 
-## Dependency Graph Verification
+## Верификация графа зависимостей
 
 ```
 Phase 0:   00-inventory → 00b-convert-encoding
                               |
 Phase 1:   [01, 02a, 02b, 03, 04a, 04b, 05a, 05b, 05c, 06a, 06b, 07a, 07b, 08a, 08b, 08c]
-           (17 tasks, all independent, MAX_PARALLEL=3)
+           (17 задач, все независимые, MAX_PARALLEL=3)
                               |
-Phase 1.5: 10-validate-briefs (singleton gate)
+Phase 1.5: 10-validate-briefs (единственная задача-шлюз)
                               |
-Phase 2:   [11, 12, 13, 14] (4 tasks, all independent, MAX_PARALLEL=3)
+Phase 2:   [11, 12, 13, 14] (4 задачи, все независимые, MAX_PARALLEL=3)
                               |
 Phase 3:   16-language-potential → 17-domain-strategy → 18-roadmap-draft
-           (sequential — each depends on previous)
+           (последовательно — каждая зависит от предыдущей)
                               |
 Phase 4:   [20-report-domain-strategy, 21-report-multilingual-roadmap]
-           (PARALLEL — no cross-dependencies)
+           (ПАРАЛЛЕЛЬНО — нет перекрёстных зависимостей)
                               |
-Phase 5:   22-validate (singleton)
+Phase 5:   22-validate (единственная задача)
 ```
 
-### Dependency Verification (file-level)
+### Верификация зависимостей (на уровне файлов)
 
-| From | To | File Written | File Read | Match? |
-|------|----|-------------|-----------|--------|
-| 00 → 00b | briefs/00-manifest.yaml | (implicit) | yes |
-| 00b → Phase 1 | data_utf8/*.csv | data_utf8/*.csv | yes |
-| Phase 1 → 10 | briefs/01...08c.yaml (17 files) | all 17 briefs | yes |
-| 10 → Phase 2 | briefs/10-validation-result.yaml | (gate only) | yes |
-| Phase 1 → 11 | briefs/01, 02a, 02b, 03 | same | yes |
-| Phase 1 → 12 | briefs/04a, 04b, 05a, 05b, 05c, 06a, 06b | same | yes |
-| Phase 1 → 13 | briefs/03, 08a, 08b, 08c | same | yes |
-| Phase 1 → 14 | briefs/04a, 05a, 05c, 06a, 07a, 07b | same | yes |
-| 11,12,13 → 16 | briefs/11, 12, 13 | same | yes |
-| 14,16 → 17 | briefs/14, 16 | same | yes |
-| 16,17 → 18 | briefs/16, 17 | same | yes |
-| 11,14,16,17 → 20 | briefs/11, 14, 16, 17 | same | yes |
-| 11,12,13,16,17,18 → 21 | briefs/11, 12, 13, 16, 17, 18 | same | yes |
-| 20,21 → 22 | output/domain-strategy.md, output/multilingual-roadmap.md + briefs/11-18 | same | yes |
+| From | To | Записываемый файл | Читаемый файл | Совпадает? |
+|------|----|-------------------|---------------|------------|
+| 00 → 00b | briefs/00-manifest.yaml | (неявно) | да |
+| 00b → Phase 1 | data_utf8/*.csv | data_utf8/*.csv | да |
+| Phase 1 → 10 | briefs/01...08c.yaml (17 файлов) | все 17 брифов | да |
+| 10 → Phase 2 | briefs/10-validation-result.yaml | (только шлюз) | да |
+| Phase 1 → 11 | briefs/01, 02a, 02b, 03 | то же | да |
+| Phase 1 → 12 | briefs/04a, 04b, 05a, 05b, 05c, 06a, 06b | то же | да |
+| Phase 1 → 13 | briefs/03, 08a, 08b, 08c | то же | да |
+| Phase 1 → 14 | briefs/04a, 05a, 05c, 06a, 07a, 07b | то же | да |
+| 11,12,13 → 16 | briefs/11, 12, 13 | то же | да |
+| 14,16 → 17 | briefs/14, 16 | то же | да |
+| 16,17 → 18 | briefs/16, 17 | то же | да |
+| 11,14,16,17 → 20 | briefs/11, 14, 16, 17 | то же | да |
+| 11,12,13,16,17,18 → 21 | briefs/11, 12, 13, 16, 17, 18 | то же | да |
+| 20,21 → 22 | output/domain-strategy.md, output/multilingual-roadmap.md + briefs/11-18 | то же | да |
 
-### Hidden Dependencies Within Phases
+### Скрытые зависимости внутри фаз
 
-**Phase 1:** All 17 tasks read from `data_utf8/` (read-only) and write to separate `briefs/` files. No shared mutable state. Truly independent. Verified.
+**Phase 1:** Все 17 задач читают из `data_utf8/` (только чтение) и записывают в отдельные файлы `briefs/`. Нет разделяемого изменяемого состояния. Действительно независимы. Проверено.
 
-**Phase 2:** All 4 tasks read from Phase 1 briefs (read-only) and write to separate Phase 2 briefs. Task 13 reads brief 03 (also read by task 11), but both are READ-ONLY. No conflict. Truly independent. Verified.
+**Phase 2:** Все 4 задачи читают брифы Phase 1 (только чтение) и записывают в отдельные брифы Phase 2. Задача 13 читает бриф 03 (его также читает задача 11), но обе работают в режиме ТОЛЬКО ЧТЕНИЕ. Конфликта нет. Действительно независимы. Проверено.
 
-**Phase 4:** Task 20 writes `output/domain-strategy.md`, task 21 writes `output/multilingual-roadmap.md`. Different output files. Both read Phase 2/3 briefs (read-only). **Can run in parallel.** This is a change from current architecture which says "sequential."
+**Phase 4:** Задача 20 записывает `output/domain-strategy.md`, задача 21 записывает `output/multilingual-roadmap.md`. Разные выходные файлы. Обе читают брифы Phase 2/3 (только чтение). **Могут выполняться параллельно.** Это изменение по сравнению с текущей архитектурой, где указано «последовательно».
 
 ---
 
-## MAX_PARALLEL=3 Optimization
+## Оптимизация MAX_PARALLEL=3
 
-### Current (MAX_PARALLEL=2)
-- Phase 1: 17 tasks / 2 = 9 batches
-- Phase 2: 4 tasks / 2 = 2 batches
-- Phase 4: 2 tasks sequential = 2 steps
-- **Total parallel batches: 13**
+### Текущий вариант (MAX_PARALLEL=2)
+- Phase 1: 17 задач / 2 = 9 пакетов
+- Phase 2: 4 задачи / 2 = 2 пакета
+- Phase 4: 2 задачи последовательно = 2 шага
+- **Всего параллельных пакетов: 13**
 
-### Optimized (MAX_PARALLEL=3)
-- Phase 1: 17 tasks / 3 = 6 batches (5 full + 1 with 2 tasks)
-- Phase 2: 4 tasks / 3 = 2 batches (1 with 3 + 1 with 1)
-- Phase 4: 2 tasks / 3 = 1 batch (both parallel)
-- **Total parallel batches: 9** (-30% improvement)
+### Оптимизированный вариант (MAX_PARALLEL=3)
+- Phase 1: 17 задач / 3 = 6 пакетов (5 полных + 1 с 2 задачами)
+- Phase 2: 4 задачи / 3 = 2 пакета (1 с 3 + 1 с 1)
+- Phase 4: 2 задачи / 3 = 1 пакет (обе параллельно)
+- **Всего параллельных пакетов: 9** (улучшение на -30%)
 
-### Optimized Execution Plan
+### Оптимизированный план выполнения
 
 ```
-PHASE 0 (sequential, ~30 min):
+PHASE 0 (последовательно, ~30 мин):
   00-inventory
   00b-convert-encoding
 
-PHASE 1 (MAX_PARALLEL=3, ~2.5h):
+PHASE 1 (MAX_PARALLEL=3, ~2.5ч):
   Batch 1: 01, 02a, 02b
   Batch 2: 03, 04a, 04b
   Batch 3: 05a, 05b, 05c
   Batch 4: 06a, 06b, 07a
   Batch 5: 07b, 08a, 08b
-  Batch 6: 08c + (2 slots idle)
+  Batch 6: 08c + (2 слота простаивают)
 
-PHASE 1.5 (singleton, ~10 min):
+PHASE 1.5 (единственная задача, ~10 мин):
   10-validate-briefs
 
-PHASE 2 (MAX_PARALLEL=3, ~40 min):
+PHASE 2 (MAX_PARALLEL=3, ~40 мин):
   Batch 1: 11, 12, 13
-  Batch 2: 14 + (2 slots idle)
+  Batch 2: 14 + (2 слота простаивают)
 
-PHASE 3 (sequential, ~1h):
+PHASE 3 (последовательно, ~1ч):
   16-language-potential
   17-domain-strategy
   18-roadmap-draft
 
-PHASE 4 (MAX_PARALLEL=3, ~20 min):
-  Batch 1: 20, 21 (PARALLEL - was sequential)
+PHASE 4 (MAX_PARALLEL=3, ~20 мин):
+  Batch 1: 20, 21 (ПАРАЛЛЕЛЬНО — было последовательно)
 
-PHASE 5 (singleton, ~15 min):
+PHASE 5 (единственная задача, ~15 мин):
   22-validate
 ```
 
-### Rate Limit Risk
+### Риск ограничения частоты запросов
 
-PRINCIPLES.md recommends MAX_PARALLEL=2 for Opus. However:
-- Customer explicitly approved MAX_PARALLEL=3
-- Modern Opus tiers generally support 3 concurrent sessions
-- If rate limits occur, the orchestrator's retry logic handles it
-- Fallback: reduce to MAX_PARALLEL=2 at runtime via env var
+PRINCIPLES.md рекомендует MAX_PARALLEL=2 для Opus. Однако:
+- Заказчик явно одобрил MAX_PARALLEL=3
+- Современные тарифы Opus в целом поддерживают 3 параллельных сессии
+- В случае срабатывания лимитов — логика повторных попыток оркестратора обработает это
+- Резервный вариант: снизить до MAX_PARALLEL=2 во время выполнения через переменную окружения
 
-**Decision: MAX_PARALLEL=3 approved. No blocking concern.**
-
----
-
-## Brief Format Assessment
-
-### Adequacy for Core Questions
-
-The brief format in ARCHITECTURE.md adequately supports answering:
-1. "Which languages drive traffic?" — via `traffic_by_language` in site_structure briefs
-2. "What domain structure works?" — via subdomain/folder analysis in structure briefs
-
-### Language Coverage
-
-Current instruction: "top-20 subdomains/folders by traffic."
-- Most competitors have <20 language variants. Top-20 captures all meaningful ones.
-- For edge cases with 100+ subdomains: the filter `traffic > 100` already ensures completeness.
-- **Recommendation:** Add instruction: "List ALL language-specific subdomains/folders regardless of traffic. Sum remaining non-language paths as 'other'."
-
-### Top Pages Depth
-
-Current: top-50 pages by traffic.
-- For answering "what page types work?", top-50 is sufficient — captures dominant patterns.
-- Top-100 would add ~500 tokens per brief — acceptable but unnecessary for this analysis.
-- **Decision:** Keep top-50. Adequate for deliverables.
-
-### Missing Aggregates
-
-Current briefs include: traffic_by_language, top_pages, traffic_by_page_type, traffic_by_country.
-
-**Should add to comparison CSV briefs:**
-- `total_traffic_change`: net traffic change from comparison period
-- `growing_pages_count` / `declining_pages_count`: trend signal
-
-These are extracted with simple awk and add ~100 tokens per brief. Worth including for trend analysis in Phase 2+.
+**Решение: MAX_PARALLEL=3 одобрен. Блокирующих проблем нет.**
 
 ---
 
-## Fact Integrity Chain
+## Оценка формата брифов
 
-### Traced Example: "uptodown.com Spanish subdomain traffic"
+### Достаточность для ключевых вопросов
 
-| Step | File | Source Reference | Traceable? |
-|------|------|-----------------|------------|
-| 1. Raw data | `data_utf8/uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv` | N/A (primary source) | yes |
-| 2. Brief 04a | `briefs/04a-uptodown-struct.yaml` → `traffic_by_language[].source` | CSV filename + awk command | yes |
-| 3. Brief 12 | `briefs/12-multilingual-analysis.yaml` | References "brief 04a" | yes |
-| 4. Brief 16 | `briefs/16-language-potential.yaml` | References "brief 12" | yes |
-| 5. Output | `output/domain-strategy.md` | References brief 16/17 | yes |
+Формат брифов в ARCHITECTURE.md адекватно поддерживает ответы на:
+1. «Какие языки приносят трафик?» — через `traffic_by_language` в брифах site_structure
+2. «Какая доменная структура работает?» — через анализ поддоменов/папок в брифах структуры
 
-**Chain-of-evidence is maintained** because ARCHITECTURE.md v2 mandates `source` and `extraction` fields in every brief value.
+### Языковое покрытие
 
-### Can Task 22-validate trace back?
+Текущая инструкция: «топ-20 поддоменов/папок по трафику».
+- У большинства конкурентов <20 языковых вариантов. Топ-20 охватывает все значимые.
+- Для пограничных случаев с 100+ поддоменами: фильтр `traffic > 100` уже обеспечивает полноту.
+- **Рекомендация:** Добавить инструкцию: «Перечислить ВСЕ языковые поддомены/папки независимо от трафика. Суммировать оставшиеся неязыковые пути как 'other'».
 
-Task 22 reads:
-- 7 briefs (11, 12, 13, 14, 16, 17, 18) — these contain `source` references to Phase 1 briefs
-- 2 final documents — these cite Phase 2/3 briefs
+### Глубина топ-страниц
 
-Task 22 does NOT read Phase 1 briefs directly. It can verify:
-- Final doc → Phase 3 brief → Phase 2 brief (chain OK)
-- BUT cannot verify Phase 2 brief → Phase 1 brief → CSV
+Текущий вариант: топ-50 страниц по трафику.
+- Для ответа на вопрос «какие типы страниц работают?» топ-50 достаточно — охватывает доминирующие паттерны.
+- Топ-100 добавил бы ~500 токенов на бриф — допустимо, но не необходимо для данного анализа.
+- **Решение:** Оставить топ-50. Достаточно для диливеров.
 
-**Recommendation:** Add Phase 1 key briefs (04a, 05a, 06a) to task 22's input list for spot-check verification. This adds ~9-12K tokens — still within budget.
+### Недостающие агрегаты
 
----
+Текущие брифы включают: traffic_by_language, top_pages, traffic_by_page_type, traffic_by_country.
 
-## Remaining Issues
+**Необходимо добавить в брифы сравнительных CSV:**
+- `total_traffic_change`: чистое изменение трафика за период сравнения
+- `growing_pages_count` / `declining_pages_count`: сигнал тренда
 
-### Issue 1: Performance CSV Encoding Mismatch
-- **Problem:** 2 performance CSV files (`frees0ft.fr-perf-subdomains_year2_daily_*.csv`) are ASCII with comma delimiters, not UTF-16LE with tab delimiters. Task 00b's `iconv -f UTF-16LE` produces empty files for them.
-- **Solution:** Update 00b to detect encoding before converting. For ASCII files, copy as-is with CRLF stripping. Update task 03 prompt to note comma-delimited format for these 2 files.
-- **Severity:** CRITICAL (data loss without fix)
-
-### Issue 2: MAX_PARALLEL=2 Throughout ARCHITECTURE.md
-- **Problem:** ARCHITECTURE.md says MAX_PARALLEL=2 in 4 places. Customer approved MAX_PARALLEL=3.
-- **Solution:** Update all references to MAX_PARALLEL=3.
-- **Severity:** IMPORTANT (performance impact)
-
-### Issue 3: Phase 4 Marked as Sequential
-- **Problem:** ARCHITECTURE.md says Phase 4 is "sequential" with tasks 20 → 21. But they write to different files and read independent briefs. No dependency exists.
-- **Solution:** Mark Phase 4 as parallel. Both tasks run simultaneously.
-- **Severity:** IMPORTANT (unnecessary serialization)
-
-### Issue 4: Row Count Inaccuracies in data-inventory.md
-- **Problem:** 3 files show inflated row counts (30045, 30029, 30050 vs actual 30001).
-- **Solution:** Correct data-inventory.md. Not architecturally significant.
-- **Severity:** MINOR
-
-### Issue 5: Task 22 Cannot Fully Trace to Phase 1 Briefs
-- **Problem:** Task 22 reads Phase 2/3 briefs and final docs, but not Phase 1 briefs. Cannot verify the full chain back to CSV.
-- **Solution:** Add 3 key Phase 1 briefs (04a, 05a, 06a) to task 22 input for spot-checking.
-- **Severity:** MINOR (verification depth, not correctness)
+Они извлекаются простым awk и добавляют ~100 токенов на бриф. Стоит включить для анализа трендов в Phase 2+.
 
 ---
 
-## Changes Made to ARCHITECTURE.md
+## Цепочка достоверности данных
 
-1. **Task 00b:** Added encoding detection logic — `file` command check before iconv. ASCII files copied with `sed 's/\r$//'` only.
+### Проверенный пример: «трафик испанского поддомена uptodown.com»
 
-2. **MAX_PARALLEL:** Updated from 2 to 3 in:
-   - General scheme diagram
-   - Phase 1 header
-   - Phase 2 header
-   - run.sh configuration section
-   - Estimates table
+| Шаг | Файл | Ссылка на источник | Прослеживается? |
+|-----|------|-------------------|-----------------|
+| 1. Исходные данные | `data_utf8/uptodown_com_site_structure_subdomains_ru_2026_03_05_22_38_10.csv` | N/A (первичный источник) | да |
+| 2. Бриф 04a | `briefs/04a-uptodown-struct.yaml` → `traffic_by_language[].source` | Имя CSV-файла + команда awk | да |
+| 3. Бриф 12 | `briefs/12-multilingual-analysis.yaml` | Ссылается на «brief 04a» | да |
+| 4. Бриф 16 | `briefs/16-language-potential.yaml` | Ссылается на «brief 12» | да |
+| 5. Результат | `output/domain-strategy.md` | Ссылается на brief 16/17 | да |
 
-3. **Phase 4:** Changed from "sequential" to "parallel" with note that tasks 20 and 21 are independent.
+**Цепочка доказательств сохранена**, поскольку ARCHITECTURE.md v2 обязывает указывать поля `source` и `extraction` для каждого значения в брифе.
 
-4. **Task 22:** Added Phase 1 briefs (04a, 05a, 06a) to input list for spot-check verification.
+### Может ли задача 22-validate проследить цепочку до Phase 1?
 
-5. **Brief format:** Added `total_traffic_change` and `growing_vs_declining_pages` to comparison CSV brief template.
+Задача 22 читает:
+- 7 брифов (11, 12, 13, 14, 16, 17, 18) — они содержат ссылки `source` на брифы Phase 1
+- 2 финальных документа — они цитируют брифы Phase 2/3
 
-6. **Task 03 prompt note:** Added that performance CSVs are comma-delimited ASCII (not tab-delimited UTF-16LE).
+Задача 22 НЕ читает брифы Phase 1 напрямую. Она может верифицировать:
+- Финальный документ → бриф Phase 3 → бриф Phase 2 (цепочка OK)
+- НО не может верифицировать бриф Phase 2 → бриф Phase 1 → CSV
+
+**Рекомендация:** Добавить ключевые брифы Phase 1 (04a, 05a, 06a) в список входных данных задачи 22 для выборочной проверки. Это добавляет ~9-12K токенов — всё ещё в рамках бюджета.
 
 ---
 
-## Final Verification (7 Questions)
+## Оставшиеся проблемы
 
-1. **All 51 files assigned to tasks?** YES — 51/51 confirmed via table above.
+### Проблема 1: Несовпадение кодировки CSV-файлов производительности
+- **Проблема:** 2 CSV-файла производительности (`frees0ft.fr-perf-subdomains_year2_daily_*.csv`) имеют кодировку ASCII с разделителем-запятой, а не UTF-16LE с разделителем-табуляцией. Команда `iconv -f UTF-16LE` в задаче 00b создаёт пустые файлы для них.
+- **Решение:** Обновить 00b для определения кодировки перед конвертацией. Для ASCII-файлов копировать как есть с удалением CRLF. Обновить промпт задачи 03, указав формат с разделителем-запятой для этих 2 файлов.
+- **Критичность:** КРИТИЧНО (потеря данных без исправления)
 
-2. **Any task with RED risk level?** NO — all GREEN or YELLOW. Highest risk tasks (00, 10, 22) are YELLOW at ~25-55K tokens, well within 60K limit.
+### Проблема 2: MAX_PARALLEL=2 во всём ARCHITECTURE.md
+- **Проблема:** ARCHITECTURE.md указывает MAX_PARALLEL=2 в 4 местах. Заказчик одобрил MAX_PARALLEL=3.
+- **Решение:** Обновить все ссылки на MAX_PARALLEL=3.
+- **Критичность:** ВАЖНО (влияние на производительность)
 
-3. **MAX_PARALLEL=3 everywhere?** YES — updated in general scheme, Phase 1 header, Phase 2 header, run.sh config, estimates table.
+### Проблема 3: Phase 4 помечена как последовательная
+- **Проблема:** ARCHITECTURE.md указывает, что Phase 4 является «последовательной» с задачами 20 → 21. Однако они записывают в разные файлы и читают независимые брифы. Зависимости нет.
+- **Решение:** Пометить Phase 4 как параллельную. Обе задачи выполняются одновременно.
+- **Критичность:** ВАЖНО (ненужная сериализация)
 
-4. **Every brief contains source for every value?** YES — ARCHITECTURE.md v2 mandates `source` and `extraction` fields. Format template includes them.
+### Проблема 4: Неточности в подсчёте строк в data-inventory.md
+- **Проблема:** 3 файла показывают завышенное количество строк (30045, 30029, 30050 вместо фактических 30001).
+- **Решение:** Исправить data-inventory.md. Архитектурно не значимо.
+- **Критичность:** МИНОРНЫЙ
 
-5. **Phase 3 tasks correctly sequential?** YES — 16 depends on 11+12+13 (Phase 2), 17 depends on 14+16, 18 depends on 16+17. Each reads the previous task's output. Cannot be parallelized.
+### Проблема 5: Задача 22 не может полностью проследить до брифов Phase 1
+- **Проблема:** Задача 22 читает брифы Phase 2/3 и финальные документы, но не брифы Phase 1. Не может верифицировать полную цепочку до CSV.
+- **Решение:** Добавить 3 ключевых брифа Phase 1 (04a, 05a, 06a) во входные данные задачи 22 для выборочной проверки.
+- **Критичность:** МИНОРНЫЙ (глубина верификации, а не корректность)
 
-6. **Task 22 can trace from CSV to report?** PARTIALLY — after fix, task 22 reads key Phase 1 briefs (04a, 05a, 06a) for spot-checking, plus Phase 2/3 briefs and final docs. Full chain: CSV → Phase 1 brief (with `source` + `extraction`) → Phase 2 brief (with `source: brief X`) → final doc (with citations). Verifiable.
+---
 
-7. **Pipeline ready for prompt generation and run.sh?** YES — after applying the 3 fixes documented above (all already applied to ARCHITECTURE.md).
+## Внесённые изменения в ARCHITECTURE.md
+
+1. **Задача 00b:** Добавлена логика определения кодировки — проверка командой `file` перед iconv. ASCII-файлы копируются только с `sed 's/\r$//'`.
+
+2. **MAX_PARALLEL:** Обновлён с 2 до 3 в:
+   - Общей схеме диаграммы
+   - Заголовке Phase 1
+   - Заголовке Phase 2
+   - Секции конфигурации run.sh
+   - Таблице оценок
+
+3. **Phase 4:** Изменена с «последовательной» на «параллельную» с примечанием, что задачи 20 и 21 независимы.
+
+4. **Задача 22:** Добавлены брифы Phase 1 (04a, 05a, 06a) в список входных данных для выборочной проверки.
+
+5. **Формат брифов:** Добавлены `total_traffic_change` и `growing_vs_declining_pages` в шаблон брифов сравнительных CSV.
+
+6. **Примечание к промпту задачи 03:** Добавлено, что CSV производительности имеют формат ASCII с разделителем-запятой (а не UTF-16LE с табуляцией).
+
+---
+
+## Финальная верификация (7 вопросов)
+
+1. **Все 51 файл назначены задачам?** ДА — 51/51 подтверждено таблицей выше.
+
+2. **Есть ли задачи с уровнем риска RED?** НЕТ — все GREEN или YELLOW. Задачи с наивысшим риском (00, 10, 22) — YELLOW при ~25-55K токенов, хорошо в рамках лимита 60K.
+
+3. **MAX_PARALLEL=3 везде?** ДА — обновлено в общей схеме, заголовке Phase 1, заголовке Phase 2, конфигурации run.sh, таблице оценок.
+
+4. **Каждый бриф содержит источник для каждого значения?** ДА — ARCHITECTURE.md v2 обязывает указывать поля `source` и `extraction`. Шаблон формата включает их.
+
+5. **Задачи Phase 3 корректно последовательны?** ДА — 16 зависит от 11+12+13 (Phase 2), 17 зависит от 14+16, 18 зависит от 16+17. Каждая читает выход предыдущей задачи. Невозможно распараллелить.
+
+6. **Задача 22 может проследить от CSV до отчёта?** ЧАСТИЧНО — после исправления задача 22 читает ключевые брифы Phase 1 (04a, 05a, 06a) для выборочной проверки, а также брифы Phase 2/3 и финальные документы. Полная цепочка: CSV → бриф Phase 1 (с `source` + `extraction`) → бриф Phase 2 (с `source: brief X`) → финальный документ (с цитатами). Верифицируема.
+
+7. **Пайплайн готов к генерации промптов и run.sh?** ДА — после применения 3 исправлений, задокументированных выше (все уже применены к ARCHITECTURE.md).
