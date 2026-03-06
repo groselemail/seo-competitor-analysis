@@ -585,11 +585,12 @@ freesoft_considerations:
           the freesoft brand. DR 23 is the lowest of all three domains.
         severity: "high"
 
-      - issue: "No hreflang connecting the 3 domains"
+      - issue: "hreflang exists but needs coverage audit"
         detail: >
-          Without hreflang tags linking the three domains, search engines cannot
-          understand they are language variants of the same site. This may cause
-          content duplication issues or missed language-targeting signals.
+          hreflang tags are implemented between the three domains (x-default -> freesoft.ru,
+          fr -> frees0ft.fr, en -> freesoft.net). Coverage completeness across all pages
+          needs verification. CORRECTION: original claim of "no hreflang" was incorrect —
+          Ahrefs data does not include hreflang information.
 
       - issue: "Triple maintenance cost"
         detail: >

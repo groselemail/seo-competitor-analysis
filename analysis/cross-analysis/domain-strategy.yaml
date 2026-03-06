@@ -65,11 +65,12 @@ current_state:
         referring domains — negligible link equity to preserve.
       severity: "high"
       source: "briefs/16-language-potential.yaml (freesoft_baseline.frees0ft_fr)"
-    - issue: "No hreflang connecting the 3 domains"
+    - issue: "hreflang exists but needs coverage audit"
       detail: >
-        Search engines cannot identify these as language variants of the same site.
-        May cause content duplication issues for apps present on multiple domains.
-        Cross-domain hreflang is more complex than same-domain hreflang.
+        hreflang tags are implemented between the three domains (x-default -> freesoft.ru,
+        fr -> frees0ft.fr, en -> freesoft.net). Coverage completeness across all pages
+        needs verification. CORRECTION: original claim of "no hreflang" was incorrect —
+        Ahrefs data does not include hreflang information.
       source: "briefs/14-domain-structures.yaml (freesoft_considerations.issues)"
     - issue: "freesoft.ru faces structural market headwinds"
       detail: >
