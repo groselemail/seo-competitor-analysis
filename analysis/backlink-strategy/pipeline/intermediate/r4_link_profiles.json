@@ -1,0 +1,2805 @@
+{
+  "metadata": {
+    "source_reports": [
+      "A",
+      "B",
+      "C"
+    ],
+    "generated_at": "2026-03-13T13:08:40.317167"
+  },
+  "domains": {
+    "freesoft.net": {
+      "overview": {
+        "total_ref_domains": 3864,
+        "total_backlinks_sample": 3810,
+        "ahrefs_limit_hit": false,
+        "dr": 51
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 3552,
+            "pct": 91.9
+          },
+          "11-20": {
+            "count": 135,
+            "pct": 3.5
+          },
+          "21-30": {
+            "count": 92,
+            "pct": 2.4
+          },
+          "31-40": {
+            "count": 24,
+            "pct": 0.6
+          },
+          "41-50": {
+            "count": 20,
+            "pct": 0.5
+          },
+          "51-60": {
+            "count": 24,
+            "pct": 0.6
+          },
+          "61-70": {
+            "count": 5,
+            "pct": 0.1
+          },
+          "71-80": {
+            "count": 7,
+            "pct": 0.2
+          },
+          "81-90": {
+            "count": 3,
+            "pct": 0.1
+          },
+          "91-100": {
+            "count": 2,
+            "pct": 0.1
+          }
+        },
+        "stats": {
+          "mean": 3.2,
+          "median": 0,
+          "p25": 0,
+          "p75": 1
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 2854,
+          "pct": 74.9
+        },
+        "nofollow": {
+          "count": 956,
+          "pct": 25.1
+        },
+        "ugc": {
+          "count": 3,
+          "pct": 0.1
+        },
+        "sponsored": {
+          "count": 0,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 3793,
+          "pct": 99.6
+        },
+        "image": {
+          "count": 15,
+          "pct": 0.4
+        },
+        "redirect": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "canonical": {
+          "count": 1,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 318,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR FREESOFT.NET",
+            "ref_domains": 234,
+            "type": "branded"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 159,
+            "type": "other"
+          },
+          {
+            "anchor": "🍪 TELEGRAM @SALESOVEN | ACCESS TO HACKED SITES FOR SEO | HTTPS://T.ME/SALESOVEN 🔥",
+            "ref_domains": 96,
+            "type": "url"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 90,
+            "type": "url"
+          },
+          {
+            "anchor": "freesoft.net",
+            "ref_domains": 50,
+            "type": "branded"
+          },
+          {
+            "anchor": "BLACK SEO LINKS, BACKLINKS, MASS BACKLINKING – TELEGRAM @SEO_LINKK",
+            "ref_domains": 49,
+            "type": "other"
+          },
+          {
+            "anchor": "SEO BACKLINKS, CROSS-LINKS, HACKED WP-ADMIN – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 45,
+            "type": "other"
+          },
+          {
+            "anchor": "SEO BACKLINKS, CROSS-LINKS, TRAFFIC BOOST, LINK INDEXING – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 43,
+            "type": "other"
+          },
+          {
+            "anchor": "MASSLINKER.COM | SOFTWARE FOR MASS BACKLINK PUBLISHING | MASSLINKER.COM",
+            "ref_domains": 43,
+            "type": "other"
+          },
+          {
+            "anchor": "SEO BACKLINKS, CROSS-LINKS, TRAFFIC BOOST – seo-anomaly.com – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 41,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_LINKK_ORDER – SEO BACKLINKS, HOMEPAGE LINKS, CROSSLINKS",
+            "ref_domains": 26,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS – BEST SEO LINKS – https://t.me/bhs_links",
+            "ref_domains": 21,
+            "type": "url"
+          },
+          {
+            "anchor": "SEO-LINK.VIP — High-Quality Backlinks for Competitive Niches — SEO-LINK.VIP",
+            "ref_domains": 20,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, PBN, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 20,
+            "type": "other"
+          },
+          {
+            "anchor": "SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 15,
+            "type": "other"
+          },
+          {
+            "anchor": "BLACK SEO LINKS, BACKLINKS, SOFTWARE FOR MASS BACKLINKING – TELEGRAM @SEO_LINKK",
+            "ref_domains": 8,
+            "type": "other"
+          },
+          {
+            "anchor": "free soft",
+            "ref_domains": 7,
+            "type": "other"
+          },
+          {
+            "anchor": "freesoft",
+            "ref_domains": 6,
+            "type": "branded"
+          },
+          {
+            "anchor": "Details",
+            "ref_domains": 5,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "other": {
+            "pct": 96.5
+          },
+          "branded": {
+            "pct": 1.4
+          },
+          "url": {
+            "pct": 1.1
+          },
+          "exact_match": {
+            "pct": 1.0
+          },
+          "generic": {
+            "pct": 0.0
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 3761,
+          "1-3y": 103,
+          "3-5y": 0,
+          ">5y": 0
+        },
+        "growth_last_12m": 3761
+      },
+      "spam_ratio": {
+        "count": 3452,
+        "pct": 89.34
+      }
+    },
+    "freesoft.ru": {
+      "overview": {
+        "total_ref_domains": 3257,
+        "total_backlinks_sample": 2852,
+        "ahrefs_limit_hit": false,
+        "dr": 59
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 1919,
+            "pct": 58.9
+          },
+          "11-20": {
+            "count": 437,
+            "pct": 13.4
+          },
+          "21-30": {
+            "count": 374,
+            "pct": 11.5
+          },
+          "31-40": {
+            "count": 176,
+            "pct": 5.4
+          },
+          "41-50": {
+            "count": 98,
+            "pct": 3.0
+          },
+          "51-60": {
+            "count": 107,
+            "pct": 3.3
+          },
+          "61-70": {
+            "count": 66,
+            "pct": 2.0
+          },
+          "71-80": {
+            "count": 54,
+            "pct": 1.7
+          },
+          "81-90": {
+            "count": 16,
+            "pct": 0.5
+          },
+          "91-100": {
+            "count": 10,
+            "pct": 0.3
+          }
+        },
+        "stats": {
+          "mean": 15.2,
+          "median": 7,
+          "p25": 1,
+          "p75": 23
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 1012,
+          "pct": 35.5
+        },
+        "nofollow": {
+          "count": 1840,
+          "pct": 64.5
+        },
+        "ugc": {
+          "count": 380,
+          "pct": 13.3
+        },
+        "sponsored": {
+          "count": 2,
+          "pct": 0.1
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 2743,
+          "pct": 96.2
+        },
+        "image": {
+          "count": 99,
+          "pct": 3.5
+        },
+        "redirect": {
+          "count": 8,
+          "pct": 0.3
+        },
+        "form": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "rss": {
+          "count": 1,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 319,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR FREESOFT.RU",
+            "ref_domains": 229,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 192,
+            "type": "url"
+          },
+          {
+            "anchor": "freesoft.ru",
+            "ref_domains": 156,
+            "type": "branded"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 146,
+            "type": "other"
+          },
+          {
+            "anchor": "dl",
+            "ref_domains": 106,
+            "type": "other"
+          },
+          {
+            "anchor": "files",
+            "ref_domains": 103,
+            "type": "other"
+          },
+          {
+            "anchor": "🍪 TELEGRAM @SALESOVEN | ACCESS TO HACKED SITES FOR SEO | HTTPS://T.ME/SALESOVEN 🔥",
+            "ref_domains": 75,
+            "type": "url"
+          },
+          {
+            "anchor": "freesoft",
+            "ref_domains": 71,
+            "type": "branded"
+          },
+          {
+            "anchor": "TELEGRAM @LINKS_BUILD – HIGH-QUALITY BACKLINKS, MASS BACKLINKING",
+            "ref_domains": 68,
+            "type": "other"
+          },
+          {
+            "anchor": "www.freesoft.ru",
+            "ref_domains": 56,
+            "type": "url"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 49,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY – SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 49,
+            "type": "other"
+          },
+          {
+            "anchor": "http://www.freesoft.ru/",
+            "ref_domains": 46,
+            "type": "url"
+          },
+          {
+            "anchor": "SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 43,
+            "type": "other"
+          },
+          {
+            "anchor": "MASSLINKER.COM | SOFTWARE FOR MASS BACKLINK PUBLISHING | MASSLINKER.COM",
+            "ref_domains": 39,
+            "type": "other"
+          },
+          {
+            "anchor": "SEO BACKLINKS, CROSS-LINKS, TRAFFIC BOOST, LINK INDEXING – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 35,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS – BEST SEO LINKS – https://t.me/bhs_links",
+            "ref_domains": 34,
+            "type": "url"
+          },
+          {
+            "anchor": "http://www.freesoft.ru",
+            "ref_domains": 31,
+            "type": "url"
+          },
+          {
+            "anchor": "monobet скачать на андроид",
+            "ref_domains": 31,
+            "type": "exact_match"
+          }
+        ],
+        "type_distribution": {
+          "other": {
+            "pct": 63.0
+          },
+          "branded": {
+            "pct": 7.2
+          },
+          "url": {
+            "pct": 20.6
+          },
+          "exact_match": {
+            "pct": 8.6
+          },
+          "generic": {
+            "pct": 0.6
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 1667,
+          "1-3y": 967,
+          "3-5y": 187,
+          ">5y": 436
+        },
+        "growth_last_12m": 1667
+      },
+      "spam_ratio": {
+        "count": 2274,
+        "pct": 69.82
+      }
+    },
+    "frees0ft.fr": {
+      "overview": {
+        "total_ref_domains": 478,
+        "total_backlinks_sample": 465,
+        "ahrefs_limit_hit": false,
+        "dr": 23
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 358,
+            "pct": 74.9
+          },
+          "11-20": {
+            "count": 52,
+            "pct": 10.9
+          },
+          "21-30": {
+            "count": 38,
+            "pct": 7.9
+          },
+          "31-40": {
+            "count": 15,
+            "pct": 3.1
+          },
+          "41-50": {
+            "count": 5,
+            "pct": 1.0
+          },
+          "51-60": {
+            "count": 6,
+            "pct": 1.3
+          },
+          "61-70": {
+            "count": 3,
+            "pct": 0.6
+          },
+          "71-80": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "81-90": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "91-100": {
+            "count": 1,
+            "pct": 0.2
+          }
+        },
+        "stats": {
+          "mean": 9.1,
+          "median": 6,
+          "p25": 1,
+          "p75": 10
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 20,
+          "pct": 4.3
+        },
+        "nofollow": {
+          "count": 445,
+          "pct": 95.7
+        },
+        "ugc": {
+          "count": 0,
+          "pct": 0.0
+        },
+        "sponsored": {
+          "count": 0,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 458,
+          "pct": 98.5
+        },
+        "image": {
+          "count": 7,
+          "pct": 1.5
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR FREES0FT.FR",
+            "ref_domains": 145,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 122,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 120,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 90,
+            "type": "url"
+          },
+          {
+            "anchor": "frees0ft.fr",
+            "ref_domains": 15,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, PBN, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 10,
+            "type": "other"
+          },
+          {
+            "anchor": "🍪 TELEGRAM @SALESOVEN | ACCESS TO HACKED SITES FOR SEO | HTTPS://T.ME/SALESOVEN 🔥",
+            "ref_domains": 10,
+            "type": "url"
+          },
+          {
+            "anchor": "France",
+            "ref_domains": 5,
+            "type": "other"
+          },
+          {
+            "anchor": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+            "ref_domains": 5,
+            "type": "url"
+          },
+          {
+            "anchor": "Français",
+            "ref_domains": 4,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM — SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 2,
+            "type": "other"
+          },
+          {
+            "anchor": "LorixONE",
+            "ref_domains": 1,
+            "type": "other"
+          },
+          {
+            "anchor": "Logiciels gratuits chez FreeSoft, téléchargement de logiciels",
+            "ref_domains": 1,
+            "type": "branded"
+          },
+          {
+            "anchor": "Allez à Frees0ft.fr",
+            "ref_domains": 1,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM - SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 1,
+            "type": "other"
+          },
+          {
+            "anchor": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+            "ref_domains": 1,
+            "type": "url"
+          },
+          {
+            "anchor": "frees0ft",
+            "ref_domains": 1,
+            "type": "other"
+          },
+          {
+            "anchor": "frees0ft.fr/android/drawing",
+            "ref_domains": 1,
+            "type": "url"
+          },
+          {
+            "anchor": "visit frees0ft.fr for latest info",
+            "ref_domains": 1,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "other": {
+            "pct": 79.9
+          },
+          "url": {
+            "pct": 20.0
+          },
+          "branded": {
+            "pct": 0.2
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 467,
+          "1-3y": 7,
+          "3-5y": 4,
+          ">5y": 0
+        },
+        "growth_last_12m": 467
+      },
+      "spam_ratio": {
+        "count": 425,
+        "pct": 88.91
+      }
+    },
+    "softonic.com": {
+      "overview": {
+        "total_ref_domains": 29904,
+        "total_backlinks_sample": 29518,
+        "ahrefs_limit_hit": false,
+        "dr": 86
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 7845,
+            "pct": 26.2
+          },
+          "11-20": {
+            "count": 5098,
+            "pct": 17.0
+          },
+          "21-30": {
+            "count": 4582,
+            "pct": 15.3
+          },
+          "31-40": {
+            "count": 3602,
+            "pct": 12.0
+          },
+          "41-50": {
+            "count": 2389,
+            "pct": 8.0
+          },
+          "51-60": {
+            "count": 2104,
+            "pct": 7.0
+          },
+          "61-70": {
+            "count": 1527,
+            "pct": 5.1
+          },
+          "71-80": {
+            "count": 1884,
+            "pct": 6.3
+          },
+          "81-90": {
+            "count": 670,
+            "pct": 2.2
+          },
+          "91-100": {
+            "count": 203,
+            "pct": 0.7
+          }
+        },
+        "stats": {
+          "mean": 30.5,
+          "median": 26,
+          "p25": 10,
+          "p75": 46
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 21261,
+          "pct": 72.0
+        },
+        "nofollow": {
+          "count": 8257,
+          "pct": 28.0
+        },
+        "ugc": {
+          "count": 1492,
+          "pct": 5.1
+        },
+        "sponsored": {
+          "count": 55,
+          "pct": 0.2
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 28377,
+          "pct": 96.1
+        },
+        "image": {
+          "count": 1082,
+          "pct": 3.7
+        },
+        "redirect": {
+          "count": 48,
+          "pct": 0.2
+        },
+        "frame": {
+          "count": 6,
+          "pct": 0.0
+        },
+        "form": {
+          "count": 2,
+          "pct": 0.0
+        },
+        "rss": {
+          "count": 2,
+          "pct": 0.0
+        },
+        "canonical": {
+          "count": 1,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "softonic",
+            "ref_domains": 2766,
+            "type": "branded"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 1772,
+            "type": "other"
+          },
+          {
+            "anchor": "Download",
+            "ref_domains": 678,
+            "type": "exact_match"
+          },
+          {
+            "anchor": "softonic.com",
+            "ref_domains": 672,
+            "type": "branded"
+          },
+          {
+            "anchor": "DOMRAIDER.IO - POWERFUL AGED DOMAINS FOR HARDCORE SEO STRATEGIES",
+            "ref_domains": 598,
+            "type": "other"
+          },
+          {
+            "anchor": "BLACK SEO LINKS, BACKLINKS, SOFTWARE FOR MASS BACKLINKING – TELEGRAM @SEO_LINKK",
+            "ref_domains": 571,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 470,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 385,
+            "type": "other"
+          },
+          {
+            "anchor": "here",
+            "ref_domains": 381,
+            "type": "generic"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_LINKK – MASS BACKLINKING, HIGH-QUALITY BACKLINKS",
+            "ref_domains": 352,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR EN.SOFTONIC.COM",
+            "ref_domains": 332,
+            "type": "branded"
+          },
+          {
+            "anchor": "www.softonic.com",
+            "ref_domains": 317,
+            "type": "url"
+          },
+          {
+            "anchor": "instagram",
+            "ref_domains": 303,
+            "type": "other"
+          },
+          {
+            "anchor": "Microsoft Pro Photo Tools",
+            "ref_domains": 277,
+            "type": "other"
+          },
+          {
+            "anchor": "PhotoScape",
+            "ref_domains": 277,
+            "type": "other"
+          },
+          {
+            "anchor": "KMPlayer",
+            "ref_domains": 255,
+            "type": "other"
+          },
+          {
+            "anchor": "recuva",
+            "ref_domains": 241,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 239,
+            "type": "url"
+          },
+          {
+            "anchor": "hier",
+            "ref_domains": 236,
+            "type": "other"
+          },
+          {
+            "anchor": "Android",
+            "ref_domains": 233,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "branded": {
+            "pct": 16.6
+          },
+          "other": {
+            "pct": 49.0
+          },
+          "exact_match": {
+            "pct": 31.6
+          },
+          "generic": {
+            "pct": 0.3
+          },
+          "url": {
+            "pct": 2.5
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 8492,
+          "1-3y": 8540,
+          "3-5y": 5189,
+          ">5y": 7683
+        },
+        "growth_last_12m": 8489
+      },
+      "spam_ratio": {
+        "count": 6425,
+        "pct": 21.49
+      }
+    },
+    "uptodown.com": {
+      "overview": {
+        "total_ref_domains": 29888,
+        "total_backlinks_sample": 28335,
+        "ahrefs_limit_hit": false,
+        "dr": 83
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 16263,
+            "pct": 54.4
+          },
+          "11-20": {
+            "count": 3762,
+            "pct": 12.6
+          },
+          "21-30": {
+            "count": 2839,
+            "pct": 9.5
+          },
+          "31-40": {
+            "count": 2049,
+            "pct": 6.9
+          },
+          "41-50": {
+            "count": 1633,
+            "pct": 5.5
+          },
+          "51-60": {
+            "count": 1109,
+            "pct": 3.7
+          },
+          "61-70": {
+            "count": 784,
+            "pct": 2.6
+          },
+          "71-80": {
+            "count": 950,
+            "pct": 3.2
+          },
+          "81-90": {
+            "count": 365,
+            "pct": 1.2
+          },
+          "91-100": {
+            "count": 134,
+            "pct": 0.4
+          }
+        },
+        "stats": {
+          "mean": 18.4,
+          "median": 8,
+          "p25": 1,
+          "p75": 29
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 18722,
+          "pct": 66.1
+        },
+        "nofollow": {
+          "count": 9613,
+          "pct": 33.9
+        },
+        "ugc": {
+          "count": 2246,
+          "pct": 7.9
+        },
+        "sponsored": {
+          "count": 32,
+          "pct": 0.1
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 26790,
+          "pct": 94.5
+        },
+        "image": {
+          "count": 1329,
+          "pct": 4.7
+        },
+        "form": {
+          "count": 159,
+          "pct": 0.6
+        },
+        "redirect": {
+          "count": 52,
+          "pct": 0.2
+        },
+        "rss": {
+          "count": 3,
+          "pct": 0.0
+        },
+        "frame": {
+          "count": 2,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "Uptodown",
+            "ref_domains": 1964,
+            "type": "branded"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 1253,
+            "type": "other"
+          },
+          {
+            "anchor": "DOMRAIDER.IO - POWERFUL AGED DOMAINS FOR HARDCORE SEO STRATEGIES",
+            "ref_domains": 662,
+            "type": "other"
+          },
+          {
+            "anchor": "BLACK SEO LINKS, BACKLINKS, SOFTWARE FOR MASS BACKLINKING – TELEGRAM @SEO_LINKK",
+            "ref_domains": 635,
+            "type": "other"
+          },
+          {
+            "anchor": "wink",
+            "ref_domains": 629,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 501,
+            "type": "other"
+          },
+          {
+            "anchor": "Download",
+            "ref_domains": 498,
+            "type": "exact_match"
+          },
+          {
+            "anchor": "Uptodown.com",
+            "ref_domains": 496,
+            "type": "branded"
+          },
+          {
+            "anchor": "Android",
+            "ref_domains": 492,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 400,
+            "type": "other"
+          },
+          {
+            "anchor": "هنا",
+            "ref_domains": 381,
+            "type": "other"
+          },
+          {
+            "anchor": "here",
+            "ref_domains": 339,
+            "type": "generic"
+          },
+          {
+            "anchor": "aplikasi slot",
+            "ref_domains": 298,
+            "type": "other"
+          },
+          {
+            "anchor": "tubemate",
+            "ref_domains": 285,
+            "type": "other"
+          },
+          {
+            "anchor": "من هنا",
+            "ref_domains": 242,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 241,
+            "type": "url"
+          },
+          {
+            "anchor": "Download BlueWallet android Bitcoin Wallet",
+            "ref_domains": 229,
+            "type": "exact_match"
+          },
+          {
+            "anchor": "SEO BACKLINKS, CROSS-LINKS, HACKED WP-ADMIN – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 206,
+            "type": "other"
+          },
+          {
+            "anchor": "BLACK SEO LINKS, BACKLINKS, MASS BACKLINKING – TELEGRAM @SEO_LINKK",
+            "ref_domains": 201,
+            "type": "other"
+          },
+          {
+            "anchor": "snaptube",
+            "ref_domains": 198,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "branded": {
+            "pct": 20.9
+          },
+          "other": {
+            "pct": 73.7
+          },
+          "exact_match": {
+            "pct": 2.9
+          },
+          "generic": {
+            "pct": 0.5
+          },
+          "url": {
+            "pct": 2.0
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 13576,
+          "1-3y": 8403,
+          "3-5y": 4277,
+          ">5y": 3632
+        },
+        "growth_last_12m": 13573
+      },
+      "spam_ratio": {
+        "count": 12668,
+        "pct": 42.38
+      }
+    },
+    "malavida.com": {
+      "overview": {
+        "total_ref_domains": 13431,
+        "total_backlinks_sample": 12907,
+        "ahrefs_limit_hit": false,
+        "dr": 74
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 9582,
+            "pct": 71.3
+          },
+          "11-20": {
+            "count": 1044,
+            "pct": 7.8
+          },
+          "21-30": {
+            "count": 875,
+            "pct": 6.5
+          },
+          "31-40": {
+            "count": 523,
+            "pct": 3.9
+          },
+          "41-50": {
+            "count": 389,
+            "pct": 2.9
+          },
+          "51-60": {
+            "count": 348,
+            "pct": 2.6
+          },
+          "61-70": {
+            "count": 241,
+            "pct": 1.8
+          },
+          "71-80": {
+            "count": 274,
+            "pct": 2.0
+          },
+          "81-90": {
+            "count": 105,
+            "pct": 0.8
+          },
+          "91-100": {
+            "count": 50,
+            "pct": 0.4
+          }
+        },
+        "stats": {
+          "mean": 11.8,
+          "median": 1,
+          "p25": 0,
+          "p75": 14
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 9077,
+          "pct": 70.3
+        },
+        "nofollow": {
+          "count": 3830,
+          "pct": 29.7
+        },
+        "ugc": {
+          "count": 242,
+          "pct": 1.9
+        },
+        "sponsored": {
+          "count": 4,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 10505,
+          "pct": 81.4
+        },
+        "image": {
+          "count": 2382,
+          "pct": 18.5
+        },
+        "redirect": {
+          "count": 13,
+          "pct": 0.1
+        },
+        "rss": {
+          "count": 4,
+          "pct": 0.0
+        },
+        "frame": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "canonical": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "form": {
+          "count": 1,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "BLACK SEO LINKS, BACKLINKS, SOFTWARE FOR MASS BACKLINKING – TELEGRAM @SEO_LINKK",
+            "ref_domains": 533,
+            "type": "other"
+          },
+          {
+            "anchor": "malavida",
+            "ref_domains": 465,
+            "type": "branded"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 395,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR WWW.MALAVIDA.COM",
+            "ref_domains": 321,
+            "type": "url"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 319,
+            "type": "other"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 306,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_LINKK – MASS BACKLINKING, HIGH-QUALITY BACKLINKS",
+            "ref_domains": 301,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 244,
+            "type": "url"
+          },
+          {
+            "anchor": "malavida.com",
+            "ref_domains": 191,
+            "type": "branded"
+          },
+          {
+            "anchor": "TELEGRAM @LINKS_BUILD – HIGH-QUALITY BACKLINKS, MASS BACKLINKING",
+            "ref_domains": 186,
+            "type": "other"
+          },
+          {
+            "anchor": "BLACK SEO LINKS, BACKLINKS, MASS BACKLINKING – TELEGRAM @SEO_LINKK",
+            "ref_domains": 168,
+            "type": "other"
+          },
+          {
+            "anchor": "pcactual",
+            "ref_domains": 137,
+            "type": "other"
+          },
+          {
+            "anchor": "🍪 TELEGRAM @SALESOVEN | ACCESS TO HACKED SITES FOR SEO | HTTPS://T.ME/SALESOVEN 🔥",
+            "ref_domains": 135,
+            "type": "url"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_LINKK_ORDER – SEO BACKLINKS, HOMEPAGE LINKS, CROSSLINKS",
+            "ref_domains": 131,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM - SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 130,
+            "type": "other"
+          },
+          {
+            "anchor": "SEO BACKLINKS, CROSS-LINKS, HACKED WP-ADMIN – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 110,
+            "type": "other"
+          },
+          {
+            "anchor": "universal-adb-driver",
+            "ref_domains": 109,
+            "type": "other"
+          },
+          {
+            "anchor": "dw16",
+            "ref_domains": 106,
+            "type": "other"
+          },
+          {
+            "anchor": "geup",
+            "ref_domains": 105,
+            "type": "other"
+          },
+          {
+            "anchor": "geogebra",
+            "ref_domains": 105,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "other": {
+            "pct": 80.5
+          },
+          "branded": {
+            "pct": 8.8
+          },
+          "url": {
+            "pct": 4.2
+          },
+          "exact_match": {
+            "pct": 6.3
+          },
+          "generic": {
+            "pct": 0.3
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 8900,
+          "1-3y": 2436,
+          "3-5y": 1144,
+          ">5y": 951
+        },
+        "growth_last_12m": 8892
+      },
+      "spam_ratio": {
+        "count": 8065,
+        "pct": 60.05
+      }
+    },
+    "softonic.ru": {
+      "overview": {
+        "total_ref_domains": 4964,
+        "total_backlinks_sample": 4290,
+        "ahrefs_limit_hit": false,
+        "dr": 37
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 4219,
+            "pct": 85.0
+          },
+          "11-20": {
+            "count": 268,
+            "pct": 5.4
+          },
+          "21-30": {
+            "count": 197,
+            "pct": 4.0
+          },
+          "31-40": {
+            "count": 97,
+            "pct": 2.0
+          },
+          "41-50": {
+            "count": 58,
+            "pct": 1.2
+          },
+          "51-60": {
+            "count": 46,
+            "pct": 0.9
+          },
+          "61-70": {
+            "count": 40,
+            "pct": 0.8
+          },
+          "71-80": {
+            "count": 20,
+            "pct": 0.4
+          },
+          "81-90": {
+            "count": 7,
+            "pct": 0.1
+          },
+          "91-100": {
+            "count": 12,
+            "pct": 0.2
+          }
+        },
+        "stats": {
+          "mean": 5.9,
+          "median": 0,
+          "p25": 0,
+          "p75": 5
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 3033,
+          "pct": 70.7
+        },
+        "nofollow": {
+          "count": 1257,
+          "pct": 29.3
+        },
+        "ugc": {
+          "count": 7,
+          "pct": 0.2
+        },
+        "sponsored": {
+          "count": 0,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 4260,
+          "pct": 99.3
+        },
+        "image": {
+          "count": 30,
+          "pct": 0.7
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 329,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 202,
+            "type": "url"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 192,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_LINKK – MASS BACKLINKING, HIGH-QUALITY BACKLINKS",
+            "ref_domains": 152,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR WWW.SOFTONIC.RU",
+            "ref_domains": 136,
+            "type": "url"
+          },
+          {
+            "anchor": "softonic.ru",
+            "ref_domains": 106,
+            "type": "branded"
+          },
+          {
+            "anchor": "🍪 TELEGRAM @SALESOVEN | ACCESS TO HACKED SITES FOR SEO | HTTPS://T.ME/SALESOVEN 🔥",
+            "ref_domains": 87,
+            "type": "url"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR CAR-PARKING-MULTIPLAYER.SOFTONIC.RU",
+            "ref_domains": 86,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR MELBET.SOFTONIC.RU",
+            "ref_domains": 86,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR KASPI-KZ.SOFTONIC.RU",
+            "ref_domains": 80,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR KENO-BET.SOFTONIC.RU",
+            "ref_domains": 80,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR PIN-UP-MATCHTRAVEL.SOFTONIC.RU",
+            "ref_domains": 78,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR FORTUNE-NUMBERS.SOFTONIC.RU",
+            "ref_domains": 78,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR AVIATOR-PIN-UP-XHJ.SOFTONIC.RU",
+            "ref_domains": 77,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR AVIATOR-HACK-AVIATOR-SIGNAL.SOFTONIC.RU",
+            "ref_domains": 77,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR NOMAD-KZ.SOFTONIC.RU",
+            "ref_domains": 77,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR MINES.SOFTONIC.RU",
+            "ref_domains": 77,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR AVIATOR-PREDICTOR.SOFTONIC.RU",
+            "ref_domains": 77,
+            "type": "branded"
+          },
+          {
+            "anchor": "TELEGRAM @LINKS_BUILD – HIGH-QUALITY BACKLINKS, MASS BACKLINKING",
+            "ref_domains": 76,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR PLINKO-JOGO-PLINK-BALLS.SOFTONIC.RU",
+            "ref_domains": 75,
+            "type": "branded"
+          }
+        ],
+        "type_distribution": {
+          "other": {
+            "pct": 0.6
+          },
+          "url": {
+            "pct": 0.3
+          },
+          "branded": {
+            "pct": 3.7
+          },
+          "exact_match": {
+            "pct": 95.4
+          },
+          "generic": {
+            "pct": 0.0
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 4375,
+          "1-3y": 490,
+          "3-5y": 45,
+          ">5y": 54
+        },
+        "growth_last_12m": 4375
+      },
+      "spam_ratio": {
+        "count": 4056,
+        "pct": 81.71
+      }
+    },
+    "trashbox.ru": {
+      "overview": {
+        "total_ref_domains": 5322,
+        "total_backlinks_sample": 5125,
+        "ahrefs_limit_hit": false,
+        "dr": 45
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 4086,
+            "pct": 76.8
+          },
+          "11-20": {
+            "count": 308,
+            "pct": 5.8
+          },
+          "21-30": {
+            "count": 308,
+            "pct": 5.8
+          },
+          "31-40": {
+            "count": 180,
+            "pct": 3.4
+          },
+          "41-50": {
+            "count": 121,
+            "pct": 2.3
+          },
+          "51-60": {
+            "count": 110,
+            "pct": 2.1
+          },
+          "61-70": {
+            "count": 98,
+            "pct": 1.8
+          },
+          "71-80": {
+            "count": 71,
+            "pct": 1.3
+          },
+          "81-90": {
+            "count": 22,
+            "pct": 0.4
+          },
+          "91-100": {
+            "count": 18,
+            "pct": 0.3
+          }
+        },
+        "stats": {
+          "mean": 9.6,
+          "median": 0,
+          "p25": 0,
+          "p75": 9
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 3605,
+          "pct": 70.3
+        },
+        "nofollow": {
+          "count": 1520,
+          "pct": 29.7
+        },
+        "ugc": {
+          "count": 132,
+          "pct": 2.6
+        },
+        "sponsored": {
+          "count": 0,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 4647,
+          "pct": 90.7
+        },
+        "image": {
+          "count": 467,
+          "pct": 9.1
+        },
+        "redirect": {
+          "count": 8,
+          "pct": 0.2
+        },
+        "rss": {
+          "count": 3,
+          "pct": 0.1
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 319,
+            "type": "other"
+          },
+          {
+            "anchor": "Trashbox.ru",
+            "ref_domains": 275,
+            "type": "branded"
+          },
+          {
+            "anchor": "trashbox",
+            "ref_domains": 221,
+            "type": "branded"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 192,
+            "type": "url"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR TRASHBOX.RU",
+            "ref_domains": 171,
+            "type": "branded"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 105,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @LINKS_BUILD – HIGH-QUALITY BACKLINKS, MASS BACKLINKING",
+            "ref_domains": 76,
+            "type": "other"
+          },
+          {
+            "anchor": "https://trashbox.ru/users/shapic7/",
+            "ref_domains": 73,
+            "type": "url"
+          },
+          {
+            "anchor": "tbx.su",
+            "ref_domains": 57,
+            "type": "other"
+          },
+          {
+            "anchor": "SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING – TELEGRAM @SEO_ANOMALY",
+            "ref_domains": 52,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY – SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 51,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 49,
+            "type": "other"
+          },
+          {
+            "anchor": "🍪 TELEGRAM @SALESOVEN | ACCESS TO HACKED SITES FOR SEO | HTTPS://T.ME/SALESOVEN 🔥",
+            "ref_domains": 44,
+            "type": "url"
+          },
+          {
+            "anchor": "https://trashbox.ru",
+            "ref_domains": 34,
+            "type": "url"
+          },
+          {
+            "anchor": "Источник",
+            "ref_domains": 34,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS – BEST SEO LINKS – https://t.me/bhs_links",
+            "ref_domains": 32,
+            "type": "url"
+          },
+          {
+            "anchor": "tbx",
+            "ref_domains": 31,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_LINKK_ORDER – SEO BACKLINKS, HOMEPAGE LINKS, CROSSLINKS",
+            "ref_domains": 27,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, PBN, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 20,
+            "type": "other"
+          },
+          {
+            "anchor": "hotlik.ru",
+            "ref_domains": 19,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "other": {
+            "pct": 86.2
+          },
+          "branded": {
+            "pct": 4.3
+          },
+          "url": {
+            "pct": 7.7
+          },
+          "generic": {
+            "pct": 0.2
+          },
+          "exact_match": {
+            "pct": 1.6
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 4290,
+          "1-3y": 571,
+          "3-5y": 225,
+          ">5y": 236
+        },
+        "growth_last_12m": 4290
+      },
+      "spam_ratio": {
+        "count": 3856,
+        "pct": 72.45
+      }
+    },
+    "filehippo.com": {
+      "overview": {
+        "total_ref_domains": 17715,
+        "total_backlinks_sample": 16924,
+        "ahrefs_limit_hit": false,
+        "dr": 75
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 10976,
+            "pct": 62.0
+          },
+          "11-20": {
+            "count": 1557,
+            "pct": 8.8
+          },
+          "21-30": {
+            "count": 1439,
+            "pct": 8.1
+          },
+          "31-40": {
+            "count": 1087,
+            "pct": 6.1
+          },
+          "41-50": {
+            "count": 713,
+            "pct": 4.0
+          },
+          "51-60": {
+            "count": 684,
+            "pct": 3.9
+          },
+          "61-70": {
+            "count": 469,
+            "pct": 2.6
+          },
+          "71-80": {
+            "count": 513,
+            "pct": 2.9
+          },
+          "81-90": {
+            "count": 202,
+            "pct": 1.1
+          },
+          "91-100": {
+            "count": 75,
+            "pct": 0.4
+          }
+        },
+        "stats": {
+          "mean": 15.9,
+          "median": 4,
+          "p25": 0,
+          "p75": 26
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 11882,
+          "pct": 70.2
+        },
+        "nofollow": {
+          "count": 5042,
+          "pct": 29.8
+        },
+        "ugc": {
+          "count": 773,
+          "pct": 4.6
+        },
+        "sponsored": {
+          "count": 7,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 16354,
+          "pct": 96.6
+        },
+        "image": {
+          "count": 549,
+          "pct": 3.2
+        },
+        "redirect": {
+          "count": 14,
+          "pct": 0.1
+        },
+        "rss": {
+          "count": 4,
+          "pct": 0.0
+        },
+        "frame": {
+          "count": 2,
+          "pct": 0.0
+        },
+        "form": {
+          "count": 1,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "Filehippo",
+            "ref_domains": 2094,
+            "type": "branded"
+          },
+          {
+            "anchor": "filehippo.com",
+            "ref_domains": 794,
+            "type": "branded"
+          },
+          {
+            "anchor": "CCLEANER",
+            "ref_domains": 636,
+            "type": "other"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 559,
+            "type": "other"
+          },
+          {
+            "anchor": "http://www.filehippo.com/",
+            "ref_domains": 469,
+            "type": "url"
+          },
+          {
+            "anchor": "http://www.filehippo.com/download_ccleaner/",
+            "ref_domains": 462,
+            "type": "url"
+          },
+          {
+            "anchor": "www.filehippo.com",
+            "ref_domains": 448,
+            "type": "url"
+          },
+          {
+            "anchor": "here",
+            "ref_domains": 375,
+            "type": "generic"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR FILEHIPPO.COM",
+            "ref_domains": 350,
+            "type": "branded"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 348,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 330,
+            "type": "other"
+          },
+          {
+            "anchor": "Download",
+            "ref_domains": 313,
+            "type": "exact_match"
+          },
+          {
+            "anchor": "http://www.filehippo.com",
+            "ref_domains": 267,
+            "type": "url"
+          },
+          {
+            "anchor": "http://www.filehippo.com/download_ccleaner",
+            "ref_domains": 222,
+            "type": "url"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 202,
+            "type": "url"
+          },
+          {
+            "anchor": "File Hippo",
+            "ref_domains": 190,
+            "type": "other"
+          },
+          {
+            "anchor": "Unlocker",
+            "ref_domains": 148,
+            "type": "other"
+          },
+          {
+            "anchor": "http://filehippo.com/",
+            "ref_domains": 130,
+            "type": "url"
+          },
+          {
+            "anchor": "filehippo.com - Download Free Software",
+            "ref_domains": 129,
+            "type": "branded"
+          },
+          {
+            "anchor": "http://www.filehippo.com/download_unlocker/",
+            "ref_domains": 124,
+            "type": "url"
+          }
+        ],
+        "type_distribution": {
+          "branded": {
+            "pct": 4.9
+          },
+          "other": {
+            "pct": 25.7
+          },
+          "url": {
+            "pct": 7.7
+          },
+          "generic": {
+            "pct": 0.6
+          },
+          "exact_match": {
+            "pct": 61.2
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 8220,
+          "1-3y": 3227,
+          "3-5y": 2263,
+          ">5y": 4005
+        },
+        "growth_last_12m": 8219
+      },
+      "spam_ratio": {
+        "count": 7664,
+        "pct": 43.26
+      }
+    },
+    "clubic.com": {
+      "overview": {
+        "total_ref_domains": 17373,
+        "total_backlinks_sample": 17081,
+        "ahrefs_limit_hit": false,
+        "dr": 76
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 9095,
+            "pct": 52.4
+          },
+          "11-20": {
+            "count": 1904,
+            "pct": 11.0
+          },
+          "21-30": {
+            "count": 1864,
+            "pct": 10.7
+          },
+          "31-40": {
+            "count": 1372,
+            "pct": 7.9
+          },
+          "41-50": {
+            "count": 944,
+            "pct": 5.4
+          },
+          "51-60": {
+            "count": 716,
+            "pct": 4.1
+          },
+          "61-70": {
+            "count": 531,
+            "pct": 3.1
+          },
+          "71-80": {
+            "count": 622,
+            "pct": 3.6
+          },
+          "81-90": {
+            "count": 234,
+            "pct": 1.3
+          },
+          "91-100": {
+            "count": 91,
+            "pct": 0.5
+          }
+        },
+        "stats": {
+          "mean": 19.5,
+          "median": 9,
+          "p25": 0,
+          "p75": 31
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 13570,
+          "pct": 79.4
+        },
+        "nofollow": {
+          "count": 3511,
+          "pct": 20.6
+        },
+        "ugc": {
+          "count": 500,
+          "pct": 2.9
+        },
+        "sponsored": {
+          "count": 6,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 15460,
+          "pct": 90.5
+        },
+        "image": {
+          "count": 1545,
+          "pct": 9.0
+        },
+        "rss": {
+          "count": 44,
+          "pct": 0.3
+        },
+        "redirect": {
+          "count": 27,
+          "pct": 0.2
+        },
+        "canonical": {
+          "count": 4,
+          "pct": 0.0
+        },
+        "frame": {
+          "count": 1,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "Clubic",
+            "ref_domains": 2367,
+            "type": "branded"
+          },
+          {
+            "anchor": "clubic.com",
+            "ref_domains": 960,
+            "type": "branded"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 774,
+            "type": "other"
+          },
+          {
+            "anchor": "ICI",
+            "ref_domains": 664,
+            "type": "generic"
+          },
+          {
+            "anchor": "www.clubic.com",
+            "ref_domains": 406,
+            "type": "url"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 317,
+            "type": "other"
+          },
+          {
+            "anchor": "Source",
+            "ref_domains": 286,
+            "type": "generic"
+          },
+          {
+            "anchor": "http://www.clubic.com",
+            "ref_domains": 203,
+            "type": "url"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 191,
+            "type": "url"
+          },
+          {
+            "anchor": "mobinaute",
+            "ref_domains": 178,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 155,
+            "type": "other"
+          },
+          {
+            "anchor": "http://www.clubic.com/",
+            "ref_domains": 144,
+            "type": "url"
+          },
+          {
+            "anchor": "Lien",
+            "ref_domains": 143,
+            "type": "generic"
+          },
+          {
+            "anchor": "jeuxvideopc",
+            "ref_domains": 141,
+            "type": "other"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM - SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 126,
+            "type": "other"
+          },
+          {
+            "anchor": "Kontakt Player",
+            "ref_domains": 122,
+            "type": "other"
+          },
+          {
+            "anchor": "là",
+            "ref_domains": 119,
+            "type": "other"
+          },
+          {
+            "anchor": "mobile",
+            "ref_domains": 113,
+            "type": "other"
+          },
+          {
+            "anchor": "www2",
+            "ref_domains": 108,
+            "type": "other"
+          },
+          {
+            "anchor": "pro",
+            "ref_domains": 107,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "branded": {
+            "pct": 13.6
+          },
+          "other": {
+            "pct": 52.5
+          },
+          "generic": {
+            "pct": 1.4
+          },
+          "url": {
+            "pct": 31.5
+          },
+          "exact_match": {
+            "pct": 1.1
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 7062,
+          "1-3y": 3708,
+          "3-5y": 2194,
+          ">5y": 4409
+        },
+        "growth_last_12m": 7056
+      },
+      "spam_ratio": {
+        "count": 4619,
+        "pct": 26.59
+      }
+    },
+    "01net.com": {
+      "overview": {
+        "total_ref_domains": 20991,
+        "total_backlinks_sample": 19569,
+        "ahrefs_limit_hit": false,
+        "dr": 79
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 12016,
+            "pct": 57.2
+          },
+          "11-20": {
+            "count": 2049,
+            "pct": 9.8
+          },
+          "21-30": {
+            "count": 1954,
+            "pct": 9.3
+          },
+          "31-40": {
+            "count": 1483,
+            "pct": 7.1
+          },
+          "41-50": {
+            "count": 988,
+            "pct": 4.7
+          },
+          "51-60": {
+            "count": 831,
+            "pct": 4.0
+          },
+          "61-70": {
+            "count": 608,
+            "pct": 2.9
+          },
+          "71-80": {
+            "count": 710,
+            "pct": 3.4
+          },
+          "81-90": {
+            "count": 267,
+            "pct": 1.3
+          },
+          "91-100": {
+            "count": 85,
+            "pct": 0.4
+          }
+        },
+        "stats": {
+          "mean": 17.8,
+          "median": 6,
+          "p25": 0,
+          "p75": 29
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 15982,
+          "pct": 81.7
+        },
+        "nofollow": {
+          "count": 3587,
+          "pct": 18.3
+        },
+        "ugc": {
+          "count": 437,
+          "pct": 2.2
+        },
+        "sponsored": {
+          "count": 6,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 17063,
+          "pct": 87.2
+        },
+        "image": {
+          "count": 2363,
+          "pct": 12.1
+        },
+        "redirect": {
+          "count": 75,
+          "pct": 0.4
+        },
+        "rss": {
+          "count": 52,
+          "pct": 0.3
+        },
+        "form": {
+          "count": 8,
+          "pct": 0.0
+        },
+        "frame": {
+          "count": 4,
+          "pct": 0.0
+        },
+        "canonical": {
+          "count": 4,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "01net",
+            "ref_domains": 1944,
+            "type": "other"
+          },
+          {
+            "anchor": "01net.com",
+            "ref_domains": 944,
+            "type": "branded"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 882,
+            "type": "other"
+          },
+          {
+            "anchor": "ici",
+            "ref_domains": 700,
+            "type": "generic"
+          },
+          {
+            "anchor": "www.01net.com",
+            "ref_domains": 479,
+            "type": "url"
+          },
+          {
+            "anchor": "01.net",
+            "ref_domains": 345,
+            "type": "other"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 319,
+            "type": "other"
+          },
+          {
+            "anchor": "01Net.",
+            "ref_domains": 235,
+            "type": "other"
+          },
+          {
+            "anchor": "source",
+            "ref_domains": 231,
+            "type": "generic"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR WWW.01NET.COM",
+            "ref_domains": 213,
+            "type": "url"
+          },
+          {
+            "anchor": "01 Net",
+            "ref_domains": 209,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @BHS_LINKS - BEST SEO LINKS - https://t.me/bhs_links",
+            "ref_domains": 202,
+            "type": "url"
+          },
+          {
+            "anchor": "telecharger.com",
+            "ref_domains": 198,
+            "type": "branded"
+          },
+          {
+            "anchor": "telecharger",
+            "ref_domains": 192,
+            "type": "exact_match"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 167,
+            "type": "other"
+          },
+          {
+            "anchor": "http://www.01net.com",
+            "ref_domains": 167,
+            "type": "url"
+          },
+          {
+            "anchor": "http://www.01net.com/",
+            "ref_domains": 158,
+            "type": "url"
+          },
+          {
+            "anchor": "www.telecharger.com",
+            "ref_domains": 137,
+            "type": "url"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM - SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 128,
+            "type": "other"
+          },
+          {
+            "anchor": "forum",
+            "ref_domains": 124,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "other": {
+            "pct": 61.1
+          },
+          "branded": {
+            "pct": 8.4
+          },
+          "generic": {
+            "pct": 1.3
+          },
+          "url": {
+            "pct": 27.4
+          },
+          "exact_match": {
+            "pct": 1.7
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 9424,
+          "1-3y": 4056,
+          "3-5y": 2494,
+          ">5y": 5017
+        },
+        "growth_last_12m": 9421
+      },
+      "spam_ratio": {
+        "count": 6703,
+        "pct": 31.93
+      }
+    },
+    "commentcamarche.net": {
+      "overview": {
+        "total_ref_domains": 13676,
+        "total_backlinks_sample": 13368,
+        "ahrefs_limit_hit": false,
+        "dr": 81
+      },
+      "dr_distribution": {
+        "buckets": {
+          "0-10": {
+            "count": 6613,
+            "pct": 48.4
+          },
+          "11-20": {
+            "count": 1644,
+            "pct": 12.0
+          },
+          "21-30": {
+            "count": 1533,
+            "pct": 11.2
+          },
+          "31-40": {
+            "count": 1211,
+            "pct": 8.9
+          },
+          "41-50": {
+            "count": 748,
+            "pct": 5.5
+          },
+          "51-60": {
+            "count": 669,
+            "pct": 4.9
+          },
+          "61-70": {
+            "count": 467,
+            "pct": 3.4
+          },
+          "71-80": {
+            "count": 508,
+            "pct": 3.7
+          },
+          "81-90": {
+            "count": 216,
+            "pct": 1.6
+          },
+          "91-100": {
+            "count": 67,
+            "pct": 0.5
+          }
+        },
+        "stats": {
+          "mean": 21.2,
+          "median": 12,
+          "p25": 1,
+          "p75": 34
+        }
+      },
+      "follow_ratio": {
+        "dofollow": {
+          "count": 10261,
+          "pct": 76.8
+        },
+        "nofollow": {
+          "count": 3107,
+          "pct": 23.2
+        },
+        "ugc": {
+          "count": 590,
+          "pct": 4.4
+        },
+        "sponsored": {
+          "count": 2,
+          "pct": 0.0
+        }
+      },
+      "link_types": {
+        "text": {
+          "count": 12841,
+          "pct": 96.1
+        },
+        "image": {
+          "count": 465,
+          "pct": 3.5
+        },
+        "rss": {
+          "count": 39,
+          "pct": 0.3
+        },
+        "redirect": {
+          "count": 20,
+          "pct": 0.1
+        },
+        "form": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "canonical": {
+          "count": 1,
+          "pct": 0.0
+        },
+        "alternate": {
+          "count": 1,
+          "pct": 0.0
+        }
+      },
+      "anchor_profile": {
+        "top_20": [
+          {
+            "anchor": "commentcamarche.net",
+            "ref_domains": 616,
+            "type": "branded"
+          },
+          {
+            "anchor": "nan",
+            "ref_domains": 587,
+            "type": "other"
+          },
+          {
+            "anchor": "Comment ça marche",
+            "ref_domains": 537,
+            "type": "other"
+          },
+          {
+            "anchor": "ici",
+            "ref_domains": 511,
+            "type": "generic"
+          },
+          {
+            "anchor": "Commentcamarche",
+            "ref_domains": 404,
+            "type": "branded"
+          },
+          {
+            "anchor": "TELEGRAM @SEO_ANOMALY - SEO BACKLINKS, BLACK-LINKS, TRAFFIC BOOST, LINK INDEXING",
+            "ref_domains": 316,
+            "type": "other"
+          },
+          {
+            "anchor": "www.commentcamarche.net",
+            "ref_domains": 268,
+            "type": "url"
+          },
+          {
+            "anchor": "http://www.commentcamarche.net/",
+            "ref_domains": 238,
+            "type": "url"
+          },
+          {
+            "anchor": "@SEO_CARTEL IN TELEGRAM – SEO BACKLINKS, BULK LINK POSTING, BOOST SEO RANKING",
+            "ref_domains": 187,
+            "type": "other"
+          },
+          {
+            "anchor": "http://www.commentcamarche.net",
+            "ref_domains": 180,
+            "type": "url"
+          },
+          {
+            "anchor": "CCM",
+            "ref_domains": 140,
+            "type": "other"
+          },
+          {
+            "anchor": "source",
+            "ref_domains": 131,
+            "type": "generic"
+          },
+          {
+            "anchor": "droit-finances",
+            "ref_domains": 121,
+            "type": "other"
+          },
+          {
+            "anchor": "TG @LINKS_DEALER | EFFECTIVE SEO LINKS FOR FORUMS.COMMENTCAMARCHE.NET",
+            "ref_domains": 119,
+            "type": "branded"
+          },
+          {
+            "anchor": "forums",
+            "ref_domains": 118,
+            "type": "other"
+          },
+          {
+            "anchor": "codes-sources",
+            "ref_domains": 115,
+            "type": "other"
+          },
+          {
+            "anchor": "lien",
+            "ref_domains": 108,
+            "type": "generic"
+          },
+          {
+            "anchor": "static",
+            "ref_domains": 106,
+            "type": "other"
+          },
+          {
+            "anchor": "sante-medecine",
+            "ref_domains": 103,
+            "type": "other"
+          },
+          {
+            "anchor": "Comment Ca Marche",
+            "ref_domains": 102,
+            "type": "other"
+          }
+        ],
+        "type_distribution": {
+          "branded": {
+            "pct": 10.4
+          },
+          "other": {
+            "pct": 60.1
+          },
+          "generic": {
+            "pct": 1.1
+          },
+          "url": {
+            "pct": 26.6
+          },
+          "exact_match": {
+            "pct": 1.8
+          }
+        }
+      },
+      "link_age": {
+        "buckets": {
+          "<1y": 4100,
+          "1-3y": 3184,
+          "3-5y": 2161,
+          ">5y": 4231
+        },
+        "growth_last_12m": 4096
+      },
+      "spam_ratio": {
+        "count": 3381,
+        "pct": 24.72
+      }
+    }
+  },
+  "niche_benchmarks": {
+    "description": "Медианные значения по 9 конкурентам (без наших доменов)",
+    "median_dr_distribution_mean": 17.8,
+    "median_dofollow_pct": 70.7,
+    "median_text_links_pct": 94.5,
+    "median_branded_anchors_pct": 8.8,
+    "median_spam_pct": 42.38
+  }
+}

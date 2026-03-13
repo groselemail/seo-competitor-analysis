@@ -410,3 +410,16 @@ trashbox.ru — единственный полностью монолингва
 | brief 14 | `briefs/14-domain-structures.yaml` | Доменные структуры конкурентов: поддомены vs подпапки vs отдельные домены, матрица эффективности |
 | brief 16 | `briefs/16-language-potential.yaml` | Потенциал по 17 языкам: TAM, SAM, достижимый трафик, приоритизация |
 | brief 17 | `briefs/17-domain-strategy.yaml` | Анализ 5 вариантов стратегии, рекомендация, план миграции, реестр рисков |
+
+---
+
+## Ссылочная валидация (Phase 2)
+
+Ссылочный анализ (Phase 2) подтверждает рекомендацию гибридной модели (Option D):
+
+- **freesoft.ru** — сильнейший RU-профиль (35.6% RU-ссылок, DR 59). Подтверждает решение сохранить как отдельный домен.
+- **freesoft.net** — 89.3% спам, требует немедленного disavow ~3 000 доменов → [план disavow](backlink-strategy/04-disavow-plan.md)
+- **frees0ft.fr** — нулевая ссылочная ценность (95.7% nofollow, 88.9% спам, 0.2% branded анкоров). Подтверждает решение о миграции на fr.freesoft.net.
+- **5 099 EN-targets** доступны для freesoft.net → [целевые домены](backlink-strategy/03-target-domains.md)
+
+Полный анализ: [reports/backlink-strategy/](backlink-strategy/INDEX.md)

@@ -1,0 +1,5305 @@
+{
+  "total_checks": 662,
+  "passed": 658,
+  "failed": 1,
+  "warnings": 3,
+  "skipped": 0,
+  "details": [
+    {
+      "check": "inventory.total_rows_raw",
+      "report_value": 669569.0,
+      "json_value": 669569.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.total_rows_after_gambling_filter",
+      "report_value": 659669.0,
+      "json_value": 659669.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.gambling_filtered_rows",
+      "report_value": 9900.0,
+      "json_value": 9900.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.freesoft.net.A_rows",
+      "report_value": 3864.0,
+      "json_value": 3864.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.freesoft.net.B_rows",
+      "report_value": 20361.0,
+      "json_value": 20361.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.freesoft.net.C_rows",
+      "report_value": 3810.0,
+      "json_value": 3810.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.freesoft.ru.A_rows",
+      "report_value": 3257.0,
+      "json_value": 3257.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.freesoft.ru.B_rows",
+      "report_value": 5227.0,
+      "json_value": 5227.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.freesoft.ru.C_rows",
+      "report_value": 2852.0,
+      "json_value": 2852.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.frees0ft.fr.A_rows",
+      "report_value": 478.0,
+      "json_value": 478.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.frees0ft.fr.B_rows",
+      "report_value": 19.0,
+      "json_value": 19.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.frees0ft.fr.C_rows",
+      "report_value": 465.0,
+      "json_value": 465.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.softonic.com.A_rows",
+      "report_value": 29904.0,
+      "json_value": 29904.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.softonic.com.B_rows",
+      "report_value": 28912.0,
+      "json_value": 28912.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.softonic.com.C_rows",
+      "report_value": 29518.0,
+      "json_value": 29518.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.uptodown.com.A_rows",
+      "report_value": 29888.0,
+      "json_value": 29888.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.uptodown.com.B_rows",
+      "report_value": 29242.0,
+      "json_value": 29242.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.uptodown.com.C_rows",
+      "report_value": 28335.0,
+      "json_value": 28335.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.malavida.com.A_rows",
+      "report_value": 13431.0,
+      "json_value": 13431.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.malavida.com.C_rows",
+      "report_value": 12907.0,
+      "json_value": 12907.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.softonic.ru.A_rows",
+      "report_value": 4964.0,
+      "json_value": 4964.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.softonic.ru.C_rows",
+      "report_value": 4290.0,
+      "json_value": 4290.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.trashbox.ru.A_rows",
+      "report_value": 5322.0,
+      "json_value": 5322.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.trashbox.ru.B_rows",
+      "report_value": 16362.0,
+      "json_value": 16362.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.trashbox.ru.C_rows",
+      "report_value": 5125.0,
+      "json_value": 5125.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.filehippo.com.A_rows",
+      "report_value": 17715.0,
+      "json_value": 17715.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.filehippo.com.C_rows",
+      "report_value": 16924.0,
+      "json_value": 16924.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.clubic.com.A_rows",
+      "report_value": 17373.0,
+      "json_value": 17373.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.clubic.com.C_rows",
+      "report_value": 17081.0,
+      "json_value": 17081.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.01net.com.A_rows",
+      "report_value": 20991.0,
+      "json_value": 20991.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.01net.com.C_rows",
+      "report_value": 19569.0,
+      "json_value": 19569.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.commentcamarche.net.A_rows",
+      "report_value": 13676.0,
+      "json_value": 13676.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.commentcamarche.net.C_rows",
+      "report_value": 13368.0,
+      "json_value": 13368.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "inventory.ahrefs_limit_files_count",
+      "report_value": 14.0,
+      "json_value": 14.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr",
+      "report_value": 51.0,
+      "json_value": 51.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.ref_domains",
+      "report_value": 3864.0,
+      "json_value": 3864.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr",
+      "report_value": 59.0,
+      "json_value": 59.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.ref_domains",
+      "report_value": 3257.0,
+      "json_value": 3257.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr",
+      "report_value": 23.0,
+      "json_value": 23.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.ref_domains",
+      "report_value": 478.0,
+      "json_value": 478.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr",
+      "report_value": 86.0,
+      "json_value": 86.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.ref_domains",
+      "report_value": 29904.0,
+      "json_value": 29904.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr",
+      "report_value": 83.0,
+      "json_value": 83.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.ref_domains",
+      "report_value": 29888.0,
+      "json_value": 29888.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr",
+      "report_value": 74.0,
+      "json_value": 74.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.ref_domains",
+      "report_value": 13431.0,
+      "json_value": 13431.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr",
+      "report_value": 37.0,
+      "json_value": 37.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.ref_domains",
+      "report_value": 4964.0,
+      "json_value": 4964.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr",
+      "report_value": 45.0,
+      "json_value": 45.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.ref_domains",
+      "report_value": 5322.0,
+      "json_value": 5322.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr",
+      "report_value": 75.0,
+      "json_value": 75.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.ref_domains",
+      "report_value": 17715.0,
+      "json_value": 17715.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr",
+      "report_value": 76.0,
+      "json_value": 76.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.ref_domains",
+      "report_value": 17373.0,
+      "json_value": 17373.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr",
+      "report_value": 79.0,
+      "json_value": 79.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.ref_domains",
+      "report_value": 20991.0,
+      "json_value": 20991.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr",
+      "report_value": 81.0,
+      "json_value": 81.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.ref_domains",
+      "report_value": 13676.0,
+      "json_value": 13676.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.0-10",
+      "report_value": 26.2,
+      "json_value": 26.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.11-20",
+      "report_value": 17.0,
+      "json_value": 17.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.21-30",
+      "report_value": 15.3,
+      "json_value": 15.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.31-40",
+      "report_value": 12.0,
+      "json_value": 12.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.41-50",
+      "report_value": 8.0,
+      "json_value": 8.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.51-60",
+      "report_value": 7.0,
+      "json_value": 7.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.61-70",
+      "report_value": 5.1,
+      "json_value": 5.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.71-80",
+      "report_value": 6.3,
+      "json_value": 6.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.81-90",
+      "report_value": 2.2,
+      "json_value": 2.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dr_bucket.91-100",
+      "report_value": 0.7,
+      "json_value": 0.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.0-10",
+      "report_value": 54.4,
+      "json_value": 54.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.11-20",
+      "report_value": 12.6,
+      "json_value": 12.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.21-30",
+      "report_value": 9.5,
+      "json_value": 9.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.31-40",
+      "report_value": 6.9,
+      "json_value": 6.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.41-50",
+      "report_value": 5.5,
+      "json_value": 5.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.51-60",
+      "report_value": 3.7,
+      "json_value": 3.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.61-70",
+      "report_value": 2.6,
+      "json_value": 2.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.71-80",
+      "report_value": 3.2,
+      "json_value": 3.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.81-90",
+      "report_value": 1.2,
+      "json_value": 1.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dr_bucket.91-100",
+      "report_value": 0.4,
+      "json_value": 0.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.0-10",
+      "report_value": 71.3,
+      "json_value": 71.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.11-20",
+      "report_value": 7.8,
+      "json_value": 7.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.21-30",
+      "report_value": 6.5,
+      "json_value": 6.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.31-40",
+      "report_value": 3.9,
+      "json_value": 3.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.41-50",
+      "report_value": 2.9,
+      "json_value": 2.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.51-60",
+      "report_value": 2.6,
+      "json_value": 2.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.61-70",
+      "report_value": 1.8,
+      "json_value": 1.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.71-80",
+      "report_value": 2.0,
+      "json_value": 2.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.81-90",
+      "report_value": 0.8,
+      "json_value": 0.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dr_bucket.91-100",
+      "report_value": 0.4,
+      "json_value": 0.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.0-10",
+      "report_value": 85.0,
+      "json_value": 85.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.11-20",
+      "report_value": 5.4,
+      "json_value": 5.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.21-30",
+      "report_value": 4.0,
+      "json_value": 4.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.31-40",
+      "report_value": 2.0,
+      "json_value": 2.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.41-50",
+      "report_value": 1.2,
+      "json_value": 1.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.51-60",
+      "report_value": 0.9,
+      "json_value": 0.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.61-70",
+      "report_value": 0.8,
+      "json_value": 0.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.71-80",
+      "report_value": 0.4,
+      "json_value": 0.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.81-90",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dr_bucket.91-100",
+      "report_value": 0.2,
+      "json_value": 0.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.0-10",
+      "report_value": 76.8,
+      "json_value": 76.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.11-20",
+      "report_value": 5.8,
+      "json_value": 5.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.21-30",
+      "report_value": 5.8,
+      "json_value": 5.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.31-40",
+      "report_value": 3.4,
+      "json_value": 3.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.41-50",
+      "report_value": 2.3,
+      "json_value": 2.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.51-60",
+      "report_value": 2.1,
+      "json_value": 2.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.61-70",
+      "report_value": 1.8,
+      "json_value": 1.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.71-80",
+      "report_value": 1.3,
+      "json_value": 1.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.81-90",
+      "report_value": 0.4,
+      "json_value": 0.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dr_bucket.91-100",
+      "report_value": 0.3,
+      "json_value": 0.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.0-10",
+      "report_value": 62.0,
+      "json_value": 62.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.11-20",
+      "report_value": 8.8,
+      "json_value": 8.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.21-30",
+      "report_value": 8.1,
+      "json_value": 8.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.31-40",
+      "report_value": 6.1,
+      "json_value": 6.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.41-50",
+      "report_value": 4.0,
+      "json_value": 4.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.51-60",
+      "report_value": 3.9,
+      "json_value": 3.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.61-70",
+      "report_value": 2.6,
+      "json_value": 2.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.71-80",
+      "report_value": 2.9,
+      "json_value": 2.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.81-90",
+      "report_value": 1.1,
+      "json_value": 1.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dr_bucket.91-100",
+      "report_value": 0.4,
+      "json_value": 0.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.0-10",
+      "report_value": 52.4,
+      "json_value": 52.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.11-20",
+      "report_value": 11.0,
+      "json_value": 11.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.21-30",
+      "report_value": 10.7,
+      "json_value": 10.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.31-40",
+      "report_value": 7.9,
+      "json_value": 7.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.41-50",
+      "report_value": 5.4,
+      "json_value": 5.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.51-60",
+      "report_value": 4.1,
+      "json_value": 4.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.61-70",
+      "report_value": 3.1,
+      "json_value": 3.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.71-80",
+      "report_value": 3.6,
+      "json_value": 3.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.81-90",
+      "report_value": 1.3,
+      "json_value": 1.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dr_bucket.91-100",
+      "report_value": 0.5,
+      "json_value": 0.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.0-10",
+      "report_value": 57.2,
+      "json_value": 57.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.11-20",
+      "report_value": 9.8,
+      "json_value": 9.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.21-30",
+      "report_value": 9.3,
+      "json_value": 9.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.31-40",
+      "report_value": 7.1,
+      "json_value": 7.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.41-50",
+      "report_value": 4.7,
+      "json_value": 4.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.51-60",
+      "report_value": 4.0,
+      "json_value": 4.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.61-70",
+      "report_value": 2.9,
+      "json_value": 2.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.71-80",
+      "report_value": 3.4,
+      "json_value": 3.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.81-90",
+      "report_value": 1.3,
+      "json_value": 1.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dr_bucket.91-100",
+      "report_value": 0.4,
+      "json_value": 0.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.0-10",
+      "report_value": 48.4,
+      "json_value": 48.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.11-20",
+      "report_value": 12.0,
+      "json_value": 12.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.21-30",
+      "report_value": 11.2,
+      "json_value": 11.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.31-40",
+      "report_value": 8.9,
+      "json_value": 8.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.41-50",
+      "report_value": 5.5,
+      "json_value": 5.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.51-60",
+      "report_value": 4.9,
+      "json_value": 4.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.61-70",
+      "report_value": 3.4,
+      "json_value": 3.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.71-80",
+      "report_value": 3.7,
+      "json_value": 3.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.81-90",
+      "report_value": 1.6,
+      "json_value": 1.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dr_bucket.91-100",
+      "report_value": 0.5,
+      "json_value": 0.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.0-10",
+      "report_value": 91.9,
+      "json_value": 91.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.11-20",
+      "report_value": 3.5,
+      "json_value": 3.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.21-30",
+      "report_value": 2.4,
+      "json_value": 2.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.31-40",
+      "report_value": 0.6,
+      "json_value": 0.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.41-50",
+      "report_value": 0.5,
+      "json_value": 0.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.51-60",
+      "report_value": 0.6,
+      "json_value": 0.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.61-70",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.71-80",
+      "report_value": 0.2,
+      "json_value": 0.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.81-90",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_bucket.91-100",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.0-10",
+      "report_value": 58.9,
+      "json_value": 58.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.11-20",
+      "report_value": 13.4,
+      "json_value": 13.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.21-30",
+      "report_value": 11.5,
+      "json_value": 11.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.31-40",
+      "report_value": 5.4,
+      "json_value": 5.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.41-50",
+      "report_value": 3.0,
+      "json_value": 3.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.51-60",
+      "report_value": 3.3,
+      "json_value": 3.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.61-70",
+      "report_value": 2.0,
+      "json_value": 2.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.71-80",
+      "report_value": 1.7,
+      "json_value": 1.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.81-90",
+      "report_value": 0.5,
+      "json_value": 0.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_bucket.91-100",
+      "report_value": 0.3,
+      "json_value": 0.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.0-10",
+      "report_value": 74.9,
+      "json_value": 74.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.11-20",
+      "report_value": 10.9,
+      "json_value": 10.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.21-30",
+      "report_value": 7.9,
+      "json_value": 7.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.31-40",
+      "report_value": 3.1,
+      "json_value": 3.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.41-50",
+      "report_value": 1.0,
+      "json_value": 1.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.51-60",
+      "report_value": 1.3,
+      "json_value": 1.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.61-70",
+      "report_value": 0.6,
+      "json_value": 0.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.71-80",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.81-90",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_bucket.91-100",
+      "report_value": 0.2,
+      "json_value": 0.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_mean",
+      "report_value": 3.2,
+      "json_value": 3.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dr_median",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_mean",
+      "report_value": 15.2,
+      "json_value": 15.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dr_median",
+      "report_value": 7.0,
+      "json_value": 7.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_mean",
+      "report_value": 9.1,
+      "json_value": 9.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dr_median",
+      "report_value": 6.0,
+      "json_value": 6.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.dofollow_pct",
+      "report_value": 72.0,
+      "json_value": 72.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.nofollow_pct",
+      "report_value": 28.0,
+      "json_value": 28.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.ugc_pct",
+      "report_value": 5.1,
+      "json_value": 5.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.sponsored_pct",
+      "report_value": 0.2,
+      "json_value": 0.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.dofollow_pct",
+      "report_value": 66.1,
+      "json_value": 66.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.nofollow_pct",
+      "report_value": 33.9,
+      "json_value": 33.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.ugc_pct",
+      "report_value": 7.9,
+      "json_value": 7.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.sponsored_pct",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.dofollow_pct",
+      "report_value": 76.8,
+      "json_value": 76.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.nofollow_pct",
+      "report_value": 23.2,
+      "json_value": 23.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.ugc_pct",
+      "report_value": 4.4,
+      "json_value": 4.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.dofollow_pct",
+      "report_value": 81.7,
+      "json_value": 81.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.nofollow_pct",
+      "report_value": 18.3,
+      "json_value": 18.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.ugc_pct",
+      "report_value": 2.2,
+      "json_value": 2.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.dofollow_pct",
+      "report_value": 79.4,
+      "json_value": 79.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.nofollow_pct",
+      "report_value": 20.6,
+      "json_value": 20.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.ugc_pct",
+      "report_value": 2.9,
+      "json_value": 2.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.dofollow_pct",
+      "report_value": 70.2,
+      "json_value": 70.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.nofollow_pct",
+      "report_value": 29.8,
+      "json_value": 29.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.ugc_pct",
+      "report_value": 4.6,
+      "json_value": 4.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.dofollow_pct",
+      "report_value": 70.3,
+      "json_value": 70.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.nofollow_pct",
+      "report_value": 29.7,
+      "json_value": 29.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.ugc_pct",
+      "report_value": 1.9,
+      "json_value": 1.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.dofollow_pct",
+      "report_value": 70.3,
+      "json_value": 70.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.nofollow_pct",
+      "report_value": 29.7,
+      "json_value": 29.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.ugc_pct",
+      "report_value": 2.6,
+      "json_value": 2.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.dofollow_pct",
+      "report_value": 70.7,
+      "json_value": 70.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.nofollow_pct",
+      "report_value": 29.3,
+      "json_value": 29.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.ugc_pct",
+      "report_value": 0.2,
+      "json_value": 0.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.dofollow_pct",
+      "report_value": 74.9,
+      "json_value": 74.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.nofollow_pct",
+      "report_value": 25.1,
+      "json_value": 25.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.ugc_pct",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.dofollow_pct",
+      "report_value": 35.5,
+      "json_value": 35.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.nofollow_pct",
+      "report_value": 64.5,
+      "json_value": 64.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.ugc_pct",
+      "report_value": 13.3,
+      "json_value": 13.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.sponsored_pct",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.dofollow_pct",
+      "report_value": 4.3,
+      "json_value": 4.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.nofollow_pct",
+      "report_value": 95.7,
+      "json_value": 95.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.ugc_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.sponsored_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.text_pct",
+      "report_value": 96.1,
+      "json_value": 96.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.image_pct",
+      "report_value": 3.7,
+      "json_value": 3.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.text_pct",
+      "report_value": 94.5,
+      "json_value": 94.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.image_pct",
+      "report_value": 4.7,
+      "json_value": 4.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.text_pct",
+      "report_value": 81.4,
+      "json_value": 81.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.image_pct",
+      "report_value": 18.5,
+      "json_value": 18.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.text_pct",
+      "report_value": 99.3,
+      "json_value": 99.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.image_pct",
+      "report_value": 0.7,
+      "json_value": 0.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.text_pct",
+      "report_value": 90.7,
+      "json_value": 90.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.image_pct",
+      "report_value": 9.1,
+      "json_value": 9.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.text_pct",
+      "report_value": 96.6,
+      "json_value": 96.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.image_pct",
+      "report_value": 3.2,
+      "json_value": 3.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.text_pct",
+      "report_value": 90.5,
+      "json_value": 90.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.image_pct",
+      "report_value": 9.0,
+      "json_value": 9.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.text_pct",
+      "report_value": 87.2,
+      "json_value": 87.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.image_pct",
+      "report_value": 12.1,
+      "json_value": 12.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.text_pct",
+      "report_value": 96.1,
+      "json_value": 96.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.image_pct",
+      "report_value": 3.5,
+      "json_value": 3.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.text_pct",
+      "report_value": 99.6,
+      "json_value": 99.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.image_pct",
+      "report_value": 0.4,
+      "json_value": 0.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.text_pct",
+      "report_value": 96.2,
+      "json_value": 96.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.image_pct",
+      "report_value": 3.5,
+      "json_value": 3.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.text_pct",
+      "report_value": 98.5,
+      "json_value": 98.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.image_pct",
+      "report_value": 1.5,
+      "json_value": 1.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.anchor.branded",
+      "report_value": 16.6,
+      "json_value": 16.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.anchor.exact_match",
+      "report_value": 31.6,
+      "json_value": 31.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.anchor.url",
+      "report_value": 2.5,
+      "json_value": 2.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.anchor.generic",
+      "report_value": 0.3,
+      "json_value": 0.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.anchor.other",
+      "report_value": 49.0,
+      "json_value": 49.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.anchor.branded",
+      "report_value": 20.9,
+      "json_value": 20.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.anchor.exact_match",
+      "report_value": 2.9,
+      "json_value": 2.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.anchor.url",
+      "report_value": 2.0,
+      "json_value": 2.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.anchor.generic",
+      "report_value": 0.5,
+      "json_value": 0.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.anchor.other",
+      "report_value": 73.7,
+      "json_value": 73.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.anchor.branded",
+      "report_value": 8.8,
+      "json_value": 8.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.anchor.exact_match",
+      "report_value": 6.3,
+      "json_value": 6.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.anchor.url",
+      "report_value": 4.2,
+      "json_value": 4.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.anchor.generic",
+      "report_value": 0.3,
+      "json_value": 0.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.anchor.other",
+      "report_value": 80.5,
+      "json_value": 80.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.anchor.branded",
+      "report_value": 3.7,
+      "json_value": 3.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.anchor.exact_match",
+      "report_value": 95.4,
+      "json_value": 95.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.anchor.url",
+      "report_value": 0.3,
+      "json_value": 0.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.anchor.generic",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.anchor.other",
+      "report_value": 0.6,
+      "json_value": 0.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.anchor.branded",
+      "report_value": 4.3,
+      "json_value": 4.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.anchor.exact_match",
+      "report_value": 1.6,
+      "json_value": 1.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.anchor.url",
+      "report_value": 7.7,
+      "json_value": 7.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.anchor.generic",
+      "report_value": 0.2,
+      "json_value": 0.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.anchor.other",
+      "report_value": 86.2,
+      "json_value": 86.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.anchor.branded",
+      "report_value": 4.9,
+      "json_value": 4.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.anchor.exact_match",
+      "report_value": 61.2,
+      "json_value": 61.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.anchor.url",
+      "report_value": 7.7,
+      "json_value": 7.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.anchor.generic",
+      "report_value": 0.6,
+      "json_value": 0.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.anchor.other",
+      "report_value": 25.7,
+      "json_value": 25.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.anchor.branded",
+      "report_value": 13.6,
+      "json_value": 13.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.anchor.exact_match",
+      "report_value": 1.1,
+      "json_value": 1.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.anchor.url",
+      "report_value": 31.5,
+      "json_value": 31.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.anchor.generic",
+      "report_value": 1.4,
+      "json_value": 1.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.anchor.other",
+      "report_value": 52.5,
+      "json_value": 52.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.anchor.branded",
+      "report_value": 8.4,
+      "json_value": 8.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.anchor.exact_match",
+      "report_value": 1.7,
+      "json_value": 1.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.anchor.url",
+      "report_value": 27.4,
+      "json_value": 27.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.anchor.generic",
+      "report_value": 1.3,
+      "json_value": 1.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.anchor.other",
+      "report_value": 61.1,
+      "json_value": 61.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.anchor.branded",
+      "report_value": 10.4,
+      "json_value": 10.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.anchor.exact_match",
+      "report_value": 1.8,
+      "json_value": 1.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.anchor.url",
+      "report_value": 26.6,
+      "json_value": 26.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.anchor.generic",
+      "report_value": 1.1,
+      "json_value": 1.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.anchor.other",
+      "report_value": 60.1,
+      "json_value": 60.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.anchor.branded",
+      "report_value": 1.4,
+      "json_value": 1.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.anchor.exact_match",
+      "report_value": 1.0,
+      "json_value": 1.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.anchor.url",
+      "report_value": 1.1,
+      "json_value": 1.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.anchor.generic",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.anchor.other",
+      "report_value": 96.5,
+      "json_value": 96.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.anchor.branded",
+      "report_value": 7.2,
+      "json_value": 7.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.anchor.exact_match",
+      "report_value": 8.6,
+      "json_value": 8.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.anchor.url",
+      "report_value": 20.6,
+      "json_value": 20.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.anchor.generic",
+      "report_value": 0.6,
+      "json_value": 0.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.anchor.other",
+      "report_value": 63.0,
+      "json_value": 63.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.anchor.branded",
+      "report_value": 0.2,
+      "json_value": 0.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.anchor.exact_match",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.anchor.url",
+      "report_value": 20.0,
+      "json_value": 20.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.anchor.generic",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.anchor.other",
+      "report_value": 79.9,
+      "json_value": 79.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.spam_count",
+      "report_value": 6425.0,
+      "json_value": 6425.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.spam_pct",
+      "report_value": 21.5,
+      "json_value": 21.49,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.spam_count",
+      "report_value": 3381.0,
+      "json_value": 3381.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.spam_pct",
+      "report_value": 24.7,
+      "json_value": 24.72,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.spam_count",
+      "report_value": 4619.0,
+      "json_value": 4619.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.spam_pct",
+      "report_value": 26.6,
+      "json_value": 26.59,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.spam_count",
+      "report_value": 6703.0,
+      "json_value": 6703.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.spam_pct",
+      "report_value": 31.9,
+      "json_value": 31.93,
+      "status": "PASS",
+      "delta": 0.03,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.spam_count",
+      "report_value": 12668.0,
+      "json_value": 12668.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.spam_pct",
+      "report_value": 42.4,
+      "json_value": 42.38,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.spam_count",
+      "report_value": 7664.0,
+      "json_value": 7664.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.spam_pct",
+      "report_value": 43.3,
+      "json_value": 43.26,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.spam_count",
+      "report_value": 8065.0,
+      "json_value": 8065.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.spam_pct",
+      "report_value": 60.1,
+      "json_value": 60.05,
+      "status": "PASS",
+      "delta": 0.05,
+      "severity": "rounding"
+    },
+    {
+      "check": "r4.trashbox.ru.spam_count",
+      "report_value": 3856.0,
+      "json_value": 3856.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.spam_pct",
+      "report_value": 72.5,
+      "json_value": 72.45,
+      "status": "PASS",
+      "delta": 0.05,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.spam_count",
+      "report_value": 4056.0,
+      "json_value": 4056.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.spam_pct",
+      "report_value": 81.7,
+      "json_value": 81.71,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.spam_count",
+      "report_value": 2274.0,
+      "json_value": 2274.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.spam_pct",
+      "report_value": 69.8,
+      "json_value": 69.82,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.spam_count",
+      "report_value": 425.0,
+      "json_value": 425.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.spam_pct",
+      "report_value": 88.9,
+      "json_value": 88.91,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.spam_count",
+      "report_value": 3452.0,
+      "json_value": 3452.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.spam_pct",
+      "report_value": 89.3,
+      "json_value": 89.34,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.age.<1y_pct",
+      "report_value": 28.4,
+      "json_value": 28.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.age.1-3y_pct",
+      "report_value": 28.6,
+      "json_value": 28.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.age.3-5y_pct",
+      "report_value": 17.4,
+      "json_value": 17.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.age.>5y_pct",
+      "report_value": 25.7,
+      "json_value": 25.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.com.growth_12m",
+      "report_value": 8489.0,
+      "json_value": 8489.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.age.<1y_pct",
+      "report_value": 45.4,
+      "json_value": 45.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.age.1-3y_pct",
+      "report_value": 28.1,
+      "json_value": 28.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.age.3-5y_pct",
+      "report_value": 14.3,
+      "json_value": 14.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.age.>5y_pct",
+      "report_value": 12.2,
+      "json_value": 12.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.uptodown.com.growth_12m",
+      "report_value": 13573.0,
+      "json_value": 13573.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.age.<1y_pct",
+      "report_value": 66.3,
+      "json_value": 66.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.age.1-3y_pct",
+      "report_value": 18.1,
+      "json_value": 18.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.age.3-5y_pct",
+      "report_value": 8.5,
+      "json_value": 8.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.age.>5y_pct",
+      "report_value": 7.1,
+      "json_value": 7.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.malavida.com.growth_12m",
+      "report_value": 8892.0,
+      "json_value": 8892.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.age.<1y_pct",
+      "report_value": 88.1,
+      "json_value": 88.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.age.1-3y_pct",
+      "report_value": 9.9,
+      "json_value": 9.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.age.3-5y_pct",
+      "report_value": 0.9,
+      "json_value": 0.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.age.>5y_pct",
+      "report_value": 1.1,
+      "json_value": 1.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.softonic.ru.growth_12m",
+      "report_value": 4375.0,
+      "json_value": 4375.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.age.<1y_pct",
+      "report_value": 80.6,
+      "json_value": 80.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.age.1-3y_pct",
+      "report_value": 10.7,
+      "json_value": 10.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.age.3-5y_pct",
+      "report_value": 4.2,
+      "json_value": 4.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.age.>5y_pct",
+      "report_value": 4.4,
+      "json_value": 4.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.trashbox.ru.growth_12m",
+      "report_value": 4290.0,
+      "json_value": 4290.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.age.<1y_pct",
+      "report_value": 46.4,
+      "json_value": 46.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.age.1-3y_pct",
+      "report_value": 18.2,
+      "json_value": 18.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.age.3-5y_pct",
+      "report_value": 12.8,
+      "json_value": 12.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.age.>5y_pct",
+      "report_value": 22.6,
+      "json_value": 22.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.filehippo.com.growth_12m",
+      "report_value": 8219.0,
+      "json_value": 8219.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.age.<1y_pct",
+      "report_value": 40.6,
+      "json_value": 40.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.age.1-3y_pct",
+      "report_value": 21.3,
+      "json_value": 21.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.age.3-5y_pct",
+      "report_value": 12.6,
+      "json_value": 12.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.age.>5y_pct",
+      "report_value": 25.4,
+      "json_value": 25.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.clubic.com.growth_12m",
+      "report_value": 7056.0,
+      "json_value": 7056.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.age.<1y_pct",
+      "report_value": 44.9,
+      "json_value": 44.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.age.1-3y_pct",
+      "report_value": 19.3,
+      "json_value": 19.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.age.3-5y_pct",
+      "report_value": 11.9,
+      "json_value": 11.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.age.>5y_pct",
+      "report_value": 23.9,
+      "json_value": 23.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.01net.com.growth_12m",
+      "report_value": 9421.0,
+      "json_value": 9421.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.age.<1y_pct",
+      "report_value": 30.0,
+      "json_value": 30.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.age.1-3y_pct",
+      "report_value": 23.3,
+      "json_value": 23.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.age.3-5y_pct",
+      "report_value": 15.8,
+      "json_value": 15.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.age.>5y_pct",
+      "report_value": 30.9,
+      "json_value": 30.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.commentcamarche.net.growth_12m",
+      "report_value": 4096.0,
+      "json_value": 4096.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.age.<1y_pct",
+      "report_value": 97.3,
+      "json_value": 97.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.age.1-3y_pct",
+      "report_value": 2.7,
+      "json_value": 2.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.age.3-5y_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.age.>5y_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.net.growth_12m",
+      "report_value": 3761.0,
+      "json_value": 3761.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.age.<1y_pct",
+      "report_value": 51.2,
+      "json_value": 51.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.age.1-3y_pct",
+      "report_value": 29.7,
+      "json_value": 29.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.age.3-5y_pct",
+      "report_value": 5.7,
+      "json_value": 5.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.age.>5y_pct",
+      "report_value": 13.4,
+      "json_value": 13.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.freesoft.ru.growth_12m",
+      "report_value": 1667.0,
+      "json_value": 1667.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.age.<1y_pct",
+      "report_value": 97.7,
+      "json_value": 97.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.age.1-3y_pct",
+      "report_value": 1.5,
+      "json_value": 1.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.age.3-5y_pct",
+      "report_value": 0.8,
+      "json_value": 0.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.age.>5y_pct",
+      "report_value": 0.0,
+      "json_value": 0.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r4.frees0ft.fr.growth_12m",
+      "report_value": 467.0,
+      "json_value": 467.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.DR",
+      "report_value": 76.0,
+      "json_value": 76.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Ref.domains",
+      "report_value": 17373.0,
+      "json_value": 17373.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Dofollow%",
+      "report_value": 70.7,
+      "json_value": 70.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Nofollow%",
+      "report_value": 29.3,
+      "json_value": 29.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Text%",
+      "report_value": 94.5,
+      "json_value": 94.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Image%",
+      "report_value": 4.7,
+      "json_value": 4.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Branded%",
+      "report_value": 8.8,
+      "json_value": 8.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Exact%",
+      "report_value": 2.9,
+      "json_value": 2.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.URL%",
+      "report_value": 7.7,
+      "json_value": 7.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Other%",
+      "report_value": 60.1,
+      "json_value": 60.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Generic%",
+      "report_value": 0.5,
+      "json_value": 0.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Spam%",
+      "report_value": 42.4,
+      "json_value": 42.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.DR_mean",
+      "report_value": 17.8,
+      "json_value": 17.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.DR_median",
+      "report_value": 6.0,
+      "json_value": 6.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Growth_12m",
+      "report_value": 8219.0,
+      "json_value": 8219.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.median.Age_5y%",
+      "report_value": 22.6,
+      "json_value": 22.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.0-10",
+      "report_value": 57.2,
+      "json_value": 57.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.11-20",
+      "report_value": 9.8,
+      "json_value": 9.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.21-30",
+      "report_value": 9.3,
+      "json_value": 9.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.31-40",
+      "report_value": 6.9,
+      "json_value": 6.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.41-50",
+      "report_value": 4.7,
+      "json_value": 4.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.51-60",
+      "report_value": 3.9,
+      "json_value": 3.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.61-70",
+      "report_value": 2.6,
+      "json_value": 2.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.71-80",
+      "report_value": 3.2,
+      "json_value": 3.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.81-90",
+      "report_value": 1.1,
+      "json_value": 1.2,
+      "status": "FAIL",
+      "delta": 0.1,
+      "severity": "major"
+    },
+    {
+      "check": "benchmark.dr_bucket_median.91-100",
+      "report_value": 0.4,
+      "json_value": 0.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.net.spam_pct",
+      "report_value": 89.3,
+      "json_value": 89.34,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.net.low_dr_pct",
+      "report_value": 89.5,
+      "json_value": 89.52,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.net.susp_tld_pct",
+      "report_value": 71.6,
+      "json_value": 71.56,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.net.exclusive_count",
+      "report_value": 31.0,
+      "json_value": 31.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.net.spikes_count",
+      "report_value": 4.0,
+      "json_value": 4.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.net.ref_domains",
+      "report_value": 3864.0,
+      "json_value": 3864.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.ru.spam_pct",
+      "report_value": 81.7,
+      "json_value": 81.71,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.ru.low_dr_pct",
+      "report_value": 82.1,
+      "json_value": 82.05,
+      "status": "PASS",
+      "delta": 0.05,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.ru.susp_tld_pct",
+      "report_value": 57.5,
+      "json_value": 57.51,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.ru.exclusive_count",
+      "report_value": 129.0,
+      "json_value": 129.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.ru.spikes_count",
+      "report_value": 7.0,
+      "json_value": 7.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.ru.ref_domains",
+      "report_value": 4964.0,
+      "json_value": 4964.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.trashbox.ru.spam_pct",
+      "report_value": 72.5,
+      "json_value": 72.45,
+      "status": "PASS",
+      "delta": 0.05,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.trashbox.ru.low_dr_pct",
+      "report_value": 73.9,
+      "json_value": 73.86,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.trashbox.ru.susp_tld_pct",
+      "report_value": 46.1,
+      "json_value": 46.13,
+      "status": "PASS",
+      "delta": 0.03,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.trashbox.ru.exclusive_count",
+      "report_value": 890.0,
+      "json_value": 890.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.trashbox.ru.spikes_count",
+      "report_value": 16.0,
+      "json_value": 16.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.trashbox.ru.ref_domains",
+      "report_value": 5322.0,
+      "json_value": 5322.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.frees0ft.fr.spam_pct",
+      "report_value": 88.9,
+      "json_value": 88.91,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.frees0ft.fr.low_dr_pct",
+      "report_value": 64.0,
+      "json_value": 64.02,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.frees0ft.fr.susp_tld_pct",
+      "report_value": 27.8,
+      "json_value": 27.82,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.frees0ft.fr.exclusive_count",
+      "report_value": 1.0,
+      "json_value": 1.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.frees0ft.fr.spikes_count",
+      "report_value": 2.0,
+      "json_value": 2.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.frees0ft.fr.ref_domains",
+      "report_value": 478.0,
+      "json_value": 478.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.malavida.com.spam_pct",
+      "report_value": 60.1,
+      "json_value": 60.05,
+      "status": "PASS",
+      "delta": 0.05,
+      "severity": "rounding"
+    },
+    {
+      "check": "r2.malavida.com.low_dr_pct",
+      "report_value": 69.9,
+      "json_value": 69.88,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.malavida.com.susp_tld_pct",
+      "report_value": 26.4,
+      "json_value": 26.42,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.malavida.com.exclusive_count",
+      "report_value": 2456.0,
+      "json_value": 2456.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.malavida.com.spikes_count",
+      "report_value": 19.0,
+      "json_value": 19.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.malavida.com.ref_domains",
+      "report_value": 13431.0,
+      "json_value": 13431.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.ru.spam_pct",
+      "report_value": 69.8,
+      "json_value": 69.82,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.ru.low_dr_pct",
+      "report_value": 53.3,
+      "json_value": 53.27,
+      "status": "PASS",
+      "delta": 0.03,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.ru.susp_tld_pct",
+      "report_value": 11.1,
+      "json_value": 11.08,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.ru.exclusive_count",
+      "report_value": 908.0,
+      "json_value": 908.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.ru.spikes_count",
+      "report_value": 19.0,
+      "json_value": 19.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.ru.ref_domains",
+      "report_value": 3257.0,
+      "json_value": 3257.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.filehippo.com.spam_pct",
+      "report_value": 43.3,
+      "json_value": 43.26,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.filehippo.com.low_dr_pct",
+      "report_value": 60.8,
+      "json_value": 60.81,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.filehippo.com.susp_tld_pct",
+      "report_value": 20.6,
+      "json_value": 20.64,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.filehippo.com.exclusive_count",
+      "report_value": 6403.0,
+      "json_value": 6403.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.filehippo.com.spikes_count",
+      "report_value": 17.0,
+      "json_value": 17.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.filehippo.com.ref_domains",
+      "report_value": 17715.0,
+      "json_value": 17715.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.01net.com.spam_pct",
+      "report_value": 31.9,
+      "json_value": 31.93,
+      "status": "PASS",
+      "delta": 0.03,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.01net.com.low_dr_pct",
+      "report_value": 56.1,
+      "json_value": 56.14,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.01net.com.susp_tld_pct",
+      "report_value": 15.0,
+      "json_value": 15.03,
+      "status": "PASS",
+      "delta": 0.03,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.01net.com.exclusive_count",
+      "report_value": 7100.0,
+      "json_value": 7100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.01net.com.spikes_count",
+      "report_value": 31.0,
+      "json_value": 31.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.01net.com.ref_domains",
+      "report_value": 20991.0,
+      "json_value": 20991.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.uptodown.com.spam_pct",
+      "report_value": 42.4,
+      "json_value": 42.38,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.uptodown.com.low_dr_pct",
+      "report_value": 53.6,
+      "json_value": 53.58,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.uptodown.com.susp_tld_pct",
+      "report_value": 10.8,
+      "json_value": 10.76,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.uptodown.com.exclusive_count",
+      "report_value": 15034.0,
+      "json_value": 15034.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.uptodown.com.spikes_count",
+      "report_value": 25.0,
+      "json_value": 25.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.uptodown.com.ref_domains",
+      "report_value": 29888.0,
+      "json_value": 29888.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.clubic.com.spam_pct",
+      "report_value": 26.6,
+      "json_value": 26.59,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.clubic.com.low_dr_pct",
+      "report_value": 51.1,
+      "json_value": 51.11,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.clubic.com.susp_tld_pct",
+      "report_value": 8.6,
+      "json_value": 8.61,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.clubic.com.exclusive_count",
+      "report_value": 5649.0,
+      "json_value": 5649.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.clubic.com.spikes_count",
+      "report_value": 28.0,
+      "json_value": 28.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.clubic.com.ref_domains",
+      "report_value": 17373.0,
+      "json_value": 17373.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.commentcamarche.net.spam_pct",
+      "report_value": 24.7,
+      "json_value": 24.72,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.commentcamarche.net.low_dr_pct",
+      "report_value": 46.8,
+      "json_value": 46.83,
+      "status": "PASS",
+      "delta": 0.03,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.commentcamarche.net.susp_tld_pct",
+      "report_value": 5.2,
+      "json_value": 5.24,
+      "status": "PASS",
+      "delta": 0.04,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.commentcamarche.net.exclusive_count",
+      "report_value": 5660.0,
+      "json_value": 5660.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.commentcamarche.net.spikes_count",
+      "report_value": 30.0,
+      "json_value": 30.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.commentcamarche.net.ref_domains",
+      "report_value": 13676.0,
+      "json_value": 13676.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.com.spam_pct",
+      "report_value": 21.5,
+      "json_value": 21.49,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.com.low_dr_pct",
+      "report_value": 25.5,
+      "json_value": 25.51,
+      "status": "PASS",
+      "delta": 0.01,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.com.susp_tld_pct",
+      "report_value": 1.7,
+      "json_value": 1.68,
+      "status": "PASS",
+      "delta": 0.02,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.com.exclusive_count",
+      "report_value": 17262.0,
+      "json_value": 17262.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.com.spikes_count",
+      "report_value": 27.0,
+      "json_value": 27.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.com.ref_domains",
+      "report_value": 29904.0,
+      "json_value": 29904.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.freesoft.net.composite_score_verify",
+      "report_value": 73.5,
+      "json_value": 73.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.softonic.ru.composite_score_verify",
+      "report_value": 67.0,
+      "json_value": 66.9,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "r2.trashbox.ru.composite_score_verify",
+      "report_value": 63.4,
+      "json_value": 63.1,
+      "status": "PASS",
+      "delta": 0.3,
+      "severity": "rounding"
+    },
+    {
+      "check": "r2.frees0ft.fr.composite_score_verify",
+      "report_value": 55.1,
+      "json_value": 55.0,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "r2.malavida.com.composite_score_verify",
+      "report_value": 54.6,
+      "json_value": 54.3,
+      "status": "PASS",
+      "delta": 0.3,
+      "severity": "rounding"
+    },
+    {
+      "check": "r2.freesoft.ru.composite_score_verify",
+      "report_value": 50.0,
+      "json_value": 49.7,
+      "status": "PASS",
+      "delta": 0.3,
+      "severity": "rounding"
+    },
+    {
+      "check": "r2.filehippo.com.composite_score_verify",
+      "report_value": 44.0,
+      "json_value": 43.7,
+      "status": "PASS",
+      "delta": 0.3,
+      "severity": "rounding"
+    },
+    {
+      "check": "r2.01net.com.composite_score_verify",
+      "report_value": 44.0,
+      "json_value": 44.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r2.uptodown.com.composite_score_verify",
+      "report_value": 43.4,
+      "json_value": 43.0,
+      "status": "PASS",
+      "delta": 0.4,
+      "severity": "rounding"
+    },
+    {
+      "check": "r2.clubic.com.composite_score_verify",
+      "report_value": 38.2,
+      "json_value": 37.8,
+      "status": "WARN",
+      "delta": 0.4,
+      "severity": "minor"
+    },
+    {
+      "check": "r2.commentcamarche.net.composite_score_verify",
+      "report_value": 36.7,
+      "json_value": 36.2,
+      "status": "WARN",
+      "delta": 0.5,
+      "severity": "minor"
+    },
+    {
+      "check": "r2.softonic.com.composite_score_verify",
+      "report_value": 27.8,
+      "json_value": 27.4,
+      "status": "WARN",
+      "delta": 0.4,
+      "severity": "minor"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_freesoft.ru",
+      "report_value": 0.14,
+      "json_value": 0.14,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_frees0ft.fr",
+      "report_value": 0.11,
+      "json_value": 0.11,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_softonic.com",
+      "report_value": 0.02,
+      "json_value": 0.02,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_uptodown.com",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_malavida.com",
+      "report_value": 0.28,
+      "json_value": 0.28,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_softonic.ru",
+      "report_value": 0.58,
+      "json_value": 0.58,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_trashbox.ru",
+      "report_value": 0.44,
+      "json_value": 0.44,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_filehippo.com",
+      "report_value": 0.21,
+      "json_value": 0.21,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_clubic.com",
+      "report_value": 0.09,
+      "json_value": 0.09,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_01net.com",
+      "report_value": 0.14,
+      "json_value": 0.14,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.net_x_commentcamarche.net",
+      "report_value": 0.06,
+      "json_value": 0.06,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_frees0ft.fr",
+      "report_value": 0.13,
+      "json_value": 0.13,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_softonic.com",
+      "report_value": 0.04,
+      "json_value": 0.04,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_uptodown.com",
+      "report_value": 0.06,
+      "json_value": 0.06,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_malavida.com",
+      "report_value": 0.12,
+      "json_value": 0.12,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_softonic.ru",
+      "report_value": 0.23,
+      "json_value": 0.23,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_trashbox.ru",
+      "report_value": 0.19,
+      "json_value": 0.19,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_filehippo.com",
+      "report_value": 0.08,
+      "json_value": 0.08,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_clubic.com",
+      "report_value": 0.06,
+      "json_value": 0.06,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_01net.com",
+      "report_value": 0.05,
+      "json_value": 0.05,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.freesoft.ru_x_commentcamarche.net",
+      "report_value": 0.06,
+      "json_value": 0.06,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_softonic.com",
+      "report_value": 0.01,
+      "json_value": 0.01,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_uptodown.com",
+      "report_value": 0.02,
+      "json_value": 0.02,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_malavida.com",
+      "report_value": 0.03,
+      "json_value": 0.03,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_softonic.ru",
+      "report_value": 0.09,
+      "json_value": 0.09,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_trashbox.ru",
+      "report_value": 0.07,
+      "json_value": 0.07,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_filehippo.com",
+      "report_value": 0.03,
+      "json_value": 0.03,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_clubic.com",
+      "report_value": 0.02,
+      "json_value": 0.02,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_01net.com",
+      "report_value": 0.02,
+      "json_value": 0.02,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.frees0ft.fr_x_commentcamarche.net",
+      "report_value": 0.03,
+      "json_value": 0.03,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.com_x_uptodown.com",
+      "report_value": 0.16,
+      "json_value": 0.16,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.com_x_filehippo.com",
+      "report_value": 0.13,
+      "json_value": 0.13,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.com_x_clubic.com",
+      "report_value": 0.07,
+      "json_value": 0.07,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.com_x_01net.com",
+      "report_value": 0.06,
+      "json_value": 0.06,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.com_x_commentcamarche.net",
+      "report_value": 0.07,
+      "json_value": 0.07,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.uptodown.com_x_malavida.com",
+      "report_value": 0.22,
+      "json_value": 0.22,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.uptodown.com_x_filehippo.com",
+      "report_value": 0.19,
+      "json_value": 0.19,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.uptodown.com_x_clubic.com",
+      "report_value": 0.09,
+      "json_value": 0.09,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.uptodown.com_x_01net.com",
+      "report_value": 0.11,
+      "json_value": 0.11,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.malavida.com_x_softonic.ru",
+      "report_value": 0.33,
+      "json_value": 0.33,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.malavida.com_x_trashbox.ru",
+      "report_value": 0.27,
+      "json_value": 0.27,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.malavida.com_x_filehippo.com",
+      "report_value": 0.28,
+      "json_value": 0.28,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.malavida.com_x_clubic.com",
+      "report_value": 0.15,
+      "json_value": 0.15,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.malavida.com_x_01net.com",
+      "report_value": 0.21,
+      "json_value": 0.21,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.ru_x_trashbox.ru",
+      "report_value": 0.5,
+      "json_value": 0.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.ru_x_filehippo.com",
+      "report_value": 0.22,
+      "json_value": 0.22,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.ru_x_clubic.com",
+      "report_value": 0.1,
+      "json_value": 0.1,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.softonic.ru_x_01net.com",
+      "report_value": 0.17,
+      "json_value": 0.17,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.trashbox.ru_x_filehippo.com",
+      "report_value": 0.19,
+      "json_value": 0.19,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.trashbox.ru_x_clubic.com",
+      "report_value": 0.11,
+      "json_value": 0.11,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.trashbox.ru_x_01net.com",
+      "report_value": 0.16,
+      "json_value": 0.16,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.clubic.com_x_01net.com",
+      "report_value": 0.32,
+      "json_value": 0.32,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.clubic.com_x_commentcamarche.net",
+      "report_value": 0.22,
+      "json_value": 0.22,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.jaccard.01net.com_x_commentcamarche.net",
+      "report_value": 0.2,
+      "json_value": 0.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.multi_competitor.2plus_total",
+      "report_value": 28178.0,
+      "json_value": 28178.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.multi_competitor.3plus_count",
+      "report_value": 14517.0,
+      "json_value": 14517.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r3.multi_competitor.exactly_2_count",
+      "report_value": 13661.0,
+      "json_value": 13661.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.DR",
+      "report_value": -25.0,
+      "json_value": -25.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.Ref.domains",
+      "report_value": -13509.0,
+      "json_value": -13509.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.Dofollow%",
+      "report_value": 4.2,
+      "json_value": 4.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.Spam%",
+      "report_value": 46.9,
+      "json_value": 46.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.Branded%",
+      "report_value": -7.4,
+      "json_value": -7.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.DR_mean",
+      "report_value": -14.6,
+      "json_value": -14.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.Age_5y%",
+      "report_value": -22.6,
+      "json_value": -22.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.Growth",
+      "report_value": -4458.0,
+      "json_value": -4458.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.net.Other%",
+      "report_value": 36.4,
+      "json_value": 36.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.DR",
+      "report_value": -17.0,
+      "json_value": -17.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.Ref.domains",
+      "report_value": -14116.0,
+      "json_value": -14116.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.Dofollow%",
+      "report_value": -35.2,
+      "json_value": -35.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.Spam%",
+      "report_value": 27.4,
+      "json_value": 27.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.Branded%",
+      "report_value": -1.6,
+      "json_value": -1.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.DR_mean",
+      "report_value": -2.6,
+      "json_value": -2.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.Age_5y%",
+      "report_value": -9.2,
+      "json_value": -9.2,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.Growth",
+      "report_value": -6552.0,
+      "json_value": -6552.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.freesoft.ru.Other%",
+      "report_value": 2.9,
+      "json_value": 2.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.DR",
+      "report_value": -53.0,
+      "json_value": -53.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.Ref.domains",
+      "report_value": -16895.0,
+      "json_value": -16895.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.Dofollow%",
+      "report_value": -66.4,
+      "json_value": -66.4,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.Spam%",
+      "report_value": 46.5,
+      "json_value": 46.5,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.Branded%",
+      "report_value": -8.6,
+      "json_value": -8.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.DR_mean",
+      "report_value": -8.7,
+      "json_value": -8.7,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.Age_5y%",
+      "report_value": -22.6,
+      "json_value": -22.6,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.Growth",
+      "report_value": -7752.0,
+      "json_value": -7752.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "gap.frees0ft.fr.Other%",
+      "report_value": 19.8,
+      "json_value": 19.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.freesoft.net.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.freesoft.net.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.freesoft.net.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.freesoft.ru.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.freesoft.ru.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.freesoft.ru.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.frees0ft.fr.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 99.9,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.frees0ft.fr.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.10000000000001,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.frees0ft.fr.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.softonic.com.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 99.8,
+      "status": "PASS",
+      "delta": 0.2,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.softonic.com.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.softonic.com.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.uptodown.com.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.uptodown.com.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.uptodown.com.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.malavida.com.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.malavida.com.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.1,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.malavida.com.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.softonic.ru.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.softonic.ru.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.softonic.ru.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.trashbox.ru.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.trashbox.ru.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.trashbox.ru.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.filehippo.com.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 99.9,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.filehippo.com.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.10000000000001,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.filehippo.com.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.clubic.com.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.clubic.com.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.1,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.clubic.com.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.01net.com.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.10000000000001,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.01net.com.anchor_types",
+      "report_value": 100.0,
+      "json_value": 99.9,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.01net.com.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.commentcamarche.net.dr_buckets",
+      "report_value": 100.0,
+      "json_value": 100.1,
+      "status": "PASS",
+      "delta": 0.1,
+      "severity": "rounding"
+    },
+    {
+      "check": "pct_sum.commentcamarche.net.anchor_types",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "pct_sum.commentcamarche.net.follow_ratio",
+      "report_value": 100.0,
+      "json_value": 100.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.freesoft.net.spam_r4_vs_r2",
+      "report_value": 89.3,
+      "json_value": 89.3,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.freesoft.ru.spam_r4_vs_r2",
+      "report_value": 69.8,
+      "json_value": 69.8,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.frees0ft.fr.spam_r4_vs_r2",
+      "report_value": 88.9,
+      "json_value": 88.9,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.freesoft.net.ref_r4_vs_r2",
+      "report_value": 3864.0,
+      "json_value": 3864.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.freesoft.net.ref_r4_vs_inv",
+      "report_value": 3864.0,
+      "json_value": 3864.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.freesoft.ru.ref_r4_vs_r2",
+      "report_value": 3257.0,
+      "json_value": 3257.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.freesoft.ru.ref_r4_vs_inv",
+      "report_value": 3257.0,
+      "json_value": 3257.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.frees0ft.fr.ref_r4_vs_r2",
+      "report_value": 478.0,
+      "json_value": 478.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.frees0ft.fr.ref_r4_vs_inv",
+      "report_value": 478.0,
+      "json_value": 478.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.softonic.com.ref_r4_vs_r2",
+      "report_value": 29904.0,
+      "json_value": 29904.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.softonic.com.ref_r4_vs_inv",
+      "report_value": 29904.0,
+      "json_value": 29904.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.uptodown.com.ref_r4_vs_r2",
+      "report_value": 29888.0,
+      "json_value": 29888.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.uptodown.com.ref_r4_vs_inv",
+      "report_value": 29888.0,
+      "json_value": 29888.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.malavida.com.ref_r4_vs_r2",
+      "report_value": 13431.0,
+      "json_value": 13431.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.malavida.com.ref_r4_vs_inv",
+      "report_value": 13431.0,
+      "json_value": 13431.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.softonic.ru.ref_r4_vs_r2",
+      "report_value": 4964.0,
+      "json_value": 4964.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.softonic.ru.ref_r4_vs_inv",
+      "report_value": 4964.0,
+      "json_value": 4964.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.trashbox.ru.ref_r4_vs_r2",
+      "report_value": 5322.0,
+      "json_value": 5322.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.trashbox.ru.ref_r4_vs_inv",
+      "report_value": 5322.0,
+      "json_value": 5322.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.filehippo.com.ref_r4_vs_r2",
+      "report_value": 17715.0,
+      "json_value": 17715.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.filehippo.com.ref_r4_vs_inv",
+      "report_value": 17715.0,
+      "json_value": 17715.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.clubic.com.ref_r4_vs_r2",
+      "report_value": 17373.0,
+      "json_value": 17373.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.clubic.com.ref_r4_vs_inv",
+      "report_value": 17373.0,
+      "json_value": 17373.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.01net.com.ref_r4_vs_r2",
+      "report_value": 20991.0,
+      "json_value": 20991.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.01net.com.ref_r4_vs_inv",
+      "report_value": 20991.0,
+      "json_value": 20991.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.commentcamarche.net.ref_r4_vs_r2",
+      "report_value": 13676.0,
+      "json_value": 13676.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "cross.commentcamarche.net.ref_r4_vs_inv",
+      "report_value": 13676.0,
+      "json_value": 13676.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r1.softonic.com.total_backlinks",
+      "report_value": 29518.0,
+      "json_value": 29518.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r1.uptodown.com.total_backlinks",
+      "report_value": 28335.0,
+      "json_value": 28335.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r1.frees0ft.fr.total_backlinks",
+      "report_value": 465.0,
+      "json_value": 465.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r1.freesoft.ru.total_backlinks",
+      "report_value": 2852.0,
+      "json_value": 2852.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    },
+    {
+      "check": "r1.freesoft.net.total_backlinks",
+      "report_value": 3810.0,
+      "json_value": 3810.0,
+      "status": "PASS",
+      "delta": 0.0,
+      "severity": "ok"
+    }
+  ]
+}

@@ -7,3 +7,10 @@ raw-data/*.png
 *.bak
 .DS_Store
 Thumbs.db
+
+# Phase 2: Ссылочный анализ — крупные нормализованные данные
+analysis/backlink-strategy/pipeline/normalized/
+
+# Python cache
+**/__pycache__/
+*.pyc

@@ -1,0 +1,85 @@
+{
+  "total_files": 39,
+  "total_rows_raw": 669569,
+  "total_rows_after_gambling_filter": 659669,
+  "gambling_filtered_rows": 9900,
+  "data_collection_date": "2026-03-13",
+  "ahrefs_limit_files": [
+    "softonic.com (referring_domains)",
+    "uptodown.com (referring_domains)",
+    "softonic.com (anchors)",
+    "uptodown.com (anchors)",
+    "malavida.com (anchors)",
+    "softonic.ru (anchors)",
+    "filehippo.com (anchors)",
+    "clubic.com (anchors)",
+    "01net.com (anchors)",
+    "commentcamarche.net (anchors)",
+    "softonic.com (backlinks_one_per_domain)",
+    "uptodown.com (backlinks_one_per_domain)",
+    "D1_EN (link_intersect)",
+    "D3_FR (link_intersect)"
+  ],
+  "per_domain_summary": {
+    "freesoft.net": {
+      "A_rows": 3864,
+      "B_rows": 20361,
+      "C_rows": 3810
+    },
+    "freesoft.ru": {
+      "A_rows": 3257,
+      "B_rows": 5227,
+      "C_rows": 2852
+    },
+    "frees0ft.fr": {
+      "A_rows": 478,
+      "B_rows": 19,
+      "C_rows": 465
+    },
+    "softonic.com": {
+      "A_rows": 29904,
+      "B_rows": 28912,
+      "C_rows": 29518
+    },
+    "uptodown.com": {
+      "A_rows": 29888,
+      "B_rows": 29242,
+      "C_rows": 28335
+    },
+    "malavida.com": {
+      "A_rows": 13431,
+      "B_rows": 29947,
+      "C_rows": 12907
+    },
+    "softonic.ru": {
+      "A_rows": 4964,
+      "B_rows": 29845,
+      "C_rows": 4290
+    },
+    "trashbox.ru": {
+      "A_rows": 5322,
+      "B_rows": 16362,
+      "C_rows": 5125
+    },
+    "filehippo.com": {
+      "A_rows": 17715,
+      "B_rows": 29926,
+      "C_rows": 16924
+    },
+    "clubic.com": {
+      "A_rows": 17373,
+      "B_rows": 29951,
+      "C_rows": 17081
+    },
+    "01net.com": {
+      "A_rows": 20991,
+      "B_rows": 29922,
+      "C_rows": 19569
+    },
+    "commentcamarche.net": {
+      "A_rows": 13676,
+      "B_rows": 29970,
+      "C_rows": 13368
+    }
+  }
+}

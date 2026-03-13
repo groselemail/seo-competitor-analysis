@@ -1,0 +1,3212 @@
+{
+  "metadata": {
+    "source_reports": [
+      "A (referring_domains)",
+      "D (link_intersect)"
+    ],
+    "generated_at": "2026-03-13T13:08:24.373635"
+  },
+  "overlap_matrix": {
+    "domains": [
+      "freesoft.net",
+      "freesoft.ru",
+      "frees0ft.fr",
+      "softonic.com",
+      "uptodown.com",
+      "malavida.com",
+      "softonic.ru",
+      "trashbox.ru",
+      "filehippo.com",
+      "clubic.com",
+      "01net.com",
+      "commentcamarche.net"
+    ],
+    "counts": [
+      [
+        3864,
+        882,
+        445,
+        664,
+        2996,
+        3763,
+        3248,
+        2827,
+        3698,
+        1727,
+        3131,
+        935
+      ],
+      [
+        882,
+        3257,
+        419,
+        1337,
+        1954,
+        1725,
+        1513,
+        1349,
+        1495,
+        1163,
+        1216,
+        994
+      ],
+      [
+        445,
+        419,
+        478,
+        276,
+        459,
+        462,
+        449,
+        388,
+        454,
+        399,
+        407,
+        411
+      ],
+      [
+        664,
+        1337,
+        276,
+        29904,
+        8464,
+        3906,
+        1308,
+        1048,
+        5514,
+        2967,
+        3068,
+        2663
+      ],
+      [
+        2996,
+        1954,
+        459,
+        8464,
+        29888,
+        7811,
+        3836,
+        3223,
+        7500,
+        3868,
+        5047,
+        2844
+      ],
+      [
+        3763,
+        1725,
+        462,
+        3906,
+        7811,
+        13431,
+        4611,
+        3950,
+        6780,
+        3934,
+        6022,
+        2260
+      ],
+      [
+        3248,
+        1513,
+        449,
+        1308,
+        3836,
+        4611,
+        4964,
+        3430,
+        4114,
+        1998,
+        3704,
+        1081
+      ],
+      [
+        2827,
+        1349,
+        388,
+        1048,
+        3223,
+        3950,
+        3430,
+        5322,
+        3621,
+        2161,
+        3563,
+        1111
+      ],
+      [
+        3698,
+        1495,
+        454,
+        5514,
+        7500,
+        6780,
+        4114,
+        3621,
+        17715,
+        3652,
+        5322,
+        2451
+      ],
+      [
+        1727,
+        1163,
+        399,
+        2967,
+        3868,
+        3934,
+        1998,
+        2161,
+        3652,
+        17373,
+        9327,
+        5660
+      ],
+      [
+        3131,
+        1216,
+        407,
+        3068,
+        5047,
+        6022,
+        3704,
+        3563,
+        5322,
+        9327,
+        20991,
+        5848
+      ],
+      [
+        935,
+        994,
+        411,
+        2663,
+        2844,
+        2260,
+        1081,
+        1111,
+        2451,
+        5660,
+        5848,
+        13676
+      ]
+    ],
+    "jaccard": [
+      [
+        1.0,
+        0.1414,
+        0.1142,
+        0.0201,
+        0.0974,
+        0.2781,
+        0.5821,
+        0.4446,
+        0.2068,
+        0.0885,
+        0.1441,
+        0.0563
+      ],
+      [
+        0.1414,
+        1.0,
+        0.1264,
+        0.042,
+        0.0626,
+        0.1153,
+        0.2256,
+        0.1866,
+        0.0768,
+        0.0597,
+        0.0528,
+        0.0624
+      ],
+      [
+        0.1142,
+        0.1264,
+        1.0,
+        0.0092,
+        0.0153,
+        0.0344,
+        0.0899,
+        0.0717,
+        0.0256,
+        0.0229,
+        0.0193,
+        0.0299
+      ],
+      [
+        0.0201,
+        0.042,
+        0.0092,
+        1.0,
+        0.1649,
+        0.0991,
+        0.039,
+        0.0307,
+        0.131,
+        0.067,
+        0.0641,
+        0.0651
+      ],
+      [
+        0.0974,
+        0.0626,
+        0.0153,
+        0.1649,
+        1.0,
+        0.22,
+        0.1237,
+        0.1008,
+        0.187,
+        0.0891,
+        0.1101,
+        0.0698
+      ],
+      [
+        0.2781,
+        0.1153,
+        0.0344,
+        0.0991,
+        0.22,
+        1.0,
+        0.3345,
+        0.2668,
+        0.2783,
+        0.1464,
+        0.212,
+        0.091
+      ],
+      [
+        0.5821,
+        0.2256,
+        0.0899,
+        0.039,
+        0.1237,
+        0.3345,
+        1.0,
+        0.5003,
+        0.2216,
+        0.0982,
+        0.1665,
+        0.0616
+      ],
+      [
+        0.4446,
+        0.1866,
+        0.0717,
+        0.0307,
+        0.1008,
+        0.2668,
+        0.5003,
+        1.0,
+        0.1865,
+        0.1052,
+        0.1566,
+        0.0621
+      ],
+      [
+        0.2068,
+        0.0768,
+        0.0256,
+        0.131,
+        0.187,
+        0.2783,
+        0.2216,
+        0.1865,
+        1.0,
+        0.1162,
+        0.1594,
+        0.0847
+      ],
+      [
+        0.0885,
+        0.0597,
+        0.0229,
+        0.067,
+        0.0891,
+        0.1464,
+        0.0982,
+        0.1052,
+        0.1162,
+        1.0,
+        0.3212,
+        0.2229
+      ],
+      [
+        0.1441,
+        0.0528,
+        0.0193,
+        0.0641,
+        0.1101,
+        0.212,
+        0.1665,
+        0.1566,
+        0.1594,
+        0.3212,
+        1.0,
+        0.2029
+      ],
+      [
+        0.0563,
+        0.0624,
+        0.0299,
+        0.0651,
+        0.0698,
+        0.091,
+        0.0616,
+        0.0621,
+        0.0847,
+        0.2229,
+        0.2029,
+        1.0
+      ]
+    ]
+  },
+  "link_intersect_targets": {
+    "EN": {
+      "source_file": "D1_EN",
+      "config": "softonic.com + uptodown.com + malavida.com vs freesoft.net",
+      "total_domains": 29894,
+      "filtered_dr20_intersect2": 5099,
+      "top_50": [
+        {
+          "domain": "google.com",
+          "dr": 99,
+          "traffic": 1297552128,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 21,
+            "uptodown.com": 102,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "youtube.com",
+          "dr": 99,
+          "traffic": 2409502208,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 486,
+            "uptodown.com": 1878,
+            "malavida.com": 110
+          }
+        },
+        {
+          "domain": "goo.gl",
+          "dr": 97,
+          "traffic": 10103,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 4,
+            "uptodown.com": 6,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "apple.com",
+          "dr": 97,
+          "traffic": 415082048,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 9,
+            "uptodown.com": 2,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "gravatar.com",
+          "dr": 97,
+          "traffic": 131095,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 1,
+            "uptodown.com": 2,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "wikipedia.org",
+          "dr": 97,
+          "traffic": 4059749632,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 161,
+            "uptodown.com": 102,
+            "malavida.com": 16
+          }
+        },
+        {
+          "domain": "t.me",
+          "dr": 96,
+          "traffic": 17597396,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 13,
+            "uptodown.com": 153,
+            "malavida.com": 4
+          }
+        },
+        {
+          "domain": "microsoft.com",
+          "dr": 96,
+          "traffic": 307430176,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 5,
+            "uptodown.com": 26,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "github.com",
+          "dr": 96,
+          "traffic": 40427192,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 57,
+            "uptodown.com": 108,
+            "malavida.com": 18
+          }
+        },
+        {
+          "domain": "mozilla.org",
+          "dr": 96,
+          "traffic": 8267101,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 4,
+            "uptodown.com": 1,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "spotify.com",
+          "dr": 95,
+          "traffic": 156994256,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 4,
+            "uptodown.com": 1,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "nih.gov",
+          "dr": 95,
+          "traffic": 109347288,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 44,
+            "uptodown.com": 5,
+            "malavida.com": 3
+          }
+        },
+        {
+          "domain": "blogspot.com",
+          "dr": 95,
+          "traffic": 23280708,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 66,
+            "uptodown.com": 5,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "medium.com",
+          "dr": 94,
+          "traffic": 23694002,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 55,
+            "uptodown.com": 27,
+            "malavida.com": 4
+          }
+        },
+        {
+          "domain": "github.io",
+          "dr": 94,
+          "traffic": 10754985,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 107,
+            "uptodown.com": 70,
+            "malavida.com": 7
+          }
+        },
+        {
+          "domain": "bsky.app",
+          "dr": 94,
+          "traffic": 1232876,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 1,
+            "uptodown.com": 3,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "weebly.com",
+          "dr": 94,
+          "traffic": 4004714,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 4,
+            "uptodown.com": 2,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "yahoo.com",
+          "dr": 94,
+          "traffic": 303166464,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 3,
+            "uptodown.com": 2,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "forbes.com",
+          "dr": 94,
+          "traffic": 19722870,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 5,
+            "uptodown.com": 1,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "wixsite.com",
+          "dr": 94,
+          "traffic": 1806781,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 61,
+            "uptodown.com": 27,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "nytimes.com",
+          "dr": 94,
+          "traffic": 192415952,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 6,
+            "uptodown.com": 0,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "openstreetmap.org",
+          "dr": 94,
+          "traffic": 258326,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 2,
+            "uptodown.com": 2,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "substack.com",
+          "dr": 93,
+          "traffic": 7470685,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 15,
+            "uptodown.com": 2,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "vercel.app",
+          "dr": 93,
+          "traffic": 2307418,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 2,
+            "uptodown.com": 9,
+            "malavida.com": 15
+          }
+        },
+        {
+          "domain": "wikimedia.org",
+          "dr": 93,
+          "traffic": 3130590,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 18,
+            "uptodown.com": 2,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "aliyun.com",
+          "dr": 93,
+          "traffic": 232580,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 53,
+            "uptodown.com": 1,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "huawei.com",
+          "dr": 93,
+          "traffic": 7676638,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 0,
+            "uptodown.com": 6,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "godaddy.com",
+          "dr": 93,
+          "traffic": 7553418,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 3,
+            "uptodown.com": 1,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "springer.com",
+          "dr": 93,
+          "traffic": 1769024,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 8,
+            "uptodown.com": 1,
+            "malavida.com": 4
+          }
+        },
+        {
+          "domain": "bing.com",
+          "dr": 93,
+          "traffic": 14206885,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 29820,
+            "uptodown.com": 420,
+            "malavida.com": 3409
+          }
+        },
+        {
+          "domain": "googleapis.com",
+          "dr": 93,
+          "traffic": 409690,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 7,
+            "uptodown.com": 4,
+            "malavida.com": 3
+          }
+        },
+        {
+          "domain": "canva.com",
+          "dr": 93,
+          "traffic": 328179456,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 1,
+            "uptodown.com": 1,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "yahoo.co.jp",
+          "dr": 93,
+          "traffic": 209181280,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 2,
+            "uptodown.com": 5,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "ameblo.jp",
+          "dr": 93,
+          "traffic": 18371732,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 0,
+            "uptodown.com": 14,
+            "malavida.com": 3
+          }
+        },
+        {
+          "domain": "telegram.me",
+          "dr": 93,
+          "traffic": 568340,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 5,
+            "uptodown.com": 115,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "naver.com",
+          "dr": 93,
+          "traffic": 27467566,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 4,
+            "uptodown.com": 19,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "telegram.org",
+          "dr": 93,
+          "traffic": 40379152,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 14,
+            "uptodown.com": 47,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "archive.org",
+          "dr": 93,
+          "traffic": 7958762,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 5,
+            "uptodown.com": 3,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "zendesk.com",
+          "dr": 93,
+          "traffic": 2670408,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 60,
+            "uptodown.com": 14,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "theguardian.com",
+          "dr": 93,
+          "traffic": 32207308,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 8,
+            "uptodown.com": 2,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "alibaba.com",
+          "dr": 92,
+          "traffic": 7725906,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 3,
+            "uptodown.com": 2,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "mail.ru",
+          "dr": 92,
+          "traffic": 28957372,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 1,
+            "uptodown.com": 11,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "note.com",
+          "dr": 92,
+          "traffic": 27469974,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 5,
+            "uptodown.com": 21,
+            "malavida.com": 2
+          }
+        },
+        {
+          "domain": "mdpi.com",
+          "dr": 92,
+          "traffic": 1151650,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 51,
+            "uptodown.com": 7,
+            "malavida.com": 11
+          }
+        },
+        {
+          "domain": "stackoverflow.com",
+          "dr": 92,
+          "traffic": 8176880,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 37,
+            "uptodown.com": 22,
+            "malavida.com": 7
+          }
+        },
+        {
+          "domain": "it.com",
+          "dr": 92,
+          "traffic": 25008062,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 2,
+            "uptodown.com": 0,
+            "malavida.com": 1
+          }
+        },
+        {
+          "domain": "fandom.com",
+          "dr": 92,
+          "traffic": 187978608,
+          "intersect": 3,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 23,
+            "uptodown.com": 49,
+            "malavida.com": 2
+          }
+        },
+        {
+          "domain": "huffpost.com",
+          "dr": 92,
+          "traffic": 1247238,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 3,
+            "uptodown.com": 4,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "wired.com",
+          "dr": 92,
+          "traffic": 3689335,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 5,
+            "uptodown.com": 2,
+            "malavida.com": 0
+          }
+        },
+        {
+          "domain": "liveinternet.ru",
+          "dr": 92,
+          "traffic": 2147,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.net": 0,
+            "softonic.com": 2,
+            "uptodown.com": 0,
+            "malavida.com": 1
+          }
+        }
+      ]
+    },
+    "RU": {
+      "source_file": "D2_RU",
+      "config": "softonic.ru + trashbox.ru vs freesoft.ru",
+      "total_domains": 5042,
+      "filtered_dr20_intersect2": 49,
+      "top_50": [
+        {
+          "domain": "t.me",
+          "dr": 96,
+          "traffic": 17597396,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 341
+          }
+        },
+        {
+          "domain": "github.com",
+          "dr": 96,
+          "traffic": 40427192,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 5
+          }
+        },
+        {
+          "domain": "telegram.me",
+          "dr": 93,
+          "traffic": 568340,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 67
+          }
+        },
+        {
+          "domain": "fandom.com",
+          "dr": 92,
+          "traffic": 187978608,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 4
+          }
+        },
+        {
+          "domain": "teletype.in",
+          "dr": 82,
+          "traffic": 2598,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 19,
+            "trashbox.ru": 17
+          }
+        },
+        {
+          "domain": "ixbt.com",
+          "dr": 78,
+          "traffic": 482216,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 27
+          }
+        },
+        {
+          "domain": "pr-cy.ru",
+          "dr": 75,
+          "traffic": 1909500,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "partnerkin.com",
+          "dr": 68,
+          "traffic": 29840,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 3,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "skillfactory.ru",
+          "dr": 67,
+          "traffic": 260525,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "microlinksite.com",
+          "dr": 65,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 4,
+            "trashbox.ru": 4
+          }
+        },
+        {
+          "domain": "ryba.team",
+          "dr": 61,
+          "traffic": 644,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 3,
+            "trashbox.ru": 4
+          }
+        },
+        {
+          "domain": "kokoc.com",
+          "dr": 59,
+          "traffic": 145274,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "tqnia.me",
+          "dr": 54,
+          "traffic": 6,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "seosprint.net",
+          "dr": 54,
+          "traffic": 8211,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "bye.fyi",
+          "dr": 54,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 8
+          }
+        },
+        {
+          "domain": "linkingdirectory.com",
+          "dr": 51,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "analyticshaven.top",
+          "dr": 50,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 5
+          }
+        },
+        {
+          "domain": "creativeposts.top",
+          "dr": 50,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 4
+          }
+        },
+        {
+          "domain": "byteshort.xyz",
+          "dr": 50,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 7
+          }
+        },
+        {
+          "domain": "screenshots.wiki",
+          "dr": 49,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 6
+          }
+        },
+        {
+          "domain": "metamagic.top",
+          "dr": 49,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 4,
+            "trashbox.ru": 4
+          }
+        },
+        {
+          "domain": "crestbook.com",
+          "dr": 40,
+          "traffic": 203,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "dsnylu.com",
+          "dr": 40,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "dpaunt.edu.pe",
+          "dr": 38,
+          "traffic": 166,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 17,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "kgzxkf.com",
+          "dr": 38,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 3
+          }
+        },
+        {
+          "domain": "qhtycw.com",
+          "dr": 38,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 2,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "clicktohigh.com",
+          "dr": 36,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "gmd.live",
+          "dr": 36,
+          "traffic": 17347,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "chopen.net",
+          "dr": 35,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "proseolinksdirectory.com",
+          "dr": 35,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "worldofplayers.ru",
+          "dr": 35,
+          "traffic": 580,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 12
+          }
+        },
+        {
+          "domain": "linkodirectory.com",
+          "dr": 34,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "trashexpert.ru",
+          "dr": 34,
+          "traffic": 11957,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "linkanews.com",
+          "dr": 34,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "a2zseoarticles.com",
+          "dr": 33,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "proseoarticles.com",
+          "dr": 33,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "seosprint.run",
+          "dr": 32,
+          "traffic": 10370,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 3,
+            "trashbox.ru": 3
+          }
+        },
+        {
+          "domain": "coralite.co.za",
+          "dr": 32,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "dxdy.ru",
+          "dr": 31,
+          "traffic": 5773,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "globalproseo.com",
+          "dr": 31,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "creditrepairlasvegas.xyz",
+          "dr": 26,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 11,
+            "trashbox.ru": 5
+          }
+        },
+        {
+          "domain": "therozogroup.com",
+          "dr": 24,
+          "traffic": 1,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 5,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "maxxtaxglobal.com",
+          "dr": 24,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 4,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "yakuji.moe",
+          "dr": 24,
+          "traffic": 1,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 6,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "culture-echecs.eu",
+          "dr": 23,
+          "traffic": 123,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 17,
+            "trashbox.ru": 2
+          }
+        },
+        {
+          "domain": "creativnost.com.ua",
+          "dr": 23,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 3
+          }
+        },
+        {
+          "domain": "sikaku-style.com",
+          "dr": 22,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 22,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "ye102.ru",
+          "dr": 22,
+          "traffic": 2,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 1
+          }
+        },
+        {
+          "domain": "flaxit.dk",
+          "dr": 21,
+          "traffic": 0,
+          "intersect": 2,
+          "links_to": {
+            "freesoft.ru": 0,
+            "softonic.ru": 1,
+            "trashbox.ru": 3
+          }
+        }
+      ]
+    },
+    "FR": {
+      "source_file": "D3_FR",
+      "config": "clubic.com + 01net.com + commentcamarche.net vs frees0ft.fr",
+      "total_domains": 29942,
+      "filtered_dr20_intersect2": 4369,
+      "top_50": [
+        {
+          "domain": "youtube.com",
+          "dr": 99,
+          "traffic": 2409502208,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 207,
+            "01net.com": 289,
+            "commentcamarche.net": 24
+          }
+        },
+        {
+          "domain": "google.com",
+          "dr": 99,
+          "traffic": 1297552128,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 2,
+            "01net.com": 1,
+            "commentcamarche.net": 3
+          }
+        },
+        {
+          "domain": "wikipedia.org",
+          "dr": 97,
+          "traffic": 4059749632,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 580,
+            "01net.com": 738,
+            "commentcamarche.net": 86
+          }
+        },
+        {
+          "domain": "goo.gl",
+          "dr": 97,
+          "traffic": 10103,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 3,
+            "01net.com": 1,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "mozilla.org",
+          "dr": 96,
+          "traffic": 8267101,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 0,
+            "01net.com": 1,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "shopify.com",
+          "dr": 96,
+          "traffic": 10555425,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 2,
+            "01net.com": 0,
+            "commentcamarche.net": 6
+          }
+        },
+        {
+          "domain": "github.com",
+          "dr": 96,
+          "traffic": 40427192,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 7,
+            "01net.com": 5,
+            "commentcamarche.net": 6
+          }
+        },
+        {
+          "domain": "t.me",
+          "dr": 96,
+          "traffic": 17597396,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 34,
+            "01net.com": 13,
+            "commentcamarche.net": 2
+          }
+        },
+        {
+          "domain": "microsoft.com",
+          "dr": 96,
+          "traffic": 307430176,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 2,
+            "commentcamarche.net": 12
+          }
+        },
+        {
+          "domain": "blogspot.com",
+          "dr": 95,
+          "traffic": 23280708,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 6,
+            "01net.com": 0,
+            "commentcamarche.net": 5
+          }
+        },
+        {
+          "domain": "nih.gov",
+          "dr": 95,
+          "traffic": 109347288,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 0,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "github.io",
+          "dr": 94,
+          "traffic": 10754985,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 5,
+            "01net.com": 30,
+            "commentcamarche.net": 15
+          }
+        },
+        {
+          "domain": "weebly.com",
+          "dr": 94,
+          "traffic": 4004714,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 3,
+            "01net.com": 2,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "bsky.app",
+          "dr": 94,
+          "traffic": 1232876,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 125,
+            "01net.com": 154,
+            "commentcamarche.net": 10
+          }
+        },
+        {
+          "domain": "creativecommons.org",
+          "dr": 94,
+          "traffic": 228624,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 2,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "yahoo.com",
+          "dr": 94,
+          "traffic": 303166464,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 4,
+            "01net.com": 2,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "w3.org",
+          "dr": 94,
+          "traffic": 329913,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 153,
+            "01net.com": 447,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "medium.com",
+          "dr": 94,
+          "traffic": 23694002,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 9,
+            "01net.com": 3,
+            "commentcamarche.net": 4
+          }
+        },
+        {
+          "domain": "cnil.fr",
+          "dr": 94,
+          "traffic": 232034,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 2,
+            "01net.com": 4,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "wixsite.com",
+          "dr": 94,
+          "traffic": 1806781,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 6,
+            "01net.com": 5,
+            "commentcamarche.net": 4
+          }
+        },
+        {
+          "domain": "zendesk.com",
+          "dr": 93,
+          "traffic": 2670408,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 4,
+            "01net.com": 0,
+            "commentcamarche.net": 8
+          }
+        },
+        {
+          "domain": "telegram.me",
+          "dr": 93,
+          "traffic": 568340,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 8,
+            "01net.com": 2,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "huawei.com",
+          "dr": 93,
+          "traffic": 7676638,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 2,
+            "01net.com": 1,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "substack.com",
+          "dr": 93,
+          "traffic": 7470685,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 57,
+            "01net.com": 46,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "archive.org",
+          "dr": 93,
+          "traffic": 7958762,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 13,
+            "01net.com": 3,
+            "commentcamarche.net": 3
+          }
+        },
+        {
+          "domain": "cloudflare.com",
+          "dr": 93,
+          "traffic": 6774374,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 3,
+            "01net.com": 3,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "bing.com",
+          "dr": 93,
+          "traffic": 14206885,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 631,
+            "01net.com": 353,
+            "commentcamarche.net": 207
+          }
+        },
+        {
+          "domain": "theguardian.com",
+          "dr": 93,
+          "traffic": 32207308,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 0,
+            "01net.com": 3,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "googleapis.com",
+          "dr": 93,
+          "traffic": 409690,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 494,
+            "01net.com": 424,
+            "commentcamarche.net": 83
+          }
+        },
+        {
+          "domain": "hatena.ne.jp",
+          "dr": 93,
+          "traffic": 1139996,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 11,
+            "01net.com": 2,
+            "commentcamarche.net": 2
+          }
+        },
+        {
+          "domain": "telegram.org",
+          "dr": 93,
+          "traffic": 40379152,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 20,
+            "01net.com": 3,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "google.fr",
+          "dr": 93,
+          "traffic": 1953922,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 2,
+            "01net.com": 0,
+            "commentcamarche.net": 2
+          }
+        },
+        {
+          "domain": "wikimedia.org",
+          "dr": 93,
+          "traffic": 3130590,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 45,
+            "01net.com": 23,
+            "commentcamarche.net": 5
+          }
+        },
+        {
+          "domain": "techcrunch.com",
+          "dr": 92,
+          "traffic": 746821,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 6,
+            "01net.com": 4,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "mdpi.com",
+          "dr": 92,
+          "traffic": 1151650,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 4,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "atlassian.net",
+          "dr": 92,
+          "traffic": 77204,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 0,
+            "01net.com": 5,
+            "commentcamarche.net": 6
+          }
+        },
+        {
+          "domain": "freshdesk.com",
+          "dr": 92,
+          "traffic": 245040,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 2,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "sourceforge.net",
+          "dr": 92,
+          "traffic": 2055446,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 0,
+            "01net.com": 1,
+            "commentcamarche.net": 5
+          }
+        },
+        {
+          "domain": "hostingersite.com",
+          "dr": 92,
+          "traffic": 13107,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 2,
+            "01net.com": 1,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "stackoverflow.com",
+          "dr": 92,
+          "traffic": 8176880,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 2,
+            "01net.com": 0,
+            "commentcamarche.net": 4
+          }
+        },
+        {
+          "domain": "webflow.io",
+          "dr": 92,
+          "traffic": 728918,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 0,
+            "01net.com": 10,
+            "commentcamarche.net": 4
+          }
+        },
+        {
+          "domain": "businessinsider.com",
+          "dr": 92,
+          "traffic": 5959178,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 6,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "samsung.com",
+          "dr": 92,
+          "traffic": 77607168,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 29,
+            "01net.com": 13,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "jimdofree.com",
+          "dr": 92,
+          "traffic": 3118701,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 167,
+            "01net.com": 149,
+            "commentcamarche.net": 73
+          }
+        },
+        {
+          "domain": "feedly.com",
+          "dr": 92,
+          "traffic": 76563,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 1,
+            "commentcamarche.net": 0
+          }
+        },
+        {
+          "domain": "ovhcloud.com",
+          "dr": 92,
+          "traffic": 1443018,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 7,
+            "01net.com": 3,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "fandom.com",
+          "dr": 92,
+          "traffic": 187978608,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 3,
+            "01net.com": 14,
+            "commentcamarche.net": 2
+          }
+        },
+        {
+          "domain": "notion.site",
+          "dr": 92,
+          "traffic": 61821,
+          "intersect": 3,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 1,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "acm.org",
+          "dr": 91,
+          "traffic": 208114,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 1,
+            "01net.com": 0,
+            "commentcamarche.net": 1
+          }
+        },
+        {
+          "domain": "web.app",
+          "dr": 91,
+          "traffic": 506963,
+          "intersect": 2,
+          "links_to": {
+            "frees0ft.fr": 0,
+            "clubic.com": 33,
+            "01net.com": 3,
+            "commentcamarche.net": 0
+          }
+        }
+      ]
+    }
+  },
+  "multi_competitor_domains": {
+    "3_plus_competitors": {
+      "count": 14517,
+      "top_50": [
+        {
+          "domain": "google.com",
+          "dr": 99,
+          "links_to_count": 6,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "youtube.com",
+          "dr": 99,
+          "links_to_count": 9,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "softonic.ru",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "wikipedia.org",
+          "dr": 97,
+          "links_to_count": 8,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "goo.gl",
+          "dr": 97,
+          "links_to_count": 7,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "apple.com",
+          "dr": 97,
+          "links_to_count": 3,
+          "links_to": [
+            "commentcamarche.net",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "gravatar.com",
+          "dr": 97,
+          "links_to_count": 4,
+          "links_to": [
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "t.me",
+          "dr": 96,
+          "links_to_count": 9,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "softonic.ru",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "microsoft.com",
+          "dr": 96,
+          "links_to_count": 6,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "mozilla.org",
+          "dr": 96,
+          "links_to_count": 5,
+          "links_to": [
+            "01net.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "shopify.com",
+          "dr": 96,
+          "links_to_count": 3,
+          "links_to": [
+            "clubic.com",
+            "commentcamarche.net",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "github.com",
+          "dr": 96,
+          "links_to_count": 9,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "softonic.ru",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "blogspot.com",
+          "dr": 95,
+          "links_to_count": 5,
+          "links_to": [
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "spotify.com",
+          "dr": 95,
+          "links_to_count": 3,
+          "links_to": [
+            "01net.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "nih.gov",
+          "dr": 95,
+          "links_to_count": 6,
+          "links_to": [
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "openstreetmap.org",
+          "dr": 94,
+          "links_to_count": 3,
+          "links_to": [
+            "clubic.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "github.io",
+          "dr": 94,
+          "links_to_count": 8,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "yahoo.com",
+          "dr": 94,
+          "links_to_count": 4,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "wixsite.com",
+          "dr": 94,
+          "links_to_count": 8,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "weebly.com",
+          "dr": 94,
+          "links_to_count": 7,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "bsky.app",
+          "dr": 94,
+          "links_to_count": 5,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "medium.com",
+          "dr": 94,
+          "links_to_count": 8,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "softonic.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "w3.org",
+          "dr": 94,
+          "links_to_count": 4,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "malavida.com",
+            "trashbox.ru"
+          ]
+        },
+        {
+          "domain": "aliyun.com",
+          "dr": 93,
+          "links_to_count": 3,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "vercel.app",
+          "dr": 93,
+          "links_to_count": 4,
+          "links_to": [
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "archive.org",
+          "dr": 93,
+          "links_to_count": 5,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "substack.com",
+          "dr": 93,
+          "links_to_count": 6,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "wikimedia.org",
+          "dr": 93,
+          "links_to_count": 7,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "springer.com",
+          "dr": 93,
+          "links_to_count": 4,
+          "links_to": [
+            "commentcamarche.net",
+            "malavida.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "naver.com",
+          "dr": 93,
+          "links_to_count": 3,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "bing.com",
+          "dr": 93,
+          "links_to_count": 9,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "softonic.ru",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "yahoo.co.jp",
+          "dr": 93,
+          "links_to_count": 4,
+          "links_to": [
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "pages.dev",
+          "dr": 93,
+          "links_to_count": 9,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "softonic.ru",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "apache.org",
+          "dr": 93,
+          "links_to_count": 3,
+          "links_to": [
+            "01net.com",
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "hatena.ne.jp",
+          "dr": 93,
+          "links_to_count": 7,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "telegram.org",
+          "dr": 93,
+          "links_to_count": 4,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "zendesk.com",
+          "dr": 93,
+          "links_to_count": 5,
+          "links_to": [
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "theguardian.com",
+          "dr": 93,
+          "links_to_count": 5,
+          "links_to": [
+            "01net.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "canva.com",
+          "dr": 93,
+          "links_to_count": 3,
+          "links_to": [
+            "01net.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "googleapis.com",
+          "dr": 93,
+          "links_to_count": 6,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "malavida.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "telegram.me",
+          "dr": 93,
+          "links_to_count": 8,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "softonic.ru",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "huawei.com",
+          "dr": 93,
+          "links_to_count": 4,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "malavida.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "ameblo.jp",
+          "dr": 93,
+          "links_to_count": 3,
+          "links_to": [
+            "01net.com",
+            "malavida.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "cloudflare.com",
+          "dr": 93,
+          "links_to_count": 3,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "filehippo.com"
+          ]
+        },
+        {
+          "domain": "teamviewer.com",
+          "dr": 92,
+          "links_to_count": 3,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "atlassian.net",
+          "dr": 92,
+          "links_to_count": 5,
+          "links_to": [
+            "01net.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "jimdofree.com",
+          "dr": 92,
+          "links_to_count": 8,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "filehippo.com",
+            "malavida.com",
+            "softonic.com",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "businessinsider.com",
+          "dr": 92,
+          "links_to_count": 4,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "freshdesk.com",
+          "dr": 92,
+          "links_to_count": 6,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "filehippo.com",
+            "softonic.com",
+            "trashbox.ru",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "sagepub.com",
+          "dr": 92,
+          "links_to_count": 4,
+          "links_to": [
+            "01net.com",
+            "malavida.com",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "notion.site",
+          "dr": 92,
+          "links_to_count": 5,
+          "links_to": [
+            "01net.com",
+            "clubic.com",
+            "commentcamarche.net",
+            "softonic.com",
+            "uptodown.com"
+          ]
+        }
+      ]
+    },
+    "exactly_2_competitors": {
+      "count": 13661,
+      "top_50": [
+        {
+          "domain": "wordpress.org",
+          "dr": 97,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "squarespace.com",
+          "dr": 95,
+          "links_to_count": 2,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "forbes.com",
+          "dr": 94,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "allaboutcookies.org",
+          "dr": 94,
+          "links_to_count": 2,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "nytimes.com",
+          "dr": 94,
+          "links_to_count": 2,
+          "links_to": [
+            "malavida.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "wp.com",
+          "dr": 94,
+          "links_to_count": 2,
+          "links_to": [
+            "clubic.com",
+            "malavida.com"
+          ]
+        },
+        {
+          "domain": "cnil.fr",
+          "dr": 94,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "clubic.com"
+          ]
+        },
+        {
+          "domain": "creativecommons.org",
+          "dr": 94,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "clubic.com"
+          ]
+        },
+        {
+          "domain": "godaddy.com",
+          "dr": 93,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "mobirise.com",
+          "dr": 93,
+          "links_to_count": 2,
+          "links_to": [
+            "clubic.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "bbc.co.uk",
+          "dr": 93,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "bbc.com",
+          "dr": 93,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "google.fr",
+          "dr": 93,
+          "links_to_count": 2,
+          "links_to": [
+            "clubic.com",
+            "commentcamarche.net"
+          ]
+        },
+        {
+          "domain": "biomedcentral.com",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "commentcamarche.net",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "alibaba.com",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "mit.edu",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "ionos.de",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "huffpost.com",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "bloomberg.com",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "commentcamarche.net",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "nist.gov",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "indeed.com",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "tilda.ws",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "softonic.ru"
+          ]
+        },
+        {
+          "domain": "netlify.app",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "gumroad.com",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "disqus.com",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "filehippo.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "feedly.com",
+          "dr": 92,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "clubic.com"
+          ]
+        },
+        {
+          "domain": "gouv.qc.ca",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "commentcamarche.net",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "glassdoor.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "va.gov",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "aliyuncs.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "neilpatel.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "shutterstock.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "parallels.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "berkeley.edu",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "nyu.edu",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "entrepreneur.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "acs.org",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "carrd.co",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "pypi.org",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "accenture.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "clubic.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "designrush.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "so.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "filehippo.com",
+            "softonic.com"
+          ]
+        },
+        {
+          "domain": "brevo.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "commentcamarche.net",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "us.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "uptodown.com"
+          ]
+        },
+        {
+          "domain": "webaim.org",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "filehippo.com"
+          ]
+        },
+        {
+          "domain": "cisco.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "clubic.com",
+            "filehippo.com"
+          ]
+        },
+        {
+          "domain": "upenn.edu",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "clubic.com"
+          ]
+        },
+        {
+          "domain": "eu.com",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "clubic.com"
+          ]
+        },
+        {
+          "domain": "lefigaro.fr",
+          "dr": 91,
+          "links_to_count": 2,
+          "links_to": [
+            "01net.com",
+            "commentcamarche.net"
+          ]
+        },
+        {
+          "domain": "payhip.com",
+          "dr": 90,
+          "links_to_count": 2,
+          "links_to": [
+            "softonic.com",
+            "uptodown.com"
+          ]
+        }
+      ]
+    }
+  }
+}

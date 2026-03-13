@@ -276,3 +276,30 @@ Brief 04a ([analysis/competitors/uptodown-structure.yaml](../analysis/competitor
 | Gambling/adult контент | 0 совпадений (regex-проверка обоих отчётов) |
 
 **Вердикт:** Цепочка доказательств целостна на всех 5 уровнях. Каждая цифра в финальных отчётах прослеживается до конкретного CSV/PNG файла Ahrefs через промежуточные YAML-briefs с полем `source`.
+
+---
+
+## Phase 2: Ссылочный анализ — цепочка доказательств
+
+### Уровни данных
+
+```
+Уровень 0: Сырые CSV (39 файлов Ahrefs, ~660K строк)
+    ↓ Python/pandas нормализация
+Уровень 1: JSON-агрегаты (8 файлов в pipeline/intermediate/)
+    ↓ Claude AI анализ
+Уровень 2: Секции R1-R4 (4 файла в pipeline/sections/)
+    ↓ Claude AI синтез
+Уровень 3: Финальные отчёты (8 файлов в reports/backlink-strategy/)
+```
+
+### Как верифицировать
+
+1. Найти число в отчёте (например, «89.3% spam у freesoft.net»)
+2. Найти соответствующее поле в JSON-агрегате (`r2_pbn_signals.json` → `domains.freesoft.net.summary.spam_pct`)
+3. (Опционально) Запустить `verify_report.py` для автоматической проверки 662 утверждений
+4. (Опционально) Воспроизвести JSON из сырых CSV через `run_pipeline.py`
+
+### Результат верификации
+
+662 автоматических проверки. 658 пройдено, 1 минорная ошибка (исправлена), 3 предупреждения. Подробнее: [07-audit-report.md](../reports/backlink-strategy/07-audit-report.md)

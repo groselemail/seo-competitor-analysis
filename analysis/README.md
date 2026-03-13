@@ -47,6 +47,23 @@
 | [our-state.yaml](cross-analysis/our-state.yaml) | Текущее состояние наших доменов |
 | [roadmap-draft.yaml](cross-analysis/roadmap-draft.yaml) | Черновик roadmap |
 
+---
+
+## Ссылочный анализ (Phase 2)
+
+Промежуточные данные и pipeline ссылочного анализа: [backlink-strategy/](backlink-strategy/)
+
+| Директория | Содержание |
+|-----------|-----------|
+| `backlink-strategy/pipeline/intermediate/` | JSON-агрегаты R1-R4 (8 файлов, ~2.8 МБ) |
+| `backlink-strategy/pipeline/sections/` | Markdown-секции 4 исследований |
+| `backlink-strategy/pipeline/scripts/` | Python-скрипты (нормализация, верификация) |
+| `backlink-strategy/docs/` | Архитектура пакета документов |
+
+Ссылочные карточки конкурентов: [reports/backlink-strategy/06-competitor-cards.md](../reports/backlink-strategy/06-competitor-cards.md)
+
+---
+
 ## Исходные данные
 
 Перечень всех входных данных: [data-inventory.md](data-inventory.md)
